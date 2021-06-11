@@ -25,7 +25,7 @@ public class Chassis : MonoBehaviour
 
     void Start()
     {
-        chassisTurnTime = 0.45f;
+        chassisTurnTime = 0.40f;
         blockInput = false;
         movement = Vector2.up;
         rigidbody = this.GetComponent<Rigidbody2D>();
@@ -183,7 +183,7 @@ public class Chassis : MonoBehaviour
         while (elapsedTime < chassisTurnTime)
         {
             elapsedTime += Time.deltaTime;
-            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0.0f, 0.0f, 20.0f), (elapsedTime / chassisTurnTime  / 4));
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0.0f, 0.0f, 16.0f), (elapsedTime / chassisTurnTime  / 4));
 
             // Resett Rotation
             if (elapsedTime > chassisTurnTime)
@@ -201,7 +201,7 @@ public class Chassis : MonoBehaviour
         while (elapsedTime < chassisTurnTime)
         {
             elapsedTime += Time.deltaTime;
-            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0.0f, 0.0f, -20.0f), (elapsedTime / chassisTurnTime / 4));
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0.0f, 0.0f, -16.0f), (elapsedTime / chassisTurnTime / 4));
 
             // Resett Rotation
             if (elapsedTime > chassisTurnTime)

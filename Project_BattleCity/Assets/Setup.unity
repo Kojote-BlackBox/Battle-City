@@ -183,7 +183,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 9116649567114451034, guid: beb28e973d433e84e9d1dc274cc8a842, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2847,6 +2847,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1071361115}
   - component: {fileID: 1071361114}
+  - component: {fileID: 1071361117}
   - component: {fileID: 1071361113}
   - component: {fileID: 1071361112}
   - component: {fileID: 1071361111}
@@ -3076,6 +3077,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1071361117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071361108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a524922cba7d2643af8c4ce18b6e2bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 2
 --- !u!1 &1315737449
 GameObject:
   m_ObjectHideFlags: 0
@@ -3087,6 +3101,7 @@ GameObject:
   - component: {fileID: 1315737450}
   - component: {fileID: 1315737451}
   - component: {fileID: 1315737452}
+  - component: {fileID: 1315737453}
   m_Layer: 0
   m_Name: Tower
   m_TagString: Untagged
@@ -3147,7 +3162,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 8560663930702621649, guid: beb28e973d433e84e9d1dc274cc8a842, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3171,6 +3186,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5666cb47ab1bae7468cd6dc808a185e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turretDirection: 0
+  turretRotationTime: 0
+--- !u!114 &1315737453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315737449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14f36dcfe6915e140944576b44c3d998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 1107083980140431148, guid: 429d379796a6e444fafeac281db29770, type: 3}
+  bulletShadowPrefab: {fileID: 8628723937055666367, guid: 6acffda3f4833b0498b11908201e9b6d, type: 3}
+  shottingDirection: 0
+  reloadTime: 0
 --- !u!1 &1639691753
 GameObject:
   m_ObjectHideFlags: 0

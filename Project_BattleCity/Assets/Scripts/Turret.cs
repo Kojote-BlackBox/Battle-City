@@ -7,7 +7,7 @@ public class Turret : MonoBehaviour
     private Chassis chassisScript;
     private Sprite[] sprites;
     private int keyInputTurretRotation;
-    Chassis.Direction turretDirection;
+    public Chassis.Direction turretDirection;
     public float turretRotationTime;
     private SpriteRenderer spriteRenderer;
     private bool manualRotated;
