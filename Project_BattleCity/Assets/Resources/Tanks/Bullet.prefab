@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8002129881194870791}
   - component: {fileID: 1431214160329139161}
   - component: {fileID: 4054023293616384447}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,3 +148,5 @@ MonoBehaviour:
   maxBulletDistance: 0
   shotDirection: {x: 0, y: 0}
   damage: 0
+  shotHeight: 0
+  ownShadow: {fileID: 0}

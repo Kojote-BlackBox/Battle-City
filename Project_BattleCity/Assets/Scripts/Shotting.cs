@@ -11,15 +11,13 @@ public class Shotting : MonoBehaviour
     public Chassis.Direction shottingDirection;
     private bool reloaded;
     public float reloadTime;
-    private float timer;
     private float tankHeight;
 
 
     void Start()
     {
         tankHeight = 0.25f;
-        timer = 0.0f;
-        reloadTime = 3.0f;
+        reloadTime = 1.0f;
         reloaded = true;
         //bulletPrefab = Resources.Load("Resources/Bullet");
         chassisScript = this.transform.parent.gameObject.GetComponent<Chassis>();
@@ -28,28 +26,21 @@ public class Shotting : MonoBehaviour
         shottingDirection = turretScript.turretDirection;
     }
 
-    void Update()
+    public void Input()
     {
         shottingDirection = turretScript.turretDirection;
-
-        if (Input.GetKeyDown(KeyCode.Space) && reloaded)
+        if (reloaded)
         {
             Shoot();
             reloaded = false;
-        }
-
-        if (!(reloaded))
-        {
-            timer += Time.deltaTime;
-        }
-
-        if (reloadTime < timer)
-        {
-            timer = 0.0f;
-            reloaded = true;
+            Invoke("Reload", reloadTime);
         }
     }
 
+    private void Reload()
+    {
+        reloaded = true;
+    }
    
     public void Shoot()
     {

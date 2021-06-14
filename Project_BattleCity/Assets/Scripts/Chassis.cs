@@ -22,14 +22,19 @@ public class Chassis : MonoBehaviour
 
     private enum Block { free, x, y };
     private Block playerConrol = Block.free;
+    private float slowDown;
+
+    private Map map;
 
     void Start()
     {
-        chassisTurnTime = 0.40f;
+        slowDown = 1.0f;
+        map = GameObject.Find("Map").GetComponent<Map>();
+        chassisTurnTime = 0.30f;
         blockInput = false;
         movement = Vector2.up;
         rigidbody = this.GetComponent<Rigidbody2D>();
-        forwardSpeed = 1.2f;
+        forwardSpeed = 1.8f;
         backwardSpeed = forwardSpeed / 2;
         chassisDirection = Direction.Up;
     }
@@ -38,16 +43,28 @@ public class Chassis : MonoBehaviour
      * Movement just in one direction alowed.
      * First Input get the Prio
     */
-    void Update()
+    public void Input(Vector2 controllValue)
     {
         if (!(blockInput))
         {
-            movement = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+            movement = controllValue;
         }
         
         BlockMovement();
         UpdateChassieGui();
+        UpdateEnviroment();
     }
+
+    void UpdateEnviroment()
+    {
+        Vector3 position = GetComponent<Renderer>().bounds.center;
+        Vector2 tankPosition = new Vector2(position.x, position.y);
+        
+        GameObject tile = map.GetTileOnPosition(tankPosition);
+        Vector2 mapPosition = tile.GetComponent<Tile>().position;
+
+        this.slowDown = tile.GetComponent<Tile>().slowDown;
+     }
 
     void UpdateChassieGui()
     {
@@ -232,43 +249,43 @@ public class Chassis : MonoBehaviour
             case Direction.Up:
                 if (driveDirection == Direction.Down)
                 {
-                    currentSpeed = backwardSpeed;
+                    currentSpeed = backwardSpeed * slowDown;
                 } else
                 {
-                    currentSpeed = forwardSpeed;
+                    currentSpeed = forwardSpeed * slowDown;
                     chassisDirection = driveDirection;
                 }
                 break;
             case Direction.Down:
                 if (driveDirection == Direction.Up)
                 {
-                    currentSpeed = backwardSpeed;
+                    currentSpeed = backwardSpeed * slowDown;
                 }
                 else
                 {
-                    currentSpeed = forwardSpeed;
+                    currentSpeed = forwardSpeed * slowDown;
                     chassisDirection = driveDirection;
                 }
                 break;
             case Direction.Left:
                 if (driveDirection == Direction.Right)
                 {
-                    currentSpeed = backwardSpeed;
+                    currentSpeed = backwardSpeed * slowDown;
                 }
                 else
                 {
-                    currentSpeed = forwardSpeed;
+                    currentSpeed = forwardSpeed * slowDown;
                     chassisDirection = driveDirection;
                 }
                 break;
             case Direction.Right:
                 if (driveDirection == Direction.Left)
                 {
-                    currentSpeed = backwardSpeed;
+                    currentSpeed = backwardSpeed * slowDown;
                 }
                 else
                 {
-                    currentSpeed = forwardSpeed;
+                    currentSpeed = forwardSpeed * slowDown;
                     chassisDirection = driveDirection;
                 }
                 break;

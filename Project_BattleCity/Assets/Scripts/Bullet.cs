@@ -38,22 +38,27 @@ public class Bullet : MonoBehaviour
             rigidbody.velocity = shotDirection * bulletSpeed;
         }
 
-        // Parabola Bullet Drop
-        // TODO
-
         // Linear Bullet Drop
         float bulletFlyTimeInSec = maxBulletDistance / bulletSpeed;
         float bulletDropEachSec = shotHeight / bulletFlyTimeInSec;
         float bulletDropEachFrame = bulletDropEachSec * Time.deltaTime;
         transform.position = new Vector2(transform.position.x, transform.position.y - bulletDropEachFrame);
+
+        // Parabola Bullet Drop
+        // TODO
+        //transform.position = new Vector2(transform.position.x, transform.position.y - (Time.deltaTime * Time.deltaTime) / bulletDropEachSec);
     }
 
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
-        Enemy enemy = hitInfo.GetComponent<Enemy>();
+        EnemyController enemy = hitInfo.GetComponent<EnemyController>();
+        PlayerController player = hitInfo.GetComponent<PlayerController>();
         if (enemy != null)
         {
             enemy.TakeDamage(damage);
+        } else if (player != null)
+        {
+            player.TakeDamage(damage);
         }
         Destroy(ownShadow);
         Destroy(gameObject);

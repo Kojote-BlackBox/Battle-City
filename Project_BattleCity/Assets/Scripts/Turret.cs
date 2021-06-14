@@ -6,7 +6,6 @@ public class Turret : MonoBehaviour
 {
     private Chassis chassisScript;
     private Sprite[] sprites;
-    private int keyInputTurretRotation;
     public Chassis.Direction turretDirection;
     public float turretRotationTime;
     private SpriteRenderer spriteRenderer;
@@ -27,35 +26,41 @@ public class Turret : MonoBehaviour
         SynchronisatTurretToChassis();
     }
 
-    private Chassis.Direction KeyInputRotateTurret(Chassis.Direction turretDirection )
+    public int inputDirection;
+    public void Input(int rotationInput)
     {
-        int direction = (int)turretDirection;
-        // Rotate Turret one Step left
-        if (Input.GetKeyDown(KeyCode.E))
+        inputDirection += rotationInput;
+        inputDirection = turretDirecionCheck(inputDirection);
+
+        manualRotated = true;
+    }
+
+    private int turretDirecionCheck(int direction)
+    {
+        if (direction < 0)
         {
-            keyInputTurretRotation += 1;
-            manualRotated = true;
+            direction = 3;
+        }
+        else if (direction > 3)
+        {
+            direction = 0;
         }
 
-        // Rotate Turret one Step Right
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            keyInputTurretRotation -= 1;
-            manualRotated = true;
-            if (keyInputTurretRotation < 0)
-            {
-                keyInputTurretRotation = 3;
-            }
-        }
-      
-        return (Chassis.Direction) ((direction + keyInputTurretRotation) % 4);
+        return direction;
+    }
+
+    private Chassis.Direction KeyInputRotateTurret( )
+    {
+        turretDirection = chassisScript.chassisDirection;
+        int currentDirection = ((int)turretDirection + inputDirection) % 4;
+        return (Chassis.Direction)(currentDirection);
     }
 
     private void SynchronisatTurretToChassis()
     {
         if (!(chassisScript.blockInput))
         {
-            turretDirection = KeyInputRotateTurret(chassisScript.chassisDirection);
+            turretDirection = KeyInputRotateTurret();
         }
 
         switch (turretDirection)
