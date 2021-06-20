@@ -17,10 +17,10 @@ public class Map : MonoBehaviour
 
     void Start()
     {
-        enemyCount = 10;
+        enemyCount = 0;
         mapSprites = Resources.LoadAll<Sprite>("TileMap/landscapeTileSet");
-        cols = 8;
-        rows = 8;
+        cols = 15;
+        rows = 15;
         map = new GameObject[cols, rows];
 
         GenerateWorld();
@@ -33,7 +33,7 @@ public class Map : MonoBehaviour
         if (enemyCount < 0)
         {
             // TODO Sieg
-            QuitGame();
+            //QuitGame();
         }
         else
         {

@@ -22,9 +22,12 @@ public class EnemyController : MonoBehaviour
     private float driveTime = 0.0f;
     private enum Direction { Up, Right, Down, Left };
     private Direction direction = Direction.Up;
+    public GameObject turret;
+    public LayerMask layerMask;
 
     void Start()
     {
+
         chassisScript = this.transform.gameObject.GetComponent<Chassis>();
         shottingScript = this.transform.gameObject.transform.GetChild(0).gameObject.GetComponent<Shotting>();
         map = GameObject.Find("Map").GetComponent<Map>();
@@ -33,8 +36,6 @@ public class EnemyController : MonoBehaviour
         maxMapSiceY = (float)map.map.GetLength(1);
         distanceBorder = 1.5f;
         visibility = 4.0f;
-
-        Debug.Log(maxMapSiceX + " " + maxMapSiceY);
 
         health = 2;
     }
@@ -63,10 +64,9 @@ public class EnemyController : MonoBehaviour
     public void ShootPlayer()
     {
         // TODO Buggy
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.TransformDirection(Vector3.right), visibility);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, turret.transform.up, visibility, layerMask);
 
-        Debug.Log(hit.collider);
-        if (hit.collider.name.Equals("Player"))
+        if (hit.collider != null && hit.collider.name.Equals("Player"))
         {
             shottingScript.Input();
         }

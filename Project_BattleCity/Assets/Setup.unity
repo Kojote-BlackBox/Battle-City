@@ -185,7 +185,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 9116649567114451034, guid: beb28e973d433e84e9d1dc274cc8a842, type: 3}
+  m_Sprite: {fileID: 5503944539398965685, guid: 17d9de889bab71e4b8480066709f6ad8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -227,9 +227,8 @@ MonoBehaviour:
   forwardSpeed: 0
   backwardSpeed: 0
   chassisTurnTime: 0
-  blockInput: 0
-  movement: {x: 0, y: 0}
-  chassisDirection: 0
+  inputDirection: {x: 0, y: 0}
+  driveDirection: {x: 0, y: 0}
 --- !u!95 &40935132
 Animator:
   serializedVersion: 3
@@ -240,7 +239,7 @@ Animator:
   m_GameObject: {fileID: 40935128}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9110c369f51adaa4a94023041b5ea7fb, type: 2}
+  m_Controller: {fileID: 9100000, guid: 458e67fbb78ae744ba543e3ab2c8582b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -289,10 +288,10 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0.1
   m_GravityScale: 0
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
@@ -324,8 +323,9 @@ GameObject:
   - component: {fileID: 1315737451}
   - component: {fileID: 1315737452}
   - component: {fileID: 1315737453}
+  - component: {fileID: 1315737454}
   m_Layer: 0
-  m_Name: Tower
+  m_Name: Turret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -386,7 +386,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 8560663930702621649, guid: beb28e973d433e84e9d1dc274cc8a842, type: 3}
+  m_Sprite: {fileID: -152123593430963983, guid: 2c537860f547d8f4b9cad421183660fa, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -409,9 +409,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5666cb47ab1bae7468cd6dc808a185e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turretDirection: 0
   turretRotationTime: 0
-  inputDirection: 0
+  chassisDirection: {x: 0, y: 0}
+  turretDirection: {x: 0, y: 0}
+  inputDirection: {x: 0, y: 0}
+  animator: {fileID: 0}
 --- !u!114 &1315737453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -426,8 +428,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1107083980140431148, guid: 429d379796a6e444fafeac281db29770, type: 3}
   bulletShadowPrefab: {fileID: 8628723937055666367, guid: 6acffda3f4833b0498b11908201e9b6d, type: 3}
-  shottingDirection: 0
+  shottingDirection: {x: 0, y: 0}
   reloadTime: 0
+--- !u!95 &1315737454
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315737449}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 06059c939837d224abdf5cf98a741f09, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1422334491
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,8 +478,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a391abf17a7e16499994eadb4768b63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tilePrefab: {fileID: 6657314408067017627, guid: 0e930ec9aa6e4e741808e86cad18c0de, type: 3}
-  enemyPrefab: {fileID: 0}
+  tilePrefab: {fileID: 6849351909739715359, guid: a3b8b31db4c989548bc58973c4d81ab9, type: 3}
+  enemyPrefab: {fileID: 6657314408067017627, guid: 0e930ec9aa6e4e741808e86cad18c0de, type: 3}
   rows: 0
   cols: 0
   enemyCount: 0

@@ -23,21 +23,25 @@ public class PlayerController : MonoBehaviour
         transform.position = new Vector2(map.map.GetLength(0) / 2, map.map.GetLength(1) / 2);
     }
 
+    private Vector2 turretDirection = new Vector2(0.0f, 0.0f);
+
+
     // Update is called once per frame
     void Update()
     {
         movement = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         chassisScript.Input(movement);
 
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            turretScript.Input(1);
-        }
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            turretScript.Input(-1);
-        }
-        if (Input.GetKeyDown(KeyCode.Space)){
+        Vector3 mousePos = Input.mousePosition;
+        mousePos.z = 10;
+        mousePos = UnityEngine.Camera.main.ScreenToWorldPoint(mousePos);
+
+        turretDirection.x = mousePos.x - transform.position.x;
+        turretDirection.y = mousePos.y - transform.position.y;
+        turretDirection.Normalize();
+        turretScript.Input(turretDirection);
+
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Fire1")) {
             shottingScript.Input();
         }
     }

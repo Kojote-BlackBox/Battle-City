@@ -104,7 +104,10 @@ MonoBehaviour:
   shottingScript: {fileID: 0}
   enemyPosition: {x: 0, y: 0}
   targetPosition: {x: 0, y: 0}
-  rayCastDirection: {fileID: 7123252858035253154}
+  turret: {fileID: 6657314408916128728}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 51
 --- !u!114 &6657314408067017631
 MonoBehaviour:
   m_ObjectHideFlags: 0

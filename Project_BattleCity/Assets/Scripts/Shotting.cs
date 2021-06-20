@@ -8,14 +8,13 @@ public class Shotting : MonoBehaviour
     public GameObject bulletShadowPrefab;
     private Turret turretScript;
     private Chassis chassisScript;
-    public Chassis.Direction shottingDirection;
+    public Vector2 shottingDirection;
     private bool reloaded;
     public float reloadTime;
     private float tankHeight;
 
 
-    void Start()
-    {
+    void Start() {
         tankHeight = 0.25f;
         reloadTime = 1.0f;
         reloaded = true;
@@ -26,8 +25,7 @@ public class Shotting : MonoBehaviour
         shottingDirection = turretScript.turretDirection;
     }
 
-    public void Input()
-    {
+    public void Input() {
         shottingDirection = turretScript.turretDirection;
         if (reloaded)
         {
@@ -42,49 +40,25 @@ public class Shotting : MonoBehaviour
         reloaded = true;
     }
    
-    public void Shoot()
-    {
-        GameObject bullet = Instantiate(bulletPrefab, GetComponent<Renderer>().bounds.center, Quaternion.identity) as GameObject;
+    public void Shoot() {
+        Vector3 buttetSpawnPoint = GetComponent<Renderer>().bounds.center;
+        buttetSpawnPoint.y += 0.15f;
+        GameObject bullet = Instantiate(bulletPrefab, buttetSpawnPoint, Quaternion.identity) as GameObject;
         Physics2D.IgnoreCollision(bullet.GetComponent<Collider2D>(), this.transform.parent.gameObject.GetComponent<Collider2D>());
         bullet.GetComponent<Bullet>().shotHeight = tankHeight;
 
         GameObject bulletShadow = Instantiate(bulletShadowPrefab, GetComponent<Renderer>().bounds.center, Quaternion.identity) as GameObject;
         bullet.GetComponent<Bullet>().ownShadow = bulletShadow;
 
-        switch (shottingDirection)
-        {
-            case Chassis.Direction.Up:
-                bullet.GetComponent<Bullet>().shotDirection = Vector2.up;
-                bullet.transform.rotation = Quaternion.Euler(0.0f, 0.0f, -90.0f);
+        bullet.GetComponent<Bullet>().shotDirection = shottingDirection;
+        // TODO Rotarion Arichmeik depends on shottingDirection
+        //z: 0 = left, 90 = down, -90 = up, 180 = right
+    
+        bullet.transform.rotation = Quaternion.Euler(0.0f, 0.0f, 0.0f);
 
-                bulletShadow.GetComponent<Bullet>().shotDirection = Vector2.up;
-                bulletShadow.transform.rotation = Quaternion.Euler(0.0f, 0.0f, -90.0f);
-                bulletShadow.transform.position = new Vector2(transform.position.x, transform.position.y - tankHeight); 
-                break;
-            case Chassis.Direction.Right:
-                bullet.GetComponent<Bullet>().shotDirection = Vector2.right;
-                bullet.transform.rotation = Quaternion.Euler(0.0f, 0.0f, 180.0f);
-
-                bulletShadow.GetComponent<Bullet>().shotDirection = Vector2.right;
-                bulletShadow.transform.rotation = Quaternion.Euler(0.0f, 0.0f, 180.0f);
-                bulletShadow.transform.position = new Vector2(transform.position.x, transform.position.y - tankHeight);
-                break;
-            case Chassis.Direction.Down:
-                bullet.GetComponent<Bullet>().shotDirection = Vector2.down;
-                bullet.transform.rotation = Quaternion.Euler(0.0f, 0.0f, 90.0f);
-
-                bulletShadow.GetComponent<Bullet>().shotDirection = Vector2.down;
-                bulletShadow.transform.rotation = Quaternion.Euler(0.0f, 0.0f, 90.0f);
-                bulletShadow.transform.position = new Vector2(transform.position.x, transform.position.y - tankHeight / 2);
-                break;
-            case Chassis.Direction.Left:
-                bullet.GetComponent<Bullet>().shotDirection = Vector2.left;
-
-                bulletShadow.GetComponent<Bullet>().shotDirection = Vector2.left;
-                bulletShadow.transform.position = new Vector2(transform.position.x, transform.position.y - tankHeight);
-                break;
-            default:
-                break;
-        }
+        bulletShadow.GetComponent<Bullet>().shotDirection = shottingDirection;
+        //z: 0 = left, 90 = down, -90 = up, 180 = right
+        bulletShadow.transform.rotation = Quaternion.Euler(0.0f, 0.0f, 0.0f);
+        bulletShadow.transform.position = new Vector2(transform.position.x, transform.position.y - tankHeight); 
     }
 }
