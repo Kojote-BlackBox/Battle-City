@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyController : MonoBehaviour
-{
+public class EnemyController : MonoBehaviour {
     public Chassis chassisScript;
     public Shotting shottingScript;
 
@@ -25,8 +24,7 @@ public class EnemyController : MonoBehaviour
     public GameObject turret;
     public LayerMask layerMask;
 
-    void Start()
-    {
+    void Start() {
 
         chassisScript = this.transform.gameObject.GetComponent<Chassis>();
         shottingScript = this.transform.gameObject.transform.GetChild(0).gameObject.GetComponent<Shotting>();
@@ -40,62 +38,53 @@ public class EnemyController : MonoBehaviour
         health = 2;
     }
 
-    public void TakeDamage(int damage)
-    {
+    public void TakeDamage(int damage) {
         health -= damage;
-        if (health <= 0)
-        {
+        if (health <= 0) {
             map.EnemyDies();
             Destroy(gameObject);
         }
     }
 
-    void Update()
-    {
+    void Update() {
         SimpleRandomDrive();
         ShootPlayer();
     }
 
-    void FixedUpdate()
-    {
+    void FixedUpdate() {
 
     }
 
-    public void ShootPlayer()
-    {
+    public void ShootPlayer() {
         // TODO Buggy
         RaycastHit2D hit = Physics2D.Raycast(transform.position, turret.transform.up, visibility, layerMask);
 
-        if (hit.collider != null && hit.collider.name.Equals("Player"))
-        {
+        if (hit.collider != null && hit.collider.name.Equals("Player")) {
             shottingScript.Input();
         }
     }
 
-    public void SimpleRandomDrive()
-    {
+    public void SimpleRandomDrive() {
         driveTime += Time.deltaTime;
-        if (driveTime < Random.Range(0.5f, maxDriveTime))
-        {
-            switch ((int)direction)
-            {
+        if (driveTime < Random.Range(0.5f, maxDriveTime)) {
+            switch ((int)direction) {
                 case 0: // W
-                    if(transform.position.y < maxMapSiceX - distanceBorder){
+                    if (transform.position.y < maxMapSiceX - distanceBorder) {
                         chassisScript.Input(Vector2.up);
                     }
-                    break; 
+                    break;
                 case 1: // A
-                    if (transform.position.x > distanceBorder){
+                    if (transform.position.x > distanceBorder) {
                         chassisScript.Input(Vector2.left);
                     }
                     break;
                 case 2: // D
-                    if (transform.position.x < maxMapSiceY - distanceBorder){
+                    if (transform.position.x < maxMapSiceY - distanceBorder) {
                         chassisScript.Input(Vector2.right);
                     }
                     break;
                 case 3: // S
-                    if (transform.position.y > distanceBorder){
+                    if (transform.position.y > distanceBorder) {
                         chassisScript.Input(Vector2.down);
                     }
                     break;
@@ -107,7 +96,7 @@ public class EnemyController : MonoBehaviour
             driveTime = 0.0f;
         }
     }
-    
+
     /*
     void UpdateEnviroment()
     {

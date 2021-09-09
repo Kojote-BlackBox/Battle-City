@@ -2,14 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
-{
+public class PlayerController : MonoBehaviour {
     public Vector2 movement;
     public Chassis chassisScript;
     public Turret turretScript;
     public Shotting shottingScript;
     private Map map;
     private int health;
+
+    private Vector2 turretDirection = new Vector2(0.0f, 0.0f);
 
     void Start() {
         movement = Vector2.up;
@@ -19,16 +20,22 @@ public class PlayerController : MonoBehaviour
         shottingScript = this.transform.gameObject.transform.GetChild(0).gameObject.GetComponent<Shotting>();
         health = 2;
 
-        // TODO Place Player in the middle of the Map
-        transform.position = new Vector2(map.map.GetLength(0) / 2, map.map.GetLength(1) / 2);
+        placePlayer();
     }
 
-    private Vector2 turretDirection = new Vector2(0.0f, 0.0f);
+    private void placePlayer() {
+        Vector2 playerPosition = new Vector2(map.map.GetLength(0) / 2, map.map.GetLength(1) / 2);
+
+        while (map.map[(int)playerPosition.x, (int)playerPosition.y, 1] != null) {
+            playerPosition = new Vector2(Random.Range(0, map.map.GetLength(0)), Random.Range(0, map.map.GetLength(1)));
+        }
+
+        transform.position = playerPosition;
+    }
 
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update() {
         movement = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         chassisScript.Input(movement);
 
@@ -46,13 +53,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void TakeDamage(int damage)
-    {
+    public void TakeDamage(int damage) {
         health -= damage;
-        if (health <= 0)
-        {
-            map.EnemyDies();
+
+        if (health <= 0) {
             Destroy(gameObject);
+            Utility.GameOver();
         }
     }
 }

@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
-{
+public class Bullet : MonoBehaviour {
     public float bulletSpeed;
     public float maxBulletDistance;
     private float bulletDistance;
@@ -14,9 +13,8 @@ public class Bullet : MonoBehaviour
     public int damage;
     public float shotHeight;
     public GameObject ownShadow;
- 
-    void Start()
-    {
+
+    void Start() {
         damage = 1;
         shooted = false;
         bulletSpeed = 5.0f;
@@ -25,15 +23,13 @@ public class Bullet : MonoBehaviour
         origin = transform.position;
     }
 
-    void Update()
-    {
+    void Update() {
         bulletDistance = Vector2.Distance(origin, transform.position);
-        if (maxBulletDistance < bulletDistance){
+        if (maxBulletDistance < bulletDistance) {
             Destroy(gameObject);
         }
 
-        if(shotDirection != null && !shooted)
-        {
+        if (shotDirection != null && !shooted) {
             shooted = true;
             rigidbody.velocity = shotDirection * bulletSpeed;
         }
@@ -49,18 +45,19 @@ public class Bullet : MonoBehaviour
         //transform.position = new Vector2(transform.position.x, transform.position.y - (Time.deltaTime * Time.deltaTime) / bulletDropEachSec);
     }
 
-    void OnTriggerEnter2D(Collider2D hitInfo)
-    {
+    void OnTriggerEnter2D(Collider2D hitInfo) {
         EnemyController enemy = hitInfo.GetComponent<EnemyController>();
         PlayerController player = hitInfo.GetComponent<PlayerController>();
-        if (enemy != null)
-        {
+
+        if (enemy != null) {
             enemy.TakeDamage(damage);
-        } else if (player != null)
-        {
+        } else if (player != null) {
             player.TakeDamage(damage);
         }
-        Destroy(ownShadow);
-        Destroy(gameObject);
+
+        if (!hitInfo.CompareTag("Map") && !hitInfo.CompareTag("Finish")) {
+            Destroy(ownShadow);
+            Destroy(gameObject);
+        }
     }
 }

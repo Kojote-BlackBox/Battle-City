@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Turret : MonoBehaviour
-{
+public class Turret : MonoBehaviour {
     private Chassis chassisScript;
     private Sprite[] sprites;
     public float turretRotationTime;
@@ -34,8 +33,7 @@ public class Turret : MonoBehaviour
     const string T1_TURRET_315 = "T1_Turret_315";
     const string T1_TURRET_337 = "T1_Turret_337";
 
-    void Start()
-    {
+    void Start() {
         animationTimer = 0.0f;
         chassisScript = this.transform.parent.gameObject.GetComponent<Chassis>();
         spriteRenderer = this.gameObject.GetComponent<SpriteRenderer>();
@@ -78,7 +76,7 @@ public class Turret : MonoBehaviour
         } else if (chassisScript.inputDirection.x < 0) {
             anim.SetPreviousAnimation();
         }
-        
+
         chassisDirection = chassisScript.driveDirection;
 
         StartCoroutine(SynchronizatTurretToChassis());
@@ -90,11 +88,11 @@ public class Turret : MonoBehaviour
 
     public void Input(Vector2 directionInput) {
         inputDirection = directionInput;
-        UpdateTurretGUI( anim.DirectionToDegree(directionInput) );
+        UpdateTurretGUI(anim.DirectionToDegree(directionInput));
     }
 
     private void PlayAnimation(string animationName) {
-        if(animationTimer > turretRotationTime) {
+        if (animationTimer > turretRotationTime) {
             animationTimer = 0.0f;
             animator.Play(anim.Play(animationName));
         }
@@ -117,7 +115,7 @@ public class Turret : MonoBehaviour
         } else if (degree >= 33.75f && degree < 56.25f) {
             PlayAnimation(T1_TURRET_45);
 
-        } else if (degree >= 56.25f  && degree < 78.75f) {
+        } else if (degree >= 56.25f && degree < 78.75f) {
             PlayAnimation(T1_TURRET_67);
 
         } else if (degree >= 78.75f && degree < 101.25f) {

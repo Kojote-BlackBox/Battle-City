@@ -1,175 +1,145 @@
 fileFormatVersion: 2
-guid: c945fd89170ce024fa30fb5d4fac8c91
+guid: ed344750a1c329f46a9f5d28ae26e4e7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4987985173454296775
-    second: landscapeTileSet_0
+      213: -898201131174279650
+    second: GroundTileset_0
   - first:
-      213: -9164060149186935190
-    second: landscapeTileSet_1
+      213: -5312732666240213166
+    second: GroundTileset_1
   - first:
-      213: -7016964617740677869
-    second: landscapeTileSet_2
+      213: 3476268782356647881
+    second: GroundTileset_2
   - first:
-      213: 7718639038983764957
-    second: landscapeTileSet_3
+      213: 3041897164867490823
+    second: GroundTileset_3
   - first:
-      213: 2334156362199795467
-    second: landscapeTileSet_4
+      213: 4252869761871440881
+    second: GroundTileset_4
   - first:
-      213: 2655637414824195280
-    second: landscapeTileSet_5
+      213: -3766305887361492527
+    second: GroundTileset_5
   - first:
-      213: 647250871299446024
-    second: landscapeTileSet_6
+      213: 4823558217802821560
+    second: GroundTileset_6
   - first:
-      213: -213020682415732590
-    second: landscapeTileSet_7
+      213: -930207280902182715
+    second: GroundTileset_7
   - first:
-      213: 1878550170927061263
-    second: landscapeTileSet_8
+      213: -2499836191962927088
+    second: GroundTileset_8
   - first:
-      213: 4019159970475798747
-    second: landscapeTileSet_9
+      213: 2549555114951047400
+    second: GroundTileset_9
   - first:
-      213: 2036983696716937937
-    second: landscapeTileSet_10
+      213: -3050483052594786489
+    second: GroundTileset_10
   - first:
-      213: -914531864831142482
-    second: landscapeTileSet_11
+      213: 817192990402723455
+    second: GroundTileset_11
   - first:
-      213: -603834198000641874
-    second: landscapeTileSet_12
+      213: 5916890037204683656
+    second: GroundTileset_12
   - first:
-      213: -5056686573261405334
-    second: landscapeTileSet_13
+      213: -5951233826941290212
+    second: GroundTileset_13
   - first:
-      213: 3505486465171513526
-    second: landscapeTileSet_14
+      213: -4603742003993833773
+    second: GroundTileset_14
   - first:
-      213: 4244781937413965798
-    second: landscapeTileSet_15
+      213: 5668067313444581881
+    second: GroundTileset_15
   - first:
-      213: -2516049833279737749
-    second: landscapeTileSet_16
+      213: -2262058637458314484
+    second: GroundTileset_16
   - first:
-      213: 3236262883524090940
-    second: landscapeTileSet_17
+      213: -3887484518333617686
+    second: GroundTileset_17
   - first:
-      213: 4467913013608336552
-    second: landscapeTileSet_18
+      213: -8225427499270632249
+    second: GroundTileset_18
   - first:
-      213: -5861523062393028459
-    second: landscapeTileSet_19
+      213: 1620668250978294735
+    second: GroundTileset_19
   - first:
-      213: -8492175853180467933
-    second: landscapeTileSet_20
+      213: 329386587795858185
+    second: GroundTileset_20
   - first:
-      213: 8470078227745216773
-    second: landscapeTileSet_21
+      213: -7754652847047935078
+    second: GroundTileset_21
   - first:
-      213: 7673086361786899397
-    second: landscapeTileSet_22
+      213: 4518962114963409325
+    second: GroundTileset_22
   - first:
-      213: 3598754908618122728
-    second: landscapeTileSet_23
+      213: 4041973113936877849
+    second: GroundTileset_23
   - first:
-      213: -4069247406022425283
-    second: landscapeTileSet_24
+      213: 7872145120128421888
+    second: GroundTileset_24
   - first:
-      213: 15303014672167266
-    second: landscapeTileSet_25
+      213: 5018544650009185025
+    second: GroundTileset_25
   - first:
-      213: -2795744921364787084
-    second: landscapeTileSet_26
+      213: -8368844657990265144
+    second: GroundTileset_26
   - first:
-      213: -5430047850174904825
-    second: landscapeTileSet_27
+      213: 8967246064473142712
+    second: GroundTileset_27
   - first:
-      213: -3361348657478915376
-    second: landscapeTileSet_28
+      213: -5155269059621398064
+    second: GroundTileset_28
   - first:
-      213: 1465041178424206047
-    second: landscapeTileSet_29
+      213: 2784625893281395544
+    second: GroundTileset_29
   - first:
-      213: 8951676064876540064
-    second: landscapeTileSet_30
+      213: 8030784436733803738
+    second: GroundTileset_30
   - first:
-      213: -2619650609798042501
-    second: landscapeTileSet_31
+      213: -5097043378046123009
+    second: GroundTileset_31
   - first:
-      213: -8409148728283159866
-    second: landscapeTileSet_32
+      213: 2989128027171696111
+    second: GroundTileset_32
   - first:
-      213: 2908560395217887960
-    second: landscapeTileSet_33
+      213: 672885168155470920
+    second: GroundTileset_33
   - first:
-      213: -3437695111596430453
-    second: landscapeTileSet_34
+      213: -7159065107389269162
+    second: GroundTileset_34
   - first:
-      213: 5392428554293903976
-    second: landscapeTileSet_35
+      213: -7292598632068554629
+    second: GroundTileset_35
   - first:
-      213: -5039789676946244711
-    second: landscapeTileSet_36
+      213: 2996796748789236909
+    second: GroundTileset_36
   - first:
-      213: -5714795980013331802
-    second: landscapeTileSet_37
+      213: -4313189844663882372
+    second: GroundTileset_37
   - first:
-      213: -3164183049255179491
-    second: landscapeTileSet_38
+      213: 7149301066232200026
+    second: GroundTileset_38
   - first:
-      213: 238646241510249996
-    second: landscapeTileSet_39
+      213: -7882093516821167636
+    second: GroundTileset_39
   - first:
-      213: -6201910120811288529
-    second: landscapeTileSet_40
+      213: -7341696275623538601
+    second: GroundTileset_40
   - first:
-      213: 5615529368537451270
-    second: landscapeTileSet_41
+      213: 2527463039480099594
+    second: GroundTileset_41
   - first:
-      213: 4464187987030415890
-    second: landscapeTileSet_42
+      213: -8840087088905911885
+    second: GroundTileset_42
   - first:
-      213: 6896176553956688063
-    second: landscapeTileSet_43
+      213: -2400886415226496298
+    second: GroundTileset_43
   - first:
-      213: 2061311039966437948
-    second: landscapeTileSet_44
+      213: -2235650708588214455
+    second: GroundTileset_44
   - first:
-      213: 3568156745811679499
-    second: landscapeTileSet_45
-  - first:
-      213: -8997141581081661081
-    second: landscapeTileSet_46
-  - first:
-      213: -5799944881902584040
-    second: landscapeTileSet_47
-  - first:
-      213: 624532703668987460
-    second: landscapeTileSet_48
-  - first:
-      213: -8705311190109848190
-    second: landscapeTileSet_49
-  - first:
-      213: 3660296292829797171
-    second: landscapeTileSet_50
-  - first:
-      213: 6018462810520397180
-    second: landscapeTileSet_51
-  - first:
-      213: 4631354897751010054
-    second: landscapeTileSet_52
-  - first:
-      213: -8029846244712840893
-    second: landscapeTileSet_53
-  - first:
-      213: -6424762016949635835
-    second: landscapeTileSet_54
-  - first:
-      213: -7293983703030299155
-    second: landscapeTileSet_55
+      213: 2222175341075367648
+    second: GroundTileset_45
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -233,10 +203,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
+    maxTextureSize: 128
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -245,10 +215,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
+    maxTextureSize: 128
+    resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -259,595 +229,259 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: landscapeTileSet_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 128
-        width: 16
-        height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 939675789ed17cab0800000000000000
-      internalID: -4987985173454296775
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: landscapeTileSet_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 128
-        width: 16
-        height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a66466bf8d7b2d080800000000000000
-      internalID: -9164060149186935190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: landscapeTileSet_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 128
-        width: 16
-        height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 31d051e8bdbbe9e90800000000000000
-      internalID: -7016964617740677869
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: landscapeTileSet_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 128
-        width: 16
-        height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ddbf6149f4d1e1b60800000000000000
-      internalID: 7718639038983764957
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: landscapeTileSet_4
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 128
-        width: 16
-        height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b07032338d6946020800000000000000
-      internalID: 2334156362199795467
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: landscapeTileSet_5
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 128
-        width: 16
-        height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d435da9828bad420800000000000000
-      internalID: 2655637414824195280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: landscapeTileSet_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 112
-        width: 16
-        height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8059d58fc3f7bf800800000000000000
-      internalID: 647250871299446024
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: landscapeTileSet_7
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 112
-        width: 16
-        height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2988cc661d23b0df0800000000000000
-      internalID: -213020682415732590
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: landscapeTileSet_8
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 112
-        width: 16
-        height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f095bde6d63f11a10800000000000000
-      internalID: 1878550170927061263
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: landscapeTileSet_9
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 112
-        width: 16
-        height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd0fdafd2bce6c730800000000000000
-      internalID: 4019159970475798747
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: landscapeTileSet_10
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 112
-        width: 16
-        height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1da331831e1d44c10800000000000000
-      internalID: 2036983696716937937
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: landscapeTileSet_11
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 112
-        width: 16
-        height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea5d6f44d1eee43f0800000000000000
-      internalID: -914531864831142482
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: landscapeTileSet_12
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 96
-        width: 16
-        height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea850f40fffbe97f0800000000000000
-      internalID: -603834198000641874
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: landscapeTileSet_13
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 96
-        width: 16
-        height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6344446a5a03d9b0800000000000000
-      internalID: -5056686573261405334
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: landscapeTileSet_14
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 96
-        width: 16
-        height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b0ec710e5df5a030800000000000000
-      internalID: 3505486465171513526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: landscapeTileSet_15
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 96
-        width: 16
-        height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e7cd88aeae78ea30800000000000000
-      internalID: 4244781937413965798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: landscapeTileSet_16
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 96
-        width: 16
-        height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b603e2ad102351dd0800000000000000
-      internalID: -2516049833279737749
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: landscapeTileSet_17
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 96
-        width: 16
-        height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3c1c3432f389ec20800000000000000
-      internalID: 3236262883524090940
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: landscapeTileSet_18
+      name: GroundTileset_0
       rect:
         serializedVersion: 2
         x: 0
         y: 80
         width: 16
         height: 16
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ac487fb637310e30800000000000000
-      internalID: 4467913013608336552
+      spriteID: e16c08f74d2f883f0800000000000000
+      internalID: -898201131174279650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_19
+      name: GroundTileset_1
       rect:
         serializedVersion: 2
         x: 16
         y: 80
         width: 16
         height: 16
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 590cd4794dfa7aea0800000000000000
-      internalID: -5861523062393028459
+      spriteID: 25f5322c9c16546b0800000000000000
+      internalID: -5312732666240213166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_20
+      name: GroundTileset_2
       rect:
         serializedVersion: 2
         x: 32
         y: 80
         width: 16
         height: 16
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32547051e0bb52a80800000000000000
-      internalID: -8492175853180467933
+      spriteID: 9cfc52c1a003e3030800000000000000
+      internalID: 3476268782356647881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_21
+      name: GroundTileset_3
       rect:
         serializedVersion: 2
         x: 48
         y: 80
         width: 16
         height: 16
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50916809543cb8570800000000000000
-      internalID: 8470078227745216773
+      spriteID: 704d133da5df63a20800000000000000
+      internalID: 3041897164867490823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_22
+      name: GroundTileset_4
       rect:
         serializedVersion: 2
         x: 64
         y: 80
         width: 16
         height: 16
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cbd33d64674c7a60800000000000000
-      internalID: 7673086361786899397
+      spriteID: 1fbe858048a350b30800000000000000
+      internalID: 4252869761871440881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_23
+      name: GroundTileset_5
       rect:
         serializedVersion: 2
         x: 80
         y: 80
         width: 16
         height: 16
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e560e9b58851f130800000000000000
-      internalID: 3598754908618122728
+      spriteID: 1d91b5c00c46bbbc0800000000000000
+      internalID: -3766305887361492527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_24
+      name: GroundTileset_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfad8d84a8b0f240800000000000000
+      internalID: 4823558217802821560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundTileset_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8e75e086d3713f0800000000000000
+      internalID: -930207280902182715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundTileset_8
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 16
         height: 16
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d358ad44b012787c0800000000000000
-      internalID: -4069247406022425283
+      spriteID: 01072656a3cce4dd0800000000000000
+      internalID: -2499836191962927088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_25
+      name: GroundTileset_9
       rect:
         serializedVersion: 2
         x: 16
         y: 64
         width: 16
         height: 16
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 261f681c20e563000800000000000000
-      internalID: 15303014672167266
+      spriteID: 8e8ffe17ed6d16320800000000000000
+      internalID: 2549555114951047400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_26
+      name: GroundTileset_10
       rect:
         serializedVersion: 2
         x: 32
         y: 64
         width: 16
         height: 16
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47013777ec48339d0800000000000000
-      internalID: -2795744921364787084
+      spriteID: 74f0db863d18aa5d0800000000000000
+      internalID: -3050483052594786489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_27
+      name: GroundTileset_11
       rect:
         serializedVersion: 2
         x: 48
         y: 64
         width: 16
         height: 16
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70683f8ff3894a4b0800000000000000
-      internalID: -5430047850174904825
+      spriteID: f7eb4e1f1b0475b00800000000000000
+      internalID: 817192990402723455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_28
+      name: GroundTileset_12
       rect:
         serializedVersion: 2
         x: 64
@@ -855,167 +489,209 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0daabb884371a51d0800000000000000
-      internalID: -3361348657478915376
+      spriteID: 88b02aac3240d1250800000000000000
+      internalID: 5916890037204683656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_29
+      name: GroundTileset_13
       rect:
         serializedVersion: 2
-        x: 80
+        x: 96
         y: 64
         width: 16
         height: 16
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd26b4d803fd45410800000000000000
-      internalID: 1465041178424206047
+      spriteID: c1930e98d58f86da0800000000000000
+      internalID: -5951233826941290212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_30
+      name: GroundTileset_14
       rect:
         serializedVersion: 2
         x: 0
         y: 48
         width: 16
         height: 16
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a03557f3fdba3c70800000000000000
-      internalID: 8951676064876540064
+      spriteID: 3de076ef9093c10c0800000000000000
+      internalID: -4603742003993833773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_31
+      name: GroundTileset_15
       rect:
         serializedVersion: 2
         x: 16
         y: 48
         width: 16
         height: 16
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7c2a5f56a125abd0800000000000000
-      internalID: -2619650609798042501
+      spriteID: 9f1fddcd03509ae40800000000000000
+      internalID: 5668067313444581881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_32
+      name: GroundTileset_16
       rect:
         serializedVersion: 2
         x: 32
         y: 48
         width: 16
         height: 16
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c2214309c3bc4b80800000000000000
-      internalID: -8409148728283159866
+      spriteID: c0b613577ad8b90e0800000000000000
+      internalID: -2262058637458314484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_33
+      name: GroundTileset_17
       rect:
         serializedVersion: 2
         x: 48
         y: 48
         width: 16
         height: 16
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d26bbce4484d5820800000000000000
-      internalID: 2908560395217887960
+      spriteID: ae9e4e66d61ec0ac0800000000000000
+      internalID: -3887484518333617686
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_34
+      name: GroundTileset_18
       rect:
         serializedVersion: 2
         x: 64
         y: 48
         width: 16
         height: 16
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8ba23b728ada40d0800000000000000
-      internalID: -3437695111596430453
+      spriteID: 7cc8e34054969dd80800000000000000
+      internalID: -8225427499270632249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_35
+      name: GroundTileset_19
       rect:
         serializedVersion: 2
         x: 80
         y: 48
         width: 16
         height: 16
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8628c572331c5da40800000000000000
-      internalID: 5392428554293903976
+      spriteID: fcb90560035cd7610800000000000000
+      internalID: 1620668250978294735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_36
+      name: GroundTileset_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903a95f3b57329400800000000000000
+      internalID: 329386587795858185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundTileset_21
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b7c3f4250f16490800000000000000
+      internalID: -7754652847047935078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundTileset_22
       rect:
         serializedVersion: 2
         x: 0
@@ -1023,20 +699,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99b30f2adf11f0ab0800000000000000
-      internalID: -5039789676946244711
+      spriteID: da987dfd91496be30800000000000000
+      internalID: 4518962114963409325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_37
+      name: GroundTileset_23
       rect:
         serializedVersion: 2
         x: 16
@@ -1044,20 +720,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6aa997f9557f0b0b0800000000000000
-      internalID: -5714795980013331802
+      spriteID: 91913efb129f71830800000000000000
+      internalID: 4041973113936877849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_38
+      name: GroundTileset_24
       rect:
         serializedVersion: 2
         x: 32
@@ -1065,20 +741,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1b25d008409614d0800000000000000
-      internalID: -3164183049255179491
+      spriteID: 0005491474a7f3d60800000000000000
+      internalID: 7872145120128421888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_39
+      name: GroundTileset_25
       rect:
         serializedVersion: 2
         x: 48
@@ -1086,20 +762,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0653340e77df4300800000000000000
-      internalID: 238646241510249996
+      spriteID: 10b0c3115c375a540800000000000000
+      internalID: 5018544650009185025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_40
+      name: GroundTileset_26
       rect:
         serializedVersion: 2
         x: 64
@@ -1107,20 +783,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f28a420ba936ee9a0800000000000000
-      internalID: -6201910120811288529
+      spriteID: 8c69014af14ebdb80800000000000000
+      internalID: -8368844657990265144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_41
+      name: GroundTileset_27
       rect:
         serializedVersion: 2
         x: 80
@@ -1128,20 +804,62 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60bc275553e5eed40800000000000000
-      internalID: 5615529368537451270
+      spriteID: 8b5f07ef8ce027c70800000000000000
+      internalID: 8967246064473142712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_42
+      name: GroundTileset_28
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d954b3aa1ec478b0800000000000000
+      internalID: -5155269059621398064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundTileset_29
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85374611f7af4a620800000000000000
+      internalID: 2784625893281395544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundTileset_30
       rect:
         serializedVersion: 2
         x: 0
@@ -1149,41 +867,41 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21a9389625bf3fd30800000000000000
-      internalID: 4464187987030415890
+      spriteID: adcf04375e3137f60800000000000000
+      internalID: 8030784436733803738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_43
+      name: GroundTileset_31
       rect:
         serializedVersion: 2
         x: 16
         y: 16
         width: 16
         height: 16
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb047fec90424bf50800000000000000
-      internalID: 6896176553956688063
+      spriteID: ff3cdce8d0aa349b0800000000000000
+      internalID: -5097043378046123009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_44
+      name: GroundTileset_32
       rect:
         serializedVersion: 2
         x: 32
@@ -1191,20 +909,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c326ac4387f3b9c10800000000000000
-      internalID: 2061311039966437948
+      spriteID: fedabb78a148b7920800000000000000
+      internalID: 2989128027171696111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_45
+      name: GroundTileset_33
       rect:
         serializedVersion: 2
         x: 48
@@ -1212,41 +930,41 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b09d409c7a3a48130800000000000000
-      internalID: 3568156745811679499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: landscapeTileSet_46
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 16
-        width: 16
-        height: 16
-      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7613bb1a66bb32380800000000000000
-      internalID: -8997141581081661081
+      spriteID: 84c298ece71965900800000000000000
+      internalID: 672885168155470920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_47
+      name: GroundTileset_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b3b261734e5ac90800000000000000
+      internalID: -7159065107389269162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundTileset_35
       rect:
         serializedVersion: 2
         x: 80
@@ -1254,20 +972,62 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81ff95dfbd4728fa0800000000000000
-      internalID: -5799944881902584040
+      spriteID: b70ed069e2c7bca90800000000000000
+      internalID: -7292598632068554629
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_48
+      name: GroundTileset_36
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4c0abe3c2c69920800000000000000
+      internalID: 2996796748789236909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundTileset_37
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7dacf340b87424c0800000000000000
+      internalID: -4313189844663882372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundTileset_38
       rect:
         serializedVersion: 2
         x: 0
@@ -1275,20 +1035,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 446edc06f29caa800800000000000000
-      internalID: 624532703668987460
+      spriteID: a5b771de07b673360800000000000000
+      internalID: 7149301066232200026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_49
+      name: GroundTileset_39
       rect:
         serializedVersion: 2
         x: 16
@@ -1296,140 +1056,140 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28df4466895803780800000000000000
-      internalID: -8705311190109848190
+      spriteID: ce1077325bd2d9290800000000000000
+      internalID: -7882093516821167636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_50
+      name: GroundTileset_40
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 16
         height: 16
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33b9cc2d51cfbc230800000000000000
-      internalID: 3660296292829797171
+      spriteID: 75096a2a22e0d1a90800000000000000
+      internalID: -7341696275623538601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_51
+      name: GroundTileset_41
       rect:
         serializedVersion: 2
         x: 48
         y: 0
         width: 16
         height: 16
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c75a7faf900e58350800000000000000
-      internalID: 6018462810520397180
+      spriteID: a03f32b4e3a531320800000000000000
+      internalID: 2527463039480099594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_52
+      name: GroundTileset_42
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 16
         height: 16
-      alignment: 6
+      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60be635ddb0e54040800000000000000
-      internalID: 4631354897751010054
+      spriteID: 3b10f3221a3b15580800000000000000
+      internalID: -8840087088905911885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: landscapeTileSet_53
+      name: GroundTileset_43
       rect:
         serializedVersion: 2
         x: 80
         y: 0
         width: 16
         height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 34103e66261409090800000000000000
-      internalID: -8029846244712840893
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: landscapeTileSet_54
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 0
-        width: 89
-        height: 98
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5057b454cf8a6d6a0800000000000000
-      internalID: -6424762016949635835
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: landscapeTileSet_55
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 96
-        height: 144
-      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de5046f977096ca90800000000000000
-      internalID: -7293983703030299155
+      spriteID: 6da1d5a96865eaed0800000000000000
+      internalID: -2400886415226496298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundTileset_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947cfb8868f59f0e0800000000000000
+      internalID: -2235650708588214455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GroundTileset_45
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e60e69f2b0c6de10800000000000000
+      internalID: 2222175341075367648
       vertices: []
       indices: 
       edges: []

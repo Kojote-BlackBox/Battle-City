@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Chassis : MonoBehaviour
-{
+public class Chassis : MonoBehaviour {
     public Animator animator;
     private AnimationNode anim;
     private float animationTimer;
@@ -45,8 +44,7 @@ public class Chassis : MonoBehaviour
     const string T1_CHASSIS_315 = "T1_Chassis_315";
     const string T1_CHASSIS_337 = "T1_Chassis_337";
 
-    void Start()
-    {
+    void Start() {
         enviromentSpeedDebuf = 1.0f;
         map = GameObject.Find("Map").GetComponent<Map>();
         chassisTurnTime = 0.2f;
@@ -79,13 +77,12 @@ public class Chassis : MonoBehaviour
         animationTimer += Time.deltaTime;
     }
 
-    public void Input(Vector2 directionInput)
-    {
+    public void Input(Vector2 directionInput) {
         // reduce the initial value growth time (faster first rotation)
         directionInput.x *= 1000;
-        if(directionInput.x > 1.0f) {
+        if (directionInput.x > 1.0f) {
             directionInput.x = 1.0f;
-        } else if(directionInput.x < -1.0f) {
+        } else if (directionInput.x < -1.0f) {
             directionInput.x = -1.0f;
         }
         inputDirection = directionInput;
@@ -102,25 +99,25 @@ public class Chassis : MonoBehaviour
 
     private void UpdateDriveDirection() {
         inputSum += inputDirection.x * (Time.deltaTime * 90.0f) * (1.0f - chassisTurnTime);
-        if(inputSum > stepRotation) {
+        if (inputSum > stepRotation) {
             inputSum = 0.0f;
             chassieRotatationDegree += stepRotation;
-        } else if(inputSum < -stepRotation) {
+        } else if (inputSum < -stepRotation) {
             inputSum = 0.0f;
             chassieRotatationDegree -= stepRotation;
-            if(chassieRotatationDegree < 0.0f) {
+            if (chassieRotatationDegree < 0.0f) {
                 chassieRotatationDegree += 360.0f;
             }
         }
         chassieRotatationDegree %= 360.0f;
-        
+
         driveDirection = Quaternion.AngleAxis(chassieRotatationDegree, -Vector3.forward) * Vector2.up;
     }
 
     void FixedUpdate() {
-        if(inputDirection.y < 0) {
+        if (inputDirection.y < 0) {
             rigidbody.MovePosition((Vector2)transform.position + (driveDirection * inputDirection.y * backwardSpeed * this.enviromentSpeedDebuf * Time.fixedDeltaTime));
-        
+
         } else {
             rigidbody.MovePosition((Vector2)transform.position + (driveDirection * inputDirection.y * forwardSpeed * this.enviromentSpeedDebuf * Time.fixedDeltaTime));
         }
