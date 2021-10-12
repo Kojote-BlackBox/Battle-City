@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class RenderOrder : MonoBehaviour {
-    // Start is called before the first frame update
 
     private Map map;
     private int top, bottom, left, right;

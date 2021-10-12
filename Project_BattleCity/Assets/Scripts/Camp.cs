@@ -7,13 +7,17 @@ using TMPro;
 public class Camp : MonoBehaviour {
 
     public Vector2 position;
-    public GameObject capBar;
+    private GameObject capBar;
+    public GameObject canvas;
     public Slider capBarSlider;
     public TMP_Text capBarTimerText;
     public float maxCapTime;
+    public bool frendly;
     private bool caped;
     private float globalCapedTime;
     private List<CapedEnemy> tankCount = new List<CapedEnemy>();
+    public Sprite campFrendly;
+    public Sprite campEnemy;
 
     private class CapedEnemy {
         public float capedTime;
@@ -21,6 +25,7 @@ public class Camp : MonoBehaviour {
     }
 
     void Start() {
+        canvas = GameObject.Find("Canvas");
         capBar = GameObject.Find("CapBar");
         capBarSlider = capBar.GetComponent<Slider>();
         capBarTimerText = GameObject.Find("Timer").GetComponent<TextMeshProUGUI>();
@@ -30,6 +35,16 @@ public class Camp : MonoBehaviour {
         maxCapTime = 30.0f;
         capBarSlider.maxValue = maxCapTime;
         capBar.SetActive(false);
+    }
+
+    public void setFrendly(bool frend) {
+        frendly = frend;
+
+        if (frendly) {
+            this.GetComponent<SpriteRenderer>().sprite = campFrendly;
+        } else {
+            this.GetComponent<SpriteRenderer>().sprite = campEnemy;
+        }
     }
 
     private string CurrentTimer(int enemyCount, float capedTime) {
@@ -50,7 +65,18 @@ public class Camp : MonoBehaviour {
             capBarTimerText.text = CurrentTimer(tankCount.Count, globalCapedTime);
 
             if (capBarSlider.value >= maxCapTime) {
-                Utility.GameOver();
+                caped = false;
+                this.GetComponent<CircleCollider2D>().enabled = false;
+                this.GetComponent<CircleCollider2D>().enabled = false;
+                frendly = !frendly;
+
+                if (frendly) {
+                    this.GetComponent<SpriteRenderer>().sprite = campFrendly;
+                } else {
+                    this.GetComponent<SpriteRenderer>().sprite = campEnemy;
+                }
+
+                //Utility.GameOver();
             }
         }
     }
@@ -80,7 +106,7 @@ public class Camp : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D collision) {
 
         // TODO Set to Enemy
-        if (collision.CompareTag("Player")) {
+        if (collision.CompareTag("Player") && !this.frendly) {
             CapedEnemy enemy = new CapedEnemy();
             enemy.tank = collision.gameObject;
             enemy.capedTime = 0.0f;

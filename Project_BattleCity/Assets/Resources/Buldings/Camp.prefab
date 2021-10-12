@@ -96,6 +96,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59369c3ecf6c71d4dad558629fb73dd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  position: {x: 0, y: 0}
+  capBar: {fileID: 0}
+  canvas: {fileID: 7977778135692716937, guid: 4709e9cfcfe74c24f858e5bf3bc04a81, type: 3}
+  capBarSlider: {fileID: 0}
+  capBarTimerText: {fileID: 0}
+  maxCapTime: 0
+  frendly: 0
+  campFrendly: {fileID: 21300000, guid: 8f2122deb9174f144a188efdc2fa037d, type: 3}
+  campEnemy: {fileID: 21300000, guid: 804d746be2d400447bb5cee9ba8fcf1e, type: 3}
 --- !u!58 &3698604602546691837
 CircleCollider2D:
   m_ObjectHideFlags: 0

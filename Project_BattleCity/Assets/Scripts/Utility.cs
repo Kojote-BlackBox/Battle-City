@@ -4,6 +4,8 @@ using UnityEngine;
 
 public static class Utility {
 
+    //public GUI GUI;
+
     public const byte LAWN = 0;
     public const byte EARTH = 1;
     public const byte WATER = 2;

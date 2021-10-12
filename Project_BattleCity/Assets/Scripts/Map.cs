@@ -24,6 +24,9 @@ public class Map : MonoBehaviour {
     private Utility.TileType tileType;
     public int enemyCount;
 
+    public List<GameObject> camps = new List<GameObject>();
+
+
     void Start() {
         enemyCount = 0;
         mapSprites = Resources.LoadAll<Sprite>("TileMap/GroundTileset");
@@ -163,11 +166,32 @@ public class Map : MonoBehaviour {
 
     // TODO inprogress
     private void GenerateCamp() {
+        int campPosX = cols / 2;
+        int campPosY = rows / 2;
 
-        // Set the Base Camp on the Map
+        // Set the Frendly Camp on the Map
         GameObject camp = Instantiate(campPrefab, transform.position, Quaternion.identity) as GameObject;
-        camp.transform.position = new Vector3( cols/2, rows/2, -0.01f);
-        camp.GetComponent<Camp>().position = new Vector2( cols / 2, rows / 2);
+
+        while (map[campPosX, campPosY, 1] != null) {
+            campPosX++;
+            campPosY++;
+        }
+
+        camp.transform.position = new Vector3(campPosX, campPosY, -0.01f);
+        camp.GetComponent<Camp>().position = new Vector2(campPosX, campPosY);
+        camp.GetComponent<Camp>().setFrendly(true);
+        camps.Add(camp);
+
+        // Set Enemy Camp on the Map
+        GameObject enemyCamp = Instantiate(campPrefab, transform.position, Quaternion.identity) as GameObject;
+
+        campPosX += 3;
+        campPosY += 3;
+
+        enemyCamp.transform.position = new Vector3(campPosX, campPosY, -0.01f);
+        enemyCamp.GetComponent<Camp>().position = new Vector2(campPosX, campPosY);
+        enemyCamp.GetComponent<Camp>().setFrendly(false);
+        camps.Add(enemyCamp);
     }
 
     private void GenerateWorld() {
