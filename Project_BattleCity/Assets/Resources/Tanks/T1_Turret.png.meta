@@ -68,10 +68,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -110,6 +112,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -484,9 +487,25 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      T1_Turret_14: -1094415638055630042
+      T1_Turret_12: -1702965849051411879
+      T1_Turret_2: -6615394587371241064
+      T1_Turret_4: -894095498694260281
+      T1_Turret_1: 7760944492881257197
+      T1_Turret_15: 1843114890760593931
+      T1_Turret_11: -8602183932649727954
+      T1_Turret_5: 3955600351300020370
+      T1_Turret_9: 9158906630413307809
+      T1_Turret_6: -9219566014701014844
+      T1_Turret_13: -8560805734886921720
+      T1_Turret_8: -7091266267253587355
+      T1_Turret_0: -152123593430963983
+      T1_Turret_10: 4319388699547487573
+      T1_Turret_7: 946682555630038994
+      T1_Turret_3: -1543545237201225355
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

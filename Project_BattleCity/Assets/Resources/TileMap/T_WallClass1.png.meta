@@ -89,10 +89,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -131,6 +133,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -652,9 +655,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      T_WallClass1_3: 3130905596660452289
+      T_WallClass1_15: 8959473449143232197
+      T_WallClass1_18: 4886779377996448528
+      T_WallClass1_7: -5394976322182804069
+      T_WallClass1_12: -5350125318211292790
+      T_WallClass1_17: -3380088467889802782
+      T_WallClass1_6: 3666057124311849923
+      T_WallClass1_1: 852889869781786951
+      T_WallClass1_8: -6215211619879768233
+      T_WallClass1_13: 8016582647042058298
+      T_WallClass1_0: -9129605250993735439
+      T_WallClass1_11: -4006390010847591074
+      T_WallClass1_20: -4688469376304101968
+      T_WallClass1_14: -1809015114016321156
+      T_WallClass1_19: 4933789010235608779
+      T_WallClass1_2: -9187288706674374585
+      T_WallClass1_10: -843576583718083061
+      T_WallClass1_22: 2797473767277214181
+      T_WallClass1_21: -7373128042768953971
+      T_WallClass1_4: 4673016283296462840
+      T_WallClass1_16: -4262982567191079247
+      T_WallClass1_9: 2896298866427489439
+      T_WallClass1_5: 4558613884922040564
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

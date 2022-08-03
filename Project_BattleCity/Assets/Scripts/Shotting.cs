@@ -12,6 +12,22 @@ public class Shotting : MonoBehaviour {
     public float reloadTime;
     private float tankHeight;
 
+    private void OnEnable() {
+        EventManager.OnGunFire += GunFire;
+    }
+
+    private void OnDisable() {
+        EventManager.OnGunFire -= GunFire;
+    }
+
+    private void OnDestroy() {
+        EventManager.OnGunFire -= GunFire;
+    }
+
+    void GunFire() {
+        
+    }
+
     void Start() {
         tankHeight = 0.25f;
         reloadTime = 1.0f;
@@ -20,13 +36,15 @@ public class Shotting : MonoBehaviour {
         chassisScript = this.transform.parent.gameObject.GetComponent<Chassis>();
         turretScript = this.gameObject.GetComponent<Turret>();
 
-        shottingDirection = turretScript.turretDirection;
+        shottingDirection = turretScript.turretDirection.normalized;
     }
-
+    
     public void Input() {
-        shottingDirection = turretScript.turretDirection;
+        shottingDirection = turretScript.turretDirection.normalized;
+        
         if (reloaded) {
-            Shoot();
+
+            Shot();
             reloaded = false;
             Invoke("Reload", reloadTime);
         }
@@ -36,27 +54,31 @@ public class Shotting : MonoBehaviour {
         reloaded = true;
     }
 
-    public void Shoot() {
-        Vector3 buttetSpawnPoint = GetComponent<Renderer>().bounds.center;
-        buttetSpawnPoint.y += 0.15f;
-        GameObject bullet = Instantiate(bulletPrefab, buttetSpawnPoint, Quaternion.identity) as GameObject;
+    public void Shot() {
+        AudioManager.instance.Play("Shot");
+
+        Vector3 bulletetSpawnPoint = GetComponent<Renderer>().bounds.center;
+
+        bulletetSpawnPoint.y += 0.15f;
+        GameObject bullet = Instantiate(bulletPrefab, bulletetSpawnPoint, Quaternion.identity) as GameObject;
+        Bullet bulletScript = bullet.GetComponent<Bullet>();
 
         // Ignore the Creator (Plyer/Enemy)
         Physics2D.IgnoreCollision(bullet.GetComponent<Collider2D>(), this.transform.parent.gameObject.GetComponent<Collider2D>());
-        bullet.GetComponent<Bullet>().shotHeight = tankHeight;
+        bulletScript.shotHeight = tankHeight;
 
         GameObject bulletShadow = Instantiate(bulletShadowPrefab, GetComponent<Renderer>().bounds.center, Quaternion.identity) as GameObject;
-        bullet.GetComponent<Bullet>().ownShadow = bulletShadow;
+        BulletShadow bulletShadowScript = bulletShadow.GetComponent<BulletShadow>();
 
-        bullet.GetComponent<Bullet>().shotDirection = shottingDirection;
-        // TODO Rotarion Arichmeik depends on shottingDirection
-        //z: 0 = left, 90 = down, -90 = up, 180 = right
+        bulletScript.ownShadow = bulletShadow;
+        bulletScript.velocityDirection = shottingDirection;
 
-        bullet.transform.rotation = Quaternion.Euler(0.0f, 0.0f, 0.0f);
+        Vector3 bulletRotation = -1 * shottingDirection;
+        bullet.transform.right = bulletRotation;
+        bulletShadowScript.transform.right = bulletRotation;
+        bulletShadowScript.velocityDirection = shottingDirection;
 
-        bulletShadow.GetComponent<Bullet>().shotDirection = shottingDirection;
-        //z: 0 = left, 90 = down, -90 = up, 180 = right
-        bulletShadow.transform.rotation = Quaternion.Euler(0.0f, 0.0f, 0.0f);
-        bulletShadow.transform.position = new Vector2(transform.position.x, transform.position.y - tankHeight);
+        bulletShadowScript.Initialize(bullet);
+        //bulletShadow.transform.position = new Vector2(transform.position.x, transform.position.y - tankHeight);
     }
 }

@@ -12,11 +12,12 @@ public class Water : MonoBehaviour {
         tileScript = this.transform.gameObject.GetComponent<Tile>();
         
         if(string.IsNullOrEmpty(currentWaterTile)) {
-            tileScript.byteMap = Utility.WATER_BYTE;
+            tileScript.byteMap = Utility.WATER_BYTE();
             tileScript.passable = false;
         }
     }
 
+    // Start the Water Animation
     void OnBecameVisible() {
         if (!string.IsNullOrEmpty(currentWaterTile)) {
             currentWaterTile = "Water_";

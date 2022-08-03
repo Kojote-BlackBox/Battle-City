@@ -8,7 +8,7 @@ public class Bullet : MonoBehaviour {
     private float bulletDistance;
     private Vector2 origin;
     private new Rigidbody2D rigidbody;
-    public Vector2 shotDirection;
+    public Vector2 velocityDirection;
     private bool shooted;
     public int damage;
     public float shotHeight;
@@ -26,24 +26,38 @@ public class Bullet : MonoBehaviour {
     void Update() {
         bulletDistance = Vector2.Distance(origin, transform.position);
         if (maxBulletDistance < bulletDistance) {
+            Destroy(ownShadow);
             Destroy(gameObject);
         }
 
-        if (shotDirection != null && !shooted) {
+        if (velocityDirection != null && !shooted) {
             shooted = true;
-            rigidbody.velocity = shotDirection * bulletSpeed;
+            rigidbody.velocity = velocityDirection * bulletSpeed;
         }
 
         // Linear Bullet Drop
         float bulletFlyTimeInSec = maxBulletDistance / bulletSpeed;
         float bulletDropEachSec = shotHeight / bulletFlyTimeInSec;
-        float bulletDropEachFrame = bulletDropEachSec * Time.deltaTime;
-        transform.position = new Vector2(transform.position.x, transform.position.y - bulletDropEachFrame);
+        //float bulletDropEachFrame = bulletDropEachSec * Time.deltaTime;
+        //transform.position = new Vector2(transform.position.x, transform.position.y - bulletDropEachFrame);
 
         // Parabola Bullet Drop
-        // TODO
-        //transform.position = new Vector2(transform.position.x, transform.position.y - (Time.deltaTime * Time.deltaTime) / bulletDropEachSec);
+
+        // x = v * t
+        // y = -1/2g * t^2
+
+        /* (-1/2 g/v^2) * s^2
+         * 
+          */
+
+
+         float t = Time.deltaTime;
+         float g = 1.5f;
+         bulletDropEachFrame += g * t * t;
+         transform.position = new Vector2(transform.position.x, transform.position.y - bulletDropEachFrame);
     }
+
+    float bulletDropEachFrame = 0;
 
     void OnTriggerEnter2D(Collider2D hitInfo) {
         EnemyController enemy = hitInfo.GetComponent<EnemyController>();

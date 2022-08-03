@@ -92,10 +92,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -134,6 +136,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -676,9 +679,33 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      T1_Chassie_8: -7173532733235480943
+      T1_Chassie_23: -2598473054094152294
+      T1_Chassie_4: -761198686512633709
+      T1_Chassie_15: 724911768544476994
+      T1_Chassie_0: 5503944539398965685
+      T1_Chassie_2: 6324823084406389596
+      T1_Chassie_21: 8895414074380005362
+      T1_Chassie_11: -1435088859273691883
+      T1_Chassie_16: 8021699267547100448
+      T1_Chassie_5: 4003193444420622726
+      T1_Chassie_9: -1251233087213709308
+      T1_Chassie_17: 5839557770056712630
+      T1_Chassie_22: 5531263263915172568
+      T1_Chassie_6: -3563574178405987678
+      T1_Chassie_1: 8849969847327914733
+      T1_Chassie_18: 7943416192890185563
+      T1_Chassie_13: -935014878469737701
+      T1_Chassie_14: 1009303276627231549
+      T1_Chassie_3: 4957326946741146095
+      T1_Chassie_20: 7247925897554824223
+      T1_Chassie_12: -1682108103997680480
+      T1_Chassie_10: 5547379233877339442
+      T1_Chassie_19: -6686076882137574009
+      T1_Chassie_7: 3762087838513749276
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -22,16 +22,6 @@ public class Tile : MonoBehaviour {
     private void Start() {
         renderer = this.GetComponent<SpriteRenderer>();
     }
-
-    void OnBecameInvisible() {
-        this.gameObject.active = false;
-    }
-
-    /* Dont work. Scripts on deactiveted gameObjects are deactivated too.    
-    void OnBecameVisible() {
-        this.gameObject.GetComponent<SpriteRenderer>().enabled = true;
-    }
-    */
 }
 
 
