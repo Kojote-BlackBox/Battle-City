@@ -28,6 +28,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8035208487165630055}
   m_Father: {fileID: 0}
@@ -42,7 +43,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 705499126923244013}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e26a0c5ada30ec24a9a3cc9c07284da5, type: 3}
+  m_Script: {fileID: 11500000, guid: 83e36afbeacbc4041ba7bd7b916f203b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 7204455647039054607}
@@ -57,6 +58,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -102,6 +104,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 705499126923244015}
     m_Modifications:
     - target: {fileID: 6013533602498358903, guid: a3b8b31db4c989548bc58973c4d81ab9, type: 3}
@@ -156,13 +159,32 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2487277386062736939, guid: a3b8b31db4c989548bc58973c4d81ab9, type: 3}
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a3b8b31db4c989548bc58973c4d81ab9, type: 3}
 --- !u!1 &7204455647039054607 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6849351909739715359, guid: a3b8b31db4c989548bc58973c4d81ab9, type: 3}
   m_PrefabInstance: {fileID: 4392865031293515792}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7985140233081246145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7204455647039054607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c72cefa1995c11d49932377116d53353, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  byteMap: 00000000
+  position: {x: 0, y: 0}
+  passable: 0
+  slowDown: 1
 --- !u!4 &8035208487165630055 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6013533602498358903, guid: a3b8b31db4c989548bc58973c4d81ab9, type: 3}

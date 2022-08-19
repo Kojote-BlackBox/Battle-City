@@ -2,6 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/* TODO BUG
+ArgumentOutOfRangeException parameter name index
+(Wasserränder werden nicht generiert)
+*/
+
 public class BuilderWater : MonoBehaviour {
 
     private MapBuilder mapBuilderScript;
