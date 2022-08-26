@@ -2,6 +2,7 @@ using UnityEngine.Audio;
 using System;
 using UnityEngine;
 
+//Singelten Pattern
 public class AudioManager : MonoBehaviour {
 
     public Sound[] sounds;
@@ -12,12 +13,12 @@ public class AudioManager : MonoBehaviour {
 
         if(instance == null) {
             instance = this;
+            DontDestroyOnLoad(gameObject);
+
         } else {
             Destroy(gameObject);
             return;
         }
-
-        DontDestroyOnLoad(gameObject);
 
         foreach(Sound sound in sounds) {
             sound.source = gameObject.AddComponent<AudioSource>();
@@ -39,6 +40,8 @@ public class AudioManager : MonoBehaviour {
             Debug.LogWarning("Sound: " + name + " not found");
             return;
         }
+
+        Debug.LogWarning("Test" + sound.name);
 
         //sound.source.Play();
         sound.source.PlayOneShot(sound.clip, sound.volume);

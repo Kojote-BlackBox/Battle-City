@@ -207,57 +207,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &661426123
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 661426124}
-  - component: {fileID: 661426125}
-  m_Layer: 0
-  m_Name: AudioManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &661426124
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 661426123}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.7399998, y: 2.6800003, z: -5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &661426125
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 661426123}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d91803e8ba1bdba478f310e88b2bf314, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sounds:
-  - name: Shot
-    clip: {fileID: 0}
-    volume: 0
-    pitch: 0
-    loop: 0
-    source: {fileID: 0}
 --- !u!1 &696429592
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,7 +290,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &696429595
 MonoBehaviour:
@@ -438,7 +387,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &791271001
 MonoBehaviour:
@@ -626,7 +575,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &373737217853616429
 PrefabInstance:
@@ -707,6 +656,10 @@ PrefabInstance:
       propertyPath: reloadTime
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1904278791027866706, guid: 862fc2afd0b97684694126d376819100, type: 3}
+      propertyPath: onShotAudioEvent
+      value: 
+      objectReference: {fileID: 11400000, guid: 407f5f5f915f04e4eab20ca6acf8ae95, type: 2}
     - target: {fileID: 1904278791027866706, guid: 862fc2afd0b97684694126d376819100, type: 3}
       propertyPath: onGunFireAudioEvent
       value: 
@@ -811,6 +764,7 @@ PrefabInstance:
     - {fileID: 1904278791410255566, guid: 862fc2afd0b97684694126d376819100, type: 3}
     - {fileID: 1904278791410255567, guid: 862fc2afd0b97684694126d376819100, type: 3}
     - {fileID: 1904278791410255568, guid: 862fc2afd0b97684694126d376819100, type: 3}
+    - {fileID: 8964189226891205230, guid: 862fc2afd0b97684694126d376819100, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 862fc2afd0b97684694126d376819100, type: 3}
 --- !u!1001 &7977778135420077454

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d472ed3aede28a4ea4036628975c7d5, type: 3}
+  m_Name: ShotAudioEvent
+  m_EditorClassIdentifier: 
+  mixerGroup: {fileID: 1018807289514581406, guid: dd91ac8fdda99474596575a0e51398f3, type: 2}
+  clips:
+  - {fileID: 8300000, guid: 1cdb169e16a97da4789fe47ea48a614d, type: 3}
+  - {fileID: 8300000, guid: 2323bbf5bbf9ce34d8f2c52b04ec3a09, type: 3}
+  - {fileID: 8300000, guid: cb0894254b8a465478160de238b1bbcb, type: 3}
+  - {fileID: 8300000, guid: d5b1e9436b786914d9c71e484e1c3d89, type: 3}
+  - {fileID: 8300000, guid: b3fee8eebbfa91a489e3858d8bc8c41d, type: 3}
+  - {fileID: 8300000, guid: 46277ad3c0505ff44b5f9cec8b6bf3e2, type: 3}
+  volume:
+    minValue: 0.17017825
+    maxValue: 0.48622352
+  pitch:
+    minValue: 0.58346826
+    maxValue: 1.0858994

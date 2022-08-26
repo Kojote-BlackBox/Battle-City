@@ -1,0 +1,116 @@
+{
+    "name": "InputMapping",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "f1483159-4b10-4cce-802a-6b28ab8ca221",
+            "actions": [
+                {
+                    "name": "Accelerate",
+                    "type": "Button",
+                    "id": "2fae54e6-d68d-403e-affc-1c4fe4b3e259",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "738ee847-3505-4f8c-b8a2-0e46ca3a458f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RotateBody",
+                    "type": "Button",
+                    "id": "84935aa8-ac69-4fa6-ae1d-80fa42d12036",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RotateTurret",
+                    "type": "PassThrough",
+                    "id": "ecbbe0fb-ea21-4439-b932-4bec1e2020ce",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9edb8bd0-f724-41b5-96c9-04cd04a1aa3a",
+                    "path": "<Keyboard>/w",
+                    "interactions": "Hold",
+                    "processors": "Normalize(max=1)",
+                    "groups": "",
+                    "action": "Accelerate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e509e1e6-6a22-4651-b97b-e7bde6c48cdf",
+                    "path": "<Keyboard>/s",
+                    "interactions": "Hold",
+                    "processors": "Normalize(max=1),Invert",
+                    "groups": "",
+                    "action": "Accelerate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ec82b2aa-af0a-4edd-abf1-241fd2d95364",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6bb29b77-9258-468e-ab67-cdc80c8b028c",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateBody",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ca974154-4e40-4503-a129-ba8556d89dff",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateBody",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1e9bbfd0-836d-41b2-911b-f6c9acf1e275",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateTurret",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
