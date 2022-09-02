@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour {
     public Chassis chassisScript;
-    public Shoot shottingScript;
+    public Shooting shottingScript;
 
     public Vector2 enemyPosition;
     public Vector2 targetPosition;
@@ -27,7 +27,7 @@ public class EnemyController : MonoBehaviour {
     void Start() {
 
         chassisScript = this.transform.gameObject.GetComponent<Chassis>();
-        shottingScript = this.transform.gameObject.transform.GetChild(0).gameObject.GetComponent<Shoot>();
+        shottingScript = this.transform.gameObject.transform.GetChild(0).gameObject.GetComponent<Shooting>();
         map = GameObject.Find("Map").GetComponent<Map>();
 
         maxMapSiceX = (float)map.map.GetLength(0);
@@ -60,7 +60,7 @@ public class EnemyController : MonoBehaviour {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, turret.transform.up, visibility, layerMask);
 
         if (hit.collider != null && hit.collider.name.Equals("Player")) {
-            shottingScript.Input();
+            shottingScript.Shoot();
         }
     }
 
@@ -70,22 +70,22 @@ public class EnemyController : MonoBehaviour {
             switch ((int)direction) {
                 case 0: // W
                     if (transform.position.y < maxMapSiceX - distanceBorder) {
-                        chassisScript.Input(Vector2.up);
+                        chassisScript.Move(0f);
                     }
                     break;
                 case 1: // A
                     if (transform.position.x > distanceBorder) {
-                        chassisScript.Input(Vector2.left);
+                        chassisScript.Rotate(0f, 0f);
                     }
                     break;
                 case 2: // D
                     if (transform.position.x < maxMapSiceY - distanceBorder) {
-                        chassisScript.Input(Vector2.right);
+                        chassisScript.Rotate(0f, 0f);
                     }
                     break;
                 case 3: // S
                     if (transform.position.y > distanceBorder) {
-                        chassisScript.Input(Vector2.down);
+                        chassisScript.Move(0f);
                     }
                     break;
                 default:

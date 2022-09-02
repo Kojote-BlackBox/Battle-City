@@ -1,26 +1,12 @@
 using System.Collections;
 using UnityEngine;
 
-public class Turret : MonoBehaviour {
+public class Turret : Rotation {
     private Chassis chassisScript;
-    private Sprite[] sprites;
-    public float turretRotationTime;
-    private SpriteRenderer spriteRenderer;
-
-    public Vector2 chassisDirection;
-    public Vector2 turretDirection;
-    public Vector2 inputDirection;
-
-    public Animator animator;
+    private Vector2 chassisDirection;
+    private Animator animator;
     private AnimationNode anim;
     private float animationTimer;
-
-    // Helper Values for UpdateDriveDirection
-    private float inputSum = 0.0f;
-    private float turretRotatationDegree = 0.0f;
-
-    // For Synchronisation of animation and tank rotation every x degree.
-    private float stepRotation = 22.5f;
 
     const string T1_TURRET_0 = "T1_Turret_0";
     const string T1_TURRET_22 = "T1_Turret_22";
@@ -40,51 +26,48 @@ public class Turret : MonoBehaviour {
     const string T1_TURRET_337 = "T1_Turret_337";
 
     private void Awake() {
-        anim = new AnimationNode("T1_Turret_0", 0f);
-        anim.AddNode("T1_Turret_22", 22.5f);
-        anim.AddNode("T1_Turret_45", 45f);
-        anim.AddNode("T1_Turret_67", 67.5f);
-        anim.AddNode("T1_Turret_90", 90f);
-        anim.AddNode("T1_Turret_112", 112.5f);
-        anim.AddNode("T1_Turret_135", 135f);
-        anim.AddNode("T1_Turret_157", 157.5f);
-        anim.AddNode("T1_Turret_180", 180f);
-        anim.AddNode("T1_Turret_202", 202.5f);
-        anim.AddNode("T1_Turret_225", 225f);
-        anim.AddNode("T1_Turret_247", 247.5f);
-        anim.AddNode("T1_Turret_270", 270f);
-        anim.AddNode("T1_Turret_292", 292.5f);
-        anim.AddNode("T1_Turret_315", 315f);
-        anim.AddNode("T1_Turret_337", 337.5f);
+        anim = new AnimationNode(T1_TURRET_0, 0f);
+        anim.AddNode(T1_TURRET_22, 22.5f);
+        anim.AddNode(T1_TURRET_45, 45f);
+        anim.AddNode(T1_TURRET_67, 67.5f);
+        anim.AddNode(T1_TURRET_90, 90f);
+        anim.AddNode(T1_TURRET_112, 112.5f);
+        anim.AddNode(T1_TURRET_135, 135f);
+        anim.AddNode(T1_TURRET_157, 157.5f);
+        anim.AddNode(T1_TURRET_180, 180f);
+        anim.AddNode(T1_TURRET_202, 202.5f);
+        anim.AddNode(T1_TURRET_225, 225f);
+        anim.AddNode(T1_TURRET_247, 247.5f);
+        anim.AddNode(T1_TURRET_270, 270f);
+        anim.AddNode(T1_TURRET_292, 292.5f);
+        anim.AddNode(T1_TURRET_315, 315f);
+        anim.AddNode(T1_TURRET_337, 337.5f);
         anim.CloseToLoop();
+
+        animator = GetComponent<Animator>();
+        animationTimer = 0.0f;
+        chassisScript = transform.parent.gameObject.GetComponent<Chassis>();
     }
 
     void Start() {
-        animationTimer = 0.0f;
-        chassisScript = transform.parent.gameObject.GetComponent<Chassis>();
-        spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
-        sprites = Resources.LoadAll<Sprite>("Tanks/T1");
-        turretRotationTime = 0.3f;
-        animator = GetComponent<Animator>();
-        inputDirection = Vector2.up;
-        turretDirection = Vector2.up;
-
         // waiting for chassis direction change and ynchronizat turret rotation to it.
-        StartCoroutine(SynchronizatTurretToChassis());
+        //StartCoroutine(SynchronizatTurretToChassis());
     }
 
     IEnumerator SynchronizatTurretToChassis() {
-        yield return new WaitUntil(() => chassisDirection != chassisScript.driveDirection);
+        yield return new WaitUntil(() => chassisDirection != chassisScript.GetCurrentDirection());
+
+        var chassieInputDirection = chassisScript.GetCurrentInputDirection();
 
         //Set Tower direction one Step in the site 
-        if (chassisScript.inputDirection.x > 0) {
+        if (chassieInputDirection.x > 0) {
             anim.SetNextAnimation();
 
-        } else if (chassisScript.inputDirection.x < 0) {
+        } else if (chassieInputDirection.x < 0) {
             anim.SetPreviousAnimation();
         }
 
-        chassisDirection = chassisScript.driveDirection;
+        chassisDirection = chassieInputDirection;
 
         StartCoroutine(SynchronizatTurretToChassis());
     }
@@ -93,39 +76,26 @@ public class Turret : MonoBehaviour {
         animationTimer += Time.deltaTime;
     }
 
-    public void Input(float directionInput) {
-        inputDirection.x = directionInput;
-        inputDirection.y = 0f;
-
-        UpdateTurretDirection();
-        UpdateTurretGUI(anim.DirectionToDegree(inputDirection));
-    }
-
-    private void UpdateTurretDirection() {
-        inputSum += inputDirection.x * (Time.deltaTime * 90.0f) * (1.0f - turretRotationTime);
-        if (inputSum > stepRotation) {
-            inputSum = 0.0f;
-            turretRotatationDegree += stepRotation;
-        } else if (inputSum < -stepRotation) {
-            inputSum = 0.0f;
-            turretRotatationDegree -= stepRotation;
-            if (turretRotatationDegree < 0.0f) {
-                turretRotatationDegree += 360.0f;
-            }
-        }
-        turretRotatationDegree %= 360.0f;
-
-        inputDirection = Quaternion.AngleAxis(turretRotatationDegree, -Vector3.forward) * Vector2.up;
+    override public void Rotate(float directionInput, float rotationModifier) {
+        base.Rotate(directionInput, rotationModifier);
+        UpdateTurretGUI(anim.DirectionToDegree(currentDirection));
     }
 
     private void PlayAnimation(string animationName) {
-        if (animationTimer > turretRotationTime) {
+        if (animationTimer > rotationTime) {
             animationTimer = 0.0f;
             animator.Play(anim.Play(animationName));
         }
     }
 
     private void UpdateTurretGUI(float degree) {
+        if (Mathf.Abs(anim.DirectionToDegree(anim.GetCurrentAnimationDirection()) - degree) < 22.5f) {
+            currentDirection = anim.DegreeToDirection(degree);
+        } else {
+            currentDirection = anim.GetCurrentAnimationDirection();
+        }
+            
+
         if (degree >= 348.75f && degree < 360f || degree >= 0 && degree < 11.25f) {
             PlayAnimation(T1_TURRET_0);
 

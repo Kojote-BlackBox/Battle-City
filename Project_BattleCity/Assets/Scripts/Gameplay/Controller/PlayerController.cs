@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour {
     [SerializeField]
     private Turret turretScript;
     [SerializeField]
-    private Shoot shottingScript;
+    private Shooting shottingScript;
 
     private PlayerInput playerInput;
 
@@ -51,21 +51,15 @@ public class PlayerController : MonoBehaviour {
     public void OnTurretRotation(InputAction.CallbackContext context) {
 
         turretDirection = context.ReadValue<float>();
-        /*
-        var stepDirection = context.ReadValue<float>();
-        if (stepDirection < 0)
-            turretDirection = Quaternion.Euler(0, 0, -22.5f) * turretDirection;
-        else if (stepDirection > 0)
-            turretDirection = Quaternion.Euler(0, 0, 22.5f) * turretDirection;
-        */
     }
 
     public void OnShoot(InputAction.CallbackContext context) {
-        shottingScript.Input();
+        shottingScript.Shoot();
     }
 
     void FixedUpdate() {
-        chassisScript.Input(chassieDirection);
-        turretScript.Input(turretDirection);
+        chassisScript.Rotate(chassieDirection.x, 0f);
+        chassisScript.Move(chassieDirection.y);
+        turretScript.Rotate(turretDirection, chassieDirection.x);
     }
 }

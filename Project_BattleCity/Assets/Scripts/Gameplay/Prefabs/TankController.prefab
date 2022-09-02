@@ -101,12 +101,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 069e78eb9cefef944aeb178f5c72b0ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotationTime: 0
+  propagateRotation: 1
   animator: {fileID: 3342908616445458891}
   forwardSpeed: 10
   backwardSpeed: 10
-  chassisTurnTime: 5
-  inputDirection: {x: 0, y: 1}
-  driveDirection: {x: 0, y: 1}
 --- !u!95 &3342908616445458891
 Animator:
   serializedVersion: 4
@@ -165,8 +164,8 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
+  m_Mass: 1000
+  m_LinearDrag: 10
   m_AngularDrag: 0.1
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -524,11 +523,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6199baa4f0952444b86de2bfbb2e88dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turretRotationTime: 5
-  chassisDirection: {x: 0, y: 1}
-  turretDirection: {x: 0, y: 1}
-  inputDirection: {x: 0, y: 0}
-  animator: {fileID: 578251936195778029}
+  rotationTime: 0
+  propagateRotation: 0
 --- !u!114 &3817836886371526959
 MonoBehaviour:
   m_ObjectHideFlags: 0

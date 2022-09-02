@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Chassis : MonoBehaviour {
+public class Chassis : Rotation {
     public Animator animator;
     private AnimationNode anim;
     private float animationTimer;
@@ -10,20 +10,8 @@ public class Chassis : MonoBehaviour {
 
     public float forwardSpeed;
     public float backwardSpeed;
-    public float chassisTurnTime;
-
-    // needed for movement Animation.
-    public Vector2 inputDirection;
-    public Vector2 driveDirection;
 
     private new Rigidbody2D rigidbody;
-
-    // Helper Values for UpdateDriveDirection
-    private float inputSum = 0.0f;
-    private float chassieRotatationDegree = 0.0f;
-
-    // For Synchronisation of animation and tank rotation every x degree.
-    private float stepRotation = 22.5f;
 
     const string T1_CHASSIS_0 = "T1_Chassis_0";
     const string T1_CHASSIS_22 = "T1_Chassis_22";
@@ -42,7 +30,9 @@ public class Chassis : MonoBehaviour {
     const string T1_CHASSIS_315 = "T1_Chassis_315";
     const string T1_CHASSIS_337 = "T1_Chassis_337";
 
-    private void Awake() {
+    override protected void Awake() {
+        base.Awake();
+
         anim = new AnimationNode("T1_Chassis_0", 0f);
         anim.AddNode("T1_Chassis_22", 22.5f);
         anim.AddNode("T1_Chassis_45", 45f);
@@ -60,62 +50,41 @@ public class Chassis : MonoBehaviour {
         anim.AddNode("T1_Chassis_315", 315f);
         anim.AddNode("T1_Chassis_337", 337.5f);
         anim.CloseToLoop();
-    }
 
-    void Start() {
-        enviromentSpeedDebuf = 1.0f;
-        map = GameObject.Find("Map").GetComponent<Map>();
-        chassisTurnTime = 0.2f;
-        driveDirection = Vector2.up;
         rigidbody = GetComponent<Rigidbody2D>();
         forwardSpeed = 1.8f;
         backwardSpeed = forwardSpeed / 2;
+        enviromentSpeedDebuf = 1.0f;
     }
 
-    void Update() {
+    override protected void Start() {
+        map = GameObject.Find("Map").GetComponent<Map>();
+    }
+
+    private void Update() {
         animationTimer += Time.deltaTime;
     }
 
-    public void Input(Vector2 directionInput) {
-        inputDirection = directionInput;
-        // invert drive backward direction 
-        if (inputDirection.y < 0) {
-            inputDirection.x *= -1;
-        }
-
-        UpdateDriveDirection();
-        UpdateChassisGUI(anim.DirectionToDegree(driveDirection));
-        //UpdateEnviroment();
+    override public void Rotate(float directionInput, float rotationModifier) {
+        base.Rotate(directionInput, rotationModifier);
+        UpdateChassisGUI(anim.DirectionToDegree(currentDirection));
     }
 
-    private void UpdateDriveDirection() {
-        inputSum += inputDirection.x * (Time.deltaTime * 90.0f) * (1.0f - chassisTurnTime);
-        if (inputSum > stepRotation) {
-            inputSum = 0.0f;
-            chassieRotatationDegree += stepRotation;
-        } else if (inputSum < -stepRotation) {
-            inputSum = 0.0f;
-            chassieRotatationDegree -= stepRotation;
-            if (chassieRotatationDegree < 0.0f) {
-                chassieRotatationDegree += 360.0f;
-            }
-        }
-        chassieRotatationDegree %= 360.0f;
-
-        driveDirection = Quaternion.AngleAxis(chassieRotatationDegree, -Vector3.forward) * Vector2.up;
+    public void Move(float directionInput) {
+        inputDirection.y = directionInput;
     }
 
-    void FixedUpdate() {
-        if (inputDirection.y < 0) {
-            rigidbody.MovePosition((Vector2)transform.position + (driveDirection * inputDirection.y * backwardSpeed * enviromentSpeedDebuf * Time.fixedDeltaTime));
+    private void FixedUpdate() {
+        if (inputDirection.y == 0f) return;
 
-        } else {
-            rigidbody.MovePosition((Vector2)transform.position + (driveDirection * inputDirection.y * forwardSpeed * enviromentSpeedDebuf * Time.fixedDeltaTime));
-        }
+        var baseMovement = currentDirection * enviromentSpeedDebuf * Time.fixedDeltaTime;
+        var movement = inputDirection.y < 0f ? -(baseMovement * backwardSpeed) : (baseMovement * forwardSpeed);
+
+        rigidbody.MovePosition((Vector2)transform.position + movement);
     }
 
     private void PlayAnimation(string animationName) {
-        if (animationTimer > chassisTurnTime) {
+        if (animationTimer > rotationTime) {
             animationTimer = 0.0f;
             animator.Play(anim.Play(animationName));
         }
