@@ -16,12 +16,6 @@ public class Tile : MonoBehaviour {
     public Vector2 position;
     public bool passable;
     public float slowDown = 1.0f;
-
-    private SpriteRenderer renderer;
-
-    private void Start() {
-        renderer = this.GetComponent<SpriteRenderer>();
-    }
 }
 
 

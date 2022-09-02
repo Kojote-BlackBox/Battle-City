@@ -1,64 +1,71 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Animations;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour {
-    public Vector2 movement;
-    public Chassis chassisScript;
-    public Turret turretScript;
-    public Shoot shottingScript;
-    private Map map;
-    private int health;
+    private Vector2 chassieDirection = Vector2.zero;
+    private float turretDirection;
 
-    private Vector2 turretDirection = new Vector2(0.0f, 0.0f);
+    [SerializeField]
+    private Chassis chassisScript;
+    [SerializeField]
+    private Turret turretScript;
+    [SerializeField]
+    private Shoot shottingScript;
+
+    private PlayerInput playerInput;
+
+    private Map map; // TODO: rework map dingsdabumsda
+
+    private void Awake() {
+        playerInput = gameObject.GetComponent<PlayerInput>();
+    }
 
     void Start() {
-        movement = Vector2.up;
         map = GameObject.Find("Map").GetComponent<Map>();
-        chassisScript = this.transform.gameObject.GetComponent<Chassis>();
-        turretScript = this.transform.gameObject.transform.GetChild(0).gameObject.GetComponent<Turret>();
-        shottingScript = this.transform.gameObject.transform.GetChild(0).gameObject.GetComponent<Shoot>();
-        health = 2;
-
         placePlayer();
     }
 
+    private void OnEnable() {
+        playerInput.enabled = true;
+    }
+
+    private void OnDisable() {
+        playerInput.enabled = false;
+    }
+
+    // TODO: verschieben in game manager bzw. spawner
     private void placePlayer() {
         Vector2 playerPosition = new Vector2(map.map.GetLength(0) / 2, map.map.GetLength(1) / 2);
 
         while (map.map[(int)playerPosition.x, (int)playerPosition.y, 1] != null) {
             playerPosition = new Vector2(Random.Range(0, map.map.GetLength(0)), Random.Range(0, map.map.GetLength(1)));
         }
-
-        transform.position = playerPosition;
+        chassisScript.gameObject.transform.position = playerPosition;
     }
 
+    public void OnChassieMovement(InputAction.CallbackContext context) {
+        chassieDirection = context.ReadValue<Vector2>().normalized;
+    }
 
-    // Update is called once per frame
-    void Update() {
-        movement = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-        chassisScript.Input(movement);
+    public void OnTurretRotation(InputAction.CallbackContext context) {
 
-        Vector3 mousePos = Input.mousePosition;
-        mousePos.z = 10;
-        mousePos = UnityEngine.Camera.main.ScreenToWorldPoint(mousePos);
+        turretDirection = context.ReadValue<float>();
+        /*
+        var stepDirection = context.ReadValue<float>();
+        if (stepDirection < 0)
+            turretDirection = Quaternion.Euler(0, 0, -22.5f) * turretDirection;
+        else if (stepDirection > 0)
+            turretDirection = Quaternion.Euler(0, 0, 22.5f) * turretDirection;
+        */
+    }
 
-        turretDirection.x = mousePos.x - transform.position.x;
-        turretDirection.y = mousePos.y - transform.position.y;
-        turretDirection.Normalize();
+    public void OnShoot(InputAction.CallbackContext context) {
+        shottingScript.Input();
+    }
+
+    void FixedUpdate() {
+        chassisScript.Input(chassieDirection);
         turretScript.Input(turretDirection);
-
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Fire1")) {
-            shottingScript.Input();
-        }
-    }
-
-    public void TakeDamage(int damage) {
-        health -= damage;
-
-        if (health <= 0) {
-            Destroy(gameObject);
-            Utility.GameOver();
-        }
     }
 }

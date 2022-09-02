@@ -7,7 +7,7 @@ ArgumentOutOfRangeException parameter name index
 (Wasserränder werden nicht generiert)
 */
 
-public class BuilderWater : MonoBehaviour {
+public class BuilderWater {
 
     private MapBuilder mapBuilderScript;
     private Map mapScript;
@@ -40,7 +40,7 @@ public class BuilderWater : MonoBehaviour {
             if (mapBuilderScript.NotOutOfMap(x,y) && mapScript.map[x, y, water.layer] == null ) {
 
                 // Set first bordered Water tile
-                GameObject waterCullingTile = (GameObject)Instantiate(mapScript.waterTilePrefab, mapScript.transform);
+                GameObject waterCullingTile = GameObject.Instantiate(mapScript.waterTilePrefab, mapScript.transform);
                 GameObject waterTile = waterCullingTile.GetComponent<Culling>().tile;
                 waterCullingTile.transform.SetParent(mapScript.transform);
 
@@ -178,7 +178,7 @@ public class BuilderWater : MonoBehaviour {
         borderedTiles = mapBuilderScript.DeleteAllWaterTiles(borderedTiles);
 
         if (borderedTiles.Count != 0) {
-            int randomIndex = Random.Range(0, borderedTiles.Count + 1);
+            int randomIndex = Random.Range(0, borderedTiles.Count);
 
             return borderedTiles[randomIndex];
         } else {

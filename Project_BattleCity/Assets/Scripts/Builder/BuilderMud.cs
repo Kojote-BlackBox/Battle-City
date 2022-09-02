@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BuilderMud : MonoBehaviour {
+public class BuilderMud {
 
     private MapBuilder mapBuilderScript;
 

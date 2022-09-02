@@ -63,11 +63,6 @@ public class Bullet : MonoBehaviour {
         EnemyController enemy = hitInfo.GetComponent<EnemyController>();
         PlayerController player = hitInfo.GetComponent<PlayerController>();
 
-        if (enemy != null) {
-            enemy.TakeDamage(damage);
-        } else if (player != null) {
-            player.TakeDamage(damage);
-        }
 
         if (!hitInfo.CompareTag("Map") && !hitInfo.CompareTag("Finish")) {
             Destroy(ownShadow);

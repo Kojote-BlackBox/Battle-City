@@ -44,15 +44,7 @@ public class Chassis : MonoBehaviour {
     const string T1_CHASSIS_315 = "T1_Chassis_315";
     const string T1_CHASSIS_337 = "T1_Chassis_337";
 
-    void Start() {
-        enviromentSpeedDebuf = 1.0f;
-        map = GameObject.Find("Map").GetComponent<Map>();
-        chassisTurnTime = 0.2f;
-        driveDirection = Vector2.up;
-        rigidbody = this.GetComponent<Rigidbody2D>();
-        forwardSpeed = 1.8f;
-        backwardSpeed = forwardSpeed / 2;
-
+    private void Awake() {
         anim = new AnimationNode("T1_Chassis_0", 0f);
         anim.AddNode("T1_Chassis_22", 22.5f);
         anim.AddNode("T1_Chassis_45", 45f);
@@ -70,7 +62,16 @@ public class Chassis : MonoBehaviour {
         anim.AddNode("T1_Chassis_315", 315f);
         anim.AddNode("T1_Chassis_337", 337.5f);
         anim.CloseToLoop();
-        //anim.DebugLog();
+    }
+
+    void Start() {
+        enviromentSpeedDebuf = 1.0f;
+        map = GameObject.Find("Map").GetComponent<Map>();
+        chassisTurnTime = 0.2f;
+        driveDirection = Vector2.up;
+        rigidbody = GetComponent<Rigidbody2D>();
+        forwardSpeed = 1.8f;
+        backwardSpeed = forwardSpeed / 2;
     }
 
     void Update() {
@@ -82,9 +83,11 @@ public class Chassis : MonoBehaviour {
         directionInput.x *= 1000;
         if (directionInput.x > 1.0f) {
             directionInput.x = 1.0f;
+
         } else if (directionInput.x < -1.0f) {
             directionInput.x = -1.0f;
         }
+
         inputDirection = directionInput;
 
         // invert drive backward direction 
@@ -116,10 +119,10 @@ public class Chassis : MonoBehaviour {
 
     void FixedUpdate() {
         if (inputDirection.y < 0) {
-            rigidbody.MovePosition((Vector2)transform.position + (driveDirection * inputDirection.y * backwardSpeed * this.enviromentSpeedDebuf * Time.fixedDeltaTime));
+            rigidbody.MovePosition((Vector2)transform.position + (driveDirection * inputDirection.y * backwardSpeed * enviromentSpeedDebuf * Time.fixedDeltaTime));
 
         } else {
-            rigidbody.MovePosition((Vector2)transform.position + (driveDirection * inputDirection.y * forwardSpeed * this.enviromentSpeedDebuf * Time.fixedDeltaTime));
+            rigidbody.MovePosition((Vector2)transform.position + (driveDirection * inputDirection.y * forwardSpeed * enviromentSpeedDebuf * Time.fixedDeltaTime));
         }
     }
 

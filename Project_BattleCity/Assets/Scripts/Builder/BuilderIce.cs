@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BuilderIce : MonoBehaviour {
+public class BuilderIce {
 
     private MapBuilder mapBuilderScript;
 

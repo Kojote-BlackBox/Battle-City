@@ -1,5 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
+#pragma warning disable 0618 // is deprecated but it the only way it works
+
 using UnityEngine;
 
 public class Culling : MonoBehaviour {
@@ -7,8 +7,7 @@ public class Culling : MonoBehaviour {
     public GameObject tile;
 
     void Awake() {
-        this.GetComponent<SpriteRenderer>().bounds.SetMinMax(Vector3.zero, Vector3.one);
-        //this.GetComponent<SpriteRenderer>().bounds.Expand(1f);
+        GetComponent<SpriteRenderer>().bounds.SetMinMax(Vector3.zero, Vector3.one);
     }
 
     void Start() {

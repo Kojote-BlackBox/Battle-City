@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GeneratorTile: MonoBehaviour {
+public class GeneratorTile {
 
     private MapBuilder mapBuilderScript;
     private Map mapScript;
@@ -10,13 +10,5 @@ public class GeneratorTile: MonoBehaviour {
     public GeneratorTile(MapBuilder origin) {
         this.mapBuilderScript = origin;
         this.mapScript = mapBuilderScript.mapScript;
-    }
-
-    void Start() {
-        
-    }
-
-    void Update() {
-        
     }
 }

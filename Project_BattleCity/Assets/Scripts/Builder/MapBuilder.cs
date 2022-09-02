@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-public class MapBuilder : MonoBehaviour {
+public class MapBuilder {
 
     public Map mapScript;
     private GeneratorTile generatorTile;
@@ -66,7 +66,7 @@ public class MapBuilder : MonoBehaviour {
      */
     public void FillMapWithTile(byte tileType) {
         // Define Default Base Ground tile
-        GameObject referenceCullingTile = Instantiate(mapScript.tilePrefab, mapScript.transform.position, Quaternion.identity) as GameObject;
+        GameObject referenceCullingTile = GameObject.Instantiate(mapScript.tilePrefab, mapScript.transform.position, Quaternion.identity);
         GameObject referenceTile = referenceCullingTile.GetComponent<Culling>().tile;
         int layer = 0;
 
@@ -88,7 +88,7 @@ public class MapBuilder : MonoBehaviour {
 
                     // Generate Base Ground Layer
                     if (l == 0) {
-                        GameObject cullingTile = (GameObject)Instantiate(referenceCullingTile, mapScript.transform);
+                        GameObject cullingTile = GameObject.Instantiate(referenceCullingTile, mapScript.transform);
                         GameObject tile = cullingTile.GetComponent<Culling>().tile;
                         cullingTile.transform.SetParent(mapScript.transform);
 
@@ -104,7 +104,7 @@ public class MapBuilder : MonoBehaviour {
             }
         }
 
-        Destroy(referenceCullingTile);
+        GameObject.Destroy(referenceCullingTile);
     }
 
     public void SetTileType(GameObject tile, Utility.TileType type) {
@@ -253,7 +253,7 @@ public class MapBuilder : MonoBehaviour {
             return;
         }
 
-        GameObject waterTransitionCullingTile = Instantiate(this.mapScript.waterTilePrefab, this.mapScript.transform.position, Quaternion.identity) as GameObject;
+        GameObject waterTransitionCullingTile = GameObject.Instantiate(this.mapScript.waterTilePrefab, this.mapScript.transform.position, Quaternion.identity) as GameObject;
         waterTransitionCullingTile.transform.SetParent(this.mapScript.transform);
         waterTransitionCullingTile.transform.position = transitionTilePosition;
 
@@ -630,7 +630,7 @@ public class MapBuilder : MonoBehaviour {
     public GameObject CreateWaterTile(GameObject referenceTile, Vector2 position) {
         if (NotOutOfMap((int)position.x, (int)position.y)) {
 
-            GameObject newWaterCullingTile = (GameObject)Instantiate(referenceTile, mapScript.transform);
+            GameObject newWaterCullingTile = GameObject.Instantiate(referenceTile, mapScript.transform);
             GameObject newWaterTile = newWaterCullingTile.GetComponent<Culling>().tile;
 
             newWaterCullingTile.transform.SetParent(this.mapScript.transform);
@@ -695,7 +695,7 @@ public class MapBuilder : MonoBehaviour {
     }
 
     private void SetNewWaterTile(int x, int y) {
-        GameObject waterCullingTile = (GameObject)Instantiate(this.mapScript.waterTilePrefab, this.mapScript.transform);
+        GameObject waterCullingTile = GameObject.Instantiate(this.mapScript.waterTilePrefab, this.mapScript.transform);
         GameObject waterTile = waterCullingTile.GetComponent<Culling>().tile;
         waterCullingTile.transform.SetParent(this.mapScript.transform);
 
@@ -705,7 +705,7 @@ public class MapBuilder : MonoBehaviour {
         for (int i = 0; i < this.mapScript.layer; i++) {
             GameObject tile = this.mapScript.map[x, y, i];
             if (tile != null) {
-                Destroy(tile.transform.parent.gameObject);
+                GameObject.Destroy(tile.transform.parent.gameObject);
             }  
         }
 

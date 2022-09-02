@@ -4,11 +4,15 @@ using UnityEngine;
 using UnityEditor;
 
 public class Map : MonoBehaviour {
+    [Header("Tile Prefabs")]
+    [Space(10)]
     public GameObject tilePrefab;
     public GameObject waterTilePrefab;
     public GameObject enemyPrefab;
     public GameObject campPrefab;
 
+    [Header("Base Settings")]
+    [Space(10)]
     [SerializeField]
     public int rows;
     [SerializeField]
@@ -16,6 +20,8 @@ public class Map : MonoBehaviour {
     [SerializeField]
     public int layer;
 
+    [Header("Water Settings")]
+    [Space(10)]
     [SerializeField]
     private float waterCoverage;
 

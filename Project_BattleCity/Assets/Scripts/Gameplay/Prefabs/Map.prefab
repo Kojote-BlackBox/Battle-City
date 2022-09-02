@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 373737216440462128}
   - component: {fileID: 373737216440462129}
+  - component: {fileID: 1580764979}
   m_Layer: 0
   m_Name: Map
   m_TagString: Untagged
@@ -48,10 +49,18 @@ MonoBehaviour:
   waterTilePrefab: {fileID: 7332387702616729168, guid: 08dacd8384c289c4d89e900f215b7d79, type: 3}
   enemyPrefab: {fileID: 8259537087720539090, guid: 5a7f23fdb78549a499590bc2fb7f9bc8, type: 3}
   campPrefab: {fileID: 7449342590117295931, guid: dce02a63276f6524bbbd801fd65d639a, type: 3}
-  rows: 20
-  cols: 20
+  rows: 0
+  cols: 0
   layer: 0
   waterCoverage: 0.05
   mapSprites: []
   enemyCount: 0
   camps: []
+--- !u!81 &1580764979
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373737216440462134}
+  m_Enabled: 1

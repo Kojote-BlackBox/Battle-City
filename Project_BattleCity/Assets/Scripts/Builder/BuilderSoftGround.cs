@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BuilderSoftGround : MonoBehaviour {
+public class BuilderSoftGround {
     private MapBuilder mapBuilderScript;
 
     public BuilderSoftGround(MapBuilder origin) {

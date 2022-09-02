@@ -28,36 +28,27 @@ public partial class @InputMapping : IInputActionCollection2, IDisposable
             ""id"": ""f1483159-4b10-4cce-802a-6b28ab8ca221"",
             ""actions"": [
                 {
-                    ""name"": ""Accelerate"",
-                    ""type"": ""Button"",
-                    ""id"": ""2fae54e6-d68d-403e-affc-1c4fe4b3e259"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
                     ""name"": ""Shoot"",
-                    ""type"": ""Button"",
+                    ""type"": ""Value"",
                     ""id"": ""738ee847-3505-4f8c-b8a2-0e46ca3a458f"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
+                    ""interactions"": ""Hold"",
+                    ""initialStateCheck"": true
                 },
                 {
-                    ""name"": ""RotateBody"",
-                    ""type"": ""Button"",
-                    ""id"": ""84935aa8-ac69-4fa6-ae1d-80fa42d12036"",
-                    ""expectedControlType"": ""Button"",
+                    ""name"": ""TurretRotation"",
+                    ""type"": ""Value"",
+                    ""id"": ""ecbbe0fb-ea21-4439-b932-4bec1e2020ce"",
+                    ""expectedControlType"": ""Axis"",
                     ""processors"": """",
                     ""interactions"": """",
-                    ""initialStateCheck"": false
+                    ""initialStateCheck"": true
                 },
                 {
-                    ""name"": ""RotateTurret"",
-                    ""type"": ""PassThrough"",
-                    ""id"": ""ecbbe0fb-ea21-4439-b932-4bec1e2020ce"",
+                    ""name"": ""ChassieMovement"",
+                    ""type"": ""Value"",
+                    ""id"": ""f1151a95-bfa1-41c6-91c1-e1671c62f9da"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -67,81 +58,235 @@ public partial class @InputMapping : IInputActionCollection2, IDisposable
             ""bindings"": [
                 {
                     ""name"": """",
-                    ""id"": ""9edb8bd0-f724-41b5-96c9-04cd04a1aa3a"",
-                    ""path"": ""<Keyboard>/w"",
-                    ""interactions"": ""Hold"",
-                    ""processors"": ""Normalize(max=1)"",
-                    ""groups"": """",
-                    ""action"": ""Accelerate"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""e509e1e6-6a22-4651-b97b-e7bde6c48cdf"",
-                    ""path"": ""<Keyboard>/s"",
-                    ""interactions"": ""Hold"",
-                    ""processors"": ""Normalize(max=1),Invert"",
-                    ""groups"": """",
-                    ""action"": ""Accelerate"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""ec82b2aa-af0a-4edd-abf1-241fd2d95364"",
                     ""path"": ""<Keyboard>/space"",
-                    ""interactions"": ""Press"",
+                    ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": """",
+                    ""groups"": ""Keyboard - WASD"",
                     ""action"": ""Shoot"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
-                    ""id"": ""6bb29b77-9258-468e-ab67-cdc80c8b028c"",
+                    ""id"": ""043d752f-5ea6-4db3-a511-b50f16770292"",
+                    ""path"": ""<Keyboard>/ctrl"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard - ARROWS"",
+                    ""action"": ""Shoot"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""1D Axis"",
+                    ""id"": ""cd3d4c89-eedd-4cb9-bc6e-fa7005197289"",
+                    ""path"": ""1DAxis"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""TurretRotation"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""Negative"",
+                    ""id"": ""aea9d314-490a-40a4-8b86-ae07b35b865c"",
+                    ""path"": ""<Keyboard>/comma"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard - ARROWS"",
+                    ""action"": ""TurretRotation"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""Positive"",
+                    ""id"": ""7fd6913b-b8fc-4841-bb8d-23428bcaaaee"",
+                    ""path"": ""<Keyboard>/period"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard - ARROWS"",
+                    ""action"": ""TurretRotation"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""1D Axis"",
+                    ""id"": ""2df9bb5b-c963-45ba-b8a8-04ae602e4379"",
+                    ""path"": ""1DAxis"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""TurretRotation"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""Negative"",
+                    ""id"": ""eaec5c73-1d9b-4ae7-9d85-e2c72e3f78a7"",
+                    ""path"": ""<Keyboard>/q"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard - WASD"",
+                    ""action"": ""TurretRotation"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""Positive"",
+                    ""id"": ""d73af747-ffea-411f-acce-262b46500fc0"",
+                    ""path"": ""<Keyboard>/e"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard - WASD"",
+                    ""action"": ""TurretRotation"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""2D Vector"",
+                    ""id"": ""ef87471d-2a0b-41f6-ab7f-bafcece2b302"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ChassieMovement"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""9c62d08b-c9c2-4580-b955-51efb0440fc6"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard - WASD"",
+                    ""action"": ""ChassieMovement"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""e264f9b7-5cfa-4beb-b4d0-e143ed4460c0"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard - WASD"",
+                    ""action"": ""ChassieMovement"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""87c10f50-e31f-4736-81f0-2bc948300370"",
                     ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""RotateBody"",
+                    ""groups"": ""Keyboard - WASD"",
+                    ""action"": ""ChassieMovement"",
                     ""isComposite"": false,
-                    ""isPartOfComposite"": false
+                    ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": """",
-                    ""id"": ""ca974154-4e40-4503-a129-ba8556d89dff"",
+                    ""name"": ""right"",
+                    ""id"": ""10db4df1-aa16-48f7-b427-0058a56f4ad2"",
                     ""path"": ""<Keyboard>/d"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""RotateBody"",
+                    ""groups"": ""Keyboard - WASD"",
+                    ""action"": ""ChassieMovement"",
                     ""isComposite"": false,
-                    ""isPartOfComposite"": false
+                    ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": """",
-                    ""id"": ""1e9bbfd0-836d-41b2-911b-f6c9acf1e275"",
-                    ""path"": ""<Mouse>/position"",
+                    ""name"": ""2D Vector"",
+                    ""id"": ""67434ba5-1c36-4df0-9d92-497b99285ab8"",
+                    ""path"": ""2DVector"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""RotateTurret"",
-                    ""isComposite"": false,
+                    ""action"": ""ChassieMovement"",
+                    ""isComposite"": true,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""f1936819-af6e-4119-91dd-92b9cc8e0b32"",
+                    ""path"": ""<Keyboard>/upArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard - ARROWS"",
+                    ""action"": ""ChassieMovement"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""62960706-08a7-43fd-8c5c-f4e480da4ef3"",
+                    ""path"": ""<Keyboard>/downArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard - ARROWS"",
+                    ""action"": ""ChassieMovement"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""f0a1feb2-49b0-469c-9791-5f40b8b85192"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard - ARROWS"",
+                    ""action"": ""ChassieMovement"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""6b9a7026-0772-46b4-9849-28984b4aa10e"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard - ARROWS"",
+                    ""action"": ""ChassieMovement"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
                 }
             ]
         }
     ],
-    ""controlSchemes"": []
+    ""controlSchemes"": [
+        {
+            ""name"": ""Keyboard - WASD"",
+            ""bindingGroup"": ""Keyboard - WASD"",
+            ""devices"": [
+                {
+                    ""devicePath"": ""<Keyboard>"",
+                    ""isOptional"": false,
+                    ""isOR"": false
+                }
+            ]
+        },
+        {
+            ""name"": ""Keyboard - ARROWS"",
+            ""bindingGroup"": ""Keyboard - ARROWS"",
+            ""devices"": [
+                {
+                    ""devicePath"": ""<Keyboard>"",
+                    ""isOptional"": false,
+                    ""isOR"": false
+                }
+            ]
+        }
+    ]
 }");
         // Gameplay
         m_Gameplay = asset.FindActionMap("Gameplay", throwIfNotFound: true);
-        m_Gameplay_Accelerate = m_Gameplay.FindAction("Accelerate", throwIfNotFound: true);
         m_Gameplay_Shoot = m_Gameplay.FindAction("Shoot", throwIfNotFound: true);
-        m_Gameplay_RotateBody = m_Gameplay.FindAction("RotateBody", throwIfNotFound: true);
-        m_Gameplay_RotateTurret = m_Gameplay.FindAction("RotateTurret", throwIfNotFound: true);
+        m_Gameplay_TurretRotation = m_Gameplay.FindAction("TurretRotation", throwIfNotFound: true);
+        m_Gameplay_ChassieMovement = m_Gameplay.FindAction("ChassieMovement", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -201,18 +346,16 @@ public partial class @InputMapping : IInputActionCollection2, IDisposable
     // Gameplay
     private readonly InputActionMap m_Gameplay;
     private IGameplayActions m_GameplayActionsCallbackInterface;
-    private readonly InputAction m_Gameplay_Accelerate;
     private readonly InputAction m_Gameplay_Shoot;
-    private readonly InputAction m_Gameplay_RotateBody;
-    private readonly InputAction m_Gameplay_RotateTurret;
+    private readonly InputAction m_Gameplay_TurretRotation;
+    private readonly InputAction m_Gameplay_ChassieMovement;
     public struct GameplayActions
     {
         private @InputMapping m_Wrapper;
         public GameplayActions(@InputMapping wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Accelerate => m_Wrapper.m_Gameplay_Accelerate;
         public InputAction @Shoot => m_Wrapper.m_Gameplay_Shoot;
-        public InputAction @RotateBody => m_Wrapper.m_Gameplay_RotateBody;
-        public InputAction @RotateTurret => m_Wrapper.m_Gameplay_RotateTurret;
+        public InputAction @TurretRotation => m_Wrapper.m_Gameplay_TurretRotation;
+        public InputAction @ChassieMovement => m_Wrapper.m_Gameplay_ChassieMovement;
         public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -222,43 +365,54 @@ public partial class @InputMapping : IInputActionCollection2, IDisposable
         {
             if (m_Wrapper.m_GameplayActionsCallbackInterface != null)
             {
-                @Accelerate.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnAccelerate;
-                @Accelerate.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnAccelerate;
-                @Accelerate.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnAccelerate;
                 @Shoot.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnShoot;
                 @Shoot.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnShoot;
                 @Shoot.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnShoot;
-                @RotateBody.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnRotateBody;
-                @RotateBody.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnRotateBody;
-                @RotateBody.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnRotateBody;
-                @RotateTurret.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnRotateTurret;
-                @RotateTurret.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnRotateTurret;
-                @RotateTurret.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnRotateTurret;
+                @TurretRotation.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnTurretRotation;
+                @TurretRotation.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnTurretRotation;
+                @TurretRotation.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnTurretRotation;
+                @ChassieMovement.started -= m_Wrapper.m_GameplayActionsCallbackInterface.OnChassieMovement;
+                @ChassieMovement.performed -= m_Wrapper.m_GameplayActionsCallbackInterface.OnChassieMovement;
+                @ChassieMovement.canceled -= m_Wrapper.m_GameplayActionsCallbackInterface.OnChassieMovement;
             }
             m_Wrapper.m_GameplayActionsCallbackInterface = instance;
             if (instance != null)
             {
-                @Accelerate.started += instance.OnAccelerate;
-                @Accelerate.performed += instance.OnAccelerate;
-                @Accelerate.canceled += instance.OnAccelerate;
                 @Shoot.started += instance.OnShoot;
                 @Shoot.performed += instance.OnShoot;
                 @Shoot.canceled += instance.OnShoot;
-                @RotateBody.started += instance.OnRotateBody;
-                @RotateBody.performed += instance.OnRotateBody;
-                @RotateBody.canceled += instance.OnRotateBody;
-                @RotateTurret.started += instance.OnRotateTurret;
-                @RotateTurret.performed += instance.OnRotateTurret;
-                @RotateTurret.canceled += instance.OnRotateTurret;
+                @TurretRotation.started += instance.OnTurretRotation;
+                @TurretRotation.performed += instance.OnTurretRotation;
+                @TurretRotation.canceled += instance.OnTurretRotation;
+                @ChassieMovement.started += instance.OnChassieMovement;
+                @ChassieMovement.performed += instance.OnChassieMovement;
+                @ChassieMovement.canceled += instance.OnChassieMovement;
             }
         }
     }
     public GameplayActions @Gameplay => new GameplayActions(this);
+    private int m_KeyboardWASDSchemeIndex = -1;
+    public InputControlScheme KeyboardWASDScheme
+    {
+        get
+        {
+            if (m_KeyboardWASDSchemeIndex == -1) m_KeyboardWASDSchemeIndex = asset.FindControlSchemeIndex("Keyboard - WASD");
+            return asset.controlSchemes[m_KeyboardWASDSchemeIndex];
+        }
+    }
+    private int m_KeyboardARROWSSchemeIndex = -1;
+    public InputControlScheme KeyboardARROWSScheme
+    {
+        get
+        {
+            if (m_KeyboardARROWSSchemeIndex == -1) m_KeyboardARROWSSchemeIndex = asset.FindControlSchemeIndex("Keyboard - ARROWS");
+            return asset.controlSchemes[m_KeyboardARROWSSchemeIndex];
+        }
+    }
     public interface IGameplayActions
     {
-        void OnAccelerate(InputAction.CallbackContext context);
         void OnShoot(InputAction.CallbackContext context);
-        void OnRotateBody(InputAction.CallbackContext context);
-        void OnRotateTurret(InputAction.CallbackContext context);
+        void OnTurretRotation(InputAction.CallbackContext context);
+        void OnChassieMovement(InputAction.CallbackContext context);
     }
 }

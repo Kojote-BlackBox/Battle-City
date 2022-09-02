@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BuilderSwamp : MonoBehaviour {
+public class BuilderSwamp {
 
     private MapBuilder mapBuilderScript;
 

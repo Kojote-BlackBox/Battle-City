@@ -16,6 +16,13 @@ public class Turret : MonoBehaviour {
     private AnimationNode anim;
     private float animationTimer;
 
+    // Helper Values for UpdateDriveDirection
+    private float inputSum = 0.0f;
+    private float turretRotatationDegree = 0.0f;
+
+    // For Synchronisation of animation and tank rotation every x degree.
+    private float stepRotation = 22.5f;
+
     const string T1_TURRET_0 = "T1_Turret_0";
     const string T1_TURRET_22 = "T1_Turret_22";
     const string T1_TURRET_45 = "T1_Turret_45";
@@ -33,16 +40,7 @@ public class Turret : MonoBehaviour {
     const string T1_TURRET_315 = "T1_Turret_315";
     const string T1_TURRET_337 = "T1_Turret_337";
 
-    void Start() {
-        animationTimer = 0.0f;
-        chassisScript = this.transform.parent.gameObject.GetComponent<Chassis>();
-        spriteRenderer = this.gameObject.GetComponent<SpriteRenderer>();
-        sprites = Resources.LoadAll<Sprite>("Tanks/T1");
-        turretRotationTime = 0.3f;
-        animator = GetComponent<Animator>();
-        inputDirection = new Vector2(0.0f, 1.0f);
-        turretDirection = new Vector2(1.0f, 1.0f);
-
+    private void Awake() {
         anim = new AnimationNode("T1_Turret_0", 0f);
         anim.AddNode("T1_Turret_22", 22.5f);
         anim.AddNode("T1_Turret_45", 45f);
@@ -60,7 +58,17 @@ public class Turret : MonoBehaviour {
         anim.AddNode("T1_Turret_315", 315f);
         anim.AddNode("T1_Turret_337", 337.5f);
         anim.CloseToLoop();
-        //anim.DebugLog();
+    }
+
+    void Start() {
+        animationTimer = 0.0f;
+        chassisScript = transform.parent.gameObject.GetComponent<Chassis>();
+        spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
+        sprites = Resources.LoadAll<Sprite>("Tanks/T1");
+        turretRotationTime = 0.3f;
+        animator = GetComponent<Animator>();
+        inputDirection = Vector2.up;
+        turretDirection = Vector2.up;
 
         // waiting for chassis direction change and ynchronizat turret rotation to it.
         StartCoroutine(SynchronizatTurretToChassis());
@@ -86,9 +94,33 @@ public class Turret : MonoBehaviour {
         animationTimer += Time.deltaTime;
     }
 
-    public void Input(Vector2 directionInput) {
-        inputDirection = directionInput;
-        UpdateTurretGUI(anim.DirectionToDegree(directionInput));
+    public void Input(float directionInput) {
+        if (directionInput != 0f) { 
+           int i = 0;  
+        }
+
+        inputDirection.x = directionInput;
+        inputDirection.y = 0f;
+
+        UpdateTurretDirection();
+        UpdateTurretGUI(anim.DirectionToDegree(inputDirection));
+    }
+
+    private void UpdateTurretDirection() {
+        inputSum += inputDirection.x * (Time.deltaTime * 90.0f) * (1.0f - turretRotationTime);
+        if (inputSum > stepRotation) {
+            inputSum = 0.0f;
+            turretRotatationDegree += stepRotation;
+        } else if (inputSum < -stepRotation) {
+            inputSum = 0.0f;
+            turretRotatationDegree -= stepRotation;
+            if (turretRotatationDegree < 0.0f) {
+                turretRotatationDegree += 360.0f;
+            }
+        }
+        turretRotatationDegree %= 360.0f;
+
+        inputDirection = Quaternion.AngleAxis(turretRotatationDegree, -Vector3.forward) * Vector2.up;
     }
 
     private void PlayAnimation(string animationName) {
@@ -100,11 +132,11 @@ public class Turret : MonoBehaviour {
 
     private void UpdateTurretGUI(float degree) {
 
-        if (Mathf.Abs(anim.DirectionToDegree(anim.GetCurrentAnimationDirection()) - degree) < 22.5f) {
+        /*if (Mathf.Abs(anim.DirectionToDegree(anim.GetCurrentAnimationDirection()) - degree) < 22.5f) {
             turretDirection = anim.DegreeToDirection(degree);
         } else {
             turretDirection = anim.GetCurrentAnimationDirection();
-        }
+        }*/
 
         if (degree >= 348.75f && degree < 360f || degree >= 0 && degree < 11.25f) {
             PlayAnimation(T1_TURRET_0);
