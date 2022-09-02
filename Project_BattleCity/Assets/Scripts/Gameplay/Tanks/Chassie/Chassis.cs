@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Chassis : MonoBehaviour {
@@ -79,17 +77,7 @@ public class Chassis : MonoBehaviour {
     }
 
     public void Input(Vector2 directionInput) {
-        // reduce the initial value growth time (faster first rotation)
-        directionInput.x *= 1000;
-        if (directionInput.x > 1.0f) {
-            directionInput.x = 1.0f;
-
-        } else if (directionInput.x < -1.0f) {
-            directionInput.x = -1.0f;
-        }
-
         inputDirection = directionInput;
-
         // invert drive backward direction 
         if (inputDirection.y < 0) {
             inputDirection.x *= -1;

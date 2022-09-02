@@ -95,10 +95,6 @@ public class Turret : MonoBehaviour {
     }
 
     public void Input(float directionInput) {
-        if (directionInput != 0f) { 
-           int i = 0;  
-        }
-
         inputDirection.x = directionInput;
         inputDirection.y = 0f;
 
@@ -131,13 +127,6 @@ public class Turret : MonoBehaviour {
     }
 
     private void UpdateTurretGUI(float degree) {
-
-        /*if (Mathf.Abs(anim.DirectionToDegree(anim.GetCurrentAnimationDirection()) - degree) < 22.5f) {
-            turretDirection = anim.DegreeToDirection(degree);
-        } else {
-            turretDirection = anim.GetCurrentAnimationDirection();
-        }*/
-
         if (degree >= 348.75f && degree < 360f || degree >= 0 && degree < 11.25f) {
             PlayAnimation(T1_TURRET_0);
 

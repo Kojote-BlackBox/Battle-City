@@ -28,11 +28,11 @@ public class Shoot : MonoBehaviour {
         reloaded = true;
         //bulletPrefab = Resources.Load("Resources/Bullet");
 
-        shottingDirection = turretScript.turretDirection.normalized;
+        shottingDirection = turretScript.inputDirection.normalized;
     }
     
     public void Input() {
-        shottingDirection = turretScript.turretDirection.normalized;
+        shottingDirection = turretScript.inputDirection.normalized;
         
         if (reloaded) {
 
