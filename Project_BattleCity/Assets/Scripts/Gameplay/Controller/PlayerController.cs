@@ -49,7 +49,6 @@ public class PlayerController : MonoBehaviour {
     }
 
     public void OnTurretRotation(InputAction.CallbackContext context) {
-
         turretDirection = context.ReadValue<float>();
     }
 

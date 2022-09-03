@@ -2,6 +2,19 @@ using System.Collections;
 using UnityEngine;
 
 public class Turret : Rotation {
+    public SOTurret coreValue;
+
+    // private Value Set - copy from coreValue
+    [Header("Add to core Values")]
+    [Space(5)]
+    [SerializeField]
+    private float rotationSpeed;
+    [SerializeField]
+    private float reloadTime;
+    [SerializeField]
+    private float projectileSpeed;
+    [Space(10)]
+
     private Chassis chassisScript;
     private Vector2 chassisDirection;
     private Animator animator;
@@ -47,10 +60,14 @@ public class Turret : Rotation {
         animator = GetComponent<Animator>();
         animationTimer = 0.0f;
         chassisScript = transform.parent.gameObject.GetComponent<Chassis>();
-    }
+
+        rotationSpeed = coreValue.rotationSpeed;
+        reloadTime = coreValue.reloadTime;
+        projectileSpeed = coreValue.projectileSpeed;
+}
 
     void Start() {
-        // waiting for chassis direction change and ynchronizat turret rotation to it.
+        // waiting for chassis direction change and synchronizat turret rotation to it.
         //StartCoroutine(SynchronizatTurretToChassis());
     }
 

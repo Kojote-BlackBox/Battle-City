@@ -486,6 +486,46 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1067192683, guid: f203ddcce3d26294fb312390e9900746, type: 3}
+      propertyPath: players.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1067192683, guid: f203ddcce3d26294fb312390e9900746, type: 3}
+      propertyPath: firstPlayer.controlScheme
+      value: Keyboard - ARROWS
+      objectReference: {fileID: 0}
+    - target: {fileID: 1067192683, guid: f203ddcce3d26294fb312390e9900746, type: 3}
+      propertyPath: secondPlayer.controlScheme
+      value: Keyboard - WASD
+      objectReference: {fileID: 0}
+    - target: {fileID: 1067192683, guid: f203ddcce3d26294fb312390e9900746, type: 3}
+      propertyPath: players.Array.data[0].controlScheme
+      value: Keyboard - WASD
+      objectReference: {fileID: 0}
+    - target: {fileID: 1067192683, guid: f203ddcce3d26294fb312390e9900746, type: 3}
+      propertyPath: players.Array.data[1].controlScheme
+      value: Keyboard - ARROWS
+      objectReference: {fileID: 0}
+    - target: {fileID: 1067192683, guid: f203ddcce3d26294fb312390e9900746, type: 3}
+      propertyPath: players.Array.data[2].controlScheme
+      value: Gamepad
+      objectReference: {fileID: 0}
+    - target: {fileID: 1067192683, guid: f203ddcce3d26294fb312390e9900746, type: 3}
+      propertyPath: players.Array.data[0].controlScheme.m_DeviceRequirements.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 687058660610821859, guid: f203ddcce3d26294fb312390e9900746, type: 3}
+      propertyPath: m_JoinBehavior
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 687058660610821859, guid: f203ddcce3d26294fb312390e9900746, type: 3}
+      propertyPath: m_MaxPlayerCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 687058660610821859, guid: f203ddcce3d26294fb312390e9900746, type: 3}
+      propertyPath: m_FixedNumberOfSplitScreens
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 5156640377209833339, guid: f203ddcce3d26294fb312390e9900746, type: 3}
       propertyPath: m_Name
       value: PlayerManager

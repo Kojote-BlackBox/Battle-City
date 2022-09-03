@@ -2,41 +2,64 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour {
-    public float bulletSpeed;
-    public float maxBulletDistance;
-    private float bulletDistance;
+public class Projectile : MonoBehaviour {
+    public SOProjectile coreValue;
+
+    // private Value Set - copy from coreValue
+    [Header("Add to core Values")]
+    [Space(5)]
+    [SerializeField]
+    public float maxProjectileDistance;
+    [SerializeField]
+    private float projectileDistance;
+    [SerializeField]
     private Vector2 origin;
+    [SerializeField]
     private new Rigidbody2D rigidbody;
+    [SerializeField]
     public Vector2 velocityDirection;
+    [SerializeField]
     private bool shooted;
+    [SerializeField]
     public int damage;
+    [SerializeField]
     public float shotHeight;
+    [SerializeField]
     public GameObject ownShadow;
+    [SerializeField]
+    public float projectileSpeed;
+
+    private void Awake() {
+        // TODO move to turret
+        // projectileSpeed = coreValue.speed;
+        damage = coreValue.damage;
+        //coreValue.explosiveRadius
+        maxProjectileDistance = coreValue.distance;
+    }
 
     void Start() {
-        damage = 1;
         shooted = false;
-        bulletSpeed = 5.0f;
-        maxBulletDistance = 4.0f;
+
+        // TODO move to turret
+        projectileSpeed = 5.0f;
         rigidbody = this.GetComponent<Rigidbody2D>();
         origin = transform.position;
     }
 
     void Update() {
-        bulletDistance = Vector2.Distance(origin, transform.position);
-        if (maxBulletDistance < bulletDistance) {
+        projectileDistance = Vector2.Distance(origin, transform.position);
+        if (maxProjectileDistance < projectileDistance) {
             Destroy(ownShadow);
             Destroy(gameObject);
         }
 
         if (velocityDirection != null && !shooted) {
             shooted = true;
-            rigidbody.velocity = velocityDirection * bulletSpeed;
+            rigidbody.velocity = velocityDirection * projectileSpeed;
         }
 
         // Linear Bullet Drop
-        float bulletFlyTimeInSec = maxBulletDistance / bulletSpeed;
+        float bulletFlyTimeInSec = maxProjectileDistance / projectileSpeed;
         float bulletDropEachSec = shotHeight / bulletFlyTimeInSec;
         //float bulletDropEachFrame = bulletDropEachSec * Time.deltaTime;
         //transform.position = new Vector2(transform.position.x, transform.position.y - bulletDropEachFrame);

@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletShadow : MonoBehaviour {
-    private float bulletSpeed;
+public class ProjectileShadow : MonoBehaviour {
+    public float bulletSpeed;
     private float maxBulletDistance;
     private bool shooted;
 
@@ -15,17 +13,16 @@ public class BulletShadow : MonoBehaviour {
         rigidbody = this.GetComponent<Rigidbody2D>();
         origin = transform.position;
 
-
         transform.position = new Vector2(transform.position.x, transform.position.y - 0.15f);
     }
 
     public void Initialize(GameObject bulletOrigin) {
-        Bullet bulletScript = bulletOrigin.GetComponent<Bullet>();
+        Projectile bulletScript = bulletOrigin.GetComponent<Projectile>();
 
-        this.bulletSpeed = bulletScript.bulletSpeed;
-        this.maxBulletDistance = bulletScript.maxBulletDistance;
-        this.velocityDirection = bulletScript.velocityDirection;
-        this.shooted = false;
+        bulletSpeed = bulletScript.projectileSpeed;
+        maxBulletDistance = bulletScript.maxProjectileDistance;
+        velocityDirection = bulletScript.velocityDirection;
+        shooted = false;
     }
 
     void Update() {

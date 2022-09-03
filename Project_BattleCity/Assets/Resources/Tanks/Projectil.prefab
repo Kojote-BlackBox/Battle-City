@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1431214160329139161}
   - component: {fileID: 4054023293616384447}
   m_Layer: 2
-  m_Name: Bullet
+  m_Name: Projectil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -146,9 +146,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8a2c305dff669641ab38d8017c60f1e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletSpeed: 0
-  maxBulletDistance: 0
+  coreValue: {fileID: 11400000, guid: 5efa8894ec2310641a9491011e773259, type: 2}
+  maxProjectileDistance: 0
+  projectileDistance: 0
+  origin: {x: 0, y: 0}
+  rigidbody: {fileID: 0}
   velocityDirection: {x: 0, y: 0}
+  shooted: 0
   damage: 0
   shotHeight: 0
   ownShadow: {fileID: 8628723937055666367, guid: 6acffda3f4833b0498b11908201e9b6d, type: 3}
+  projectileSpeed: 0

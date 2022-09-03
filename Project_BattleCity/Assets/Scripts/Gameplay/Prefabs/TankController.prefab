@@ -103,9 +103,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationTime: 0
   propagateRotation: 1
+  coreValue: {fileID: 11400000, guid: 75588a2b4b4df634a9eae74aa129229a, type: 2}
+  health: 0
+  armor: 0
+  forwardSpeed: 0
+  backwardSpeedPercentage: 0
+  rotationSpeed: 0
   animator: {fileID: 3342908616445458891}
-  forwardSpeed: 10
-  backwardSpeed: 10
 --- !u!95 &3342908616445458891
 Animator:
   serializedVersion: 4
@@ -295,8 +299,8 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: f1151a95-bfa1-41c6-91c1-e1671c62f9da
     m_ActionName: Gameplay/ChassieMovement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
-  m_NeverAutoSwitchControlSchemes: 1
-  m_DefaultControlScheme: Keyboard - WASD
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
   m_DefaultActionMap: Gameplay
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 4367604526768581894}
@@ -525,6 +529,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationTime: 0
   propagateRotation: 0
+  coreValue: {fileID: 11400000, guid: 3186bb04ecdfe4b4f9160fd1721e9067, type: 2}
+  rotationSpeed: 0
+  reloadTime: 0
+  projectileSpeed: 0
 --- !u!114 &3817836886371526959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -537,8 +545,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44507a74b90a93d42a5fe5877ec4a479, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 1107083980140431148, guid: 429d379796a6e444fafeac281db29770, type: 3}
-  bulletShadowPrefab: {fileID: 8628723937055666367, guid: 6acffda3f4833b0498b11908201e9b6d, type: 3}
+  projectilePrefab: {fileID: 1107083980140431148, guid: 429d379796a6e444fafeac281db29770, type: 3}
+  projectileShadowPrefab: {fileID: 8628723937055666367, guid: 6acffda3f4833b0498b11908201e9b6d, type: 3}
   shottingDirection: {x: 0, y: 0}
   reloadTime: 1
   onShotAudioEvent: {fileID: 11400000, guid: 407f5f5f915f04e4eab20ca6acf8ae95, type: 2}

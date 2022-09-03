@@ -1,17 +1,36 @@
 using UnityEngine;
 
 public class Chassis : Rotation {
+
+    public SOChassie coreValue;
+
+    // private Value Set - copy from sOChassie
+    [Header("Add to core Values")]
+    [Space(5)]
+    [SerializeField]
+    private int health;
+    [SerializeField]
+    private int armor;
+    [SerializeField]
+    private float forwardSpeed;
+    [SerializeField]
+    private float backwardSpeedPercentage;
+    [SerializeField]
+    private float rotationSpeed;
+    [Space(10)]
+
     public Animator animator;
     private AnimationNode anim;
     private float animationTimer;
 
     private Map map;
+
+    //TODO Dynamic over Scriptable Object
     private float enviromentSpeedDebuf;
-
-    public float forwardSpeed;
-    public float backwardSpeed;
-
     private new Rigidbody2D rigidbody;
+
+    // Helper and Simplicity Variables
+    private float backwardSpeed;
 
     const string T1_CHASSIS_0 = "T1_Chassis_0";
     const string T1_CHASSIS_22 = "T1_Chassis_22";
@@ -52,9 +71,16 @@ public class Chassis : Rotation {
         anim.CloseToLoop();
 
         rigidbody = GetComponent<Rigidbody2D>();
-        forwardSpeed = 1.8f;
-        backwardSpeed = forwardSpeed / 2;
+        backwardSpeed = coreValue.forwardSpeed * coreValue.backwardSpeedPercentage;
+
+        //TODO Dynamic
         enviromentSpeedDebuf = 1.0f;
+
+        health = coreValue.health;
+        armor = coreValue.armor;
+        forwardSpeed = coreValue.forwardSpeed;
+        backwardSpeedPercentage = coreValue.backwardSpeedPercentage;
+        rotationSpeed = coreValue.rotationSpeed;
     }
 
     override protected void Start() {
@@ -77,8 +103,9 @@ public class Chassis : Rotation {
     private void FixedUpdate() {
         if (inputDirection.y == 0f) return;
 
-        var baseMovement = currentDirection * enviromentSpeedDebuf * Time.fixedDeltaTime;
-        var movement = inputDirection.y < 0f ? -(baseMovement * backwardSpeed) : (baseMovement * forwardSpeed);
+        // TODO link in sOChassie.rotationSpeed
+        var forwardMovement = currentDirection * enviromentSpeedDebuf * Time.fixedDeltaTime;
+        var movement = inputDirection.y < 0f ? -1 * forwardMovement * backwardSpeed : forwardMovement * forwardSpeed;
 
         rigidbody.MovePosition((Vector2)transform.position + movement);
     }

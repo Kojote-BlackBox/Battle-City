@@ -1,9 +1,10 @@
 using UnityEngine;
 
 [RequireComponent(typeof(AudioSource))]
+
 public class Shooting : MonoBehaviour {
-    public GameObject bulletPrefab;
-    public GameObject bulletShadowPrefab;
+    public GameObject projectilePrefab;
+    public GameObject projectileShadowPrefab;
 
     private Turret turretScript;
     public Vector2 shottingDirection;
@@ -34,28 +35,28 @@ public class Shooting : MonoBehaviour {
         if (reloaded) {
             onShotAudioEvent?.Play(audioSource);
 
-            Vector3 bulletetSpawnPoint = GetComponent<Renderer>().bounds.center;
+            Vector3 projectileSpawnPoint = GetComponent<Renderer>().bounds.center;
 
-            bulletetSpawnPoint.y += 0.15f;
-            GameObject bullet = Instantiate(bulletPrefab, bulletetSpawnPoint, Quaternion.identity); // TODO
-            Bullet bulletScript = bullet.GetComponent<Bullet>();
+            projectileSpawnPoint.y += 0.15f;
+            GameObject projectile = Instantiate(projectilePrefab, projectileSpawnPoint, Quaternion.identity); // TODO
+            Projectile projectileScript = projectile.GetComponent<Projectile>();
 
             // Ignore the Creator (Player/Enemy)
-            Physics2D.IgnoreCollision(bullet.GetComponent<Collider2D>(), transform.parent.gameObject.GetComponent<Collider2D>());
-            bulletScript.shotHeight = tankHeight;
+            Physics2D.IgnoreCollision(projectile.GetComponent<Collider2D>(), transform.parent.gameObject.GetComponent<Collider2D>());
+            projectileScript.shotHeight = tankHeight;
 
-            GameObject bulletShadow = Instantiate(bulletShadowPrefab, GetComponent<Renderer>().bounds.center, Quaternion.identity);
-            BulletShadow bulletShadowScript = bulletShadow.GetComponent<BulletShadow>();
+            GameObject projectileShadow = Instantiate(projectileShadowPrefab, GetComponent<Renderer>().bounds.center, Quaternion.identity);
+            ProjectileShadow projectileShadowScript = projectileShadow.GetComponent<ProjectileShadow>();
 
-            bulletScript.ownShadow = bulletShadow;
-            bulletScript.velocityDirection = shottingDirection;
+            projectileScript.ownShadow = projectileShadow;
+            projectileScript.velocityDirection = shottingDirection;
 
-            Vector3 bulletRotation = -1 * shottingDirection;
-            bullet.transform.right = bulletRotation;
-            bulletShadowScript.transform.right = bulletRotation;
-            bulletShadowScript.velocityDirection = shottingDirection;
+            Vector3 projectileRotation = -1 * shottingDirection;
+            projectile.transform.right = projectileRotation;
+            projectileShadowScript.transform.right = projectileRotation;
+            projectileShadowScript.velocityDirection = shottingDirection;
 
-            bulletShadowScript.Initialize(bullet);
+            projectileShadowScript.Initialize(projectile);
             reloaded = false;
             Invoke("Reload", reloadTime);
         }
