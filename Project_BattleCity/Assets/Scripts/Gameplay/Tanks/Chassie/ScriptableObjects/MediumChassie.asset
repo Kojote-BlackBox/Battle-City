@@ -17,3 +17,5 @@ MonoBehaviour:
   forwardSpeed: 1.6
   backwardSpeedPercentage: 0.5
   rotationSpeed: 0.25
+  animationController: {fileID: 9100000, guid: 75fbea69e3c81db4082c54ac70c0a5f9, type: 2}
+  animationLayer: Chassie

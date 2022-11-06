@@ -91,7 +91,7 @@ public static class Utility {
      *       
      *       
      */
-    public enum TileType { Ground, SoftGround, Mud, Desert, Asphalt, Water, Ice, FragileIce, Swamp };
+    public enum TileType { Ground, SoftGround, Mud, Desert, Asphalt, Water, Ice, FragileIce, Swamp, Snow };
 
     public enum Side { Up, Down, Left, Right };
 

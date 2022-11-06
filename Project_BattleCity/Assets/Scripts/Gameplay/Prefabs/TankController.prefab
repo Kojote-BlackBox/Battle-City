@@ -103,13 +103,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationTime: 0
   propagateRotation: 1
-  coreValue: {fileID: 11400000, guid: 75588a2b4b4df634a9eae74aa129229a, type: 2}
+  baseValues: {fileID: 11400000, guid: 66095df92cb565e49baa564fc35be8ed, type: 2}
   health: 0
   armor: 0
   forwardSpeed: 0
-  backwardSpeedPercentage: 0
-  rotationSpeed: 0
-  animator: {fileID: 3342908616445458891}
 --- !u!95 &3342908616445458891
 Animator:
   serializedVersion: 4
@@ -529,8 +526,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationTime: 0
   propagateRotation: 0
-  coreValue: {fileID: 11400000, guid: 3186bb04ecdfe4b4f9160fd1721e9067, type: 2}
-  rotationSpeed: 0
+  baseValues: {fileID: 11400000, guid: e07a968f70163944892d11f894188792, type: 2}
   reloadTime: 0
   projectileSpeed: 0
 --- !u!114 &3817836886371526959
