@@ -29,10 +29,10 @@ public class BuilderGround {
 
             GameObject tile = mapScript.map[x, y, ground.layer];
 
-            if (tile.GetComponent<SpriteRenderer>().sprite != mapScript.mapSprites[earthSpriteID]) {
+            if (tile.GetComponent<SpriteRenderer>().sprite != MapAtlas.Instance.GetSpriteByID(earthSpriteID)) {
 
                 // Set first Random Earth Tile
-                tile.GetComponent<SpriteRenderer>().sprite = mapScript.mapSprites[earthSpriteID]; // Earth
+                tile.GetComponent<SpriteRenderer>().sprite = MapAtlas.Instance.GetSpriteByID(earthSpriteID); // Earth
                 mapBuilderScript.SetByteMap(tile, earthSpriteID);
                 mapBuilderScript.SetTileType(tile, ground.groundType);
 
@@ -45,7 +45,7 @@ public class BuilderGround {
                     if ( ground.coherence >= Random.Range(0.0f, 1.0f) ) {
 
                         GameObject tmpTile = mapScript.map[(int)mapBuilderScript.GetTilePosition(neighbor).x, (int)mapBuilderScript.GetTilePosition(neighbor).y, ground.layer];
-                        tmpTile.GetComponent<SpriteRenderer>().sprite = mapScript.mapSprites[earthSpriteID]; // Earth
+                        tmpTile.GetComponent<SpriteRenderer>().sprite = MapAtlas.Instance.GetSpriteByID(earthSpriteID); // Earth
                         mapBuilderScript.SetByteMap(tmpTile, earthSpriteID);
                         mapBuilderScript.SetTileType(tmpTile, ground.groundType);
                         transitionList.Add(tmpTile);
@@ -179,7 +179,7 @@ public class BuilderGround {
                 // Set Sprite
                 byte[] byteTile = checkZone.GetComponent<Tile>().byteMap;
                 int spriteID = Utility.GetSpriteIDByByteMap(byteTile);
-                checkZone.GetComponent<SpriteRenderer>().sprite = mapScript.mapSprites[spriteID];
+                checkZone.GetComponent<SpriteRenderer>().sprite = MapAtlas.Instance.GetSpriteByID(spriteID);
             }
         }
     }

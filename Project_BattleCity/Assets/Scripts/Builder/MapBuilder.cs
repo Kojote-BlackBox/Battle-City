@@ -72,7 +72,9 @@ public class MapBuilder {
 
         byte[] tileByte = Utility.TileTypeToTilyByte(tileType);
         int lawnSpriteID = Utility.GetSpriteIDByByteMap(tileByte);
-        referenceTile.GetComponent<SpriteRenderer>().sprite = mapScript.mapSprites[lawnSpriteID]; // Lawn
+        referenceTile.GetComponent<SpriteRenderer>().sprite = MapAtlas.Instance.GetSpriteByID(lawnSpriteID); // Lawn
+
+       // referenceTile.GetComponent<SpriteRenderer>().sprite = MapAtlas.Instance.GetSpriteByName("Lawn_Lawn_Lawn_Lawn"); // Lawn
 
         //Set Byte Map 
         int tileByteMapSize = referenceTile.GetComponent<Tile>().byteMap.Length;

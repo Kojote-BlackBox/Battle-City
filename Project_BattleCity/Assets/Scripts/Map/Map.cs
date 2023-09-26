@@ -25,7 +25,6 @@ public class Map : MonoBehaviour {
     [SerializeField]
     private float waterCoverage;
 
-    public Sprite[] mapSprites;
     public GameObject[,,] map;
     private Utility.TileType tileType;
     public int enemyCount;
@@ -38,7 +37,6 @@ public class Map : MonoBehaviour {
         // InitializeMap
         QualitySettings.antiAliasing = 0;
         enemyCount = 0;
-        mapSprites = Resources.LoadAll<Sprite>("TileMap/GroundTileset");
         cols = 50;
         rows = 50;
         layer = 2;
@@ -83,7 +81,7 @@ public class Map : MonoBehaviour {
     }
 
     private void GenerateWorld() {
-        // Default Layer
+        // Default Layer        Utility.LAWN = 0;
         mapBuilder.FillMapWithTile(Utility.LAWN);
 
         // mapBuilder.VariationSet

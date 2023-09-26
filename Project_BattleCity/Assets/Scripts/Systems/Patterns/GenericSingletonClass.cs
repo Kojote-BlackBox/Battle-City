@@ -9,7 +9,7 @@ public class GenericSingletonClass<T> : MonoBehaviour where T : Component {
     public static T Instance {
         get {
             if (instance == null) {
-                instance = FindObjectOfType<T>();
+                instance = FindFirstObjectByType<T>();
                 if(instance == null) {
                     GameObject obj = new GameObject();
                     obj.name = typeof(T).Name;

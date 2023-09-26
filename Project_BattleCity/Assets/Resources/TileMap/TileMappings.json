@@ -1,0 +1,102 @@
+ {
+  "tileMappings": [
+    {
+      "byteArray": [0, 0, 0, 0],
+      "spriteName": "Lawn_Lawn_Lawn_Lawn"
+    },
+    {
+      "byteArray": [1, 1, 1, 1],
+      "spriteName": "Earth_Earth_Earth_Earth"
+    },
+    {
+      "byteArray": [2, 2, 2, 2],
+      "spriteName": "Water_Water_Water_Water"
+    },
+    {
+      "byteArray": [10, 10, 10, 10],
+      "spriteName": "Transparent_Transparent_Transparent_Transparent"
+    },
+    {
+      "byteArray": [2, 10, 10, 2],
+      "spriteName": "Water_Transparent_Transparent_Water"
+    },
+    {
+      "byteArray": [10, 2, 2, 10],
+      "spriteName": "Transparent_Earth_Earth_Transparent"
+    },
+    {
+      "byteArray": [1, 1, 1, 0],
+      "spriteName": "Earth_Earth_Earth_Lawn"
+    },
+    {
+      "byteArray": [1, 1, 0, 0],
+      "spriteName": "Earth_Earth_Lawn_Lawn"
+    },
+    {
+      "byteArray": [1, 0, 0, 0],
+      "spriteName": "Earth_Lawn_Lawn_Lawn"
+    },
+    {
+      "byteArray": [0, 1, 1, 1],
+      "spriteName": "Lawn_Earth_Earth_Earth"
+    },
+    {
+      "byteArray": [0, 1, 1, 0],
+      "spriteName": "Lawn_Earth_Earth_Lawn"
+    },
+    {
+      "byteArray": [0, 1, 0, 1],
+      "spriteName": "Lawn_Earth_Lawn_Earth"
+    },
+    {
+      "byteArray": [0, 0, 1, 1],
+      "spriteName": "Lawn_Lawn_Earth_Earth"
+    },
+    {
+      "byteArray": [0, 0, 1, 0],
+      "spriteName": "Lawn_Lawn_Earth_Lawn"
+    },
+    {
+      "byteArray": [0, 0, 0, 1],
+      "spriteName": "Lawn_Lawn_Lawn_Earth"
+    },
+    {
+      "byteArray": [0, 0, 0, 10],
+      "spriteName": "Lawn_Lawn_Lawn_Transparent"
+    },
+    {
+      "byteArray": [10, 0, 0, 0],
+      "spriteName": "Transparent_Lawn_Lawn_Lawn"
+    },
+    {
+      "byteArray": [10, 2, 10, 10],
+      "spriteName": "Transparent_Earth_Transparent_Transparent"
+    },
+    {
+      "byteArray": [10, 10, 10, 0],
+      "spriteName": "Transparent_Transparent_Transparent_Lawn"
+    },
+    {
+      "byteArray": [0, 10, 10, 10],
+      "spriteName": "Lawn_Transparent_Transparent_Transparent"
+    },
+    {
+      "byteArray": [2, 2, 10, 10],
+      "spriteName": "Water_Water_Transparent_Transparent"
+    },
+    {
+      "byteArray": [2, 10, 10, 10],
+      "spriteName": "Water_Transparent_Transparent_Transparent"
+    },
+    {
+      "byteArray": [2, 2, 2, 10],
+      "spriteName": "Water_Water_Water_Transparent"
+    },
+    {
+      "byteArray": [2, 2, 10, 2],
+      "spriteName": "Water_Water_Transparent_Water"
+    }
+  ]
+}
+      
+  
