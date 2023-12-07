@@ -1,0 +1,2604 @@
+{
+    "Base": [
+        {
+            "spriteName": "Earth_TLTRBLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "earth_step",
+                "onDrive": "earth_chain_roll",
+                "onShoot": "earth_bullet_impact"
+            }
+        }
+    ],
+    "GroundOverlay": [
+        {
+            "spriteName": "EarthCrack_TLTRBLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "earth_crack_step",
+                "onDrive": "earth_crack_chain_roll",
+                "onShoot": "earth_crack_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "EarthCrack_TLTRBLBR_V1_A2",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "earth_crack_step",
+                "onDrive": "earth_crack_chain_roll",
+                "onShoot": "earth_crack_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Water_TLTRBLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_BR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_BL_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_BLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TRBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TRBL_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TRBLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TL_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TLBL_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TLBLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TLTR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TLTRBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TLTRBL_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TLTRBLBR_V1_A2",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_BR_V1_A2",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_BL_V1_A2",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_BLBR_V1_A2",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TR_V1_A2",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TRBR_V1_A2",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TRBL_V1_A2",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TRBLBR_V1_A2",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TL_V1_A2",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TLBR_V1_A2",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TLBL_V1_A2",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TLBLBR_V1_A2",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TLTR_V1_A2",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TLTRBR_V1_A2",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TLTRBL_V1_A2",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TLTRBLBR_V2_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Water_TLTRBLBR_V2_A2",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Water",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "water_bullet_impact",
+                "onSink": "water_sink"
+            }
+        },
+        {
+            "spriteName": "Ice_TLTRBLBR_V2_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Ice",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "ice_bullet_impact",
+                "onWalk": "ice_step",
+                "onDrive": "ice_chain_roll"
+            }
+        },
+        {
+            "spriteName": "Ice_TLTRBLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Ice",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "ice_bullet_impact",
+                "onWalk": "ice_step",
+                "onDrive": "ice_chain_roll"
+            }
+        },
+        {
+            "spriteName": "Ice_BR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Ice",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "ice_bullet_impact",
+                "onWalk": "ice_step",
+                "onDrive": "ice_chain_roll"
+            }
+        },
+        {
+            "spriteName": "Ice_BL_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Ice",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "ice_bullet_impact",
+                "onWalk": "ice_step",
+                "onDrive": "ice_chain_roll"
+            }
+        },
+        {
+            "spriteName": "Ice_BLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Ice",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "ice_bullet_impact",
+                "onWalk": "ice_step",
+                "onDrive": "ice_chain_roll"
+            }
+        },
+        {
+            "spriteName": "Ice_TR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "Ice",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "ice_bullet_impact",
+                "onWalk": "ice_step",
+                "onDrive": "ice_chain_roll"
+            }
+        },
+        {
+            "spriteName": "Ice_TRBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Ice",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "ice_bullet_impact",
+                "onWalk": "ice_step",
+                "onDrive": "ice_chain_roll"
+            }
+        },
+        {
+            "spriteName": "Ice_TRBL_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Ice",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "ice_bullet_impact",
+                "onWalk": "ice_step",
+                "onDrive": "ice_chain_roll"
+            }
+        },
+        {
+            "spriteName": "Ice_TRBLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Ice",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "ice_bullet_impact",
+                "onWalk": "ice_step",
+                "onDrive": "ice_chain_roll"
+            }
+        },
+        {
+            "spriteName": "Ice_TL_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "Ice",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "ice_bullet_impact",
+                "onWalk": "ice_step",
+                "onDrive": "ice_chain_roll"
+            }
+        },
+        {
+            "spriteName": "Ice_TLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Ice",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "ice_bullet_impact",
+                "onWalk": "ice_step",
+                "onDrive": "ice_chain_roll"
+            }
+        },
+        {
+            "spriteName": "Ice_TLBL_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Ice",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "ice_bullet_impact",
+                "onWalk": "ice_step",
+                "onDrive": "ice_chain_roll"
+            }
+        },
+        {
+            "spriteName": "Ice_TLBLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Ice",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "ice_bullet_impact",
+                "onWalk": "ice_step",
+                "onDrive": "ice_chain_roll"
+            }
+        },
+        {
+            "spriteName": "Ice_TLTR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "Ice",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "ice_bullet_impact",
+                "onWalk": "ice_step",
+                "onDrive": "ice_chain_roll"
+            }
+        },
+        {
+            "spriteName": "Ice_TLTRBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Ice",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "ice_bullet_impact",
+                "onWalk": "ice_step",
+                "onDrive": "ice_chain_roll"
+            }
+        },
+        {
+            "spriteName": "Ice_TLTRBL_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Ice",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onShoot": "ice_bullet_impact",
+                "onWalk": "ice_step",
+                "onDrive": "ice_chain_roll"
+            }
+        },
+        {
+            "spriteName": "FragileIce_TLTRBLBR_V3_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "FragileIce",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "fragileIce_step",
+                "onShoot": "fragileIce_bullet_impact",
+                "onSink": "fragileIce_sink"
+            }
+        },
+        {
+            "spriteName": "FragileIce_TLTRBLBR_V2_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "FragileIce",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "fragileIce_step",
+                "onShoot": "fragileIce_bullet_impact",
+                "onSink": "fragileIce_sink"
+            }
+        },
+        {
+            "spriteName": "FragileIce_TLTRBLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "FragileIce",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "fragileIce_step",
+                "onShoot": "fragileIce_bullet_impact",
+                "onSink": "fragileIce_sink"
+            }
+        },
+        {
+            "spriteName": "FragileIce_BR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "FragileIce",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "fragileIce_step",
+                "onShoot": "fragileIce_bullet_impact",
+                "onSink": "fragileIce_sink"
+            }
+        },
+        {
+            "spriteName": "FragileIce_BL_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "FragileIce",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "fragileIce_step",
+                "onShoot": "fragileIce_bullet_impact",
+                "onSink": "fragileIce_sink"
+            }
+        },
+        {
+            "spriteName": "FragileIce_BLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "FragileIce",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "fragileIce_step",
+                "onShoot": "fragileIce_bullet_impact",
+                "onSink": "fragileIce_sink"
+            }
+        },
+        {
+            "spriteName": "FragileIce_TR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "FragileIce",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "fragileIce_step",
+                "onShoot": "fragileIce_bullet_impact",
+                "onSink": "fragileIce_sink"
+            }
+        },
+        {
+            "spriteName": "FragileIce_TRBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "FragileIce",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "fragileIce_step",
+                "onShoot": "fragileIce_bullet_impact",
+                "onSink": "fragileIce_sink"
+            }
+        },
+        {
+            "spriteName": "FragileIce_TRBL_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "FragileIce",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "fragileIce_step",
+                "onShoot": "fragileIce_bullet_impact",
+                "onSink": "fragileIce_sink"
+            }
+        },
+        {
+            "spriteName": "FragileIce_TRBLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "FragileIce",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "fragileIce_step",
+                "onShoot": "fragileIce_bullet_impact",
+                "onSink": "fragileIce_sink"
+            }
+        },
+        {
+            "spriteName": "FragileIce_TL_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "FragileIce",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "fragileIce_step",
+                "onShoot": "fragileIce_bullet_impact",
+                "onSink": "fragileIce_sink"
+            }
+        },
+        {
+            "spriteName": "FragileIce_TLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "FragileIce",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "fragileIce_step",
+                "onShoot": "fragileIce_bullet_impact",
+                "onSink": "fragileIce_sink"
+            }
+        },
+        {
+            "spriteName": "FragileIce_TLBL_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "FragileIce",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "fragileIce_step",
+                "onShoot": "fragileIce_bullet_impact",
+                "onSink": "fragileIce_sink"
+            }
+        },
+        {
+            "spriteName": "FragileIce_TLBLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "FragileIce",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "fragileIce_step",
+                "onShoot": "fragileIce_bullet_impact",
+                "onSink": "fragileIce_sink"
+            }
+        },
+        {
+            "spriteName": "FragileIce_TLTR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "FragileIce",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "fragileIce_step",
+                "onShoot": "fragileIce_bullet_impact",
+                "onSink": "fragileIce_sink"
+            }
+        },
+        {
+            "spriteName": "FragileIce_TLTRBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "FragileIce",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "fragileIce_step",
+                "onShoot": "fragileIce_bullet_impact",
+                "onSink": "fragileIce_sink"
+            }
+        },
+        {
+            "spriteName": "FragileIce_TLTRBL_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "FragileIce",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "fragileIce_step",
+                "onShoot": "fragileIce_bullet_impact",
+                "onSink": "fragileIce_sink"
+            }
+        },
+        {
+            "spriteName": "Desert_TLTRBLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Desert",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "desert_step",
+                "onShoot": "desert_bullet_impact",
+                "onDrive": "desert_chain_roll"
+            }
+        },
+        {
+            "spriteName": "PavingStone_TLTRBLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "PavingStone",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "PavingStone_step",
+                "onShoot": "PavingStone_bullet_impact",
+                "onDrive": "PavingStone_chain_roll"
+            }
+        },
+        {
+            "spriteName": "PavingStone_TLTRBLBR_V2_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "PavingStone",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "PavingStone_step",
+                "onShoot": "PavingStone_bullet_impact",
+                "onDrive": "PavingStone_chain_roll"
+            }
+        },
+        {
+            "spriteName": "PavingStone_TLTRBLBR_V3_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "PavingStone",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "PavingStone_step",
+                "onShoot": "PavingStone_bullet_impact",
+                "onDrive": "PavingStone_chain_roll"
+            }
+        },
+        {
+            "spriteName": "Asphalt_TLTRBLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Asphalt",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "Asphalt_step",
+                "onShoot": "Asphalt_bullet_impact",
+                "onDrive": "Asphalt_chain_roll"
+            }
+        },
+        {
+            "spriteName": "Asphalt_TLTRBLBR_V1_A2",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Asphalt",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "Asphalt_step",
+                "onShoot": "Asphalt_bullet_impact",
+                "onDrive": "Asphalt_chain_roll"
+            }
+        },
+        {
+            "spriteName": "Asphalt_TLTRBLBR_V1_A3",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Asphalt",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "Asphalt_step",
+                "onShoot": "Asphalt_bullet_impact",
+                "onDrive": "Asphalt_chain_roll"
+            }
+        },
+        {
+            "spriteName": "Asphalt_TLTRBLBR_V1_A4",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Asphalt",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "Asphalt_step",
+                "onShoot": "Asphalt_bullet_impact",
+                "onDrive": "Asphalt_chain_roll"
+            }
+        },
+        {
+            "spriteName": "Asphalt_TLTRBLBR_V1_A5",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Asphalt",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "Asphalt_step",
+                "onShoot": "Asphalt_bullet_impact",
+                "onDrive": "Asphalt_chain_roll"
+            }
+        },
+        {
+            "spriteName": "Asphalt_TLTR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "Asphalt",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {}
+        },
+        {
+            "spriteName": "Asphalt_TLBL_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Asphalt",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {}
+        },
+        {
+            "spriteName": "Asphalt_BL_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Asphalt",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {}
+        },
+        {
+            "spriteName": "Asphalt_TL_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "Asphalt",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {}
+        },
+        {
+            "spriteName": "Asphalt_TR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "Asphalt",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {}
+        },
+        {
+            "spriteName": "Asphalt_BR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Asphalt",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {}
+        },
+        {
+            "spriteName": "Gravel_TLTRBLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Asphalt",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "gravel_step",
+                "onDrive": "gravel_chain_roll",
+                "onShoot": "gravel_bullet_impact"
+            }
+        }
+    ],
+    "StateOverlay": [
+        {
+            "spriteName": "Grass_TLTRBLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_BR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_BL_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_BLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TRBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TRBL_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TRBLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TL_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TLBL_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TLBLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TLTR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TLTRBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TLTRBL_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TLTRBLBR_V2_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_BR_V2_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_BL_V2_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_BLBR_V2_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TR_V2_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TRBR_V2_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TRBL_V2_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TRBLBR_V2_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TL_V2_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TLBR_V2_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TLBL_V2_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TLBLBR_V2_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TLTR_V2_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TLTRBR_V2_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TLTRBL_V2_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TLTRBLBR_V3_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_BR_V3_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_BL_V3_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_BLBR_V3_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TR_V3_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TRBR_V3_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TRBL_V3_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TRBLBR_V3_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TL_V3_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TLBR_V3_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TLBL_V3_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TLBLBR_V3_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TLTR_V3_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TLTRBR_V3_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Grass_TLTRBL_V3_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "grass_step",
+                "onDrive": "grass_chain_roll",
+                "onShoot": "grass_bullet_impact"
+            }
+        }
+    ],
+    "WeatherOverlay": [
+        {
+            "spriteName": "Rain_TLTRBLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onFall": "rain_fall"
+            }
+        },
+        {
+            "spriteName": "Rain_TLTRBLBR_V1_A2",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onFall": "rain_fall"
+            }
+        },
+        {
+            "spriteName": "Rain_TLTRBLBR_V1_A3",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onFall": "rain_fall"
+            }
+        },
+        {
+            "spriteName": "Rain_TLTRBLBR_V1_A4",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onFall": "rain_fall"
+            }
+        },
+        {
+            "spriteName": "Rain_TLTRBLBR_V1_A5",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onFall": "rain_fall"
+            }
+        },
+        {
+            "spriteName": "Rain_TLTRBLBR_V1_A6",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onFall": "rain_fall"
+            }
+        },
+        {
+            "spriteName": "Rain_TLTRBLBR_V1_A7",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onFall": "rain_fall"
+            }
+        },
+        {
+            "spriteName": "Rain_TLTRBLBR_V1_A8",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onFall": "rain_fall"
+            }
+        },
+        {
+            "spriteName": "Puddle_TLTRBLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "puddle_step",
+                "onDrive": "puddle_chain_roll",
+                "onShoot": "puddle_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Puddle_TLTRBLBR_V1_A2",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "puddle_step",
+                "onDrive": "puddle_chain_roll",
+                "onShoot": "puddle_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Puddle_TLTRBLBR_V1_A3",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "puddle_step",
+                "onDrive": "puddle_chain_roll",
+                "onShoot": "puddle_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Puddle_TLTRBLBR_V1_A4",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "puddle_step",
+                "onDrive": "puddle_chain_roll",
+                "onShoot": "puddle_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Snow_TLTRBLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "snow_step",
+                "onDrive": "snow_chain_roll",
+                "onShoot": "snow_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Snow_BR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "snow_step",
+                "onDrive": "snow_chain_roll",
+                "onShoot": "snow_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Snow_BL_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "snow_step",
+                "onDrive": "snow_chain_roll",
+                "onShoot": "snow_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Snow_BLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "snow_step",
+                "onDrive": "snow_chain_roll",
+                "onShoot": "snow_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Snow_TR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "snow_step",
+                "onDrive": "snow_chain_roll",
+                "onShoot": "snow_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Snow_TRBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "snow_step",
+                "onDrive": "snow_chain_roll",
+                "onShoot": "snow_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Snow_TRBL_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "snow_step",
+                "onDrive": "snow_chain_roll",
+                "onShoot": "snow_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Snow_TRBLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 0,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "snow_step",
+                "onDrive": "snow_chain_roll",
+                "onShoot": "snow_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Snow_TL_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "snow_step",
+                "onDrive": "snow_chain_roll",
+                "onShoot": "snow_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Snow_TLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "snow_step",
+                "onDrive": "snow_chain_roll",
+                "onShoot": "snow_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Snow_TLBL_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "snow_step",
+                "onDrive": "snow_chain_roll",
+                "onShoot": "snow_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Snow_TLBLBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 0,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "snow_step",
+                "onDrive": "snow_chain_roll",
+                "onShoot": "snow_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Snow_TLTR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "snow_step",
+                "onDrive": "snow_chain_roll",
+                "onShoot": "snow_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Snow_TLTRBR_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 0,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "snow_step",
+                "onDrive": "snow_chain_roll",
+                "onShoot": "snow_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Snow_TLTRBL_V1_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 0
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "snow_step",
+                "onDrive": "snow_chain_roll",
+                "onShoot": "snow_bullet_impact"
+            }
+        },
+        {
+            "spriteName": "Snow_TLTRBLBR_V2_A1",
+            "byteMapping": {
+                "topLeft": 1,
+                "topRight": 1,
+                "bottomLeft": 1,
+                "bottomRight": 1
+            },
+            "tileType": "Ground",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onWalk": "snow_step",
+                "onDrive": "snow_chain_roll",
+                "onShoot": "snow_bullet_impact"
+            }
+        }
+    ],
+    "ObjectOverlay": [
+        {
+            "spriteName": "BulletCraters_V1_A1",
+            "tileType": "Object",
+            "isPassable": true,
+            "slowDownFactor": 1,
+            "soundEffects": {
+                "onCreate": "BulletCraters_create"
+            }
+        }
+    ]
+}

@@ -102,6 +102,15 @@ public class MapAtlas {
         return null;
     }
 
+    public byte[] GetByteArrayBySpriteName(string spriteName) {
+        foreach (TileMapping mapping in tileMappingList.tileMappings) {
+            if (mapping.spriteName == spriteName) {
+                return mapping.byteArray;
+            }
+        }
+        return null;  // oder werfen Sie eine Ausnahme, wenn das gewünschte Sprite nicht gefunden wird.
+    }
+
     public string GetSpriteNameByByteArray(byte[] byteArray) {
         string byteArrayAsString = System.BitConverter.ToString(byteArray).Replace("-", "");
         return spriteMapping[byteArrayAsString];

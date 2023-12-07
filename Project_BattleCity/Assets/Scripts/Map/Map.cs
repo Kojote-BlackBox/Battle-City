@@ -82,7 +82,7 @@ public class Map : MonoBehaviour {
 
     private void GenerateWorld() {
         // Default Layer        Utility.LAWN = 0;
-        mapBuilder.FillMapWithTile(Utility.LAWN);
+        mapBuilder.FillMapWithTile("Lawn_Lawn_Lawn_Lawn", Utility.LAWN);
 
         // mapBuilder.VariationSet
         // # Utility.TileType groundType

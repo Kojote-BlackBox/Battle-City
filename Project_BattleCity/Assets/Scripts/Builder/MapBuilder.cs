@@ -64,15 +64,18 @@ public class MapBuilder {
      * Zu jedem Utility.TileType hier eine Publice Liste Machen
      * Wasser Transition über eine Wasserliste optimieren
      */
-    public void FillMapWithTile(byte tileType) {
+    public void FillMapWithTile(string tileName,byte tileType) {
         // Define Default Base Ground tile
         GameObject referenceCullingTile = GameObject.Instantiate(mapScript.tilePrefab, mapScript.transform.position, Quaternion.identity);
         GameObject referenceTile = referenceCullingTile.GetComponent<Culling>().tile;
         int layer = 0;
 
+        
         byte[] tileByte = Utility.TileTypeToTilyByte(tileType);
         int lawnSpriteID = Utility.GetSpriteIDByByteMap(tileByte);
-        referenceTile.GetComponent<SpriteRenderer>().sprite = MapAtlas.Instance.GetSpriteByID(lawnSpriteID); // Lawn
+        //referenceTile.GetComponent<SpriteRenderer>().sprite = MapAtlas.Instance.GetSpriteByID(lawnSpriteID); // Lawn
+
+        referenceTile.GetComponent<SpriteRenderer>().sprite = MapAtlas.Instance.GetSpriteByName("Lawn_Lawn_Lawn_Lawn");
 
        // referenceTile.GetComponent<SpriteRenderer>().sprite = MapAtlas.Instance.GetSpriteByName("Lawn_Lawn_Lawn_Lawn"); // Lawn
 

@@ -1,0 +1,3613 @@
+fileFormatVersion: 2
+guid: 096c4185006b5074c99dd165a3be4466
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -997972493423046422
+    second: atlas_0
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Earth_TLTRBLBR_V1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1985
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae098e10e4d7622f0800000000000000
+      internalID: -997972493423046422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthCrack_TLTRBLBR_V1_A2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1985
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70f5f776ee488e4da80fb2f3a4f5f4a
+      internalID: 1507314219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EarthCrack_TLTRBLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1985
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a5824d39edf1443b8db0560ca919ef
+      internalID: 805339551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain_TLTRBLBR_V1_A8
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1985
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965c37eec92ac3d4da3e6f6d25faa95d
+      internalID: 1747831786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain_TLTRBLBR_V1_A7
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1985
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592715239efd86d4d955281fbf82af0d
+      internalID: -563755462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain_TLTRBLBR_V1_A6
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1985
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241c9f16375397744b5e6e67ece5bd90
+      internalID: -1403673117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain_TLTRBLBR_V1_A5
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1985
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470ed2c8650a73b45b7af6daa76c8593
+      internalID: -1385299383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain_TLTRBLBR_V1_A4
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1985
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5148d465901c9894caf340ab9de180bd
+      internalID: 2037717213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain_TLTRBLBR_V1_A3
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1985
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24fef2c263140e54fb6100543a008af0
+      internalID: 231289796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain_TLTRBLBR_V1_A2
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1985
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49eee00d601ae2f40a2bd2b23b24e8fa
+      internalID: -894702527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rain_TLTRBLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1985
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14f1325728c4c547bb596d56253faed
+      internalID: 330009972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puddle_4
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1985
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcb75c73a2870d4f909bcbd7715e165
+      internalID: -415178031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puddle_3
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1985
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64462278f6c06554685cc3e122df1d7a
+      internalID: 1777288141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puddle_2
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1985
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e912e5e825ea942bfb1a4068555667
+      internalID: 2099779858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puddle_1
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1985
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc3c68f7fe27fe428952402cf0d0531
+      internalID: -1081414749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TLTRBLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1921
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688e03c54535d3249b3e8a94f18d00da
+      internalID: -2094535952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_BR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1921
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9e854b7a5e27e46853a81108cf8463
+      internalID: -1304468936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_BL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1921
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb67347986d87d4380fac616aba15bb
+      internalID: -2024381739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_BLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1921
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfb662009d702948add08533ece1fa0
+      internalID: -226536057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1921
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8502da7d0d6d834c9e112f85e950eec
+      internalID: 877234951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TRBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1921
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cf1ef896fffd943929897b5cf52cec
+      internalID: -1723573871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TRBL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1921
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7eb171e5dc8c7a4aa4a83e1d624729b
+      internalID: 382213189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TRBLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1921
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ef975990f9f3c48b706a9a69a85adb
+      internalID: 822795289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1921
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12065fe4dd781e142a462f9abf15bc51
+      internalID: 308453265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1921
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d8e9331c557f24eab1a43e7a286b12
+      internalID: -1817507160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TLBL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1921
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce203132e515b74bb696943eaf4324b
+      internalID: -2103062684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TLBLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1921
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c8d61355345b14ebec167bf7c479b5
+      internalID: -1202714658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TLTR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1921
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b5733bf2db9be438860038a7a3daec
+      internalID: 229027733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TLTRBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1921
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3502b9dc22f6ad545b88fca9972d3e73
+      internalID: -1933333971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TLTRBL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1921
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0678bebdbc2b1439b72fc0ae29a038
+      internalID: -1805508810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TLTRBLBR_V2_A1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1857
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e195bdbbac96154d9ca647c09fa39c1
+      internalID: -1588157124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_BR_V2_A1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1857
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7952e8ef8daef644f8e81546d168f258
+      internalID: 1987260773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_BL_V2_A1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1857
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0975cc44e67721d42a3ae6e5ee508d58
+      internalID: 850844506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_BLBR_V2_A1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1857
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35335942496a1134c8a9b124cdc6c26f
+      internalID: 1381835539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TR_V2_A1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1857
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77cf5749db42c1448894f830a1dcef94
+      internalID: -1644197724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TRBR_V2_A1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1857
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e8d2ff11fbc074f9cff4d8ad9acbde
+      internalID: 1977080635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TRBL_V2_A1
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1857
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7166e642a0545154da49281b234816bd
+      internalID: 528044338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TRBLBR_V2_A1
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1857
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5079df8ed76296d408540f4020f05b93
+      internalID: 269943710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TL_V2_A1
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1857
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece96cfb9c63e25429a79f633b2115c6
+      internalID: 1091938334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TLBR_V2_A1
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1857
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa169b1d89925b469ced31738823f97
+      internalID: 1443474809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TLBL_V2_A1
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1857
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec25bfd9b13a404448edb0657b12b63b
+      internalID: 83962398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TLBLBR_V2_A1
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1857
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050de70ed2c0b1048b9ed23c33560171
+      internalID: -1148806370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TLTR_V2_A1
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1857
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a6c31dd4b39b14c92b9072c9d28c6d
+      internalID: -572707921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TLTRBR_V2_A1
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1857
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448f445eb6f6ac74ebf550437a2a189f
+      internalID: 1927803886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TLTRBL_V2_A1
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1857
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21af3fc40cf7d7c45bb4ffe3e44f9547
+      internalID: 1592335973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TLTRBLBR_V3_A1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1793
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73eec5ec53e9b49428006abb1e7f260c
+      internalID: 184971893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_BR_V3_A1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1793
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea54351dfbd9cb4fa7f73978e3da8af
+      internalID: 1351079564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_BL_V3_A1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1793
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6aea8d1b3f45bc4f9b8bc990293f499
+      internalID: -1534005612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_BLBR_V3_A1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1793
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b8ad865035e544dbeca7fa6d8907e7
+      internalID: 930007636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TR_V3_A1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1793
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0c81deede55a14a92dda5a890d2c38
+      internalID: -1966666921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TRBR_V3_A1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1793
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76684869abf4420429c744399c743945
+      internalID: -359166758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TRBL_V3_A1
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1793
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e50fecd6602bd64991c5523fc6174b9
+      internalID: 575772734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TRBLBR_V3_A1
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1793
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e845456cef3b12c4d83fefa06cb19dcf
+      internalID: -172270041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TL_V3_A1
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1793
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ca5f856e99d34429a9a75f82e3d83e
+      internalID: -1477348230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TLBR_V3_A1
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1793
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12f952b59a07aa49b9feaa8a2561fe4
+      internalID: -387080100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TLBL_V3_A1
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1793
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74151ec853af9a48a8ace1e3344d616
+      internalID: 252883825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TLBLBR_V3_A1
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1793
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ee2977d60318b4289ddf4b4b563850
+      internalID: 333038765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TLTR_V3_A1
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1793
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f842f599e5355de4c86bd93b09ac3474
+      internalID: -1126303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TLTRBR_V3_A1
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1793
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ab8f73b1d0b684d940841134f92bc1
+      internalID: -1590781350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass_TLTRBL_V3_A1
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1793
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422d0619ad21d5647b4e5faaf795fad4
+      internalID: 1728196850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_TLTRBLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1729
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f56c7e14c88770419712363c88077ee
+      internalID: -1651562968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_BR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1729
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16343097b28a210479b9d5a504b10405
+      internalID: -1602154619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_BL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1729
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92aff342e231fc4787de05979f63a3b
+      internalID: 397003237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_BLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1729
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f2801b2cf4c6648bbd7e0759120aee
+      internalID: 674128352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_TR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1729
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edebf1dcad2df1b4bb437176bf60ee33
+      internalID: -1135981296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_TRBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1729
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f452286aefd1f14baa446e2a19adc2b
+      internalID: -1772232614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_TRBL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1729
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb070db84a5ab24f9ffca0f2e1aa773
+      internalID: 650044488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_TRBLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1729
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d857775bea0cf43a60040ebadfad86
+      internalID: 1425699618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_TL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1729
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709d47167bf5fd4498a18326a177c104
+      internalID: -1152044053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_TLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1729
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b238d0423eba7499e82339b7af86a6
+      internalID: -1490374238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_TLBL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1729
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216015a83fcb2d34e9a2a80e952e624d
+      internalID: -4053946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_TLBLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1729
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb95c7eb21d24a4181660401896ae46
+      internalID: 1678004212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_TLTR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1729
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1466593733a7b4ea7d0545c99fe81f
+      internalID: -1302393213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_TLTRBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1729
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ed88a153acd2f458954f532dca9299
+      internalID: -1161648000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_TLTRBL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1729
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5eaa988043dab47960b236707e89c3
+      internalID: 2122536939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snow_TLTRBLBR_V2_A1
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1729
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a8cca4066257b48b55aefa7b93205b
+      internalID: 1522491933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TLTRBLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1665
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b770586d3ac0daf4db9d42aece354a03
+      internalID: -1691339023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1665
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77258358f2c6eef42a08b84c92733c09
+      internalID: -124873129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1665
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4ea3606f6b6b14fb1c91865cd5c869
+      internalID: -1699360657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1665
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f07c4153e9aedf4e9b54b68ab1278b9
+      internalID: 1840362986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1665
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525a443a71c20314687d574f5448dada
+      internalID: 45811037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TRBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1665
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5bfde79bd76b94d817d4acbebbd6bf
+      internalID: -389099102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TRBL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1665
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6781afad5742b4e90d473860815905
+      internalID: -527827597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TRBLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1665
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a646413deca33a5419ed302c19381af0
+      internalID: 1722807384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1665
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fe3d9e0b0395541a61476c660df5c4
+      internalID: -1034472927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1665
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ddfec35d5e4e6429c50466ea22ec0b
+      internalID: 915462912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TLBL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1665
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da11634c7bae1d40bcd225e23f79130
+      internalID: -1788512275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TLBLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1665
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e934847be42b6ce4d848ab8222b731a0
+      internalID: 1791769923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TLTR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1665
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac57d510fcd2e5a44b33392dd0accd8e
+      internalID: 2045358324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TLTRBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1665
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6fe58959fa58b4daca7c1049e17150
+      internalID: 1311736240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TLTRBL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1665
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f7b669c9886824e81f340541f4d3b3
+      internalID: 371852874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TLTRBLBR_V2_A1
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1665
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199666c2ced2db6488546e6484fa9c90
+      internalID: -1888818119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TLTRBLBR_V1_A2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1601
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12284f7f7e10ed43ba8f8a9705cf476
+      internalID: -1052430439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BR_V1_A2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1601
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7bb035d557447408a4f06673d1b73b
+      internalID: -1267506415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BL_V1_A2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1601
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47f93d3e270e4140b39b085ec2d88ef
+      internalID: -1533687839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_BLBR_V1_A2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1601
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797403767cc69ab4aa8887b0ad0250dc
+      internalID: 206497668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TR_V1_A2
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1601
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db795ebc4a768b4793de5262dbd94cc
+      internalID: -1282991910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TRBR_V1_A2
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1601
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80a9709d126e1f41aee3cedcde88e84
+      internalID: 440988896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TRBL_V1_A2
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1601
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0894836ad2a2944ba97578b030782e3
+      internalID: -1692494757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TRBLBR_V1_A2
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1601
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc39bf86a73667c4b9be281998d0525a
+      internalID: -1621602129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TL_V1_A2
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1601
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555f45ee50c686c47939db472b64d94b
+      internalID: -32919291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TLBR_V1_A2
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1601
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89c858b00a23cf45bb6357f604e0d1b
+      internalID: -557928317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TLBL_V1_A2
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1601
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61380c1ad65c7654e88b56a3ca08075d
+      internalID: 1591266857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TLBLBR_V1_A2
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1601
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ee099b2201bbe478deb48ef3834a54
+      internalID: 1856381905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TLTR_V1_A2
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1601
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d7a9a1bcd70af47bc6cee089436606
+      internalID: 459610798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TLTRBR_V1_A2
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1601
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfaa717f1b521c4ca72c7ff2e0139d5
+      internalID: 1602542851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TLTRBL_V1_A2
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1601
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3063fb9a123563745a5f082c30500bc2
+      internalID: -1483231252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water_TLTRBLBR_V2_A2
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1601
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c0cb044dbbfd443a6e4213272d9f83
+      internalID: -1290790241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_TLTRBLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1537
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7861c1ad05597a149bcc25b5157e1312
+      internalID: 1257192047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_BR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1537
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f376e2ae06a6d654d98424b54b799e30
+      internalID: 1108322070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_BL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1537
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6036f07b45cd5324eb448b87e77cb4f9
+      internalID: -252679550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_BLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1537
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159ed3f4799d6f34381994061d3d59c8
+      internalID: -2089019556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_TR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1537
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0edbf730c5050fd4093708ca8a646445
+      internalID: -1579807420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_TRBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1537
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22452b09d259cd34c96e75635d376072
+      internalID: -480944354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_TRBL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1537
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aebc1a962d74bb49b9b5dd74f9f1631
+      internalID: 517762559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_TRBLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1537
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2901c404d327c42b0fe004a495caac
+      internalID: 75050420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_TL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1537
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45341efa01d5173418e60b6a1e0e16a9
+      internalID: -1763690144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_TLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1537
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8397fb2d641a91b4fbe3c78319ff048d
+      internalID: -506463116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_TLBL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1537
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9665f53d8d8805e46a6295ce2eb4b488
+      internalID: 1486070817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_TLBLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1537
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64a6d16da5bdfb48a3fe881f6f04424
+      internalID: -1473618684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_TLTR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1537
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26529dac7497e7d43a1e8685a9bad3af
+      internalID: -989266712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_TLTRBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1537
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cfcd7957460f740a8c6ce9803659b4
+      internalID: -790808142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_TLTRBL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1537
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715573f56823cdf4d909bd1e64614d43
+      internalID: 770244354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ice_TLTRBLBR_V2_A1
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1537
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22cad241335caa4cbcae5e4be08bb72
+      internalID: -815798465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FragileIce_TLTRBLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1473
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc93b69a896e114abcee0cbb37fa0c9
+      internalID: 1131495249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FragileIce_BR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1473
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f413e7e87dc8164da1e97f7d9763667
+      internalID: 1298818661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FragileIce_BL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1473
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572167c1bfa1a354388bf6f40ad5f4b4
+      internalID: -1352698195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FragileIce_BLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1472
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5864cf1a051a14683ccd31fa88ed8e
+      internalID: -918144214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FragileIce_TR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1473
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50542b730f16113439f64e22e0d1283e
+      internalID: 28323992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FragileIce_TRBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1473
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6d8d23f883b614ba24c25881dfa6d6
+      internalID: 529922801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FragileIce_TRBL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1473
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa3527c447b01f41bf5b87d216f2d89
+      internalID: -53102442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FragileIce_TRBLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1473
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3f891636f7d2247a2cc2696767f03a
+      internalID: -342181435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FragileIce_TL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1473
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2b81d1df177a845bf6a5c51d0be81d
+      internalID: 1752900656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FragileIce_TLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1473
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ab54c39945bf74db3a75110ee9ee33
+      internalID: 418990836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FragileIce_TLBL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1473
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd6af620cf049d4bbfb80bcb6adff2d
+      internalID: 1182733185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FragileIce_TLBLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1473
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a195e14e9bdd25a4db929c5edede792d
+      internalID: -1108337849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FragileIce_TLTR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1473
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ab39c1d2d753b43a39b1e139ccd88c
+      internalID: -1930538556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FragileIce_TLTRBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1473
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c213a960b5626c043aacaf7f2b770d2f
+      internalID: -1727462774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FragileIce_TLTRBL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1473
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bab97fbb490d2a449d5002edc50dfc3
+      internalID: 393620258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FragileIce_TLTRBLBR_V2_A1
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1473
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b127ef8e9ad3f8345bc70e26e35727ee
+      internalID: 1894773105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Desert_TLTRBLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1409
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77172b1fac40f8a4cb240010ef1427b8
+      internalID: -1991477309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: atlas_141
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1409
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ce17271baca1b4eb1a3b7b24c3ff73
+      internalID: -1183942892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FragileIce_TLTRBLBR_V3_A1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1345
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c16d1b7b956f5e4e8f12c88655296dc
+      internalID: 757536659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asphalt_TLTRBLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1345
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeeb106207da6844385167e51437dfaf
+      internalID: 1610857992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asphalt_TLTRBLBR_V1_A2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1345
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d839175a0eb4c7f489ce3c39fc2c9f00
+      internalID: -511267450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asphalt_TLTRBLBR_V1_A3
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1345
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295c32ab511df3146868a6e1b6c768d2
+      internalID: -937549542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asphalt_TLTRBLBR_V1_A4
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1345
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c675691fefabacd419659663a6584bd1
+      internalID: 588114277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asphalt_TLTRBLBR_V1_A5
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1345
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f361506f8f5662440a21ca68a3eb170c
+      internalID: 1635420313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asphalt_TLTR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1345
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d943f1dbe783a054497e5ed835bc02d5
+      internalID: -80300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asphalt_TLBL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1345
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e490572a966f2419d03f47daecdb38
+      internalID: -774857600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asphalt_BL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1345
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025778c402adbaa4bbefd7709b2999f5
+      internalID: -222533178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asphalt_TL_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1345
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d2bc8062b3cb94eada14be680a4546
+      internalID: -1390195467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asphalt_TR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1345
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c4f1e78572ecb4dafe8dc466215069
+      internalID: -606314515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asphalt_BR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1345
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af474dbdb01b6af4a843fd942c0bfcf3
+      internalID: 37315809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PavingStone_TLTRBLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1281
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41242cb46e03dec44b53c391902b17ef
+      internalID: -1926488193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PavingStone_TLTRBLBR_V2_A1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1281
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3cc29269e941643b7b5ef2a35743c0
+      internalID: 1618328559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PavingStone_TLTRBLBR_V3_A1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1281
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5157cd874423a4ca7aa856b662c87e
+      internalID: 1982947108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gravel_TLTRBLBR_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1281
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9caeef0282a001248bb079c83e6ee28a
+      internalID: -1777041746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BulletCraters_V1_A1
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1281
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd16db9767a4b14bafa18b3838cbac2
+      internalID: -1061836288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ca513482cd4debc4b859833b20361890
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Asphalt_BL_V1_A1: -774857600
+      Asphalt_BR_V1_A1: -606314515
+      Asphalt_TLBL_V1_A1: -80300080
+      Asphalt_TLTRBLBR_V1_A1: 1982947108
+      Asphalt_TLTRBLBR_V1_A2: 1610857992
+      Asphalt_TLTRBLBR_V1_A3: -511267450
+      Asphalt_TLTRBLBR_V1_A4: -937549542
+      Asphalt_TLTRBLBR_V1_A5: 588114277
+      Asphalt_TLTR_V1_A1: 1635420313
+      Asphalt_TL_V1_A1: -222533178
+      Asphalt_TR_V1_A1: -1390195467
+      BulletCraters_V1_A1: -1061836288
+      Desert_TLTRBLBR_V1_A1: -1991477309
+      EarthCrack_TLTRBLBR_V1_A1: 330009972
+      EarthCrack_TLTRBLBR_V1_A2: -894702527
+      Earth_TLTRBLBR_V1: 1507314219
+      FragileIce_BLBR_V1_A1: 28323992
+      FragileIce_BL_V1_A1: -918144214
+      FragileIce_BR_V1_A1: -1352698195
+      FragileIce_TLBLBR_V1_A1: -1930538556
+      FragileIce_TLBL_V1_A1: -1108337849
+      FragileIce_TLBR_V1_A1: 1182733185
+      FragileIce_TLTRBLBR_V1_A1: 1298818661
+      FragileIce_TLTRBLBR_V2_A1: 1131495249
+      FragileIce_TLTRBLBR_V3_A1: 757536659
+      FragileIce_TLTRBL_V1_A1: 1262132518
+      FragileIce_TLTRBR_V1_A1: 393620258
+      FragileIce_TLTR_V1_A1: -1727462774
+      FragileIce_TL_V1_A1: 418990836
+      FragileIce_TRBLBR_V1_A1: 1752900656
+      FragileIce_TRBL_V1_A1: -342181435
+      FragileIce_TRBR_V1_A1: -53102442
+      FragileIce_TR_V1_A1: 529922801
+      Grass_BLBR_V1_A1: -1723573871
+      Grass_BLBR_V2_A1: 1977080635
+      Grass_BLBR_V3_A1: -359166758
+      Grass_BL_V1_A1: 877234951
+      Grass_BL_V2_A1: -1644197724
+      Grass_BL_V3_A1: -1966666921
+      Grass_BR_V1_A1: -226536057
+      Grass_BR_V2_A1: 1381835539
+      Grass_BR_V3_A1: 930007636
+      Grass_TLBLBR_V1_A1: -1933333971
+      Grass_TLBLBR_V2_A1: 1927803886
+      Grass_TLBLBR_V3_A1: -1590781350
+      Grass_TLBL_V1_A1: 229027733
+      Grass_TLBL_V2_A1: -572707921
+      Grass_TLBL_V3_A1: -1126303
+      Grass_TLBR_V1_A1: -1202714658
+      Grass_TLBR_V2_A1: -1148806370
+      Grass_TLBR_V3_A1: 333038765
+      Grass_TLTRBLBR_V1_A1: -2024381739
+      Grass_TLTRBLBR_V2_A1: 850844506
+      Grass_TLTRBLBR_V3_A1: -1534005612
+      Grass_TLTRBL_V1_A1: 1987260773
+      Grass_TLTRBL_V2_A1: 1351079564
+      Grass_TLTRBL_V3_A1: -1602154619
+      Grass_TLTRBR_V1_A1: -1588157124
+      Grass_TLTRBR_V2_A1: 184971893
+      Grass_TLTRBR_V3_A1: -1651562968
+      Grass_TLTR_V1_A1: -1805508810
+      Grass_TLTR_V2_A1: 1592335973
+      Grass_TLTR_V3_A1: 1728196850
+      Grass_TL_V1_A1: -2103062684
+      Grass_TL_V2_A1: 83962398
+      Grass_TL_V3_A1: 252883825
+      Grass_TRBLBR_V1_A1: -1817507160
+      Grass_TRBLBR_V2_A1: 1443474809
+      Grass_TRBLBR_V3_A1: -387080100
+      Grass_TRBL_V1_A1: 308453265
+      Grass_TRBL_V2_A1: 1091938334
+      Grass_TRBL_V3_A1: -1477348230
+      Grass_TRBR_V1_A1: 822795289
+      Grass_TRBR_V2_A1: 269943710
+      Grass_TRBR_V3_A1: -172270041
+      Grass_TR_V1_A1: 382213189
+      Grass_TR_V2_A1: 528044338
+      Grass_TR_V3_A1: 575772734
+      Gravel_TLTRBLBR_V1_A1: -1061836288
+      Ice_BLBR_V1_A1: -480944354
+      Ice_BL_V1_A1: -1579807420
+      Ice_BR_V1_A1: -2089019556
+      Ice_TLBLBR_V1_A1: -790808142
+      Ice_TLBL_V1_A1: -989266712
+      Ice_TLBR_V1_A1: -1473618684
+      Ice_TLTRBLBR_V1_A1: 1108322070
+      Ice_TLTRBLBR_V2_A1: -252679550
+      Ice_TLTRBL_V1_A1: 1894773105
+      Ice_TLTRBR_V1_A1: 1894773105
+      Ice_TLTR_V1_A1: 770244354
+      Ice_TL_V1_A1: 1486070817
+      Ice_TRBLBR_V1_A1: -506463116
+      Ice_TRBL_V1_A1: -1763690144
+      Ice_TRBR_V1_A1: 75050420
+      Ice_TR_V1_A1: 517762559
+      PavingStone_TLTRBLBR_V1_A1: -1926488193
+      PavingStone_TLTRBLBR_V2_A1: 1618328559
+      PavingStone_TLTRBLBR_V3_A1: 1982947108
+      Puddle_1: -1081414749
+      Puddle_2: 2099779858
+      Puddle_3: 1777288141
+      Puddle_4: -415178031
+      Rain_TLTRBLBR_V1_A1: 231289796
+      Rain_TLTRBLBR_V1_A2: 2037717213
+      Rain_TLTRBLBR_V1_A3: -1385299383
+      Rain_TLTRBLBR_V1_A4: -1403673117
+      Rain_TLTRBLBR_V1_A5: -563755462
+      Rain_TLTRBLBR_V1_A6: 1747831786
+      Rain_TLTRBLBR_V1_A7: -2094535952
+      Rain_TLTRBLBR_V1_A8: -1304468936
+      Snow_BLBR_V1_A1: -1772232614
+      Snow_BL_V1_A1: -1135981296
+      Snow_BR_V1_A1: 674128352
+      Snow_TLBLBR_V1_A1: -1161648000
+      Snow_TLBL_V1_A1: -1302393213
+      Snow_TLBR_V1_A1: 1678004212
+      Snow_TLTRBLBR_V1_A1: 397003237
+      Snow_TLTRBLBR_V2_A1: -124873129
+      Snow_TLTRBL_V1_A1: -1691339023
+      Snow_TLTRBR_V1_A1: 1522491933
+      Snow_TLTR_V1_A1: 2122536939
+      Snow_TL_V1_A1: -4053946
+      Snow_TRBLBR_V1_A1: -1490374238
+      Snow_TRBL_V1_A1: -1152044053
+      Snow_TRBR_V1_A1: 1425699618
+      Snow_TR_V1_A1: 650044488
+      Water_BLBR_V1_A1: -389099102
+      Water_BLBR_V1_A2: 440988896
+      Water_BL_V1_A1: 45811037
+      Water_BL_V1_A2: -1282991910
+      Water_BR_V1_A1: 1840362986
+      Water_BR_V1_A2: 206497668
+      Water_TLBLBR_V1_A1: 1311736240
+      Water_TLBLBR_V1_A2: 1602542851
+      Water_TLBL_V1_A1: 2045358324
+      Water_TLBL_V1_A2: 459610798
+      Water_TLBR_V1_A1: 1791769923
+      Water_TLBR_V1_A2: 1856381905
+      Water_TLTRBLBR_V1_A1: -1699360657
+      Water_TLTRBLBR_V1_A2: -1533687839
+      Water_TLTRBLBR_V2_A1: 1257192047
+      Water_TLTRBLBR_V2_A2: -815798465
+      Water_TLTRBL_V1_A1: -1267506415
+      Water_TLTRBL_V1_A2: -1290790241
+      Water_TLTRBR_V1_A1: -1052430439
+      Water_TLTRBR_V1_A2: -1888818119
+      Water_TLTR_V1_A1: 371852874
+      Water_TLTR_V1_A2: -1483231252
+      Water_TL_V1_A1: -1788512275
+      Water_TL_V1_A2: 1591266857
+      Water_TRBLBR_V1_A1: 915462912
+      Water_TRBLBR_V1_A2: -557928317
+      Water_TRBL_V1_A1: -1034472927
+      Water_TRBL_V1_A2: -32919291
+      Water_TRBR_V1_A1: 1722807384
+      Water_TRBR_V1_A2: -1621602129
+      Water_TR_V1_A1: -527827597
+      Water_TR_V1_A2: -1692494757
+      atlas_141: 757536659
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

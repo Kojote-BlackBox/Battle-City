@@ -93,6 +93,15 @@ public static class Utility {
      */
     public enum TileType { Ground, SoftGround, Mud, Desert, Asphalt, Water, Ice, FragileIce, Swamp, Snow };
 
+    // TODO Work in Progress - Layer System
+    public enum LayerType {
+        Base = 0,         // Grund-Layer (Persistent)
+        GroundOverlay,    // Grund-Overlayer (Gras, Asphalt, etc.)
+        StateOverlay,     // Overlayer für Grundzustände (Risse, Pfützen)
+        WeatherOverlay,   // Overlayer für Niederschlag (Regen, Schnee)
+        ObjectOverlay     // Objekt Layer (Kleinere Varianzen)
+    }
+
     public enum Side { Up, Down, Left, Right };
 
     public enum WindRose { N, NO, O, SO, S, SW, W, NW };

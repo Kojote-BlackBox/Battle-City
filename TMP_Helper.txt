@@ -1,0 +1,109 @@
+Nammensschemata:
+BLOCK1_BLOCK2_BLOCK3_BLOCK4
+
+BLOCK1 = Eigentlicher Textur Name
+BLOCK2 = Codierung der Transparenten Felder
+BLOCK3 = (VX) Variantion - X = Nummer
+BLOCK4 = (AX) Animatorische Reihenfolge - X = Nummer
+
+Beispiel:
+Earth_TLTRBLBR_V1_A1
+
+Wobei:
+TL = TopLeft
+TR = TopRight
+BL = BottomLeft
+BR = BottomRight
+
+##################################################
+
+Json Textur Block:
+{
+    "spriteName": "Earth_TLTRBLBR_V1",
+    "byteMapping": {
+	"topLeft": 1,
+	"topRight": 1,
+	"bottomLeft": 1,
+	"bottomRight": 1
+    },
+    "tileType": "Ground",
+    "isPassable": true,
+    "slowDownFactor": 1.0,
+    "soundEffects": {
+        "onWalk": "earthStep",
+        "onDrive": "earthChainRoll",
+        "onShoot": "earthBulletImpact"
+    }
+}
+
+##################################################
+Json Block Strucktur:
+tilyType
+
+##################################################
+
+public enum LayerType {
+    Base = 0,         // Grund-Layer (Persistent)
+    GroundOverlay,    // Grund-Overlayer (Gras, Asphalt, etc.)
+    StateOverlay,     // Overlayer f r Grundzust nde (Risse, Pf tzen)
+    WeatherOverlay,   // Overlayer f r Niederschlag (Regen, Schnee)
+    ObjectOverlay     // Objekt Layer (Kleinere Varianzen)
+}
+
+##################################################
+
+Alle möglichen tilyType:
+SoftGround // Derzeit nicht Verwendet
+Swamp // Derzeit nicht Verwendet
+Mud // Derzeit nicht Verwendet
+
+Ground
+Water
+Ice
+FragileIce
+Desert
+Asphalt
+
+PavingStone  // Fehlt noch
+Object  // Fehlt noch
+
+##################################################
+
+Liste aller SoundEffecte:
+"onWalk": "earth_step",
+"onDrive": "earth_chain_roll",
+"onShoot": "earth_bullet_impact"
+"onWalk": "earth_crack_step",
+"onDrive": "earth_crack_chain_roll",
+"onShoot": "earth_crack_bullet_impact"
+"onFall": "rain_fall"
+"onWalk": "grass_step",
+"onDrive": "grass_chain_roll",
+"onShoot": "grass_bullet_impact"
+"onWalk": "snow_step",
+"onDrive": "snow_chain_roll",
+"onShoot": "snow_bullet_impact"
+"onShoot": "water_bullet_impact"
+"onSink": "water_sink"
+"onShoot": "ice_bullet_impact",
+"onWalk": "ice_step",
+"onDrive": "ice_chain_roll"
+"onWalk": "fragileIce_step",
+"onShoot": "fragileIce_bullet_impact",
+"onSink": "fragileIce_sink"
+"onWalk": "desert_step",
+"onShoot": "desert_bullet_impact",
+"onDrive": "desert_chain_roll",
+"onWalk": "PavingStone_step",
+"onShoot": "PavingStone_bullet_impact",
+"onDrive": "PavingStone_chain_roll",
+"onWalk": "Asphalt_step",
+"onShoot": "Asphalt_bullet_impact",
+"onDrive": "Asphalt_chain_roll",
+"onCreate": "BulletCraters_create"
+"onDestroy": "Tree_fall"
+"onDrive": "Bush_noice"
+
+
+
+
