@@ -3,10 +3,10 @@
         {
             "spriteName": "Earth_TLTRBLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -22,10 +22,10 @@
         {
             "spriteName": "EarthCrack_TLTRBLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "isPassable": true,
             "slowDownFactor": 1,
@@ -38,10 +38,10 @@
         {
             "spriteName": "EarthCrack_TLTRBLBR_V1_A2",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "isPassable": true,
             "slowDownFactor": 1,
@@ -54,10 +54,10 @@
         {
             "spriteName": "Water_TLTRBLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Water",
             "isPassable": true,
@@ -70,10 +70,10 @@
         {
             "spriteName": "Water_BR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Water",
             "isPassable": true,
@@ -86,10 +86,10 @@
         {
             "spriteName": "Water_BL_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Water",
             "isPassable": true,
@@ -102,10 +102,10 @@
         {
             "spriteName": "Water_BLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Water",
             "isPassable": true,
@@ -118,10 +118,10 @@
         {
             "spriteName": "Water_TR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": false
             },
             "tileType": "Water",
             "isPassable": true,
@@ -134,10 +134,10 @@
         {
             "spriteName": "Water_TRBR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Water",
             "isPassable": true,
@@ -150,10 +150,10 @@
         {
             "spriteName": "Water_TRBL_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Water",
             "isPassable": true,
@@ -166,10 +166,10 @@
         {
             "spriteName": "Water_TRBLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Water",
             "isPassable": true,
@@ -182,10 +182,10 @@
         {
             "spriteName": "Water_TL_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": false
             },
             "tileType": "Water",
             "isPassable": true,
@@ -198,10 +198,10 @@
         {
             "spriteName": "Water_TLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Water",
             "isPassable": true,
@@ -214,10 +214,10 @@
         {
             "spriteName": "Water_TLBL_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Water",
             "isPassable": true,
@@ -230,10 +230,10 @@
         {
             "spriteName": "Water_TLBLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Water",
             "isPassable": true,
@@ -246,10 +246,10 @@
         {
             "spriteName": "Water_TLTR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": false
             },
             "tileType": "Water",
             "isPassable": true,
@@ -262,10 +262,10 @@
         {
             "spriteName": "Water_TLTRBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Water",
             "isPassable": true,
@@ -278,10 +278,10 @@
         {
             "spriteName": "Water_TLTRBL_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Water",
             "isPassable": true,
@@ -294,10 +294,10 @@
         {
             "spriteName": "Water_TLTRBLBR_V1_A2",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Water",
             "isPassable": true,
@@ -310,10 +310,10 @@
         {
             "spriteName": "Water_BR_V1_A2",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Water",
             "isPassable": true,
@@ -326,10 +326,10 @@
         {
             "spriteName": "Water_BL_V1_A2",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Water",
             "isPassable": true,
@@ -342,10 +342,10 @@
         {
             "spriteName": "Water_BLBR_V1_A2",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Water",
             "isPassable": true,
@@ -358,10 +358,10 @@
         {
             "spriteName": "Water_TR_V1_A2",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": false
             },
             "tileType": "Water",
             "isPassable": true,
@@ -374,10 +374,10 @@
         {
             "spriteName": "Water_TRBR_V1_A2",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Water",
             "isPassable": true,
@@ -390,10 +390,10 @@
         {
             "spriteName": "Water_TRBL_V1_A2",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Water",
             "isPassable": true,
@@ -406,10 +406,10 @@
         {
             "spriteName": "Water_TRBLBR_V1_A2",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Water",
             "isPassable": true,
@@ -422,10 +422,10 @@
         {
             "spriteName": "Water_TL_V1_A2",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": false
             },
             "tileType": "Water",
             "isPassable": true,
@@ -438,10 +438,10 @@
         {
             "spriteName": "Water_TLBR_V1_A2",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Water",
             "isPassable": true,
@@ -454,10 +454,10 @@
         {
             "spriteName": "Water_TLBL_V1_A2",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Water",
             "isPassable": true,
@@ -470,10 +470,10 @@
         {
             "spriteName": "Water_TLBLBR_V1_A2",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Water",
             "isPassable": true,
@@ -486,10 +486,10 @@
         {
             "spriteName": "Water_TLTR_V1_A2",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": false
             },
             "tileType": "Water",
             "isPassable": true,
@@ -502,10 +502,10 @@
         {
             "spriteName": "Water_TLTRBR_V1_A2",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Water",
             "isPassable": true,
@@ -518,10 +518,10 @@
         {
             "spriteName": "Water_TLTRBL_V1_A2",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Water",
             "isPassable": true,
@@ -534,10 +534,10 @@
         {
             "spriteName": "Water_TLTRBLBR_V2_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Water",
             "isPassable": true,
@@ -550,10 +550,10 @@
         {
             "spriteName": "Water_TLTRBLBR_V2_A2",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Water",
             "isPassable": true,
@@ -566,10 +566,10 @@
         {
             "spriteName": "Ice_TLTRBLBR_V2_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Ice",
             "isPassable": true,
@@ -583,10 +583,10 @@
         {
             "spriteName": "Ice_TLTRBLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Ice",
             "isPassable": true,
@@ -600,10 +600,10 @@
         {
             "spriteName": "Ice_BR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Ice",
             "isPassable": true,
@@ -617,10 +617,10 @@
         {
             "spriteName": "Ice_BL_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Ice",
             "isPassable": true,
@@ -634,10 +634,10 @@
         {
             "spriteName": "Ice_BLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Ice",
             "isPassable": true,
@@ -651,10 +651,10 @@
         {
             "spriteName": "Ice_TR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": false
             },
             "tileType": "Ice",
             "isPassable": true,
@@ -668,10 +668,10 @@
         {
             "spriteName": "Ice_TRBR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Ice",
             "isPassable": true,
@@ -685,10 +685,10 @@
         {
             "spriteName": "Ice_TRBL_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Ice",
             "isPassable": true,
@@ -702,10 +702,10 @@
         {
             "spriteName": "Ice_TRBLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Ice",
             "isPassable": true,
@@ -719,10 +719,10 @@
         {
             "spriteName": "Ice_TL_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": false
             },
             "tileType": "Ice",
             "isPassable": true,
@@ -736,10 +736,10 @@
         {
             "spriteName": "Ice_TLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Ice",
             "isPassable": true,
@@ -753,10 +753,10 @@
         {
             "spriteName": "Ice_TLBL_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Ice",
             "isPassable": true,
@@ -770,10 +770,10 @@
         {
             "spriteName": "Ice_TLBLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Ice",
             "isPassable": true,
@@ -787,10 +787,10 @@
         {
             "spriteName": "Ice_TLTR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": false
             },
             "tileType": "Ice",
             "isPassable": true,
@@ -804,10 +804,10 @@
         {
             "spriteName": "Ice_TLTRBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Ice",
             "isPassable": true,
@@ -821,10 +821,10 @@
         {
             "spriteName": "Ice_TLTRBL_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Ice",
             "isPassable": true,
@@ -838,10 +838,10 @@
         {
             "spriteName": "FragileIce_TLTRBLBR_V3_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "FragileIce",
             "isPassable": true,
@@ -855,10 +855,10 @@
         {
             "spriteName": "FragileIce_TLTRBLBR_V2_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "FragileIce",
             "isPassable": true,
@@ -872,10 +872,10 @@
         {
             "spriteName": "FragileIce_TLTRBLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "FragileIce",
             "isPassable": true,
@@ -889,10 +889,10 @@
         {
             "spriteName": "FragileIce_BR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "FragileIce",
             "isPassable": true,
@@ -906,10 +906,10 @@
         {
             "spriteName": "FragileIce_BL_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "FragileIce",
             "isPassable": true,
@@ -923,10 +923,10 @@
         {
             "spriteName": "FragileIce_BLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "FragileIce",
             "isPassable": true,
@@ -940,10 +940,10 @@
         {
             "spriteName": "FragileIce_TR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": false
             },
             "tileType": "FragileIce",
             "isPassable": true,
@@ -957,10 +957,10 @@
         {
             "spriteName": "FragileIce_TRBR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "FragileIce",
             "isPassable": true,
@@ -974,10 +974,10 @@
         {
             "spriteName": "FragileIce_TRBL_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "FragileIce",
             "isPassable": true,
@@ -991,10 +991,10 @@
         {
             "spriteName": "FragileIce_TRBLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "FragileIce",
             "isPassable": true,
@@ -1008,10 +1008,10 @@
         {
             "spriteName": "FragileIce_TL_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": false
             },
             "tileType": "FragileIce",
             "isPassable": true,
@@ -1025,10 +1025,10 @@
         {
             "spriteName": "FragileIce_TLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "FragileIce",
             "isPassable": true,
@@ -1042,10 +1042,10 @@
         {
             "spriteName": "FragileIce_TLBL_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "FragileIce",
             "isPassable": true,
@@ -1059,10 +1059,10 @@
         {
             "spriteName": "FragileIce_TLBLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "FragileIce",
             "isPassable": true,
@@ -1076,10 +1076,10 @@
         {
             "spriteName": "FragileIce_TLTR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": false
             },
             "tileType": "FragileIce",
             "isPassable": true,
@@ -1093,10 +1093,10 @@
         {
             "spriteName": "FragileIce_TLTRBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "FragileIce",
             "isPassable": true,
@@ -1110,10 +1110,10 @@
         {
             "spriteName": "FragileIce_TLTRBL_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "FragileIce",
             "isPassable": true,
@@ -1127,10 +1127,10 @@
         {
             "spriteName": "Desert_TLTRBLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Desert",
             "isPassable": true,
@@ -1144,10 +1144,10 @@
         {
             "spriteName": "PavingStone_TLTRBLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "PavingStone",
             "isPassable": true,
@@ -1161,10 +1161,10 @@
         {
             "spriteName": "PavingStone_TLTRBLBR_V2_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "PavingStone",
             "isPassable": true,
@@ -1178,10 +1178,10 @@
         {
             "spriteName": "PavingStone_TLTRBLBR_V3_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "PavingStone",
             "isPassable": true,
@@ -1195,10 +1195,10 @@
         {
             "spriteName": "Asphalt_TLTRBLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Asphalt",
             "isPassable": true,
@@ -1212,10 +1212,10 @@
         {
             "spriteName": "Asphalt_TLTRBLBR_V1_A2",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Asphalt",
             "isPassable": true,
@@ -1229,10 +1229,10 @@
         {
             "spriteName": "Asphalt_TLTRBLBR_V1_A3",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Asphalt",
             "isPassable": true,
@@ -1246,10 +1246,10 @@
         {
             "spriteName": "Asphalt_TLTRBLBR_V1_A4",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Asphalt",
             "isPassable": true,
@@ -1263,10 +1263,10 @@
         {
             "spriteName": "Asphalt_TLTRBLBR_V1_A5",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Asphalt",
             "isPassable": true,
@@ -1280,10 +1280,10 @@
         {
             "spriteName": "Asphalt_TLTR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": false
             },
             "tileType": "Asphalt",
             "isPassable": true,
@@ -1293,10 +1293,10 @@
         {
             "spriteName": "Asphalt_TLBL_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Asphalt",
             "isPassable": true,
@@ -1306,10 +1306,10 @@
         {
             "spriteName": "Asphalt_BL_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Asphalt",
             "isPassable": true,
@@ -1319,10 +1319,10 @@
         {
             "spriteName": "Asphalt_TL_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": false
             },
             "tileType": "Asphalt",
             "isPassable": true,
@@ -1332,10 +1332,10 @@
         {
             "spriteName": "Asphalt_TR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": false
             },
             "tileType": "Asphalt",
             "isPassable": true,
@@ -1345,10 +1345,10 @@
         {
             "spriteName": "Asphalt_BR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Asphalt",
             "isPassable": true,
@@ -1358,12 +1358,12 @@
         {
             "spriteName": "Gravel_TLTRBLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
-            "tileType": "Asphalt",
+            "tileType": "Gravel",
             "isPassable": true,
             "slowDownFactor": 1,
             "soundEffects": {
@@ -1377,10 +1377,10 @@
         {
             "spriteName": "Grass_TLTRBLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1394,10 +1394,10 @@
         {
             "spriteName": "Grass_BR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1411,10 +1411,10 @@
         {
             "spriteName": "Grass_BL_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1428,10 +1428,10 @@
         {
             "spriteName": "Grass_BLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1445,10 +1445,10 @@
         {
             "spriteName": "Grass_TR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": false
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1462,10 +1462,10 @@
         {
             "spriteName": "Grass_TRBR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1479,10 +1479,10 @@
         {
             "spriteName": "Grass_TRBL_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1496,10 +1496,10 @@
         {
             "spriteName": "Grass_TRBLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1513,10 +1513,10 @@
         {
             "spriteName": "Grass_TL_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": false
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1530,10 +1530,10 @@
         {
             "spriteName": "Grass_TLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1547,10 +1547,10 @@
         {
             "spriteName": "Grass_TLBL_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1564,10 +1564,10 @@
         {
             "spriteName": "Grass_TLBLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1581,10 +1581,10 @@
         {
             "spriteName": "Grass_TLTR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": false
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1598,10 +1598,10 @@
         {
             "spriteName": "Grass_TLTRBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1615,10 +1615,10 @@
         {
             "spriteName": "Grass_TLTRBL_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1632,10 +1632,10 @@
         {
             "spriteName": "Grass_TLTRBLBR_V2_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1649,10 +1649,10 @@
         {
             "spriteName": "Grass_BR_V2_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1666,10 +1666,10 @@
         {
             "spriteName": "Grass_BL_V2_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1683,10 +1683,10 @@
         {
             "spriteName": "Grass_BLBR_V2_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1700,10 +1700,10 @@
         {
             "spriteName": "Grass_TR_V2_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": false
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1717,10 +1717,10 @@
         {
             "spriteName": "Grass_TRBR_V2_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1734,10 +1734,10 @@
         {
             "spriteName": "Grass_TRBL_V2_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1751,10 +1751,10 @@
         {
             "spriteName": "Grass_TRBLBR_V2_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1768,10 +1768,10 @@
         {
             "spriteName": "Grass_TL_V2_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": false
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1785,10 +1785,10 @@
         {
             "spriteName": "Grass_TLBR_V2_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1802,10 +1802,10 @@
         {
             "spriteName": "Grass_TLBL_V2_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1819,10 +1819,10 @@
         {
             "spriteName": "Grass_TLBLBR_V2_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1836,10 +1836,10 @@
         {
             "spriteName": "Grass_TLTR_V2_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": false
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1853,10 +1853,10 @@
         {
             "spriteName": "Grass_TLTRBR_V2_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1870,10 +1870,10 @@
         {
             "spriteName": "Grass_TLTRBL_V2_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1887,10 +1887,10 @@
         {
             "spriteName": "Grass_TLTRBLBR_V3_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1904,10 +1904,10 @@
         {
             "spriteName": "Grass_BR_V3_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1921,10 +1921,10 @@
         {
             "spriteName": "Grass_BL_V3_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1938,10 +1938,10 @@
         {
             "spriteName": "Grass_BLBR_V3_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1955,10 +1955,10 @@
         {
             "spriteName": "Grass_TR_V3_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": false
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1972,10 +1972,10 @@
         {
             "spriteName": "Grass_TRBR_V3_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -1989,10 +1989,10 @@
         {
             "spriteName": "Grass_TRBL_V3_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -2006,10 +2006,10 @@
         {
             "spriteName": "Grass_TRBLBR_V3_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -2023,10 +2023,10 @@
         {
             "spriteName": "Grass_TL_V3_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": false
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -2040,10 +2040,10 @@
         {
             "spriteName": "Grass_TLBR_V3_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -2057,10 +2057,10 @@
         {
             "spriteName": "Grass_TLBL_V3_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -2074,10 +2074,10 @@
         {
             "spriteName": "Grass_TLBLBR_V3_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -2091,10 +2091,10 @@
         {
             "spriteName": "Grass_TLTR_V3_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": false
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -2108,10 +2108,10 @@
         {
             "spriteName": "Grass_TLTRBR_V3_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": true
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -2125,10 +2125,10 @@
         {
             "spriteName": "Grass_TLTRBL_V3_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": false
             },
             "tileType": "Ground",
             "isPassable": true,
@@ -2144,10 +2144,10 @@
         {
             "spriteName": "Rain_TLTRBLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "isPassable": true,
             "slowDownFactor": 1,
@@ -2158,10 +2158,10 @@
         {
             "spriteName": "Rain_TLTRBLBR_V1_A2",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "isPassable": true,
             "slowDownFactor": 1,
@@ -2172,10 +2172,10 @@
         {
             "spriteName": "Rain_TLTRBLBR_V1_A3",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "isPassable": true,
             "slowDownFactor": 1,
@@ -2186,10 +2186,10 @@
         {
             "spriteName": "Rain_TLTRBLBR_V1_A4",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "isPassable": true,
             "slowDownFactor": 1,
@@ -2200,10 +2200,10 @@
         {
             "spriteName": "Rain_TLTRBLBR_V1_A5",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "isPassable": true,
             "slowDownFactor": 1,
@@ -2214,10 +2214,10 @@
         {
             "spriteName": "Rain_TLTRBLBR_V1_A6",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "isPassable": true,
             "slowDownFactor": 1,
@@ -2228,10 +2228,10 @@
         {
             "spriteName": "Rain_TLTRBLBR_V1_A7",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "isPassable": true,
             "slowDownFactor": 1,
@@ -2242,10 +2242,10 @@
         {
             "spriteName": "Rain_TLTRBLBR_V1_A8",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "isPassable": true,
             "slowDownFactor": 1,
@@ -2256,10 +2256,10 @@
         {
             "spriteName": "Puddle_TLTRBLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "isPassable": true,
             "slowDownFactor": 1,
@@ -2272,10 +2272,10 @@
         {
             "spriteName": "Puddle_TLTRBLBR_V1_A2",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "isPassable": true,
             "slowDownFactor": 1,
@@ -2288,10 +2288,10 @@
         {
             "spriteName": "Puddle_TLTRBLBR_V1_A3",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "isPassable": true,
             "slowDownFactor": 1,
@@ -2304,10 +2304,10 @@
         {
             "spriteName": "Puddle_TLTRBLBR_V1_A4",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
             "isPassable": true,
             "slowDownFactor": 1,
@@ -2320,12 +2320,12 @@
         {
             "spriteName": "Snow_TLTRBLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
-            "tileType": "Ground",
+            "tileType": "Snow",
             "isPassable": true,
             "slowDownFactor": 1,
             "soundEffects": {
@@ -2337,12 +2337,12 @@
         {
             "spriteName": "Snow_BR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": true
             },
-            "tileType": "Ground",
+            "tileType": "Snow",
             "isPassable": true,
             "slowDownFactor": 1,
             "soundEffects": {
@@ -2354,12 +2354,12 @@
         {
             "spriteName": "Snow_BL_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": false
             },
-            "tileType": "Ground",
+            "tileType": "Snow",
             "isPassable": true,
             "slowDownFactor": 1,
             "soundEffects": {
@@ -2371,12 +2371,12 @@
         {
             "spriteName": "Snow_BLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": true
             },
-            "tileType": "Ground",
+            "tileType": "Snow",
             "isPassable": true,
             "slowDownFactor": 1,
             "soundEffects": {
@@ -2388,12 +2388,12 @@
         {
             "spriteName": "Snow_TR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": false
             },
-            "tileType": "Ground",
+            "tileType": "Snow",
             "isPassable": true,
             "slowDownFactor": 1,
             "soundEffects": {
@@ -2405,12 +2405,12 @@
         {
             "spriteName": "Snow_TRBR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": true
             },
-            "tileType": "Ground",
+            "tileType": "Snow",
             "isPassable": true,
             "slowDownFactor": 1,
             "soundEffects": {
@@ -2422,12 +2422,12 @@
         {
             "spriteName": "Snow_TRBL_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": false
             },
-            "tileType": "Ground",
+            "tileType": "Snow",
             "isPassable": true,
             "slowDownFactor": 1,
             "soundEffects": {
@@ -2439,12 +2439,12 @@
         {
             "spriteName": "Snow_TRBLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 0,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": false,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
-            "tileType": "Ground",
+            "tileType": "Snow",
             "isPassable": true,
             "slowDownFactor": 1,
             "soundEffects": {
@@ -2456,12 +2456,12 @@
         {
             "spriteName": "Snow_TL_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": false
             },
-            "tileType": "Ground",
+            "tileType": "Snow",
             "isPassable": true,
             "slowDownFactor": 1,
             "soundEffects": {
@@ -2473,12 +2473,12 @@
         {
             "spriteName": "Snow_TLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": false,
+                "bottomRight": true
             },
-            "tileType": "Ground",
+            "tileType": "Snow",
             "isPassable": true,
             "slowDownFactor": 1,
             "soundEffects": {
@@ -2490,12 +2490,12 @@
         {
             "spriteName": "Snow_TLBL_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": false
             },
-            "tileType": "Ground",
+            "tileType": "Snow",
             "isPassable": true,
             "slowDownFactor": 1,
             "soundEffects": {
@@ -2507,12 +2507,12 @@
         {
             "spriteName": "Snow_TLBLBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 0,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": false,
+                "bottomLeft": true,
+                "bottomRight": true
             },
-            "tileType": "Ground",
+            "tileType": "Snow",
             "isPassable": true,
             "slowDownFactor": 1,
             "soundEffects": {
@@ -2524,12 +2524,12 @@
         {
             "spriteName": "Snow_TLTR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": false
             },
-            "tileType": "Ground",
+            "tileType": "Snow",
             "isPassable": true,
             "slowDownFactor": 1,
             "soundEffects": {
@@ -2541,12 +2541,12 @@
         {
             "spriteName": "Snow_TLTRBR_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 0,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": false,
+                "bottomRight": true
             },
-            "tileType": "Ground",
+            "tileType": "Snow",
             "isPassable": true,
             "slowDownFactor": 1,
             "soundEffects": {
@@ -2558,12 +2558,12 @@
         {
             "spriteName": "Snow_TLTRBL_V1_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 0
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": false
             },
-            "tileType": "Ground",
+            "tileType": "Snow",
             "isPassable": true,
             "slowDownFactor": 1,
             "soundEffects": {
@@ -2575,12 +2575,12 @@
         {
             "spriteName": "Snow_TLTRBLBR_V2_A1",
             "byteMapping": {
-                "topLeft": 1,
-                "topRight": 1,
-                "bottomLeft": 1,
-                "bottomRight": 1
+                "topLeft": true,
+                "topRight": true,
+                "bottomLeft": true,
+                "bottomRight": true
             },
-            "tileType": "Ground",
+            "tileType": "Snow",
             "isPassable": true,
             "slowDownFactor": 1,
             "soundEffects": {

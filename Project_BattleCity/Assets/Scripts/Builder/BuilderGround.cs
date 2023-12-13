@@ -1,6 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using UnityEditor.Tilemaps;
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.UIElements;
+using static UnityEditor.Experimental.GraphView.GraphView;
 
 public class BuilderGround {
 
@@ -12,175 +17,64 @@ public class BuilderGround {
         this.mapScript = mapBuilderScript.mapScript;
     }
 
-    // Main Funktion of the the Class
-    public void Generate(MapBuilder.BuildSet ground) {
+    // Main Funktion of the the Class, include the Main Logic to build Gras.
+    public void Generate(TileData tileData, float coverage, float coherence) {
+        if (tileData == null) {
+            Debug.LogError("TileData ist null.");
+            return;
+        }
 
-        // Holder for Transition Work
-        List<GameObject> transitionList = new List<GameObject>();
+        List<Vector2> allPositions = mapBuilderScript.GenerateRandomPositionMap();
+        List<GameObject> generatedTiles = new List<GameObject>();
 
-        int toCover = (int)(mapScript.cols * mapScript.rows * ground.coverage);
-        int covered = 0;
+        int totalTiles = mapScript.cols * mapScript.rows;
+        int toCover = (int)(totalTiles * coverage);
 
-        int earthSpriteID = Utility.GetSpriteIDByByteMap(Utility.EARTH_BYTE());
+        GameObject tilePattern = mapBuilderScript.InstantiateToTilePattern(tileData);
 
-        while (covered < toCover) {
-            int x = Random.Range(0, mapScript.cols);
-            int y = Random.Range(0, mapScript.rows);
+        foreach (var position in allPositions.ToList()) {
+            if (generatedTiles.Count >= toCover) break;
 
-            GameObject tile = mapScript.map[x, y, ground.layer];
+            int x = (int)position.x;
+            int y = (int)position.y;
+            Vector2 pos = new Vector2(x, y);
+            int layer = (int)tileData.LayerType;
 
-            if (tile.GetComponent<SpriteRenderer>().sprite != MapAtlas.Instance.GetSpriteByID(earthSpriteID)) {
+            GameObject checkTile = mapScript.map[x, y, layer];
+            
+            if (checkTile == null) {
+                GameObject tile = mapBuilderScript.tiling(tilePattern, pos);
+                mapScript.map[x, y, layer] = tile;
 
-                // Set first Random Earth Tile
-                tile.GetComponent<SpriteRenderer>().sprite = MapAtlas.Instance.GetSpriteByID(earthSpriteID); // Earth
-                mapBuilderScript.SetByteMap(tile, earthSpriteID);
-                mapBuilderScript.SetTileType(tile, ground.groundType);
+                generatedTiles.Add(mapScript.map[x, y, layer]);
+                allPositions.Remove(position);
 
-                // Create a list of Nighbors (increased chanse by coherence for this fields)
-                List<GameObject> neighbors = new List<GameObject>();
-                neighbors = mapBuilderScript.GetNeighborhood(neighbors, x, y); // Neighbors based on ground layer 0
+                List<Vector2> neighborCoordinates = mapBuilderScript.GetAllNeighborCoordinates(x, y);
 
-                // Depend on coherence build 8er blocks of dirt
-                foreach (GameObject neighbor in neighbors) {
-                    if ( ground.coherence >= Random.Range(0.0f, 1.0f) ) {
+                foreach (Vector2 neighborPosition in neighborCoordinates) {
+                    if (Random.Range(0.0f, 1.0f) < coherence) {
 
-                        GameObject tmpTile = mapScript.map[(int)mapBuilderScript.GetTilePosition(neighbor).x, (int)mapBuilderScript.GetTilePosition(neighbor).y, ground.layer];
-                        tmpTile.GetComponent<SpriteRenderer>().sprite = MapAtlas.Instance.GetSpriteByID(earthSpriteID); // Earth
-                        mapBuilderScript.SetByteMap(tmpTile, earthSpriteID);
-                        mapBuilderScript.SetTileType(tmpTile, ground.groundType);
-                        transitionList.Add(tmpTile);
+                        x = (int)neighborPosition.x;
+                        y = (int)neighborPosition.y;
+                        pos = new Vector2(x, y);
+                        
+                        GameObject field = mapScript.map[x, y, layer];
 
-                        if (covered < toCover) {
-                            covered++;
+                        if (field == null) {
+                            if (allPositions.Contains(neighborPosition)) {
+                                tile = mapBuilderScript.tiling(tilePattern, pos);
+                                mapScript.map[x, y, layer] = tile;
 
-                        } else {
-                            break;
+                                generatedTiles.Add(mapScript.map[x, y, layer]);
+                                allPositions.Remove(neighborPosition);
+                            }
                         }
                     }
                 }
-                covered++;
-                transitionList.Add(tile);
             }
         }
-
-        GenerateGroundTransition(transitionList);
-    }
-
-    private void GenerateGroundTransition(List<GameObject> transitionList) {
-        int layer = 0;
-
-        // Once for each earth tile on the map (full tile not mutated earth tile "Made to earth by neighbors")
-        foreach (GameObject transition in transitionList) {
-            int x = (int)mapBuilderScript.GetTilePosition(transition).x;
-            int y = (int)mapBuilderScript.GetTilePosition(transition).y;
-
-            List<GameObject> transitionNeighbors = new List<GameObject>();
-            transitionNeighbors = mapBuilderScript.GetNeighborhood(transitionNeighbors, x, y); // Neighbors based on Ground layer 0
-
-            // Delete duplicates of type {EARTH, EARTH, EARTH, EARTH}
-            foreach (GameObject duplicates in transitionList) {
-                transitionNeighbors.Remove(duplicates);
-            }
-
-            // Consider all neighbors from every earth field
-            foreach (GameObject checkZone in transitionNeighbors) {
-                int xPosition = (int)checkZone.GetComponent<Tile>().position.x;
-                int yPosition = (int)checkZone.GetComponent<Tile>().position.y;
-                byte[] checkByte;
-
-                // Left tile Check
-                if ((xPosition - 1) >= 0) {
-                    checkByte = mapScript.map[xPosition - 1, yPosition, layer].GetComponent<Tile>().byteMap;
-
-                    if (checkByte[1] == Utility.EARTH) {
-                        checkZone.GetComponent<Tile>().byteMap[0] = Utility.EARTH;
-                    }
-
-                    if (checkByte[3] == Utility.EARTH) {
-                        checkZone.GetComponent<Tile>().byteMap[2] = Utility.EARTH;
-                    }
-                }
-
-                // Right tile Check
-                if ((xPosition + 1) < this.mapScript.map.GetLength(0)) {
-                    checkByte = this.mapScript.map[xPosition + 1, yPosition, layer].GetComponent<Tile>().byteMap;
-
-                    if (checkByte[0] == Utility.EARTH) {
-                        checkZone.GetComponent<Tile>().byteMap[1] = Utility.EARTH;
-                    }
-
-                    if (checkByte[2] == Utility.EARTH) {
-                        checkZone.GetComponent<Tile>().byteMap[3] = Utility.EARTH;
-                    }
-                }
-
-                // Top tile Check
-                if ((yPosition + 1) < this.mapScript.map.GetLength(1)) {
-                    checkByte = mapScript.map[xPosition, yPosition + 1, layer].GetComponent<Tile>().byteMap;
-
-                    if (checkByte[2] == Utility.EARTH) {
-                        checkZone.GetComponent<Tile>().byteMap[0] = Utility.EARTH;
-                    }
-
-                    if (checkByte[3] == Utility.EARTH) {
-                        checkZone.GetComponent<Tile>().byteMap[1] = Utility.EARTH;
-                    }
-                }
-
-                // Buttom tile Check
-                if ((yPosition - 1) >= 0) {
-                    checkByte = mapScript.map[xPosition, yPosition - 1, layer].GetComponent<Tile>().byteMap;
-
-                    if (checkByte[0] == Utility.EARTH) {
-                        checkZone.GetComponent<Tile>().byteMap[2] = Utility.EARTH;
-                    }
-
-                    if (checkByte[1] == Utility.EARTH) {
-                        checkZone.GetComponent<Tile>().byteMap[3] = Utility.EARTH;
-                    }
-                }
-
-                // Top Left
-                if ((xPosition - 1) >= 0 && (yPosition + 1) < this.mapScript.map.GetLength(1)) {
-                    checkByte = mapScript.map[xPosition - 1, yPosition + 1, layer].GetComponent<Tile>().byteMap;
-
-                    if (checkByte[3] == Utility.EARTH) {
-                        checkZone.GetComponent<Tile>().byteMap[0] = Utility.EARTH;
-                    }
-                }
-
-                // Button Left
-                if ((xPosition - 1) >= 0 && (yPosition - 1) >= 0) {
-                    checkByte = mapScript.map[xPosition - 1, yPosition - 1, layer].GetComponent<Tile>().byteMap;
-
-                    if (checkByte[1] == Utility.EARTH) {
-                        checkZone.GetComponent<Tile>().byteMap[2] = Utility.EARTH;
-                    }
-                }
-
-                // Top Right
-                if ((xPosition + 1) < this.mapScript.map.GetLength(0) && (yPosition + 1) < this.mapScript.map.GetLength(1)) {
-                    checkByte = mapScript.map[xPosition + 1, yPosition + 1, layer].GetComponent<Tile>().byteMap;
-
-                    if (checkByte[2] == Utility.EARTH) {
-                        checkZone.GetComponent<Tile>().byteMap[1] = Utility.EARTH;
-                    }
-                }
-
-                // Buttom Right
-                if ((xPosition + 1) < this.mapScript.map.GetLength(0) && (yPosition - 1) >= 0) {
-                    checkByte = mapScript.map[xPosition + 1, yPosition - 1, layer].GetComponent<Tile>().byteMap;
-
-                    if (checkByte[0] == Utility.EARTH) {
-                        checkZone.GetComponent<Tile>().byteMap[3] = Utility.EARTH;
-                    }
-                }
-
-                // Set Sprite
-                byte[] byteTile = checkZone.GetComponent<Tile>().byteMap;
-                int spriteID = Utility.GetSpriteIDByByteMap(byteTile);
-                checkZone.GetComponent<SpriteRenderer>().sprite = MapAtlas.Instance.GetSpriteByID(spriteID);
-            }
-        }
+        
+        GameObject.Destroy(tilePattern);
+        mapBuilderScript.GenerateGroundTransition(tileData, generatedTiles);
     }
 }

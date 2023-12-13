@@ -1,87 +1,129 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using UnityEngine.U2D;
 
 public static class Utility {
 
+
     //public GUI GUI;
 
-    public const byte LAWN = 0;
-    public const byte EARTH = 1;
-    public const byte WATER = 2;
-    public const byte TRANSPARENT = 10;
-
-    public static byte[] LAWN_BYTE() {
-        return new byte[] { LAWN, LAWN, LAWN, LAWN };
+    public static byte[] ConvertToByteArray(ByteMapping byteMapping) {
+        return new byte[] {
+            Convert.ToByte(byteMapping.topLeft),
+            Convert.ToByte(byteMapping.topRight),
+            Convert.ToByte(byteMapping.bottomLeft),
+            Convert.ToByte(byteMapping.bottomRight)
+        };
     }
 
-    public static byte[] EARTH_BYTE() {
-        return new byte[] { EARTH, EARTH, EARTH, EARTH };
+    //So werden die sachen erst geladen, wenn es tatsÃ¤chlich benÃ¶tigt werden.
+    private static TileData _earthTile;
+    private static TileData _grassTile;
+    private static TileData _snowTile;
+    private static TileData _waterTile;
+    private static TileData _fragilIceTile;
+    private static TileData _iceTile;
+    private static TileData _desertTile;
+    private static TileData _asphaltTile;
+
+    public static TileData EARTH_TILE {
+        get {
+            if (_earthTile == null) {
+                _earthTile = GetTileDataByName("Earth_TLTRBLBR_V1_A1");
+            }
+            return _earthTile;
+        }
+    }
+    public static TileData GRASS_TILE {
+        get {
+            if (_grassTile == null) {
+                _grassTile = GetTileDataByName("Grass_TLTRBLBR_V1_A1");
+            }
+            return _grassTile;
+        }
+    }
+    public static TileData SNOW_TILE {
+        get {
+            if (_snowTile == null) {
+                _snowTile = GetTileDataByName("Snow_TLTRBLBR_V1_A1");
+            }
+            return _snowTile;
+        }
+    }
+    public static TileData WATER_TILE {
+        get {
+            if (_waterTile == null) {
+                _waterTile = GetTileDataByName("Water_TLTRBLBR_V1_A1");
+            }
+            return _waterTile;
+        }
+    }
+    public static TileData FRAGIL_ICE_TILE {
+        get {
+            if (_fragilIceTile == null) {
+                _fragilIceTile = GetTileDataByName("FragileIce_TLTRBLBR_V1_A1");
+            }
+            return _fragilIceTile;
+        }
+    }
+    public static TileData ICE_TILE {
+        get {
+            if (_iceTile == null) {
+                _iceTile = GetTileDataByName("Ice_TLTRBLBR_V1_A1");
+            }
+            return _iceTile;
+        }
+    }
+    public static TileData DESERT_TILE {
+        get {
+            if (_desertTile == null) {
+                _desertTile = GetTileDataByName("Desert_TLTRBLBR_V1_A1");
+            }
+            return _desertTile;
+        }
+    }
+    public static TileData ASPHALT_TILE {
+        get {
+            if (_asphaltTile == null) {
+                _asphaltTile = GetTileDataByName("Asphalt_TLTRBLBR_V1_A1");
+            }
+            return _asphaltTile;
+        }
     }
 
-    public static byte[] WATER_BYTE() {
-        return new byte[] { WATER, WATER, WATER, WATER };
+    public static TileData GetTileDataByName(string tileName) {
+        return MapAtlas.Instance.GetTileDataByName(tileName);
     }
 
-    public static byte[] TRANSPARENT_BYTE() {
-        return new byte[] { TRANSPARENT, TRANSPARENT, TRANSPARENT, TRANSPARENT };
+    public static void SetDataToTile(GameObject culledTile, TileData tileData) {
+        culledTile.GetComponent<SpriteRenderer>().sprite = tileData.Sprite;
+        Tile tile = culledTile.GetComponent<Tile>();
+
+        tile.layerType = tileData.LayerType;
+        tile.sprite = tileData.Sprite;
+        tile.byteMap = tileData.ByteMap;
+        tile.tileType = tileData.TileType;
+        tile.isPassable = tileData.IsPassable;
+        tile.slowDownFactor = tileData.SlowDownFactor;
+        tile.soundEffects = tileData.SoundEffects;
     }
 
-    /* byteMap Code on Tile.cs
-     * --------
-     * | 0  1 |
-     * | 2  3 |
-     * --------
-     */
-    public static byte[,] BYTE_MAP = new byte[,] {
-        {WATER, TRANSPARENT, TRANSPARENT, WATER},
-        {TRANSPARENT, WATER, WATER, TRANSPARENT},
-        {EARTH, EARTH, EARTH, LAWN},
-        {EARTH, EARTH, LAWN, LAWN},
-        {EARTH, EARTH, LAWN, EARTH},
-        {LAWN, LAWN, LAWN, EARTH},
-        {EARTH, LAWN, LAWN, EARTH},
-        {LAWN, LAWN, EARTH, LAWN},
-        {TRANSPARENT, WATER, WATER, TRANSPARENT},
-        {WATER, TRANSPARENT, TRANSPARENT, WATER},
-        {EARTH, LAWN, EARTH, LAWN},
-        {LAWN, LAWN, LAWN, LAWN},
-        {LAWN, EARTH, LAWN, EARTH},
-        {EARTH, EARTH, EARTH, EARTH},
-        {TRANSPARENT, WATER, WATER, WATER},
-        {WATER, TRANSPARENT, WATER, WATER},
-        {EARTH, LAWN, EARTH, EARTH},
-        {LAWN, LAWN, EARTH, EARTH},
-        {LAWN, EARTH, EARTH, EARTH},
-        {LAWN, EARTH, LAWN, LAWN},
-        {LAWN, EARTH, EARTH, LAWN},
-        {EARTH, LAWN, LAWN, LAWN},
-        {WATER, WATER, TRANSPARENT, WATER},
-        {WATER, WATER, WATER, TRANSPARENT},
-        {TRANSPARENT, TRANSPARENT, TRANSPARENT, WATER},
-        {TRANSPARENT, TRANSPARENT, WATER, WATER},
-        {TRANSPARENT, TRANSPARENT, WATER, TRANSPARENT},
-        {TRANSPARENT, TRANSPARENT, TRANSPARENT, WATER},
-        {TRANSPARENT, TRANSPARENT, WATER, WATER},
-        {TRANSPARENT, TRANSPARENT, WATER, TRANSPARENT},
-        {TRANSPARENT, WATER, WATER, WATER},
-        {WATER, TRANSPARENT, WATER, WATER},
-        {TRANSPARENT, WATER, TRANSPARENT, WATER},
-        {WATER, WATER, WATER, WATER},
-        {WATER, TRANSPARENT, WATER, TRANSPARENT},
-        {TRANSPARENT, WATER, TRANSPARENT, WATER},
-        {WATER, WATER, WATER, WATER},
-        {WATER, TRANSPARENT, WATER, TRANSPARENT},
-        {WATER, WATER, TRANSPARENT, WATER},
-        {WATER, WATER, WATER, TRANSPARENT},
-        {TRANSPARENT, WATER, TRANSPARENT, TRANSPARENT},
-        {WATER, WATER, TRANSPARENT, TRANSPARENT},
-        {WATER, TRANSPARENT, TRANSPARENT, TRANSPARENT},
-        {TRANSPARENT, WATER, TRANSPARENT, TRANSPARENT},
-        {WATER, WATER, TRANSPARENT, TRANSPARENT},
-        {WATER, TRANSPARENT, TRANSPARENT, TRANSPARENT}
-    };
+    public static TileData GetDataFromTile(GameObject field) {
+        GameObject culledTile = field.GetComponent<Culling>().tile;
+        Tile tile = culledTile.GetComponent<Tile>();
 
+        return new TileData(
+            tile.layerType,
+            culledTile.GetComponent<SpriteRenderer>().sprite,
+            tile.byteMap,
+            tile.tileType,
+            tile.isPassable,
+            tile.slowDownFactor,
+            tile.soundEffects
+        );
+    }
 
     /*                 Rain                           Rain
      *      Ground      ->     SoftGround      Mud     ->    Swamp
@@ -91,16 +133,6 @@ public static class Utility {
      *       
      *       
      */
-    public enum TileType { Ground, SoftGround, Mud, Desert, Asphalt, Water, Ice, FragileIce, Swamp, Snow };
-
-    // TODO Work in Progress - Layer System
-    public enum LayerType {
-        Base = 0,         // Grund-Layer (Persistent)
-        GroundOverlay,    // Grund-Overlayer (Gras, Asphalt, etc.)
-        StateOverlay,     // Overlayer für Grundzustände (Risse, Pfützen)
-        WeatherOverlay,   // Overlayer für Niederschlag (Regen, Schnee)
-        ObjectOverlay     // Objekt Layer (Kleinere Varianzen)
-    }
 
     public enum Side { Up, Down, Left, Right };
 
@@ -208,73 +240,6 @@ public static class Utility {
         }
 
         return updatedByte;
-    }
-
-    public static int GetLayer(TileType tileType) {
-        int returnValue = -1;
-
-        switch (tileType) {
-            case (TileType.Asphalt):
-            case (TileType.Desert):
-            case (TileType.FragileIce):
-            case (TileType.Ground):
-            case (TileType.Ice):
-            case (TileType.Mud):
-            case (TileType.SoftGround):
-            case (TileType.Swamp):
-                returnValue = 0;
-                break;
-            case (TileType.Water):
-                returnValue = 1;
-                break;
-        }
-
-        return returnValue;
-    }
-
-    public static int GetSpriteIDByByteMap(byte[] byteMap) {
-
-        int counter = 0;
-        int spriteID = 0;
-
-        for (int x = 0; x < BYTE_MAP.GetLength(0); x++) {
-            for (int y = 0; y < BYTE_MAP.GetLength(1); y++) {
-
-                if (byteMap[y] != BYTE_MAP[x, y]) {
-                    counter = 0;
-                    break;
-                } else {
-                    counter++;
-                }
-            }
-            if (counter == 4) {
-                spriteID = x;
-                break;
-            }
-        }
-
-        return spriteID;
-    }
-
-    public static byte[] TileTypeToTilyByte(byte type) {
-        byte[] returnValue = { 0 };
-
-        switch (type) {
-            case 0: // LAWN
-                returnValue = Utility.LAWN_BYTE();
-                break;
-            case 1: // EARTH
-                returnValue = Utility.EARTH_BYTE();
-                break;
-            case 2: // WATER
-                returnValue = Utility.WATER_BYTE();
-                break;
-            case 10: // TRANSPARENT
-                returnValue = Utility.TRANSPARENT_BYTE();
-                break;
-        }
-
-        return returnValue;
     }
 
     public static void Victory() {

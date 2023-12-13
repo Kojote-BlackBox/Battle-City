@@ -14,177 +14,132 @@ public class MapBuilder {
     private BuilderIce builderIce;
     private BuilderFragileIce builderFragileIce;
     private BuilderSwamp builderSwamp;
-    
-    // Attribute Set for VariateGeneratedLayer function
-    public struct BuildSet {
-        public int layer;
-        public Utility.TileType groundType;
-        public float coverage;
-        public float coherence;
-
-        public BuildSet(Utility.TileType groundType, float coverage, float coherence) {
-            this.groundType = groundType;
-
-            if( this.groundType == Utility.TileType.Water || this.groundType == Utility.TileType.Asphalt ) {
-                this.layer = 1;
-            } else {
-                this.layer = 0;
-            }
-
-            this.coverage = coverage;
-
-            this.coherence = coherence;
-            if( this.groundType == Utility.TileType.Water ) {
-                if(this.coherence > 0.3f) {
-                    this.coherence = 0.3f;
-                }
-            }
-        }
-    }
 
     public MapBuilder(GameObject origin) {
         this.mapScript = origin.GetComponent<Map>();
         this.generatorTile = new GeneratorTile(this);
 
         builderGround = new BuilderGround(this);
-        builderSoftGround = new BuilderSoftGround(this);
-        builderMud = new BuilderMud(this);
-        builderDesert = new BuilderDesert(this);
-        builderAsphalt = new BuilderAsphalt(this);
+        //builderSoftGround = new BuilderSoftGround(this);
+        //builderMud = new BuilderMud(this);
+        //builderDesert = new BuilderDesert(this);
+        //builderAsphalt = new BuilderAsphalt(this);
         builderWater = new BuilderWater(this);
-        builderIce = new BuilderIce(this);
-        builderFragileIce = new BuilderFragileIce(this);
-        builderSwamp = new BuilderSwamp(this);       
+        //builderIce = new BuilderIce(this);
+        //builderFragileIce = new BuilderFragileIce(this);
+        //builderSwamp = new BuilderSwamp(this);       
     }
 
+    /// <summary>
+    /// Initializes the base layer of the game map.
+    /// This function is responsible for creating and setting up the first layer of the game world
+    /// at the start of the game. It fills this layer with a specified type of tile, 
+    /// ensuring that the foundational layer of the map is uniformly covered with these tiles.
+    /// This setup is crucial as it forms the basic terrain on which the game will be played.
+    /// </summary>
+    /// <param name="tileData">TileData containing the properties of the tile to fill the base layer with.</param>
+    public void InitializeBaseLayer(TileData tileData) {
+        GameObject tilePattern = InstantiateToTilePattern(tileData);
+        int layer = (int)tileData.LayerType;
 
-    // TODO
-    /*
-     * Die erzeugung von Tiles (aller arten) Ausgliedern Generallesieren.
-     * Zu jedem Utility.TileType hier eine Publice Liste Machen
-     * Wasser Transition über eine Wasserliste optimieren
-     */
-    public void FillMapWithTile(string tileName,byte tileType) {
-        // Define Default Base Ground tile
-        GameObject referenceCullingTile = GameObject.Instantiate(mapScript.tilePrefab, mapScript.transform.position, Quaternion.identity);
-        GameObject referenceTile = referenceCullingTile.GetComponent<Culling>().tile;
-        int layer = 0;
-
-        
-        byte[] tileByte = Utility.TileTypeToTilyByte(tileType);
-        int lawnSpriteID = Utility.GetSpriteIDByByteMap(tileByte);
-        //referenceTile.GetComponent<SpriteRenderer>().sprite = MapAtlas.Instance.GetSpriteByID(lawnSpriteID); // Lawn
-
-        referenceTile.GetComponent<SpriteRenderer>().sprite = MapAtlas.Instance.GetSpriteByName("Lawn_Lawn_Lawn_Lawn");
-
-       // referenceTile.GetComponent<SpriteRenderer>().sprite = MapAtlas.Instance.GetSpriteByName("Lawn_Lawn_Lawn_Lawn"); // Lawn
-
-        //Set Byte Map 
-        int tileByteMapSize = referenceTile.GetComponent<Tile>().byteMap.Length;
-        for (int i = 0; i < tileByteMapSize; i++) {
-            referenceTile.GetComponent<Tile>().byteMap[i] = Utility.BYTE_MAP[lawnSpriteID, i];
-        } 
-
-        SetTileType(referenceTile, Utility.TileType.Ground);
-
-        for (int l = 0; l < mapScript.layer; l++) {
-            for (int y = 0; y < mapScript.rows; y++) {
-                for (int x = 0; x < mapScript.cols; x++) {
-
-                    // Generate Base Ground Layer
-                    if (l == 0) {
-                        GameObject cullingTile = GameObject.Instantiate(referenceCullingTile, mapScript.transform);
-                        GameObject tile = cullingTile.GetComponent<Culling>().tile;
-                        cullingTile.transform.SetParent(mapScript.transform);
-
-                        cullingTile.transform.position = new Vector2(x, y);
-                        tile.GetComponent<Tile>().position = new Vector2(x, y);
-
-                        mapScript.map[x, y, layer] = tile;
-
-                    } else {
-                        mapScript.map[x, y, l] = null;
-                    }
-                }
+        for (int y = 0; y < mapScript.rows; y++) {
+            for (int x = 0; x < mapScript.cols; x++) {
+                mapScript.map[x, y, layer] = tiling(tilePattern, new Vector2(x, y));
             }
         }
 
-        GameObject.Destroy(referenceCullingTile);
+       GameObject.Destroy(tilePattern);
     }
 
-    public void SetTileType(GameObject tile, Utility.TileType type) {
+    public GameObject InstantiateToTilePattern(TileData tileData) {
+        GameObject cullingTile = GameObject.Instantiate(mapScript.tilePrefab, mapScript.transform);
+        GameObject tile = cullingTile.GetComponent<Culling>().tile;
+        tile.GetComponent<SpriteRenderer>().sortingOrder = (int)tileData.LayerType;
 
-        switch (type) {
-            case Utility.TileType.Ground:
-                tile.GetComponent<Tile>().slowDown = 0.9f; // to 90% of initial Speed
-                tile.GetComponent<Tile>().passable = true;
+        Utility.SetDataToTile(tile, tileData);
+        cullingTile.transform.SetParent(mapScript.transform);
+
+        return cullingTile;
+    }
+
+    public GameObject tiling(GameObject tilePattern, Vector2 position) {
+        GameObject cullingTile = GameObject.Instantiate(tilePattern, mapScript.transform);
+        cullingTile.transform.position = position;
+
+        return cullingTile;
+    }
+
+    // Wird zum Systematischen Random Generieren benutzt, um Endlosschleifen zu vermeiden.
+    public List<Vector2> GenerateRandomPositionMap() {
+
+        List<Vector2> allPositions = new List<Vector2>();
+        for (int x = 0; x < mapScript.cols; x++) {
+            for (int y = 0; y < mapScript.rows; y++) {
+                allPositions.Add(new Vector2(x, y));
+            }
+        }
+
+        // Mischen der Positionen
+        System.Random rng = new System.Random();
+        int n = allPositions.Count;
+        while (n > 1) {
+            n--;
+            int k = rng.Next(n + 1);
+            Vector2 value = allPositions[k];
+            allPositions[k] = allPositions[n];
+            allPositions[n] = value;
+        }
+
+        return allPositions;
+    }
+
+    // # float coverage
+    // # float coherence
+    public void Generate( TileData tileData, float coverage, float coherence) {
+
+        if (tileData == null) {
+            Debug.LogError("MapBuilder_Generate: tileData ist null.");
+            return;
+        }
+
+        switch (tileData.TileType) {
+            case TileType.Ground:
+                // TODO Variance Erde 2 und 3 im inneren von 1
+                // TODO Grafische transparenzen
+                builderGround.Generate(tileData, coverage, coherence);
                 break;
-            case Utility.TileType.SoftGround:
-                tile.GetComponent<Tile>().slowDown = 0.8f;
-                tile.GetComponent<Tile>().passable = true;
+            case TileType.Asphalt:
                 break;
-            case Utility.TileType.Mud:
-                tile.GetComponent<Tile>().slowDown = 0.5f;
-                tile.GetComponent<Tile>().passable = true;
+            case TileType.Water:
+                builderWater.Generate(tileData, coverage, coherence);
                 break;
-            case Utility.TileType.Desert:
-                tile.GetComponent<Tile>().slowDown = 0.7f;
-                tile.GetComponent<Tile>().passable = true;
+            case TileType.Ice:
                 break;
-            case Utility.TileType.Asphalt:
-                tile.GetComponent<Tile>().slowDown = 1.0f;
-                tile.GetComponent<Tile>().passable = true;
+            case TileType.FragileIce:
                 break;
-            case Utility.TileType.Water:
-                tile.GetComponent<Tile>().passable = false;
+            case TileType.Snow:
                 break;
-            case Utility.TileType.Ice:
-                tile.GetComponent<Tile>().slowDown = 1.0f;
-                tile.GetComponent<Tile>().passable = true;
+            case TileType.PavingStone:
                 break;
-            case Utility.TileType.FragileIce:
-                tile.GetComponent<Tile>().slowDown = 1.0f;
-                tile.GetComponent<Tile>().passable = true;
+            case TileType.Object:
                 break;
-            case Utility.TileType.Swamp:
-                tile.GetComponent<Tile>().slowDown = 0.2f;
-                tile.GetComponent<Tile>().passable = true;
+            case TileType.Gravel:
+                break;
+            case TileType.Desert:
+                break;
+            case TileType.SoftGround:
+                break;
+            case TileType.Mud:
+                break;
+            case TileType.Swamp:
                 break;
             default:
-                tile.GetComponent<Tile>().passable = false;
+                Debug.LogWarning("TileType nicht erkannt: " + tileData.TileType);
                 break;
         }
-        tile.GetComponent<Tile>().type = type;
-    }
+}
 
-    public void Generate( BuildSet buildType ) {
-        Utility.TileType groundType = buildType.groundType;
-
-        switch (groundType) {
-            case Utility.TileType.Ground:
-                builderGround.Generate(buildType);
-                break;
-            case Utility.TileType.SoftGround:
-                break;
-            case Utility.TileType.Mud:
-                break;
-            case Utility.TileType.Desert:
-                break;
-            case Utility.TileType.Asphalt:
-                break;
-            case Utility.TileType.Water:
-                builderWater.Generate(buildType);
-                break;
-            case Utility.TileType.Ice:
-                break;
-            case Utility.TileType.FragileIce:
-                break;
-            case Utility.TileType.Swamp:
-                break;
-            default:
-                break;
-        }
-    }
+    /*
 
     public void GenerateWaterTransitions() {
         List<GameObject> waterTiles = new List<GameObject>();
@@ -274,6 +229,8 @@ public class MapBuilder {
         }        
     }
 
+    */
+
     public bool NotOutOfMap(int x, int y) {
         return !OutOfMap(x, y);
     }
@@ -286,29 +243,36 @@ public class MapBuilder {
         }
     }
 
-    public void SetByteMap(GameObject tile, int position) {
-        int maxLength = tile.GetComponent<Tile>().byteMap.Length;
+    public List<Vector2> GetAllNeighborCoordinates(int x, int y) {
+        List<Vector2> neighborCoordinates = new List<Vector2>();
 
-        for (int i = 0; i < maxLength; i++) {
-            tile.GetComponent<Tile>().byteMap[i] = Utility.BYTE_MAP[position, i];
-        }
-    }
-
-    public List<GameObject> GetNeighborhood(List<GameObject> neighbors, int x, int y) {
         for (int verticalOffset = -1; verticalOffset < 2; verticalOffset++) {
             for (int horizontalOffset = -1; horizontalOffset < 2; horizontalOffset++) {
                 if (NotOutOfMap(x + horizontalOffset, y + verticalOffset)) {
-                    neighbors.Add(mapScript.map[x + horizontalOffset, y + verticalOffset, 0]);
+                    neighborCoordinates.Add(new Vector2(x + horizontalOffset, y + verticalOffset));
                 }
             }
         }
-        neighbors.Remove(mapScript.map[x, y, 0]);
 
-        return neighbors;
+        neighborCoordinates.Remove(new Vector2(x, y));
+        return neighborCoordinates;
     }
 
-    public Vector2 GetTilePosition(GameObject tile) {
-        return tile.GetComponent<Tile>().position;
+    public List<GameObject> GetAllNeighborTiles(int x, int y, int z) {
+        List<GameObject> neighbors = new List<GameObject>();
+
+        for (int verticalOffset = -1; verticalOffset < 2; verticalOffset++) {
+            for (int horizontalOffset = -1; horizontalOffset < 2; horizontalOffset++) {
+                if (NotOutOfMap(x + horizontalOffset, y + verticalOffset)) {
+                    if(mapScript.map[x + horizontalOffset, y + verticalOffset, z] != null) {
+                        neighbors.Add(mapScript.map[x + horizontalOffset, y + verticalOffset, z]);
+                    }
+                }
+            }
+        }
+
+        neighbors.Remove(mapScript.map[x, y, z]);
+        return neighbors;
     }
 
     public Vector2 GetBorderedDirection(int x, int y) {
@@ -678,10 +642,6 @@ public class MapBuilder {
     * TODO weitere Wasserfelder generieren statt eine Plane aufzuziehen
     */
     public void BuildToIsland() {
-        // Set first bordered Water tile
-        int layer = Utility.GetLayer(Utility.TileType.Water);
-        List<GameObject> transitionList = new List<GameObject>();
-
         // Set Water Border
         for (int x = 0; x < this.mapScript.cols; x++) {
             SetNewWaterTile(x, 0);
@@ -753,6 +713,176 @@ public class MapBuilder {
         }
 
         return tileList;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public bool SaveToUse(int x, int y, int z, out ByteMapping byteMapping) {
+        byteMapping = null;
+        GameObject field = mapScript.map[x, y, z];
+
+        if (field != null) {
+            GameObject culledTile = field.GetComponent<Culling>().tile;
+            if (culledTile != null) {
+                Tile tile = culledTile.GetComponent<Tile>();
+                if (tile != null) {
+                    byteMapping = tile.byteMap;
+                    if (byteMapping != null) {
+                        return true;
+                    }
+                }
+            }
+        }
+
+        return false;
+    }
+
+    public void GenerateGroundTransition(TileData tileData, List<GameObject> solidTileList) {
+        // Once for each earth tile on the map (full tile not mutated earth tile "Made to earth by neighbors")
+        foreach (GameObject solidCulledTile in solidTileList) {
+            GameObject solidTile = solidCulledTile.GetComponent<Culling>().tile;
+            Vector2 pos = solidTile.transform.position;
+
+            int x = (int)pos.x;
+            int y = (int)pos.y;
+            int layer = (int)tileData.LayerType;
+
+            List<Vector2> transitionNeighborsPosition = GetAllNeighborCoordinates(x, y);
+
+            foreach (GameObject culledDuplicates in solidTileList) {
+                GameObject duplicates = culledDuplicates.GetComponent<Culling>().tile;
+
+                if (duplicates != null) {
+                    Vector2 duplicatesPosition = duplicates.transform.position;
+                    if (duplicatesPosition != null) {
+                        transitionNeighborsPosition.Remove(duplicatesPosition);
+                    }
+                }
+            }
+
+            // Consider all neighbors from every earth field
+            foreach (Vector2 neighborPosition in transitionNeighborsPosition) {
+                x = (int)neighborPosition.x;
+                y = (int)neighborPosition.y;
+
+                GameObject field = mapScript.map[x, y, layer];
+
+                if (field == null) {
+                    //Das übergangsfeld ist leer und sollte vor der Manipulation erzeugt werden.
+                    GameObject tilePattern = InstantiateToTilePattern(tileData);
+                    tilePattern.transform.position = neighborPosition;
+
+                    GameObject neighborCulledTile = tilePattern.GetComponent<Culling>().tile;
+                    Tile neighborTile = neighborCulledTile.GetComponent<Tile>();
+                    neighborTile.byteMap = UpdateByteMap(x, y, layer);
+                    string spriteByteMapCode = ConvertByteMapToStringCode(neighborTile.byteMap);
+                    string spriteName = UpdateSpriteName(tileData.Sprite.name, spriteByteMapCode);
+
+                    // Set Sprite
+                    neighborCulledTile.GetComponent<SpriteRenderer>().sprite = Utility.GetTileDataByName(spriteName).Sprite;
+                    mapScript.map[x, y, layer] = tilePattern;
+                }
+            }
+        }
+    }
+
+    public string UpdateSpriteName(string spriteName, string spriteByteMapCode) {
+        string[] parts = spriteName.Split('_');
+
+        // Zwecks Debug
+        //parts[0] = "Water";
+        parts[1] = spriteByteMapCode;
+
+        return string.Join("_", parts);
+    }
+
+    public string ConvertByteMapToStringCode(ByteMapping byteMap) {
+        // Du könntest hier auch StringBuilder verwenden, wenn die Leistung eine Rolle spielt
+        string code = "";
+
+        // Je nachdem, wie du die Reihenfolge wünschst
+        if (byteMap.topLeft) code += "TL";
+        if (byteMap.topRight) code += "TR";
+        if (byteMap.bottomLeft) code += "BL";
+        if (byteMap.bottomRight) code += "BR";
+
+        return code;
+    }
+
+    public ByteMapping UpdateByteMap(int x, int y, int layer) {
+        ByteMapping tmpBuyteMap = new ByteMapping();
+        ByteMapping returnValue = tmpBuyteMap;
+        // Left tile Check
+        if ((x - 1) >= 0) {
+            if (SaveToUse(x - 1, y, layer, out tmpBuyteMap)) {
+                returnValue.topLeft = returnValue.topLeft || tmpBuyteMap.topRight;
+                returnValue.bottomLeft = returnValue.bottomLeft || tmpBuyteMap.bottomRight;
+            }
+        }
+
+        // Right tile Check
+        if ((x + 1) < mapScript.map.GetLength(0)) {
+            if (SaveToUse(x + 1, y, layer, out tmpBuyteMap)) {
+                returnValue.topRight = returnValue.topRight || tmpBuyteMap.topLeft;
+                returnValue.bottomRight = returnValue.bottomRight || tmpBuyteMap.bottomLeft;
+            }
+        }
+
+        // Top tile Check
+        if ((y + 1) < mapScript.map.GetLength(1)) {
+            if (SaveToUse(x, y + 1, layer, out tmpBuyteMap)) {
+                returnValue.topLeft = returnValue.topLeft || tmpBuyteMap.bottomLeft;
+                returnValue.topRight = returnValue.topRight || tmpBuyteMap.bottomRight;
+            }
+        }
+
+        // Buttom tile Check
+        if ((y - 1) >= 0) {
+            if (SaveToUse(x, y - 1, layer, out tmpBuyteMap)) {
+                returnValue.bottomLeft = returnValue.bottomLeft || tmpBuyteMap.topLeft;
+                returnValue.bottomRight = returnValue.bottomRight || tmpBuyteMap.topRight;
+            }
+        }
+
+        // Top Left
+        if ((x - 1) >= 0 && (y + 1) < mapScript.map.GetLength(1)) {
+            if (SaveToUse(x - 1, y + 1, layer, out tmpBuyteMap)) {
+                returnValue.topLeft = returnValue.topLeft || tmpBuyteMap.bottomRight;
+            }
+        }
+
+        // Button Left
+        if ((x - 1) >= 0 && (y - 1) >= 0) {
+            if (SaveToUse(x - 1, y - 1, layer, out tmpBuyteMap)) {
+                returnValue.bottomLeft = returnValue.bottomLeft || tmpBuyteMap.topRight;
+            }
+        }
+
+        // Top Right
+        if ((x + 1) < mapScript.map.GetLength(0) && (y + 1) < mapScript.map.GetLength(1)) {
+            if (SaveToUse(x + 1, y + 1, layer, out tmpBuyteMap)) {
+                returnValue.topRight = returnValue.topRight || tmpBuyteMap.bottomLeft;
+            }
+        }
+
+        // Buttom Right
+        if ((x + 1) < mapScript.map.GetLength(0) && (y - 1) >= 0) {
+            if (SaveToUse(x + 1, y - 1, layer, out tmpBuyteMap)) {
+                returnValue.bottomRight = returnValue.bottomRight || tmpBuyteMap.topLeft;
+            }
+        }
+
+        return returnValue;
     }
 }
 

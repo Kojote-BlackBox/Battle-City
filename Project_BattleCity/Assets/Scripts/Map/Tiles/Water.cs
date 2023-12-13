@@ -10,10 +10,11 @@ public class Water : MonoBehaviour {
 
     void Start() {
         tileScript = this.transform.gameObject.GetComponent<Tile>();
-        
-        if(string.IsNullOrEmpty(currentWaterTile)) {
-            tileScript.byteMap = Utility.WATER_BYTE();
-            tileScript.passable = false;
+        TileData tileData = Utility.WATER_TILE;
+
+        if (string.IsNullOrEmpty(currentWaterTile)) {
+            tileScript.byteMap = tileData.ByteMap;
+            tileScript.isPassable = tileData.IsPassable;
         }
     }
 
@@ -22,37 +23,32 @@ public class Water : MonoBehaviour {
         if (!string.IsNullOrEmpty(currentWaterTile)) {
             currentWaterTile = "Water_";
 
-            // create name coding for animation (animations include the sprites)
-            foreach (byte b in tileScript.byteMap) {
-                if (b == Utility.WATER) {
-                    currentWaterTile += 1;
-                } else {
-                    currentWaterTile += 0;
-                }
-            }
+            // Erstellen Sie den Namen für die Animation basierend auf den Eigenschaften von ByteMapping
+            ByteMapping byteMap = tileScript.byteMap;
+            currentWaterTile += byteMap.topLeft ? "1" : "0";
+            currentWaterTile += byteMap.topRight ? "1" : "0";
+            currentWaterTile += byteMap.bottomLeft ? "1" : "0";
+            currentWaterTile += byteMap.bottomRight ? "1" : "0";
 
             animator.Play(currentWaterTile);
         } 
     }
 
     // Just used for transitions.
-    public void SetByteMap(byte[] byteMap) {
+    public void SetByteMap(ByteMapping byteMap) {
         tileScript.byteMap = byteMap;
         currentWaterTile = "Water_";
 
-        // create name coding for animation (animations include the sprites)
-        foreach (byte b in byteMap) {
-            if(b == Utility.WATER) {
-                currentWaterTile += 1;
-            } else {
-                currentWaterTile += 0;
-            }
-        }
+        // Erstellen Sie den Namen für die Animation basierend auf den Eigenschaften von ByteMapping
+        currentWaterTile += byteMap.topLeft ? "1" : "0";
+        currentWaterTile += byteMap.topRight ? "1" : "0";
+        currentWaterTile += byteMap.bottomLeft ? "1" : "0";
+        currentWaterTile += byteMap.bottomRight ? "1" : "0";
 
         if (!(currentWaterTile.Equals("Water_1111"))) {
             Destroy(this.gameObject.GetComponent<Rigidbody2D>());
             Destroy(this.gameObject.GetComponent<BoxCollider2D>());
-            tileScript.passable = true;
+            tileScript.isPassable = true; 
         }
 
         animator = GetComponent<Animator>();

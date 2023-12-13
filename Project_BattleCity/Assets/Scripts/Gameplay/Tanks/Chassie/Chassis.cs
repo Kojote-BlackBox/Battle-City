@@ -17,7 +17,7 @@ public class Chassis : Rotation {
 
     private Animator animator;
     private Map map;
-    private float enviromentSpeedDebuf;
+    private float enviromentSpeedDebuff;
     private new Rigidbody2D rigidbody;
     private float backwardSpeed;
 
@@ -32,7 +32,7 @@ public class Chassis : Rotation {
         backwardSpeed = baseValues.forwardSpeed * baseValues.backwardSpeedPercentage;
 
         //TODO Dynamic
-        enviromentSpeedDebuf = 1.0f;
+        enviromentSpeedDebuff = 1.0f;
 
         health = baseValues.health;
         armor = baseValues.armor;
@@ -63,12 +63,11 @@ public class Chassis : Rotation {
         if (inputDirection.y == 0f) return;
 
         // TODO link in sOChassie.rotationSpeed
-        var forwardMovement = currentDirection * enviromentSpeedDebuf * Time.fixedDeltaTime;
+        var forwardMovement = currentDirection * enviromentSpeedDebuff * Time.fixedDeltaTime;
         var movement = inputDirection.y < 0f ? -1 * forwardMovement * backwardSpeed : forwardMovement * forwardSpeed;
 
         rigidbody.MovePosition((Vector2)transform.position + movement);
     }
-
     void UpdateEnviroment() {
         Vector3 position = GetComponent<Renderer>().bounds.center;
         Vector2 tankPosition = new Vector2(position.x, position.y);
@@ -76,6 +75,6 @@ public class Chassis : Rotation {
         GameObject tile = map.GetTileOnPosition(tankPosition);
         Vector2 mapPosition = tile.GetComponent<Tile>().position;
 
-        this.enviromentSpeedDebuf = tile.GetComponent<Tile>().slowDown;
+        this.enviromentSpeedDebuff = tile.GetComponent<Tile>().slowDownFactor;
     }
 }

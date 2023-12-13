@@ -105,5 +105,47 @@ Liste aller SoundEffecte:
 "onDrive": "Bush_noice"
 
 
+##################################################
+TileType
+
+Ground:
+slowDown = 0.9f; // to 90% of initial Speed
+passable = true;
+
+SoftGround:
+slowDown = 0.8f;
+passable = true;
+
+TileType.Mud:
+slowDown = 0.5f;
+passable = true;
+
+Desert:
+slowDown = 0.7f;
+passable = true;
+
+Asphalt:
+slowDown = 1.0f;
+passable = true;
+
+Water:
+passable = false;
+
+Ice:
+slowDown = 1.0f;
+passable = true;
+
+FragileIce:
+slowDown = 1.0f;
+passable = true;
+
+Swamp:
+slowDown = 0.2f;
+passable = true;
+
+passable = false;
+
+
+
 
 

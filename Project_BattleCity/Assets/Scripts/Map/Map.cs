@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
+using UnityEngine.TestTools;
+using static UnityEngine.InputSystem.Controls.AxisControl;
+using System;
 
 public class Map : MonoBehaviour {
     [Header("Tile Prefabs")]
@@ -26,7 +29,6 @@ public class Map : MonoBehaviour {
     private float waterCoverage;
 
     public GameObject[,,] map;
-    private Utility.TileType tileType;
     public int enemyCount;
 
     public List<GameObject> camps = new List<GameObject>();
@@ -36,22 +38,26 @@ public class Map : MonoBehaviour {
     private void Awake() {
         // InitializeMap
         QualitySettings.antiAliasing = 0;
+        waterCoverage = 0.05f;
         enemyCount = 0;
         cols = 50;
         rows = 50;
-        layer = 2;
+        LayerType[] layerCount = (LayerType[])Enum.GetValues(typeof(LayerType));
+        layer = layerCount.Length;
         map = new GameObject[cols, rows, layer];
         mapBuilder = new MapBuilder(this.gameObject);
     }
 
     void Start() {
-        //GenerateCamp();
         GenerateWorld();
+        //GenerateCamps();
         EnemyDies();
     }
 
     // TODO inprogress
-    private void GenerateCamp() {
+    private void GenerateCamps() {
+
+        //campBuilder.InitializeCamps();
         int campPosX = cols / 2;
         int campPosY = rows / 2;
 
@@ -81,29 +87,31 @@ public class Map : MonoBehaviour {
     }
 
     private void GenerateWorld() {
-        // Default Layer        Utility.LAWN = 0;
-        mapBuilder.FillMapWithTile("Lawn_Lawn_Lawn_Lawn", Utility.LAWN);
 
-        // mapBuilder.VariationSet
-        // # Utility.TileType groundType
-        // # float coverage
-        // # float coherence
-        MapBuilder.BuildSet ground = new MapBuilder.BuildSet( Utility.TileType.Ground, 0.2f, 0.2f );
-        // MapBuilder.BuildSet softGround = new MapBuilder.BuildSet(Utility.TileType.SoftGround, coverage, coherence);
-        MapBuilder.BuildSet water = new MapBuilder.BuildSet( Utility.TileType.Water, waterCoverage, 0.6f );
-        // MapBuilder.BuildSet swamp = new MapBuilder.BuildSet(Utility.TileType.Swamp, coverage, coherence);
-        // MapBuilder.BuildSet mud = new MapBuilder.BuildSet(Utility.TileType.Mud, coverage, coherence);
-        // MapBuilder.BuildSet ice = new MapBuilder.BuildSet(Utility.TileType.Ice, coverage, coherence);
-        // MapBuilder.BuildSet fragileIce = new MapBuilder.BuildSet(Utility.TileType.FragileIce, coverage, coherence);
-        // MapBuilder.BuildSet desert = new MapBuilder.BuildSet(Utility.TileType.Desert, coverage, coherence);
-        // MapBuilder.BuildSet asphalt = new MapBuilder.BuildSet( Utility.TileType.Asphalt, coverage, coherence );
+        if (MapAtlas.Instance == null) {
+            Debug.LogError("Die MapAtlas wurde nicht geladen. Stellen Sie sicher, dass Sie sie zuerst laden, bevor Sie die Welt generieren.");
+            return;
+        }
+
+        // Default Layer
+        mapBuilder.InitializeBaseLayer(Utility.EARTH_TILE);
+
+        // Generate( tileData Eines Spezifischen tiles, float coverage, float coherence )
+        mapBuilder.Generate(Utility.GRASS_TILE, 0.2f, 0.2f);
+        //mapBuilder.Generate(Utility.WATER_TILE, 0.1f, 0.6f);
+
+        // mapBuilder.Generate(softGround, coverage, coherence);
+        // mapBuilder.Generate(swamp, coverage, coherence);
+        // mapBuilder.Generate(mud, coverage, coherence);
+        // mapBuilder.Generate(ice, coverage, coherence);
+        // mapBuilder.Generate(fragileIce, coverage, coherence);
+        // mapBuilder.Generate(desert, coverage, coherence);
+        // mapBuilder.Generate(asphalt, coverage, coherence);
         // TODO City
 
-        mapBuilder.Generate(ground);
-        mapBuilder.Generate(water);
-        mapBuilder.BuildToIsland();
+        //mapBuilder.BuildToIsland();
 
-        mapBuilder.GenerateWaterTransitions();
+        //mapBuilder.GenerateWaterTransitions();
     }
 
     public void EnemyDies() {
@@ -114,8 +122,8 @@ public class Map : MonoBehaviour {
         } else {
             GameObject enemy = (GameObject)Instantiate(enemyPrefab, transform);
             enemy.transform.position = new Vector2(
-                    Random.Range(1.0f, (float)map.GetLength(0) - 1.0f),
-                    Random.Range(1.0f, (float)map.GetLength(1) - 1.0f)
+                    UnityEngine.Random.Range(1.0f, (float)map.GetLength(0) - 1.0f),
+                    UnityEngine.Random.Range(1.0f, (float)map.GetLength(1) - 1.0f)
             );
         }
     }

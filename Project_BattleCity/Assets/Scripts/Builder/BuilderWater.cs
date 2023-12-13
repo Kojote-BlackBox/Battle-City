@@ -17,12 +17,12 @@ public class BuilderWater {
         this.mapScript = mapBuilderScript.mapScript;
     }
 
-    public void Generate(MapBuilder.BuildSet water) {
+    public void Generate(TileData tileData, float coverage, float coherence) {
 
         // Holder for Transition Work
         List<GameObject> transitionList = new List<GameObject>();
 
-        int toCover = (int)(mapScript.cols * mapScript.rows * water.coverage);
+        int toCover = (int)(mapScript.cols * mapScript.rows * coverage);
         int covered = 0;
 
         while (covered < toCover) {
@@ -37,7 +37,7 @@ public class BuilderWater {
             int x = (int)borderedTile.GetComponent<Tile>().position.x;
             int y = (int)borderedTile.GetComponent<Tile>().position.y;
 
-            if (mapBuilderScript.NotOutOfMap(x,y) && mapScript.map[x, y, water.layer] == null ) {
+            if (mapBuilderScript.NotOutOfMap(x,y) && mapScript.map[x, y, (int)tileData.LayerType] == null ) {
 
                 // Set first bordered Water tile
                 GameObject waterCullingTile = GameObject.Instantiate(mapScript.waterTilePrefab, mapScript.transform);
@@ -47,8 +47,11 @@ public class BuilderWater {
                 waterCullingTile.transform.position = new Vector3(x, y, -0.01f);
                 waterTile.GetComponent<Tile>().position = new Vector3(x, y, -0.01f);
 
-                mapScript.map[x, y, water.layer] = waterTile;
-                mapScript.map[x, y, Utility.GetLayer(Utility.TileType.Ground)].GetComponent<Tile>().passable = false;
+                // Copy the TileData properties to the Tile
+                Utility.SetDataToTile(waterTile, tileData);
+
+                mapScript.map[x, y, (int)tileData.LayerType] = waterTile;
+
                 transitionList.Add(waterTile);
                 covered++;
 
@@ -93,9 +96,9 @@ public class BuilderWater {
 
                     // Set Coherence dependent chances
                     float back = 1.0f;
-                    float side = back + water.coherence;                                  // min(1.0f) max(2.0f)
-                    float strive = side + 2 * water.coherence;                            // min(1.0f) max(4.0f)
-                    float front = strive + 4 * water.coherence;                           // min(1.0f) max(8.0f)
+                    float side = back + coherence;                                  // min(1.0f) max(2.0f)
+                    float strive = side + 2 * coherence;                            // min(1.0f) max(4.0f)
+                    float front = strive + 4 * coherence;                           // min(1.0f) max(8.0f)
                     float fragmentSum = backList.Count * back + sideList.Count * side + striveList.Count * strive + front;   // min(4.0f) max(15.0f)
 
                     float fragmentChance = (1.0f - breakChance) / fragmentSum;
