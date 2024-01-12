@@ -800,7 +800,7 @@ public class MapBuilder {
         string[] parts = spriteName.Split('_');
 
         // Zwecks Debug
-        //parts[0] = "Water";
+        // parts[0] = "Water";
         parts[1] = spriteByteMapCode;
 
         return string.Join("_", parts);

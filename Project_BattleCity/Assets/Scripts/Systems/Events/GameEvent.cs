@@ -1,26 +1,21 @@
-//https://blog.devgenius.io/scriptableobject-game-events-1f3401bbde72
-
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "NewGameEvent", menuName = "Events/Game Event")]
-public class GameEvent : ScriptableObject
-{
-    private readonly List<IGameEventListener> eventListener = new List<IGameEventListener>();
+public static class GameEvents {
+    // Delegat für Positionsänderungs-Events
+    public delegate void PositionChangedEventHandler(object source, PositionChangedArgs args);
 
-    public void Raise() {
-        for (int i = eventListener.Count - 1; i >= 0; i--)
-            eventListener[i].OnEventRaised();
-    }
+    // Event, das ausgelöst wird, wenn sich die Position eines Objekts ändert
+    public static event PositionChangedEventHandler PositionChanged;
 
-    public void RegisterListener(IGameEventListener listener)
-    {
-        if(eventListener.Contains(listener))
-            eventListener.Add(listener);
+    // Methode, um das Event auszulösen
+    public static void OnPositionChanged(object source, PositionChangedArgs args) {
+        PositionChanged?.Invoke(source, args);
     }
+}
 
-    public void UnregisterListener(IGameEventListener listener) {
-        if(eventListener.Contains(listener))
-            eventListener.Remove(listener);
-    }
+// Klasse für die Event-Argumente
+public class PositionChangedArgs : EventArgs {
+    public Vector2 NewPosition { get; set; }
+    public GameObject GameObject { get; set; }
 }

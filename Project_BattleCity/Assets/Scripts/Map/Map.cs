@@ -5,14 +5,17 @@ using UnityEditor;
 using UnityEngine.TestTools;
 using static UnityEngine.InputSystem.Controls.AxisControl;
 using System;
+using static Unity.Burst.Intrinsics.X86.Avx;
+using UnityEngine.InputSystem;
 
 public class Map : MonoBehaviour {
     [Header("Tile Prefabs")]
     [Space(10)]
     public GameObject tilePrefab;
     public GameObject waterTilePrefab;
+
+    [Header("Tank Prefabs")]
     public GameObject enemyPrefab;
-    public GameObject campPrefab;
 
     [Header("Base Settings")]
     [Space(10)]
@@ -34,56 +37,64 @@ public class Map : MonoBehaviour {
     public List<GameObject> camps = new List<GameObject>();
 
     private MapBuilder mapBuilder;
+    private CampBuilder campBuilder;
+
+    [Header("AI Settings")]
+    public Overmind overmind;
+
+    //###### AUDIO ########
+    private AudioSource audioSource;
+    private InputAction playMusicAction;
+    //##############
+
+
+    //##### AUDIO #########
+    void OnDestroy() {
+        playMusicAction.Disable();
+    }
+
+    private void ToggleMusic() {
+        if (audioSource.isPlaying) {
+            audioSource.Pause();
+        } else {
+            audioSource.Play();
+        }
+    }
+    //##############
+
 
     private void Awake() {
+        //####### AUDIO #######
+        audioSource = GetComponent<AudioSource>();
+        // Input Action initialisieren
+        playMusicAction = new InputAction(binding: "<Keyboard>/p");
+        playMusicAction.performed += _ => ToggleMusic();
+        playMusicAction.Enable();
+        //##############
+
         // InitializeMap
         QualitySettings.antiAliasing = 0;
         waterCoverage = 0.05f;
         enemyCount = 0;
         cols = 50;
-        rows = 50;
+        rows = 50; 
         LayerType[] layerCount = (LayerType[])Enum.GetValues(typeof(LayerType));
         layer = layerCount.Length;
         map = new GameObject[cols, rows, layer];
         mapBuilder = new MapBuilder(this.gameObject);
+        campBuilder = new CampBuilder(this.gameObject);
+        overmind = new Overmind(this.gameObject);
     }
 
     void Start() {
         GenerateWorld();
-        //GenerateCamps();
+        GenerateCamps();
         EnemyDies();
     }
 
     // TODO inprogress
     private void GenerateCamps() {
-
-        //campBuilder.InitializeCamps();
-        int campPosX = cols / 2;
-        int campPosY = rows / 2;
-
-        // Set the Frendly Camp on the Map
-        GameObject camp = Instantiate(campPrefab, transform.position, Quaternion.identity) as GameObject;
-
-        while (map[campPosX, campPosY, 1] != null) {
-            campPosX++;
-            campPosY++;
-        }
-
-        camp.transform.position = new Vector3(campPosX, campPosY, -0.01f);
-        camp.GetComponent<Camp>().position = new Vector2(campPosX, campPosY);
-        camp.GetComponent<Camp>().setFrendly(true);
-        camps.Add(camp);
-
-        // Set Enemy Camp on the Map
-        GameObject enemyCamp = Instantiate(campPrefab, transform.position, Quaternion.identity) as GameObject;
-
-        campPosX += 3;
-        campPosY += 3;
-
-        enemyCamp.transform.position = new Vector3(campPosX, campPosY, -0.01f);
-        enemyCamp.GetComponent<Camp>().position = new Vector2(campPosX, campPosY);
-        enemyCamp.GetComponent<Camp>().setFrendly(false);
-        camps.Add(enemyCamp);
+        campBuilder.Generate();
     }
 
     private void GenerateWorld() {
@@ -118,7 +129,8 @@ public class Map : MonoBehaviour {
         enemyCount--;
 
         if (enemyCount < 0) {
-            Utility.Victory();
+            //TODO
+            //Utility.Victory();
         } else {
             GameObject enemy = (GameObject)Instantiate(enemyPrefab, transform);
             enemy.transform.position = new Vector2(

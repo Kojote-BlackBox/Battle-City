@@ -11,6 +11,5 @@ public class Tile : MonoBehaviour {
     public float slowDownFactor;
     public SoundEffects soundEffects;
     public Vector2 position;
-
-    // Konstruktor oder Initialisierungsmethoden entsprechend anpassen
 }
+

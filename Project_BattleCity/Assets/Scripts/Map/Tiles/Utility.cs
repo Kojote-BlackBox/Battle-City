@@ -243,10 +243,14 @@ public static class Utility {
     }
 
     public static void Victory() {
-        //QuitGame();
+        // Handle Victory condition
+        Debug.Log("Spiel gewonnen!");
+        QuitGame();
     }
 
     public static void GameOver() {
+        // Handle Victory condition
+        Debug.Log("Spiel verloren!");
         QuitGame();
     }
 

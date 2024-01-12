@@ -21,6 +21,30 @@ public class Chassis : Rotation {
     private new Rigidbody2D rigidbody;
     private float backwardSpeed;
 
+    private Vector2 lastPosition;
+
+    private float movementThreshold; // Setzen Sie den Schwellenwert
+
+    void Update() {
+        Vector2 currentPosition = transform.position;
+        float distanceMoved = Vector2.Distance(currentPosition, lastPosition);
+
+
+        if (distanceMoved > movementThreshold) {
+            // Erstellen der Event-Argumente
+            PositionChangedArgs args = new PositionChangedArgs {
+                NewPosition = currentPosition,
+                GameObject = this.gameObject
+            };
+
+            // Auslösen des Events
+            GameEvents.OnPositionChanged(this, args);
+
+            // Aktualisieren der letzten Position
+            lastPosition = currentPosition;
+        }
+    }
+
     override protected void Awake() {
         base.Awake();
 
@@ -43,6 +67,8 @@ public class Chassis : Rotation {
 
     override protected void Start() {
         map = GameObject.Find("Map").GetComponent<Map>();
+        lastPosition = transform.position;
+        movementThreshold = 0.25f;
     }
 
     private void UpdateAnimationParameters() {

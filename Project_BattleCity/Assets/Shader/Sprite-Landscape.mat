@@ -27,6 +27,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -42,11 +46,13 @@ Material:
     m_Ints: []
     m_Floats:
     - B: 0
-    - H: 0.35
+    - H: 0
     - I: 1
-    - S: 0.5
-    - V: 0.75
+    - PixelSnap: 0
+    - S: 1
+    - V: 1
     - _EnableExternalAlpha: 0
+    - _Shininess: 0.078125
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
