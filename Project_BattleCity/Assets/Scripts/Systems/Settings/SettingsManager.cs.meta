@@ -3,7 +3,9 @@ guid: 23606f214dba90c42be291ae548869f0
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - controlSettingPrefab: {fileID: 7323958490580610892, guid: 6325e25bfa7f77c41a4cbbcb5be74ef5, type: 3}
+  - controlSettingsParent: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

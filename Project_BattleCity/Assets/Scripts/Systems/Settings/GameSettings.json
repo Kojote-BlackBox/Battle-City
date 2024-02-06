@@ -1,5 +1,27 @@
 {
-    "MusicVolume": 0.8,
-    "SFXVolume": 0.5,
-    "VoiceVolume": 0.7
+    "audioSettings": {
+        "MusicVolume": 0.8,
+        "SFXVolume": 0.5,
+        "VoiceVolume": 0.7
+    },
+    "controlSettings": {
+        "forward": "W",
+        "backward": "S",
+        "turnLeft": "A",
+        "turnRight": "D",
+        "shoot": "Space",
+        "turretLeft": "Q",
+        "turretRight": "E",
+        "toggleMusic": "P"
+    },
+    "defaultControlSettings": {
+        "forward": "W",
+        "backward": "S",
+        "turnLeft": "A",
+        "turnRight": "D",
+        "shoot": "Space",
+        "turretLeft": "Q",
+        "turretRight": "E",
+        "toggleMusic": "P"
+    }
 }

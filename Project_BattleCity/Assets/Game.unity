@@ -965,7 +965,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1124957665}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SettingsManager, Assembly-CSharp
         m_MethodName: SetDifficulty
         m_Mode: 1
@@ -1291,23 +1291,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1124724856}
   m_CullTransparentMesh: 1
---- !u!1 &1124957661 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7977778135692716937, guid: 4709e9cfcfe74c24f858e5bf3bc04a81, type: 3}
-  m_PrefabInstance: {fileID: 7977778135420077454}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1124957665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1124957661}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23606f214dba90c42be291ae548869f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1209486949
 GameObject:
   m_ObjectHideFlags: 0
@@ -2843,6 +2826,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5e0b04b2c85c234d8569b19d9603b8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameSceneName: Game
+  starterSceneName: StarterScene
+  startMenuPanel: {fileID: 0}
+  settingsMenuPanel: {fileID: 0}
+  audioOptionView: {fileID: 0}
+  videoOptionView: {fileID: 0}
+  inputOptionView: {fileID: 0}
+  gameSettingsOptionView: {fileID: 0}
 --- !u!114 &2931749986058927641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3543,10 +3534,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7977778135692716933, guid: 4709e9cfcfe74c24f858e5bf3bc04a81, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1209486950}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7977778135692716937, guid: 4709e9cfcfe74c24f858e5bf3bc04a81, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1124957665}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4709e9cfcfe74c24f858e5bf3bc04a81, type: 3}
 --- !u!224 &8264148830032585092
 RectTransform:
