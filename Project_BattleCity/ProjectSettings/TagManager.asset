@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Map
   - Enemy
+  - Damageable
+  - Spawn
   layers:
   - Default
   - TransparentFX
@@ -15,7 +17,7 @@ TagManager:
   - UI
   - Destructible
   - Projectiles
-  - 
+  - Effects
   - 
   - 
   - 
@@ -48,4 +50,7 @@ TagManager:
     locked: 0
   - name: Projectiles
     uniqueID: 145138243
+    locked: 0
+  - name: Effects
+    uniqueID: 3190733523
     locked: 0

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &388858833968540130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3124687328562426364}
+  - component: {fileID: 4964128652707735922}
+  m_Layer: 0
+  m_Name: TagManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3124687328562426364
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388858833968540130}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4964128652707735922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388858833968540130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c39e4be20c28e41c1b74d462838c4353, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  availableTags:
+  - {fileID: 11400000, guid: 1f1c35882154246c38d584e7a6b68624, type: 2}
+  - {fileID: 11400000, guid: 34ac9d0cb71c24197a5c3a4f970643bd, type: 2}
+  - {fileID: 11400000, guid: 6a196ebff11654443bdca22eb881aef7, type: 2}
+  - {fileID: 11400000, guid: 9defa104edc6b4cacb6f28ecd2f6d533, type: 2}
+  - {fileID: 11400000, guid: b54c476c1b0994053bab5660ea84dd50, type: 2}
+  - {fileID: 11400000, guid: cfd06342dc52b44b4a6928d4e9b34b0c, type: 2}
+  - {fileID: 11400000, guid: e689993c334474d489f8897ea8457b5b, type: 2}
+  - {fileID: 11400000, guid: 13c4b9bb0a78b44288ca8178d9f07316, type: 2}
+  - {fileID: 11400000, guid: d2045a1a68788438196b209dda720dc8, type: 2}

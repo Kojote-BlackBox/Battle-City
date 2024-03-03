@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67e9f5ddea5f19048a6017bc1759b6dc, type: 3}
+  m_Name: DataBunkerEnemyMedium
+  m_EditorClassIdentifier: 
+  isFriendly: 0
+  spriteBunker: {fileID: 21300000, guid: d8de13240cebfdf43a82f53bd8cac2d1, type: 3}
+  spriteBunkerLight: {fileID: 21300000, guid: 391f5167d8143154384a34348a339102, type: 3}
+  localPositionBunkerLight: {x: -0.07, y: -0.79}
+  capTimeMax: 3
+  eventCheckGameState: {fileID: 11400000, guid: bc1eb7ce72e0f4a58803280b26dd09e2, type: 2}
+  prefabSpawnObject: {fileID: 8638098521210480316, guid: 977316b04afcb404da8c220fcd2ef843, type: 3}
+  prefabDropUpgrade: {fileID: 0}
+  spawnTime: 5
+  tagTank: {fileID: 11400000, guid: 13c4b9bb0a78b44288ca8178d9f07316, type: 2}
+  tagEnemy: {fileID: 11400000, guid: 6a196ebff11654443bdca22eb881aef7, type: 2}
