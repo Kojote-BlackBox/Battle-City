@@ -34,7 +34,7 @@ namespace Core.Input
             _tankTurret = gameObject.GetComponentInChildren<TankTurret>();
             _componentAimIndicator = gameObject.GetComponentInChildren<ComponentAimIndicator>();
 
-            _playerActions.bindingMask = InputBinding.MaskByGroup("Keyboard - WASD");
+            _playerActions.bindingMask = InputBinding.MaskByGroup("Mouse"); // Note: You can change the input schema here!
 
             _playerActions.Gameplay.Shoot.started += ctx => OnShoot(ctx);
             _playerActions.Gameplay.TurretRotation.performed += ctx => OnTurretRotation(ctx);

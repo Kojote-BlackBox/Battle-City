@@ -27,12 +27,12 @@ namespace Core.Aim
                 name = "AimIndicator"
             };
 
-            // TODO: load sprite indicator
-
             _spriteIndicator = Resources.Load<Sprite>("Indicators/Cursors/Cursor");
 
             var renderer = _gameObjectIndicator.AddComponent<SpriteRenderer>();
             renderer.sprite = _spriteIndicator;
+            renderer.sortingLayerName = "Effects";
+            renderer.sortingOrder = 0;
         }
 
         void Update()
@@ -49,10 +49,7 @@ namespace Core.Aim
 
         public void SetLength(float length)
         {
-            if (length <= 0f)
-            {
-                return;
-            }
+            if (length <= 0f) return;
 
             _length = length;
         }
