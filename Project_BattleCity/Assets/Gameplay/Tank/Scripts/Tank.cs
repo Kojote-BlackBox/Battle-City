@@ -8,9 +8,11 @@ namespace Gameplay.Tank
     {
         #region data
         [Header("Data")]
-        [SerializeField] private DataTankBody _dataTankBody;
-        [SerializeField] private DataTankTurret _dataTankTurret;
-        [SerializeField] private DataShell _dataShell;
+        [SerializeField] private DataTank _dataTankInitial;
+
+        private DataTankBody _dataTankBodyCurrent;
+        private DataTankTurret _dataTankTurretCurrent;
+        private DataShell _dataShellCurrent;
         #endregion
 
         #region components
@@ -23,22 +25,26 @@ namespace Gameplay.Tank
             _componentTankBody = gameObject.GetComponentInChildren<TankBody>();
             _componentTankTurret = gameObject.GetComponentInChildren<TankTurret>();
 
-            _dataTankTurret.dataShell = _dataShell;
-            _componentTankTurret.SetDataTankTurret(_dataTankTurret);
-            _componentTankBody.SetDataTankBody(_dataTankBody);
+            _dataTankBodyCurrent = _dataTankInitial.dataTankBody;
+            _dataTankTurretCurrent = _dataTankInitial.dataTankTurret;
+            _dataShellCurrent = _dataTankInitial.dataShell;
+
+            _dataTankTurretCurrent.dataShell = _dataShellCurrent;
+            _componentTankTurret.SetDataTankTurret(_dataTankTurretCurrent);
+            _componentTankBody.SetDataTankBody(_dataTankBodyCurrent);
         }
 
         public void ChangeTankBody(DataTankBody newTankBody)
         {
-            _dataTankBody = newTankBody;
-            _componentTankBody.SetDataTankBody(_dataTankBody);
+            _dataTankBodyCurrent = newTankBody;
+            _componentTankBody.SetDataTankBody(_dataTankBodyCurrent);
         }
 
         public void ChangeTankTurret(DataTankTurret newTankTurret)
         {
-            _dataTankTurret = newTankTurret;
-            _dataTankTurret.dataShell = _dataShell;
-            _componentTankTurret.SetDataTankTurret(_dataTankTurret);
+            _dataTankTurretCurrent = newTankTurret;
+            _dataTankTurretCurrent.dataShell = _dataShellCurrent;
+            _componentTankTurret.SetDataTankTurret(_dataTankTurretCurrent);
 
             var componentAimIndicator = GetComponent<ComponentAimIndicator>();
             if (componentAimIndicator != null) componentAimIndicator.SetLength(_componentTankTurret.GetRange());
@@ -46,9 +52,9 @@ namespace Gameplay.Tank
 
         public void ChangeShell(DataShell newShell)
         {
-            _dataShell = newShell;
-            _dataTankTurret.dataShell = _dataShell;
-            _componentTankTurret.SetDataTankTurret(_dataTankTurret);
+            _dataShellCurrent = newShell;
+            _dataTankTurretCurrent.dataShell = _dataShellCurrent;
+            _componentTankTurret.SetDataTankTurret(_dataTankTurretCurrent);
         }
     }
 }

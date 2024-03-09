@@ -10,8 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 126a8a643cb2b0344bcfbdcf75df483d, type: 3}
-  m_Name: TankMedium
+  m_Name: TankStockTop
   m_EditorClassIdentifier: 
-  body: {fileID: 11400000, guid: 66095df92cb565e49baa564fc35be8ed, type: 2}
-  turret: {fileID: 11400000, guid: e07a968f70163944892d11f894188792, type: 2}
-  projectile: {fileID: 11400000, guid: 5efa8894ec2310641a9491011e773259, type: 2}
+  dataTankBody: {fileID: 11400000, guid: 1588cb0c85f734403a7c819f29313f30, type: 2}
+  dataTankTurret: {fileID: 11400000, guid: 1a2bf7ace7632744fb08d522db980602, type: 2}

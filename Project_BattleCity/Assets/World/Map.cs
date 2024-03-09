@@ -15,6 +15,8 @@ namespace World
         public int rows;
         public int columns;
         [HideInInspector] public int layer;
+
+        private RectInt _mapBounds;
         #endregion
 
         #region tiles
@@ -44,15 +46,15 @@ namespace World
         public GameObject parentObjectBunkers;
         #endregion
 
-        #region tags
-        [Header("Tags")]
-        public DataTag tagBunker;
-        public DataTag tagFriendly;
-        public DataTag tagEnemy;
-        #endregion
-
         private void Awake()
         {
+            _mapBounds = new RectInt(
+                xMin: 0,
+                yMin: 0,
+                width: columns,
+                height: rows
+            );
+
             initializeAudio();
             initializeMap();
             initializeBuilder();
@@ -137,14 +139,31 @@ namespace World
             return map[(int)position.x, (int)position.y, 0];
         }
 
-        public Vector2 GetMapBoundsX()
+        public RectInt GetMapBounds()
         {
-            return new Vector2();
+            return _mapBounds;
         }
 
-        public Vector2 GetMapBoundsY()
+        public RectInt GetPossibleSpawnBounds(Vector2Int spawnObjectSize)
         {
-            return new Vector2();
+            var spawnBounds = new RectInt(
+                xMin: spawnObjectSize.x,
+                yMin: spawnObjectSize.y,
+                width: columns - spawnObjectSize.x,
+                height: rows - spawnObjectSize.y
+            );
+
+            return spawnBounds;
+        }
+
+        public Vector2 GetRandomPointForObject(Vector2Int objectSize)
+        {
+            var spawnBounds = GetPossibleSpawnBounds(objectSize);
+
+            return new Vector2(
+                UnityEngine.Random.Range(spawnBounds.x, spawnBounds.width + 1),
+                UnityEngine.Random.Range(spawnBounds.x, spawnBounds.height + 1)
+            );
         }
     }
 }

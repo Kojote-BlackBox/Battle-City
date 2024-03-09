@@ -1,4 +1,5 @@
-﻿using Core.Input;
+﻿using AI;
+using Core.Input;
 using UnityEngine;
 
 namespace Gameplay.Upgrade
@@ -9,7 +10,7 @@ namespace Gameplay.Upgrade
 
         public void OnTriggerEnter2D(Collider2D collider)
         {
-            if (collider.gameObject.GetComponent<PlayerController>() == null) return;
+            if (collider.gameObject.GetComponent<PlayerController>() == null && collider.gameObject.GetComponent<AIController>()) return;
 
             Apply(collider.gameObject);
 

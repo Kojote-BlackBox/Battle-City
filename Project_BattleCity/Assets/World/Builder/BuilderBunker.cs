@@ -25,11 +25,17 @@ namespace World.Builder
 
         public void Generate(Map map)
         {
-            SpawnBunker(dataBunkerFriendly, new Vector2(map.columns / 2, map.rows / 2)); // TODO: random position
+            SpawnBunker(dataBunkerFriendly, new Vector2(map.columns / 2, map.rows / 2));
+
+            // TODO: tell the map that this spot is occupied
 
             foreach (var bunkerEnemy in dataBunkersEnemy)
             {
-                SpawnBunker(bunkerEnemy, new Vector2(map.columns / 2 + 3, map.rows / 2 + 3)); // TODO: random position & validation check
+                var spawnPoint = map.GetRandomPointForObject(bunkerEnemy.sizeUnit);
+
+                // TODO: ccheck if possible to spawn at that point
+
+                SpawnBunker(bunkerEnemy, spawnPoint);
             }
         }
 

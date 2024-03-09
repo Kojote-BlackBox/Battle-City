@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 94cde8ce0ff698c4fa415fd79853005c, type: 3}
-  m_Name: TurretHeavy
+  m_Name: TurretStockStock
   m_EditorClassIdentifier: 
   dataShell: {fileID: 11400000, guid: 7146f555347ce1c46b3610c79aff3bde, type: 2}
   offsetFactorMuzzle: 0.5

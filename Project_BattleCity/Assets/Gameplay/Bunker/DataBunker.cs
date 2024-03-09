@@ -11,6 +11,7 @@ namespace Gameplay.Bunker
         [Header("Bunker")]
         public bool isFriendly;
         public Sprite spriteBunker;
+        public Vector2Int sizeUnit;
 
         [Header("Bunker Light")]
         public Sprite spriteBunkerLight;

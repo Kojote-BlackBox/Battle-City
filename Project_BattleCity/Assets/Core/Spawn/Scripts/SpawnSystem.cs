@@ -172,7 +172,7 @@ namespace Core.Spawn
                         Debug.Log("spawning enemy tank");
 
                         enemies.activeGameObjects.Add(instanceGameObjectSpawn);
-                        instanceGameObjectSpawn.AddComponent<AiComponent>();
+                        instanceGameObjectSpawn.AddComponent<AIController>();
 
                         instancedComponentTags.AddTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagEnemy));
 

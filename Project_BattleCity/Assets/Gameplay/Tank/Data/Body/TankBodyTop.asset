@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2094c64a733c83f47a369e675b87b9d9, type: 3}
-  m_Name: TankBodyHeavy
+  m_Name: TankBodyTop
   m_EditorClassIdentifier: 
   health: 4
   eventAudioDestroyed: {fileID: 11400000, guid: 81e27979ad59c40029d8d80e8f55f717, type: 2}
   eventAudioHit: {fileID: 11400000, guid: e4af91290df6842e786b18aef8f00a59, type: 2}
-  animationController: {fileID: 9100000, guid: bf2263932859fa24682ea41616bfddd9, type: 2}
+  animationController: {fileID: 9100000, guid: ff4f8d83db25361489d6bc8960d8b965, type: 2}
   enableTrail: 1
   prefabTrail: {fileID: 8752219780869154113, guid: 203c454063e258242890dfc1246ac31e, type: 3}
   trailSegments: 6

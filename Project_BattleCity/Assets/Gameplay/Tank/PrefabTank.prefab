@@ -52,6 +52,8 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -76,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 413708847
   m_SortingLayer: 1
   m_SortingOrder: 2
-  m_Sprite: {fileID: -152123593430963983, guid: 2c537860f547d8f4b9cad421183660fa, type: 3}
+  m_Sprite: {fileID: -841809489181708946, guid: 804cf36cb764948bc817ded0c5ae2501, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -135,6 +137,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -239,7 +242,7 @@ GameObject:
   - component: {fileID: 3221380113404738929}
   - component: {fileID: 8043924818797515361}
   m_Layer: 6
-  m_Name: TankMedium
+  m_Name: PrefabTank
   m_TagString: Damageable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -278,6 +281,8 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -302,7 +307,7 @@ SpriteRenderer:
   m_SortingLayerID: 413708847
   m_SortingLayer: 1
   m_SortingOrder: 1
-  m_Sprite: {fileID: 5503944539398965685, guid: 17d9de889bab71e4b8480066709f6ad8, type: 3}
+  m_Sprite: {fileID: -4547123322142162490, guid: 16d9e056cabce4e42a1b684abe6ad6f0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -325,8 +330,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8add6b894542c407ea5e628f0080dcfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dataTankBody: {fileID: 11400000, guid: 66095df92cb565e49baa564fc35be8ed, type: 2}
-  _dataTankTurret: {fileID: 11400000, guid: e07a968f70163944892d11f894188792, type: 2}
+  _dataTankBody: {fileID: 11400000, guid: 1588cb0c85f734403a7c819f29313f30, type: 2}
+  _dataTankTurret: {fileID: 11400000, guid: ccf823c6b85e1406797adaafddcf7b71, type: 2}
   _dataShell: {fileID: 11400000, guid: 5efa8894ec2310641a9491011e773259, type: 2}
 --- !u!114 &3824290048592633518
 MonoBehaviour:
@@ -449,6 +454,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

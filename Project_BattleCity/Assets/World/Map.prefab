@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rows: 25
-  columns: 15
+  columns: 25
   layer: 0
   tilePrefab: {fileID: 705499126923244013, guid: 0cef42077ebfd38409ae1e35cf233be6, type: 3}
   waterTilePrefab: {fileID: 7332387702616729168, guid: 08dacd8384c289c4d89e900f215b7d79, type: 3}
@@ -56,10 +56,9 @@ MonoBehaviour:
   dataBunkerFriendly: {fileID: 11400000, guid: a0507a76de492492cbb2fc7452bb69e1, type: 2}
   dataBunkersEnemy:
   - {fileID: 11400000, guid: 2b4ff9f5706c1c43abdf2d711773c8ef, type: 2}
+  - {fileID: 11400000, guid: 2b4ff9f5706c1c43abdf2d711773c8ef, type: 2}
+  - {fileID: 11400000, guid: 2b4ff9f5706c1c43abdf2d711773c8ef, type: 2}
   parentObjectBunkers: {fileID: 0}
-  tagBunker: {fileID: 11400000, guid: 1f1c35882154246c38d584e7a6b68624, type: 2}
-  tagFriendly: {fileID: 11400000, guid: 6a196ebff11654443bdca22eb881aef7, type: 2}
-  tagEnemy: {fileID: 11400000, guid: 34ac9d0cb71c24197a5c3a4f970643bd, type: 2}
 --- !u!81 &1580764979
 AudioListener:
   m_ObjectHideFlags: 0

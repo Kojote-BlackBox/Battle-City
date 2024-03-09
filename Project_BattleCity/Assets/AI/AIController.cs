@@ -4,13 +4,15 @@ using UnityEngine;
 
 namespace AI
 {
-    public class AiComponent : MonoBehaviour
+    public class AIController : MonoBehaviour
     {
+        #region fsm
         private StateMachine _stateMachine;
-        
+        #endregion
+
         private void Awake()
         {
-            _stateMachine = new StateMachine(gameObject,  new SearchForState());
+            _stateMachine = new StateMachine(gameObject, new SearchForState());
         }
 
         private void Update()
