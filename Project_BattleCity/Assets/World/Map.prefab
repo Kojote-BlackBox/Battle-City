@@ -46,8 +46,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a0818712a0524c4d8374aa8d8f83a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rows: 50
-  columns: 50
+  rows: 25
+  columns: 15
   layer: 0
   tilePrefab: {fileID: 705499126923244013, guid: 0cef42077ebfd38409ae1e35cf233be6, type: 3}
   waterTilePrefab: {fileID: 7332387702616729168, guid: 08dacd8384c289c4d89e900f215b7d79, type: 3}
@@ -77,9 +77,10 @@ AudioSource:
   m_GameObject: {fileID: 373737216440462134}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -3374189788061263798, guid: dd91ac8fdda99474596575a0e51398f3, type: 2}
   m_audioClip: {fileID: 8300000, guid: db011e11ca9cca54887ffaea96fe44d0, type: 3}
-  m_PlayOnAwake: 0
+  m_Resource: {fileID: 8300000, guid: db011e11ca9cca54887ffaea96fe44d0, type: 3}
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 1

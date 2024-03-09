@@ -560,18 +560,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5389174114567484974, guid: 726a10569829d420c8915ce556a27130, type: 3}
-      propertyPath: orthographic
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5389174114567484974, guid: 726a10569829d420c8915ce556a27130, type: 3}
-      propertyPath: orthographic size
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5389174114567484974, guid: 726a10569829d420c8915ce556a27130, type: 3}
-      propertyPath: m_projectionMatrixMode
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7688903929537177178, guid: 726a10569829d420c8915ce556a27130, type: 3}
       propertyPath: map
       value: 
@@ -2536,18 +2524,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Map
       objectReference: {fileID: 0}
-    - target: {fileID: 1837656652894378597, guid: c05e028478f81d54ea4bd5db68b2eb94, type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 8300000, guid: 829703f9a87518048976fad8016df5f0, type: 3}
-    - target: {fileID: 1837656652894378597, guid: c05e028478f81d54ea4bd5db68b2eb94, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1837656652894378597, guid: c05e028478f81d54ea4bd5db68b2eb94, type: 3}
-      propertyPath: OutputAudioMixerGroup
-      value: 
-      objectReference: {fileID: -3374189788061263798, guid: dd91ac8fdda99474596575a0e51398f3, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
