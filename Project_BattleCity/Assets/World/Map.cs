@@ -4,10 +4,18 @@ using UnityEngine.InputSystem;
 using Core.Reference;
 using World.Builder;
 using Gameplay.Bunker;
-using Core.Tag;
+using Core.Spawn;
+using System.Collections.Generic;
 
 namespace World
 {
+    // TODO: move to data spawninfo or something like that
+    [Serializable]
+    public class SpawnInfo {
+        public GameObject prefabObjectToSpawn;
+        public int spawnDelay;
+    }
+
     public class Map : MonoBehaviour
     {
         #region map
@@ -46,6 +54,12 @@ namespace World
         public GameObject parentObjectBunkers;
         #endregion
 
+        #region spawnpoints
+        [Header("Spawnpoints Settings")]
+        public GameObject prefabSpawnpoint;
+        public List<SpawnInfo> spawnPoints;
+        #endregion
+
         private void Awake()
         {
             _mapBounds = new RectInt(
@@ -61,6 +75,7 @@ namespace World
 
             generateWorld();
             generateBunkers();
+            generatePickups();
         }
 
         void initializeAudio()
@@ -117,6 +132,20 @@ namespace World
             if (builderBunker == null) return;
 
             builderBunker.Generate(this);
+        }
+
+        private void generatePickups() {
+            if (spawnPoints == null || spawnPoints.Count <= 0) return;
+
+            foreach (var spawnPoint in  spawnPoints) {
+                var positionSpawnpoint = GetRandomPointForObject(new Vector2Int(1, 1));
+
+                var instantiatedSpawnpoint = Instantiate(prefabSpawnpoint, positionSpawnpoint, Quaternion.identity);
+
+                var componentSpawnpoint = instantiatedSpawnpoint.GetComponent<SpawnPoint>();
+                componentSpawnpoint.prefabSpawnObject = spawnPoint.prefabObjectToSpawn;
+                componentSpawnpoint.spawnDelay = spawnPoint.spawnDelay;
+            }
         }
 
         private void generateWorld()
