@@ -6,8 +6,11 @@ using Core.Event;
 namespace Gameplay.Tank
 {
     [CreateAssetMenu(fileName = "NewDataTankBody", menuName = "Data/Tank/Body")]
-    public class DataTankBody : DataHealth
+    public class DataTankBody : ScriptableObject
     {
+        [Header("Health")]
+        public DataHealth dataHealth;
+
         [Header("Animation")]
         public AnimatorController animationController;
 

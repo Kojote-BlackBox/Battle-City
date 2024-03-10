@@ -1,12 +1,10 @@
 ﻿using System.Collections;
 using Core.Reference;
-using Gameplay.Score;
 using Core.Event;
 using UnityEngine;
 using Core.Tag;
 using Core;
 using Gameplay.Tank;
-using Effect.Trail;
 
 namespace Gameplay.Health
 {
@@ -85,9 +83,15 @@ namespace Gameplay.Health
 
         public void ModifyHealth(int amount, bool byPlayer)
         {
-            Debug.Log("modify health by " + amount);
+            if (dataHealth == null) {
+                Debug.LogError("Gameobject " + gameObject + " has not health data set!");
+
+                return;
+            }
 
             currentHealth += amount;
+
+            Debug.Log("modified health by " + amount + " - current health: " + currentHealth);
 
             if (currentHealth > dataHealth.health)
                 currentHealth = dataHealth.health;
@@ -131,6 +135,16 @@ namespace Gameplay.Health
                 StartCoroutine(WaitAndSpawnRemains(remainsToSpawn, gameObject, remains, delay));
             else
                 Destroy(gameObject, delay);
+        }
+
+        public void Reset() {
+            if (dataHealth == null) {
+                Debug.LogError("Gameobject " + gameObject + " has not health data set!");
+
+                return;
+            }
+
+            currentHealth = dataHealth.health;
         }
 
         /*public void ApplyShield(float duration)

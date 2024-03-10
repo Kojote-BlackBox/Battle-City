@@ -1,6 +1,7 @@
 using Core;
 using Core.Tag;
 using Effect.Trail;
+using Gameplay.Health;
 using UnityEngine;
 using World;
 
@@ -95,6 +96,14 @@ namespace Gameplay.Tank
             if (_animator == null) _animator = GetComponent<Animator>();
             if (_rigidbody == null) _rigidbody = GetComponent<Rigidbody2D>();
             if (_audioSource == null) _audioSource = GetComponent<AudioSource>();
+
+            if (_componentTags.ContainsTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagHealth))) {
+                var componentHealth = GetComponent<ComponentHealth>();
+                if (componentHealth != null) {
+                    componentHealth.dataHealth = _dataTankBody.dataHealth;
+                    componentHealth.Reset();
+                }
+            }
 
             if (_dataTankBody.enableTrail)
             {

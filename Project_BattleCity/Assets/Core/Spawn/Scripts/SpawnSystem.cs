@@ -128,13 +128,6 @@ namespace Core.Spawn
             }
 
             spawnPoints.RemoveAt(0);
-
-            //if (_spawnNext.spawnObjectType != ObjectType.ObjectType.Tank) return;
-
-            /* var tdc = _spawnNext.objectToSpawn.GetComponentInChildren<TankDataComponent>();
-             spawnInfo.image = tdc.tankData.icon;
-             spawnInfo.label = tdc.tankData.label;
-            eventUpdateSpawnInfo.Raise();*/
         }
 
         private void Update()
@@ -145,7 +138,7 @@ namespace Core.Spawn
 
             Debug.Log("spawning");
 
-            var instanceGameObjectSpawn = Instantiate(_spawnNext.prefabSpawnObject, _spawnNext.gameObject.transform.position, Quaternion.identity);
+            var instanceGameObjectSpawn = Instantiate(_spawnNext.prefabSpawnObject, _spawnNext.gameObject.transform.position, Quaternion.identity); 
 
             var instancedComponentTags = instanceGameObjectSpawn.GetComponentInChildren<ComponentTags>();
             if (instancedComponentTags != null)

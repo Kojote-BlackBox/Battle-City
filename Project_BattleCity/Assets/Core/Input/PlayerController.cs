@@ -42,9 +42,6 @@ namespace Core.Input
 
             _playerActions.Gameplay.TurretRotation.canceled += ctx => _directionTurret = 0f;
             _playerActions.Gameplay.ChassieMovement.canceled += ctx => _directionTank = Vector2.zero;
-
-            //_playerActions.Gameplay.MouseTurretRotation.performed += ctx => OnMouseTurretRotation(ctx);
-            //_playerActions.Gameplay.MouseTurretRotation.canceled += ctx => OnMouseTurretRotation(ctx);
         }
 
         private void Update()

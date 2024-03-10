@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d61a37b0a17e4287b27ce26b77e027c, type: 3}
+  m_Name: DataHealthT2BodyStock
+  m_EditorClassIdentifier: 
+  health: 4
+  eventAudioDestroyed: {fileID: 11400000, guid: 81e27979ad59c40029d8d80e8f55f717, type: 2}
+  eventAudioHit: {fileID: 11400000, guid: e4af91290df6842e786b18aef8f00a59, type: 2}

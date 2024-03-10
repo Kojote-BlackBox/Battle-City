@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2094c64a733c83f47a369e675b87b9d9, type: 3}
+  m_Name: BodyT1Stock
+  m_EditorClassIdentifier: 
+  dataHealth: {fileID: 11400000, guid: a1053ba73d8470a4693fa6f2d2482d03, type: 2}
+  animationController: {fileID: 9100000, guid: bf2263932859fa24682ea41616bfddd9, type: 2}
+  enableTrail: 1
+  prefabTrail: {fileID: 8752219780869154113, guid: 203c454063e258242890dfc1246ac31e, type: 3}
+  trailSegments: 6
+  trailTime: 1
+  scaleTrail: 0.5
+  forwardSpeed: 2
+  backwardSpeedPercentage: 0.75
+  rotationSpeed: 0.15
+  audioClipEngine: {fileID: 8300000, guid: 37f3f0f978895a84490a6f34630324a3, type: 3}
+  pitchIdle: 1
+  pitchMovement: 1.3
+  volumeIdle: 0.1
+  volumeMovement: 0.2
