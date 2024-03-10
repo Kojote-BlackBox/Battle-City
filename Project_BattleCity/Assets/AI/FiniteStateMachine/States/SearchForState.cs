@@ -136,7 +136,9 @@ namespace AI.Fsm.States
                     Debug.Log("AI: found a turret");
                 }
 
-                StateMachine.ChangeState(new ShootState(hit.collider.gameObject));
+                if (!componentTagsTarget.ContainsTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagEnemy))) {
+                    StateMachine.ChangeState(new ShootState(hit.collider.gameObject));
+                }
             }
 
             return false;

@@ -2406,6 +2406,42 @@ PrefabInstance:
       propertyPath: parentObjectBunkers
       value: 
       objectReference: {fileID: 151052045}
+    - target: {fileID: 373737216440462129, guid: c05e028478f81d54ea4bd5db68b2eb94, type: 3}
+      propertyPath: spawnPoints.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 373737216440462129, guid: c05e028478f81d54ea4bd5db68b2eb94, type: 3}
+      propertyPath: spawnPoints.Array.data[3].spawnDelay
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 373737216440462129, guid: c05e028478f81d54ea4bd5db68b2eb94, type: 3}
+      propertyPath: spawnPoints.Array.data[4].spawnDelay
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 373737216440462129, guid: c05e028478f81d54ea4bd5db68b2eb94, type: 3}
+      propertyPath: spawnPoints.Array.data[5].spawnDelay
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 373737216440462129, guid: c05e028478f81d54ea4bd5db68b2eb94, type: 3}
+      propertyPath: spawnPoints.Array.data[6].spawnDelay
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 373737216440462129, guid: c05e028478f81d54ea4bd5db68b2eb94, type: 3}
+      propertyPath: spawnPoints.Array.data[3].prefabObjectToSpawn
+      value: 
+      objectReference: {fileID: 4733548167533544396, guid: 9028a6ce764d0134ebb6b13b927bf638, type: 3}
+    - target: {fileID: 373737216440462129, guid: c05e028478f81d54ea4bd5db68b2eb94, type: 3}
+      propertyPath: spawnPoints.Array.data[4].prefabObjectToSpawn
+      value: 
+      objectReference: {fileID: 3890085053017976549, guid: c32a9eafbbdc7f34d981b299c75ddb66, type: 3}
+    - target: {fileID: 373737216440462129, guid: c05e028478f81d54ea4bd5db68b2eb94, type: 3}
+      propertyPath: spawnPoints.Array.data[5].prefabObjectToSpawn
+      value: 
+      objectReference: {fileID: 8316362690407008771, guid: 8f9001ac70f93034ea4059fa089aa351, type: 3}
+    - target: {fileID: 373737216440462129, guid: c05e028478f81d54ea4bd5db68b2eb94, type: 3}
+      propertyPath: spawnPoints.Array.data[6].prefabObjectToSpawn
+      value: 
+      objectReference: {fileID: 4602331215161895834, guid: 8a62f3743d26d614f8b1ed9522b597ba, type: 3}
     - target: {fileID: 373737216440462134, guid: c05e028478f81d54ea4bd5db68b2eb94, type: 3}
       propertyPath: m_Name
       value: Map
