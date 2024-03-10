@@ -1,7 +1,6 @@
 using UnityEditor.Animations;
 using UnityEngine;
 using Gameplay.Health;
-using Core.Event;
 
 namespace Gameplay.Tank
 {

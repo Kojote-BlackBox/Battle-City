@@ -46,7 +46,14 @@ namespace Gameplay.Health
         public ReferenceRelatedGameObjects bunker;
         #endregion
 
-        private void Awake()
+        private void Awake() {
+            var componentTags = GetComponentInChildren<ComponentTags>();
+            if (componentTags != null ) {
+                componentTags.AddTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagHealth));
+            }
+        }
+
+        private void Start()
         {
             /*healthDataComponent = GetComponent<ComponentDataHealth>();
             _animator = GetComponent<Animator>();
@@ -56,8 +63,8 @@ namespace Gameplay.Health
 
             //gameObject.tag = "Damageable";
 
-            var componentTags = GetComponentInChildren<ComponentTags>();
-            componentTags.AddTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagHealth));
+
+            if (dataHealth == null) return;
 
             currentHealth = dataHealth.health;
 

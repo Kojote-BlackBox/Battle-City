@@ -58,6 +58,10 @@ namespace Core.Aim
         {
             _origin = origin;
         }
+
+        private void OnDestroy() {
+            Destroy(_gameObjectIndicator);
+        }
     }
 }
 

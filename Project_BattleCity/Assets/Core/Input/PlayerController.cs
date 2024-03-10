@@ -78,12 +78,16 @@ namespace Core.Input
 
         private void OnEnable()
         {
-            _playerActions.Gameplay.Enable();
+            if (_playerActions != null) {
+                _playerActions.Gameplay.Enable();
+            }
         }
 
         private void OnDisable()
         {
-            _playerActions.Gameplay.Disable();
+            if ( _playerActions != null ) {
+                _playerActions.Gameplay.Disable();
+            }
         }
 
         public void OnChassieMovement(InputAction.CallbackContext context)
