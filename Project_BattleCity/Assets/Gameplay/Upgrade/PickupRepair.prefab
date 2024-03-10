@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7467673795301474277}
   - component: {fileID: -2435267749193839926}
   m_Layer: 8
-  m_Name: ShovelUpgrade
+  m_Name: PickupRepair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,9 +75,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 579051401
-  m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingLayerID: -1104233773
+  m_SortingLayer: 3
+  m_SortingOrder: 0
   m_Sprite: {fileID: 57591053551863209, guid: c492ac9194a340047896a9cc151d68c3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
