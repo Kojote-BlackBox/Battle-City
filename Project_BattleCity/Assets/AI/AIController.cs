@@ -1,22 +1,15 @@
 ﻿using System.Collections.Generic;
-using AI.Fsm;
-using AI.Fsm.States;
+using AI.FSM;
+using AI.FSM.States;
 using UnityEngine;
 using Utilities;
 namespace AI
 {
-    public enum StarterState
-    {
-        HEADHUNTER,
-        CONQUORER,
-        DEFENDER,
-    }
-
     public class AIController : MonoBehaviour
     {
-        private static List<StarterState> _starterState = new List<StarterState>
+        private static List<State> _starterState = new List<State>
         {
-            StarterState.HEADHUNTER,
+            State.HEADHUNTER,
         };
 
         #region fsm
@@ -25,14 +18,7 @@ namespace AI
 
         private void Start()
         {
-            switch (_starterState[Utils.GetNumberInRange(0, _starterState.Count)])
-            {
-                case StarterState.HEADHUNTER:
-                    _stateMachine = new StateMachine(gameObject, new HeadhunterState());
-                    break;
-                default:
-                    break;
-            }
+            _stateMachine = new StateMachine(gameObject, StateUtils.GetNewState(_starterState[Utils.GetNumberInRange(0, _starterState.Count)]));
         }
 
         private void Update()

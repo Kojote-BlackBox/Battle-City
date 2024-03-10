@@ -1,16 +1,18 @@
 ﻿using UnityEngine;
 
-namespace AI.Fsm
+namespace AI.FSM
 {
     public abstract class AbstractState
     {
-        protected StateMachine StateMachine;
-        protected GameObject Owner;
-        
+        protected StateMachine _stateMachine;
+        protected GameObject _owner;
+
+        protected State _state;
+
         public virtual void Enter(StateMachine stateMachine, GameObject owner)
         {
-            StateMachine = stateMachine;
-            Owner = owner;
+            _stateMachine = stateMachine;
+            _owner = owner;
         }
 
         public abstract void Update(double deltaTime);

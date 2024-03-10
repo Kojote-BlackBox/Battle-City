@@ -30,7 +30,8 @@ namespace Core.GameState
         [Header("Player")]
         public int initialPlayerLives = 3;
 
-        private void Awake() {
+        private void Awake()
+        {
             TrackManager.Instance.Reset();
         }
 
@@ -54,7 +55,8 @@ namespace Core.GameState
                 eventUpdateHealth.Raise();
             }
 
-            if (TrackManager.Instance.playerLives.value <= 0) { // If player has no live left
+            if (TrackManager.Instance.playerLives.value <= 0)
+            { // If player has no live left
                 Debug.Log("Player has no life left!");
 
                 DeclareDefeat();
@@ -62,46 +64,53 @@ namespace Core.GameState
 
             var allEnemyBunkersCaptured = true;
 
-            foreach (var relatedBunker in TrackManager.Instance.enemyBunkers.activeGameObjects) { // If all enemy bunkers are captured
+            foreach (var relatedBunker in TrackManager.Instance.enemyBunkers.activeGameObjects)
+            { // If all enemy bunkers are captured
                 if (relatedBunker == null)
                     continue;
-                
+
                 var bunkerObject = relatedBunker.GetComponent<Bunker>();
 
-                if (!bunkerObject.isBunkerFriendly) {
+                if (!bunkerObject.isBunkerFriendly)
+                {
                     allEnemyBunkersCaptured = false;
 
                     break;
                 }
             }
 
-            if (allEnemyBunkersCaptured) {
+            if (allEnemyBunkersCaptured)
+            {
                 Debug.Log("All enemy bunkers captured!");
 
                 DeclareVictory();
             }
 
-           if (TrackManager.Instance.allyBunkers.gameObject != null) { // If player bunker is captured
+            if (TrackManager.Instance.allyBunkers.gameObject != null)
+            { // If player bunker is captured
                 Debug.Log("Player bunker captured!");
 
                 var playerBunker = TrackManager.Instance.allyBunkers.gameObject.GetComponent<Bunker>();
-                if (!playerBunker.isBunkerFriendly) {
+                if (!playerBunker.isBunkerFriendly)
+                {
                     DeclareDefeat();
                 }
-           }
+            }
         }
 
-        private void DeclareDefeat() {
+        private void DeclareDefeat()
+        {
             Debug.Log("Defeat!");
 
             Time.timeScale = timeScaleFactor;
 
             if (defeatPanel != null) defeatPanel.SetActive(true);
 
-            if (menuSceneName != "")  StartCoroutine(WaitAndLoadScene(menuSceneName, transitionDelay * timeScaleFactor));
+            if (menuSceneName != "") StartCoroutine(WaitAndLoadScene(menuSceneName, transitionDelay * timeScaleFactor));
         }
 
-        private void DeclareVictory() {
+        private void DeclareVictory()
+        {
             Debug.Log("Victory!");
 
             Time.timeScale = timeScaleFactor;
@@ -129,7 +138,8 @@ namespace Core.GameState
                 Destroy(TrackManager.Instance.player.gameObject);
             }
 
-            foreach(var ally in TrackManager.Instance.allies.activeGameObjects) {
+            foreach (var ally in TrackManager.Instance.allies.activeGameObjects)
+            {
                 Destroy(ally);
             }
 
@@ -137,7 +147,8 @@ namespace Core.GameState
             TrackManager.Instance.allies.destroyedGameObjects = 0;
             TrackManager.Instance.allies.activeGameObjects.Clear();
 
-            foreach (var enemy in TrackManager.Instance.enemies.activeGameObjects) {
+            foreach (var enemy in TrackManager.Instance.enemies.activeGameObjects)
+            {
                 Destroy(enemy);
             }
 
@@ -150,13 +161,15 @@ namespace Core.GameState
                 Destroy(TrackManager.Instance.allyBunkers.gameObject);
             }
 
-            foreach(var alliedBunker in TrackManager.Instance.allyBunkers.relatedGameObjects) {
+            foreach (var alliedBunker in TrackManager.Instance.allyBunkers.relatedGameObjects)
+            {
                 Destroy(alliedBunker);
             }
 
             TrackManager.Instance.allyBunkers.relatedGameObjects.Clear();
 
-            foreach(var spawns in TrackManager.Instance.spawns.activeGameObjects) {
+            foreach (var spawns in TrackManager.Instance.spawns.activeGameObjects)
+            {
                 Destroy(spawns);
             }
 
@@ -164,7 +177,8 @@ namespace Core.GameState
             TrackManager.Instance.spawns.destroyedGameObjects = 0;
             TrackManager.Instance.spawns.activeGameObjects.Clear();
 
-            foreach (var remains in TrackManager.Instance.remains.activeGameObjects) {
+            foreach (var remains in TrackManager.Instance.remains.activeGameObjects)
+            {
                 Destroy(remains);
             }
 

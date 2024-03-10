@@ -38,6 +38,11 @@ namespace Utilities
             return possibleDirections[_random.Next(0, possibleDirections.Count)];
         }
 
+        public static double CalculateRandomWithMinMax(float min, float max)
+        {
+            return _random.NextDouble() * max + min;
+        }
+
         public static Vector2 CalculateDirectionToTarget(Vector2 origin, Vector2 target)
         {
             var directionToTarget = target - origin;

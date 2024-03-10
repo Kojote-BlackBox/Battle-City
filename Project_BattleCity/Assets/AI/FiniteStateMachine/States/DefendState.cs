@@ -1,11 +1,10 @@
-﻿using System.Collections.Generic;
-using Core;
+﻿using Core;
 using Core.Tag;
 using Gameplay.Tank;
 using UnityEngine;
 using Utilities;
 
-namespace AI.Fsm.States
+namespace AI.FSM.States
 {
     public class DefendState : AbstractState
     {
@@ -29,6 +28,8 @@ namespace AI.Fsm.States
         public override void Enter(StateMachine stateMachine, GameObject owner)
         {
             base.Enter(stateMachine, owner);
+
+            _state = State.DEFENDER;
 
             Debug.Log("Entering Defend State");
 
@@ -83,12 +84,12 @@ namespace AI.Fsm.States
         {
             Debug.Log("AI: check for target in line of sight");
 
-            var position = Owner.transform.position;
+            var position = _owner.transform.position;
             var hit = Physics2D.Raycast(position, _tankTurret.GetCurrentDirection(), _tankTurret.GetRange()); // TODO: use cone/field of view
 
             Debug.DrawRay(position, _tankTurret.GetCurrentDirection() * _tankTurret.GetRange(), Color.magenta, 1.0f);
 
-            if (hit.collider == null || hit.collider.gameObject == Owner || hit.collider.gameObject == null)
+            if (hit.collider == null || hit.collider.gameObject == _owner || hit.collider.gameObject == null)
             {
                 return false;
             }
@@ -111,7 +112,7 @@ namespace AI.Fsm.States
 
                 if (!componentTagsTarget.ContainsTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagEnemy)))
                 {
-                    StateMachine.ChangeState(new ShootState(hit.collider.gameObject));
+                    _stateMachine.ChangeState(new ShootState(hit.collider.gameObject, _state));
                 }
             }
 

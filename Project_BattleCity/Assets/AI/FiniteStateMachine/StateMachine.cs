@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace AI.Fsm
+namespace AI.FSM
 {
     public class StateMachine
     {
@@ -10,7 +10,7 @@ namespace AI.Fsm
         public StateMachine(GameObject owner, AbstractState initialState)
         {
             _owner = owner;
-            
+
             ChangeState(initialState);
         }
 
@@ -22,11 +22,11 @@ namespace AI.Fsm
         public void ChangeState(AbstractState nextState)
         {
             if (nextState == null) return;
-            
+
             _currentState?.Exit();
-            
+
             _currentState = nextState;
-            
+
             _currentState.Enter(this, _owner);
         }
     }
