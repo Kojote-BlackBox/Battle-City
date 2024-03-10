@@ -143,12 +143,12 @@ namespace Gameplay.Bunker
             if (componentTags.ContainsTag(dataBunker.tagEnemy))
             {
                 countCappingObjects.Add(collision.gameObject);
-                Debug.Log("enemy bunker is being capped by: " + collision.gameObject.name);
+                Debug.Log("bunker is being capped by: " + collision.gameObject.name);
             }
             else
             {
                 countDefendingObjects.Add(collision.gameObject);
-                Debug.Log("enemy bunker is being defended by: " + collision.gameObject.name);
+                Debug.Log("bunker is being defended by: " + collision.gameObject.name);
             }
         }
 
@@ -162,7 +162,12 @@ namespace Gameplay.Bunker
             if (componentTags.ContainsTag(dataBunker.tagEnemy))
             {
                 countCappingObjects.Remove(collision.gameObject);
-                Debug.Log("unit exits bunker: " + collision.gameObject.name);
+                Debug.Log("bunker is not being capped by anymore: " + collision.gameObject.name);
+            }
+            else
+            {
+                countDefendingObjects.Add(collision.gameObject);
+                Debug.Log("bunker is not being defended by anymore: " + collision.gameObject.name);
             }
         }
     }

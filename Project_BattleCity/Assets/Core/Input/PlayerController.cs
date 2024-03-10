@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using Gameplay.Tank;
 using Core.Aim;
+using Utilities;
 
 namespace Core.Input
 {
@@ -50,22 +51,10 @@ namespace Core.Input
             {
                 var mousePosition = _playerActions.Gameplay.MouseTurretRotation.ReadValue<Vector2>();
                 var mouseWorldPosition = UnityEngine.Camera.main.ScreenToWorldPoint(mousePosition);
-                var vectorToTarget = mouseWorldPosition - gameObject.transform.position;
+                var vectorToTarget = Utils.CalculateDirectionToTarget(gameObject.transform.position, mouseWorldPosition);
+                var rotationToTarget = Utils.CalculateRotationToTarget(vectorToTarget, _tankTurret.GetCurrentDirection());
 
-                var crossProduct = Vector3.Cross(vectorToTarget.normalized, _tankTurret.GetCurrentDirection());
-
-                if (crossProduct == Vector3.zero)
-                {
-                    return; // target is straight ahead
-                }
-                else if (crossProduct.z > 0)
-                {
-                    _tankTurret.RotateRight(); // target is on the right
-                }
-                else
-                {
-                    _tankTurret.RotateLeft(); // target is on the left
-                }
+                _tankTurret.Rotate(rotationToTarget, 0f);
             }
 
             if (_componentAimIndicator != null)
@@ -78,14 +67,16 @@ namespace Core.Input
 
         private void OnEnable()
         {
-            if (_playerActions != null) {
+            if (_playerActions != null)
+            {
                 _playerActions.Gameplay.Enable();
             }
         }
 
         private void OnDisable()
         {
-            if ( _playerActions != null ) {
+            if (_playerActions != null)
+            {
                 _playerActions.Gameplay.Disable();
             }
         }
