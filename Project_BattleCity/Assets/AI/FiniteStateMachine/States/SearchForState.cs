@@ -125,7 +125,7 @@ namespace AI.Fsm.States
             {
                 if (componentTagsTarget.ContainsTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagTank)))
                 {
-                    Debug.Log("AI: found a tank");
+                    Debug.Log("AI: found a tank");  
                 }
                 else if (componentTagsTarget.ContainsTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagProjectile)))
                 {
