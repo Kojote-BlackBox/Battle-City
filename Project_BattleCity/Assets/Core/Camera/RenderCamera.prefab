@@ -69,7 +69,11 @@ Camera:
   far clip plane: 1000
   field of view: 60.000004
   orthographic: 1
+<<<<<<< Updated upstream
   orthographic size: 2.5
+=======
+  orthographic size: 4.5
+>>>>>>> Stashed changes
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -143,5 +147,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameObjectToFollow: {fileID: 0}
   map: {fileID: 0}
+<<<<<<< Updated upstream
   offsetLimitX: {x: -0.5, y: -0.5}
   offsetLimitY: {x: -0.5, y: -0.5}
+=======
+>>>>>>> Stashed changes

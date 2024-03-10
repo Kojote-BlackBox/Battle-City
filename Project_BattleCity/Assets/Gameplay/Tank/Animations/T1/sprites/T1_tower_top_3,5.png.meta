@@ -1,0 +1,914 @@
+fileFormatVersion: 2
+guid: 564919865c8066e43bbcd267129a5434
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 974802131180800739
+    second: T1_tower_top_3,5_0
+  - first:
+      213: -8298075865024991361
+    second: T1_tower_top_3,5_1
+  - first:
+      213: 5474543825892781953
+    second: T1_tower_top_3,5_2
+  - first:
+      213: 552442372840512718
+    second: T1_tower_top_3,5_3
+  - first:
+      213: -4256865316871832557
+    second: T1_tower_top_3,5_4
+  - first:
+      213: 6286411372423251860
+    second: T1_tower_top_3,5_5
+  - first:
+      213: -5996471679568157293
+    second: T1_tower_top_3,5_6
+  - first:
+      213: 2827790530093393316
+    second: T1_tower_top_3,5_7
+  - first:
+      213: 4776030186307177424
+    second: T1_tower_top_3,5_8
+  - first:
+      213: 4363169306093225357
+    second: T1_tower_top_3,5_9
+  - first:
+      213: -5818090046396365796
+    second: T1_tower_top_3,5_10
+  - first:
+      213: -9019778369058711282
+    second: T1_tower_top_3,5_11
+  - first:
+      213: -3637155129859892746
+    second: T1_tower_top_3,5_12
+  - first:
+      213: 3177075019214912930
+    second: T1_tower_top_3,5_13
+  - first:
+      213: 7543527905109712256
+    second: T1_tower_top_3,5_14
+  - first:
+      213: 19756635081245913
+    second: T1_tower_top_3,5_15
+  - first:
+      213: 6166708579195357047
+    second: T1_tower_top_3,5_16
+  - first:
+      213: 7738731358693910878
+    second: T1_tower_top_3,5_17
+  - first:
+      213: 540898696390220070
+    second: T1_tower_top_3,5_18
+  - first:
+      213: -2804007504020693792
+    second: T1_tower_top_3,5_19
+  - first:
+      213: 2146021187608940090
+    second: T1_tower_top_3,5_20
+  - first:
+      213: -7034345597695750142
+    second: T1_tower_top_3,5_21
+  - first:
+      213: 445458100035054467
+    second: T1_tower_top_3,5_22
+  - first:
+      213: -8207906549402191106
+    second: T1_tower_top_3,5_23
+  - first:
+      213: 7914367509751455698
+    second: T1_tower_top_3,5_24
+  - first:
+      213: 8726403140092914192
+    second: T1_tower_top_3,5_25
+  - first:
+      213: 6345312235721782390
+    second: T1_tower_top_3,5_26
+  - first:
+      213: -1844533434873081567
+    second: T1_tower_top_3,5_27
+  - first:
+      213: -6261526474930482889
+    second: T1_tower_top_3,5_28
+  - first:
+      213: -2863322396369207758
+    second: T1_tower_top_3,5_29
+  - first:
+      213: -3599808611757578749
+    second: T1_tower_top_3,5_30
+  - first:
+      213: -3247716944593552373
+    second: T1_tower_top_3,5_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 32
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea4353af51378d00800000000000000
+      internalID: 974802131180800739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 32
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f61f147ff47dc80800000000000000
+      internalID: -8298075865024991361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 33
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fa5a1ba9c79fb40800000000000000
+      internalID: 5474543825892781953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 33
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc5800496baaa700800000000000000
+      internalID: 552442372840512718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 33
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c7c235c839ce4c0800000000000000
+      internalID: -4256865316871832557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_5
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 33
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497834d16d1dd3750800000000000000
+      internalID: 6286411372423251860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_6
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 33
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39566a137c048cca0800000000000000
+      internalID: -5996471679568157293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_7
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 33
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a52e6d31845e3720800000000000000
+      internalID: 2827790530093393316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_8
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 33
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbc163662ed74240800000000000000
+      internalID: 4776030186307177424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_9
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 33
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d850398ed571d8c30800000000000000
+      internalID: 4363169306093225357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_10
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 31
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c140f49adedf14fa0800000000000000
+      internalID: -5818090046396365796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_11
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 28
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09d087bc5f43d280800000000000000
+      internalID: -9019778369058711282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_12
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 26
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f916bb0eaa368dc0800000000000000
+      internalID: -3637155129859892746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_13
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 24
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad7219a5ec371c20800000000000000
+      internalID: 3177075019214912930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_14
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 22
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d9f4199aeffa860800000000000000
+      internalID: 7543527905109712256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_15
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 21
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d489ff0e80364000800000000000000
+      internalID: 19756635081245913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_16
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 21
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7770b48b7cc849550800000000000000
+      internalID: 6166708579195357047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_17
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 21
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59602f4b2f756b60800000000000000
+      internalID: 7738731358693910878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_18
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 22
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6299fc1af78a18700800000000000000
+      internalID: 540898696390220070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_19
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 24
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec1157080a2619d0800000000000000
+      internalID: -2804007504020693792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_20
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 26
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e84e766e238cd10800000000000000
+      internalID: 2146021187608940090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_21
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 28
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200130ec2fbf06e90800000000000000
+      internalID: -7034345597695750142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_22
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 31
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38be8e628c59e2600800000000000000
+      internalID: 445458100035054467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_23
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 33
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efab74d0b78a71e80800000000000000
+      internalID: -8207906549402191106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_24
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 33
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dfd0a8615b75dd60800000000000000
+      internalID: 7914367509751455698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_25
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 32
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a6714eb696a1970800000000000000
+      internalID: 8726403140092914192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_26
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 32
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674f2270cd31f0850800000000000000
+      internalID: 6345312235721782390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_27
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 32
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1211f0e1d96e666e0800000000000000
+      internalID: -1844533434873081567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_28
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 32
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731901698d69a19a0800000000000000
+      internalID: -6261526474930482889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_29
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 32
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e3ef6737f6348d0800000000000000
+      internalID: -2863322396369207758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_30
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 32
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3062cc4e329ea0ec0800000000000000
+      internalID: -3599808611757578749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_top_3,5_31
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 32
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0cfb7265aacde2d0800000000000000
+      internalID: -3247716944593552373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      T1_tower_top_3,5_0: 974802131180800739
+      T1_tower_top_3,5_1: -8298075865024991361
+      T1_tower_top_3,5_10: -5818090046396365796
+      T1_tower_top_3,5_11: -9019778369058711282
+      T1_tower_top_3,5_12: -3637155129859892746
+      T1_tower_top_3,5_13: 3177075019214912930
+      T1_tower_top_3,5_14: 7543527905109712256
+      T1_tower_top_3,5_15: 19756635081245913
+      T1_tower_top_3,5_16: 6166708579195357047
+      T1_tower_top_3,5_17: 7738731358693910878
+      T1_tower_top_3,5_18: 540898696390220070
+      T1_tower_top_3,5_19: -2804007504020693792
+      T1_tower_top_3,5_2: 5474543825892781953
+      T1_tower_top_3,5_20: 2146021187608940090
+      T1_tower_top_3,5_21: -7034345597695750142
+      T1_tower_top_3,5_22: 445458100035054467
+      T1_tower_top_3,5_23: -8207906549402191106
+      T1_tower_top_3,5_24: 7914367509751455698
+      T1_tower_top_3,5_25: 8726403140092914192
+      T1_tower_top_3,5_26: 6345312235721782390
+      T1_tower_top_3,5_27: -1844533434873081567
+      T1_tower_top_3,5_28: -6261526474930482889
+      T1_tower_top_3,5_29: -2863322396369207758
+      T1_tower_top_3,5_3: 552442372840512718
+      T1_tower_top_3,5_30: -3599808611757578749
+      T1_tower_top_3,5_31: -3247716944593552373
+      T1_tower_top_3,5_4: -4256865316871832557
+      T1_tower_top_3,5_5: 6286411372423251860
+      T1_tower_top_3,5_6: -5996471679568157293
+      T1_tower_top_3,5_7: 2827790530093393316
+      T1_tower_top_3,5_8: 4776030186307177424
+      T1_tower_top_3,5_9: 4363169306093225357
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

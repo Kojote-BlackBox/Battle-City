@@ -1,0 +1,3186 @@
+fileFormatVersion: 2
+guid: 70b61e08c87c12d4cae595fc997ff8aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5698553885301052145
+    second: T2_Chassis_damaged_0
+  - first:
+      213: -3621207711940803535
+    second: T2_Chassis_damaged_1
+  - first:
+      213: -4062706880692683459
+    second: T2_Chassis_damaged_2
+  - first:
+      213: 3785132702896917820
+    second: T2_Chassis_damaged_3
+  - first:
+      213: 3696080449671021978
+    second: T2_Chassis_damaged_4
+  - first:
+      213: -9055946240228957562
+    second: T2_Chassis_damaged_5
+  - first:
+      213: -9195043052480547266
+    second: T2_Chassis_damaged_6
+  - first:
+      213: 4129477213774219605
+    second: T2_Chassis_damaged_7
+  - first:
+      213: -1268070698637054165
+    second: T2_Chassis_damaged_8
+  - first:
+      213: 6874525669055808964
+    second: T2_Chassis_damaged_9
+  - first:
+      213: 5528893139861345675
+    second: T2_Chassis_damaged_10
+  - first:
+      213: 3898645535370401679
+    second: T2_Chassis_damaged_11
+  - first:
+      213: 8070345390646016637
+    second: T2_Chassis_damaged_12
+  - first:
+      213: -5666511101209281933
+    second: T2_Chassis_damaged_13
+  - first:
+      213: -9198302473347626673
+    second: T2_Chassis_damaged_14
+  - first:
+      213: -3548659385326803771
+    second: T2_Chassis_damaged_15
+  - first:
+      213: -8828401737404214277
+    second: T2_Chassis_damaged_16
+  - first:
+      213: 2355244379284271322
+    second: T2_Chassis_damaged_17
+  - first:
+      213: -6972780832604738083
+    second: T2_Chassis_damaged_18
+  - first:
+      213: -1280166711284879329
+    second: T2_Chassis_damaged_19
+  - first:
+      213: 7444081052168214211
+    second: T2_Chassis_damaged_20
+  - first:
+      213: -4903568549664091217
+    second: T2_Chassis_damaged_21
+  - first:
+      213: -742915837874922578
+    second: T2_Chassis_damaged_22
+  - first:
+      213: 6093593285784830528
+    second: T2_Chassis_damaged_23
+  - first:
+      213: 4395726485844066196
+    second: T2_Chassis_damaged_24
+  - first:
+      213: -6874893852638692658
+    second: T2_Chassis_damaged_25
+  - first:
+      213: 4132673502544441339
+    second: T2_Chassis_damaged_26
+  - first:
+      213: -7613517363273099635
+    second: T2_Chassis_damaged_27
+  - first:
+      213: 6324026996058827525
+    second: T2_Chassis_damaged_28
+  - first:
+      213: 8777356141538668412
+    second: T2_Chassis_damaged_29
+  - first:
+      213: 2161972355215369291
+    second: T2_Chassis_damaged_30
+  - first:
+      213: 3892165132828948954
+    second: T2_Chassis_damaged_31
+  - first:
+      213: -451970797792660115
+    second: T2_Chassis_damaged_32
+  - first:
+      213: -4031486977868672769
+    second: T2_Chassis_damaged_33
+  - first:
+      213: 9080665895331862374
+    second: T2_Chassis_damaged_34
+  - first:
+      213: 4636480197727757005
+    second: T2_Chassis_damaged_35
+  - first:
+      213: 7572944162264114531
+    second: T2_Chassis_damaged_36
+  - first:
+      213: 3296784768623939758
+    second: T2_Chassis_damaged_37
+  - first:
+      213: 5231584474271282106
+    second: T2_Chassis_damaged_38
+  - first:
+      213: -2415087847301064037
+    second: T2_Chassis_damaged_39
+  - first:
+      213: 8138522069044228810
+    second: T2_Chassis_damaged_40
+  - first:
+      213: -1412665039807909107
+    second: T2_Chassis_damaged_41
+  - first:
+      213: -4156166751708960499
+    second: T2_Chassis_damaged_42
+  - first:
+      213: 5358889837698942118
+    second: T2_Chassis_damaged_43
+  - first:
+      213: 5937829411831822447
+    second: T2_Chassis_damaged_44
+  - first:
+      213: -6922234724844888815
+    second: T2_Chassis_damaged_45
+  - first:
+      213: 1521567363340973005
+    second: T2_Chassis_damaged_46
+  - first:
+      213: -2483336236469208533
+    second: T2_Chassis_damaged_47
+  - first:
+      213: 2461302725271358261
+    second: T2_Chassis_damaged_48
+  - first:
+      213: 6592364479725861558
+    second: T2_Chassis_damaged_49
+  - first:
+      213: 6658274173866883531
+    second: T2_Chassis_damaged_50
+  - first:
+      213: -4625435324789150055
+    second: T2_Chassis_damaged_51
+  - first:
+      213: 8613797821900024627
+    second: T2_Chassis_damaged_52
+  - first:
+      213: -1069257812154000708
+    second: T2_Chassis_damaged_53
+  - first:
+      213: -3653681606062948628
+    second: T2_Chassis_damaged_54
+  - first:
+      213: -5967857451947054409
+    second: T2_Chassis_damaged_55
+  - first:
+      213: -2694029803446107524
+    second: T2_Chassis_damaged_56
+  - first:
+      213: -2556018585856913205
+    second: T2_Chassis_damaged_57
+  - first:
+      213: -3937338685938695638
+    second: T2_Chassis_damaged_58
+  - first:
+      213: 4327569067570851044
+    second: T2_Chassis_damaged_59
+  - first:
+      213: -3588938553368383517
+    second: T2_Chassis_damaged_60
+  - first:
+      213: -3193220048185866358
+    second: T2_Chassis_damaged_61
+  - first:
+      213: 7377422052241043960
+    second: T2_Chassis_damaged_62
+  - first:
+      213: -4725272829443838078
+    second: T2_Chassis_damaged_63
+  - first:
+      213: 173081948506136368
+    second: T2_Chassis_damaged_64
+  - first:
+      213: -5948557083756285691
+    second: T2_Chassis_damaged_65
+  - first:
+      213: -4560724559708958807
+    second: T2_Chassis_damaged_66
+  - first:
+      213: -7368140310388034085
+    second: T2_Chassis_damaged_67
+  - first:
+      213: 4198627719897916063
+    second: T2_Chassis_damaged_68
+  - first:
+      213: -3584360259819435548
+    second: T2_Chassis_damaged_69
+  - first:
+      213: -4203555128067024024
+    second: T2_Chassis_damaged_70
+  - first:
+      213: -4296430870287374794
+    second: T2_Chassis_damaged_71
+  - first:
+      213: 4024240738530874713
+    second: T2_Chassis_damaged_72
+  - first:
+      213: 8843419829697750312
+    second: T2_Chassis_damaged_73
+  - first:
+      213: -7233968457347087195
+    second: T2_Chassis_damaged_74
+  - first:
+      213: 5187182565343224295
+    second: T2_Chassis_damaged_75
+  - first:
+      213: 7356911535814636879
+    second: T2_Chassis_damaged_76
+  - first:
+      213: -3653758503270192996
+    second: T2_Chassis_damaged_77
+  - first:
+      213: -6753959879582178251
+    second: T2_Chassis_damaged_78
+  - first:
+      213: 7560702990663383510
+    second: T2_Chassis_damaged_79
+  - first:
+      213: -4839038330063693390
+    second: T2_Chassis_damaged_80
+  - first:
+      213: -1840689937261399750
+    second: T2_Chassis_damaged_81
+  - first:
+      213: 3805660086680083504
+    second: T2_Chassis_damaged_82
+  - first:
+      213: 2600306572966582738
+    second: T2_Chassis_damaged_83
+  - first:
+      213: -6487429482667445366
+    second: T2_Chassis_damaged_84
+  - first:
+      213: 6602976733963759171
+    second: T2_Chassis_damaged_85
+  - first:
+      213: -7371314409187374943
+    second: T2_Chassis_damaged_86
+  - first:
+      213: 3397863330139263517
+    second: T2_Chassis_damaged_87
+  - first:
+      213: 652110964909428917
+    second: T2_Chassis_damaged_88
+  - first:
+      213: 686253840100975081
+    second: T2_Chassis_damaged_89
+  - first:
+      213: 1018617851369427154
+    second: T2_Chassis_damaged_90
+  - first:
+      213: -3055333646250095707
+    second: T2_Chassis_damaged_91
+  - first:
+      213: 6508766222710313289
+    second: T2_Chassis_damaged_92
+  - first:
+      213: 591555926605712278
+    second: T2_Chassis_damaged_93
+  - first:
+      213: -2132592544178203750
+    second: T2_Chassis_damaged_94
+  - first:
+      213: 7171073632584205921
+    second: T2_Chassis_damaged_95
+  - first:
+      213: 1041407596462962244
+    second: T2_Chassis_damaged_96
+  - first:
+      213: -6605654974812934661
+    second: T2_Chassis_damaged_97
+  - first:
+      213: -4984266713994320651
+    second: T2_Chassis_damaged_98
+  - first:
+      213: 7291730437507208388
+    second: T2_Chassis_damaged_99
+  - first:
+      213: 6638929379938495876
+    second: T2_Chassis_damaged_100
+  - first:
+      213: 5057870013559108536
+    second: T2_Chassis_damaged_101
+  - first:
+      213: 2789526967292868101
+    second: T2_Chassis_damaged_102
+  - first:
+      213: 1120841436652740947
+    second: T2_Chassis_damaged_103
+  - first:
+      213: 6395479705545675296
+    second: T2_Chassis_damaged_104
+  - first:
+      213: 6564061371803038282
+    second: T2_Chassis_damaged_105
+  - first:
+      213: 8216980944684389935
+    second: T2_Chassis_damaged_106
+  - first:
+      213: -3099334901262153861
+    second: T2_Chassis_damaged_107
+  - first:
+      213: -6720150566878495860
+    second: T2_Chassis_damaged_108
+  - first:
+      213: 708053471274719963
+    second: T2_Chassis_damaged_109
+  - first:
+      213: 6190990049050027318
+    second: T2_Chassis_damaged_110
+  - first:
+      213: 6253570005510075757
+    second: T2_Chassis_damaged_111
+  - first:
+      213: 4497110030971339273
+    second: T2_Chassis_damaged_112
+  - first:
+      213: 3972596303175435031
+    second: T2_Chassis_damaged_113
+  - first:
+      213: -9185389660841370900
+    second: T2_Chassis_damaged_114
+  - first:
+      213: -6465150284604612080
+    second: T2_Chassis_damaged_115
+  - first:
+      213: -9073441924542016795
+    second: T2_Chassis_damaged_116
+  - first:
+      213: 26088304346975588
+    second: T2_Chassis_damaged_117
+  - first:
+      213: 6337728636725420381
+    second: T2_Chassis_damaged_118
+  - first:
+      213: -8116766826417942251
+    second: T2_Chassis_damaged_119
+  - first:
+      213: -4661511414959473961
+    second: T2_Chassis_damaged_120
+  - first:
+      213: -5391472351224092259
+    second: T2_Chassis_damaged_121
+  - first:
+      213: -4249304751891639534
+    second: T2_Chassis_damaged_122
+  - first:
+      213: 8826885597872322013
+    second: T2_Chassis_damaged_123
+  - first:
+      213: -1677946121187037099
+    second: T2_Chassis_damaged_124
+  - first:
+      213: 5101981681852296632
+    second: T2_Chassis_damaged_125
+  - first:
+      213: 4956659746739360148
+    second: T2_Chassis_damaged_126
+  - first:
+      213: 8123775414124748781
+    second: T2_Chassis_damaged_127
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 200
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f29ac20194551f40800000000000000
+      internalID: 5698553885301052145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 198
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1340ddf95c2eebdc0800000000000000
+      internalID: -3621207711940803535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 197
+        width: 57
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3df6cdfd9d5e97c0800000000000000
+      internalID: -4062706880692683459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 196
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d82e7832e778430800000000000000
+      internalID: 3785132702896917820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_4
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 196
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9548e7169d1b4330800000000000000
+      internalID: 3696080449671021978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_5
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 197
+        width: 65
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6826e1effd0d25280800000000000000
+      internalID: -9055946240228957562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_6
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 199
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36397aaf05a46080800000000000000
+      internalID: -9195043052480547266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_7
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 201
+        width: 59
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5590513a5a9de4930800000000000000
+      internalID: 4129477213774219605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_8
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 204
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f28a90b68e66ee0800000000000000
+      internalID: -1268070698637054165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_9
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 203
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c540675ca8376f50800000000000000
+      internalID: 6874525669055808964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_10
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 202
+        width: 63
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85978274039abc40800000000000000
+      internalID: 5528893139861345675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_11
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 201
+        width: 65
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f875ae06575ca1630800000000000000
+      internalID: 3898645535370401679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_12
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 200
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7aba20df50afff60800000000000000
+      internalID: 8070345390646016637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_13
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 201
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37afc980d228c51b0800000000000000
+      internalID: -5666511101209281933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_14
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 202
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49848b92a0195080800000000000000
+      internalID: -9198302473347626673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_15
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 203
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c46db43711a0cec0800000000000000
+      internalID: -3548659385326803771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_16
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 205
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3949b05673b7580800000000000000
+      internalID: -8828401737404214277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_17
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 203
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0797ac8428fa020800000000000000
+      internalID: 2355244379284271322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_18
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 202
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd21ffa6c4bb3f90800000000000000
+      internalID: -6972780832604738083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_19
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 201
+        width: 62
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10b590a82feb3ee0800000000000000
+      internalID: -1280166711284879329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_20
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 201
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6d3b9c640be4760800000000000000
+      internalID: 7444081052168214211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_21
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 201
+        width: 65
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa39e71626603fbb0800000000000000
+      internalID: -4903568549664091217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_22
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 202
+        width: 64
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab14794bf1a0b5f0800000000000000
+      internalID: -742915837874922578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_23
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 203
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04209e4eecac09450800000000000000
+      internalID: 6093593285784830528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_24
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 204
+        width: 52
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ff28603f1c00d30800000000000000
+      internalID: 4395726485844066196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_25
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 201
+        width: 58
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca34fc37787790a0800000000000000
+      internalID: -6874893852638692658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_26
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 198
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bffa4db97a43a5930800000000000000
+      internalID: 4132673502544441339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_27
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 197
+        width: 65
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8696d6db4a575690800000000000000
+      internalID: -7613517363273099635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_28
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 196
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b211afb0573c750800000000000000
+      internalID: 6324026996058827525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_29
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 196
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f618308ee6fc970800000000000000
+      internalID: 8777356141538668412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_30
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 197
+        width: 57
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44a3d6076ed00e10800000000000000
+      internalID: 2161972355215369291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_31
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 198
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad93e65119fb30630800000000000000
+      internalID: 3892165132828948954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_32
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 136
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65f7bc34f64ab9f0800000000000000
+      internalID: -451970797792660115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_33
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 134
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0568f04f74d08c0800000000000000
+      internalID: -4031486977868672769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_34
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 133
+        width: 57
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66792473581050e70800000000000000
+      internalID: 9080665895331862374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 132
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc222b9bc26185040800000000000000
+      internalID: 4636480197727757005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_36
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 132
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365ee97a790881960800000000000000
+      internalID: 7572944162264114531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_37
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 133
+        width: 65
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea09fbaa74880cd20800000000000000
+      internalID: 3296784768623939758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_38
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 135
+        width: 63
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab373697c525a9840800000000000000
+      internalID: 5231584474271282106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_39
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 137
+        width: 59
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ad1480662eb7ed0800000000000000
+      internalID: -2415087847301064037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_40
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 140
+        width: 52
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2fe0ab3b6d1f070800000000000000
+      internalID: 8138522069044228810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_41
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 139
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03f2a381a4356ce0800000000000000
+      internalID: -1412665039807909107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_42
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 138
+        width: 63
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0929111c545256c0800000000000000
+      internalID: -4156166751708960499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_43
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 137
+        width: 65
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a40f7e2ae99e5a40800000000000000
+      internalID: 5358889837698942118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_44
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 136
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f683a1dd368676250800000000000000
+      internalID: 5937829411831822447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_45
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 137
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d1fbd71384fef90800000000000000
+      internalID: -6922234724844888815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_46
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 137
+        width: 57
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc334c19471bd1510800000000000000
+      internalID: 1521567363340973005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_47
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 139
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ab567a9da698dd0800000000000000
+      internalID: -2483336236469208533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_48
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 141
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b0080c9cd482220800000000000000
+      internalID: 2461302725271358261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_49
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 139
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba76f30198cc7b50800000000000000
+      internalID: 6592364479725861558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_50
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 138
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc93e768511f66c50800000000000000
+      internalID: 6658274173866883531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_51
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 137
+        width: 62
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e266624172fcfb0800000000000000
+      internalID: -4625435324789150055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_52
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 137
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b626d2b7b5a8770800000000000000
+      internalID: 8613797821900024627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_53
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 137
+        width: 65
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbadf3d5fab3921f0800000000000000
+      internalID: -1069257812154000708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_54
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 138
+        width: 63
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee3d34ffe38b4dc0800000000000000
+      internalID: -3653681606062948628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_55
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 139
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba278a3449ed2da0800000000000000
+      internalID: -5967857451947054409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_56
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 140
+        width: 52
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c728747da22ec9ad0800000000000000
+      internalID: -2694029803446107524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_57
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 137
+        width: 58
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc0d3b673a2378cd0800000000000000
+      internalID: -2556018585856913205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_58
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 134
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2288387353cb59c0800000000000000
+      internalID: -3937338685938695638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_59
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 133
+        width: 65
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec6785732d9e0c30800000000000000
+      internalID: 4327569067570851044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_60
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 132
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efe5c59667813ec0800000000000000
+      internalID: -3588938553368383517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_61
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 132
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87c93ad8476fa3d0800000000000000
+      internalID: -3193220048185866358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_62
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 133
+        width: 57
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1f5fde44ed16660800000000000000
+      internalID: 7377422052241043960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_63
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 134
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28fe13ea5657c6eb0800000000000000
+      internalID: -4725272829443838078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_64
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 72
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f9db97d19e66200800000000000000
+      internalID: 173081948506136368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_65
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 70
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501b29069da727da0800000000000000
+      internalID: -5948557083756285691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_66
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 69
+        width: 57
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9afc52c3d2d05b0c0800000000000000
+      internalID: -4560724559708958807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_67
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 68
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5b5100d6b1fb990800000000000000
+      internalID: -7368140310388034085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_68
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 68
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92af9c7aa5844a30800000000000000
+      internalID: 4198627719897916063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_69
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 69
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e98f6e955bc14ec0800000000000000
+      internalID: -3584360259819435548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_70
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 71
+        width: 63
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b1bc5e1e8f9a5c0800000000000000
+      internalID: -4203555128067024024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_71
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 73
+        width: 59
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636af7e03e20064c0800000000000000
+      internalID: -4296430870287374794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_72
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 76
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955d9ce51a9f8d730800000000000000
+      internalID: 4024240738530874713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_73
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 75
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825a7cc0b732aba70800000000000000
+      internalID: 8843419829697750312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_74
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 74
+        width: 63
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a44277e308cb9b90800000000000000
+      internalID: -7233968457347087195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_75
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 73
+        width: 65
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1e1607f039cf740800000000000000
+      internalID: 5187182565343224295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_76
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 73
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4574303010091660800000000000000
+      internalID: 7356911535814636879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_77
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 73
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98648deffd3b4dc0800000000000000
+      internalID: -3653758503270192996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_78
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 73
+        width: 57
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 534a346064d1542a0800000000000000
+      internalID: -6753959879582178251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_79
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 75
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d979bacf430de860800000000000000
+      internalID: 7560702990663383510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_80
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 77
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9dd02f64848dcb0800000000000000
+      internalID: -4839038330063693390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_81
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 75
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31f5e3214e8476e0800000000000000
+      internalID: -1840689937261399750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_82
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 74
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03cd2728fab60d430800000000000000
+      internalID: 3805660086680083504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_83
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 73
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d959c41d05261420800000000000000
+      internalID: 2600306572966582738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_84
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 73
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83f534e14508f5a0800000000000000
+      internalID: -6487429482667445366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_85
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 73
+        width: 65
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e24100b5c72ab50800000000000000
+      internalID: 6602976733963759171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_86
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 74
+        width: 64
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a80ba88994d3b990800000000000000
+      internalID: -7371314409187374943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_87
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 75
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12d64432b2a72f20800000000000000
+      internalID: 3397863330139263517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_88
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 76
+        width: 52
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b05091b773cc0900800000000000000
+      internalID: 652110964909428917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_89
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 73
+        width: 59
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e167fc4b30168900800000000000000
+      internalID: 686253840100975081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_90
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 70
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d01fb8f98bd22e00800000000000000
+      internalID: 1018617851369427154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_91
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 69
+        width: 65
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abc6f09c364995d0800000000000000
+      internalID: -3055333646250095707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_92
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 68
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94195b60568c35a50800000000000000
+      internalID: 6508766222710313289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_93
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 68
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b4c162bf0a53800800000000000000
+      internalID: 591555926605712278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_94
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 69
+        width: 57
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a939c9941628762e0800000000000000
+      internalID: -2132592544178203750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_95
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 70
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1660a509975c48360800000000000000
+      internalID: 7171073632584205921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_96
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 8
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446719df0b2d37e00800000000000000
+      internalID: 1041407596462962244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_97
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 6
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdab757ccff354a0800000000000000
+      internalID: -6605654974812934661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_98
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 5
+        width: 57
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4a096d4d354dab0800000000000000
+      internalID: -4984266713994320651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_99
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 4
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4558d133e613560800000000000000
+      internalID: 7291730437507208388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_100
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 4
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d6324b817322c50800000000000000
+      internalID: 6638929379938495876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_101
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 5
+        width: 65
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b37a46caf9213640800000000000000
+      internalID: 5057870013559108536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_102
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 7
+        width: 63
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5063dd84ff366b620800000000000000
+      internalID: 2789526967292868101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_103
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 9
+        width: 58
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351a93129570e8f00800000000000000
+      internalID: 1120841436652740947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_104
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 12
+        width: 52
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022154158ee41c850800000000000000
+      internalID: 6395479705545675296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_105
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 11
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42fe2e2a0b381b50800000000000000
+      internalID: 6564061371803038282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_106
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 10
+        width: 63
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26111e32a4980270800000000000000
+      internalID: 8216980944684389935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_107
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 9
+        width: 65
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b778c4a0453fcf4d0800000000000000
+      internalID: -3099334901262153861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_108
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 8
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b31101aaa3db2a0800000000000000
+      internalID: -6720150566878495860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_109
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 9
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdadf4571e283d900800000000000000
+      internalID: 708053471274719963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_110
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 9
+        width: 57
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635ea99f5a0dae550800000000000000
+      internalID: 6190990049050027318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_111
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 11
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65377489c429c650800000000000000
+      internalID: 6253570005510075757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_112
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 13
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90284e71fb1f86e30800000000000000
+      internalID: 4497110030971339273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_113
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 11
+        width: 49
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7134dce3a4f712730800000000000000
+      internalID: 3972596303175435031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_114
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 10
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea110e05c0f68080800000000000000
+      internalID: -9185389660841370900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_115
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 9
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01260aae11c2746a0800000000000000
+      internalID: -6465150284604612080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_116
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 8
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2598d84a8a41280800000000000000
+      internalID: -9073441924542016795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_117
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 9
+        width: 65
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46dc461bc2fac5000800000000000000
+      internalID: 26088304346975588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_118
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 10
+        width: 63
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51e6dacd9224f750800000000000000
+      internalID: 6337728636725420381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_119
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 11
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5111faa63937b5f80800000000000000
+      internalID: -8116766826417942251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_120
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 12
+        width: 52
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da79ead01cfe4fb0800000000000000
+      internalID: -4661511414959473961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_121
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 9
+        width: 59
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99a2f83674ad25b0800000000000000
+      internalID: -5391472351224092259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_122
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 6
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2139e1987df6705c0800000000000000
+      internalID: -4249304751891639534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_123
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 5
+        width: 65
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5f0363fa56f7a70800000000000000
+      internalID: 8826885597872322013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_124
+      rect:
+        serializedVersion: 2
+        x: 1793
+        y: 4
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550f66694ecb6b8e0800000000000000
+      internalID: -1677946121187037099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_125
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 4
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd2b55ee41edc640800000000000000
+      internalID: 5101981681852296632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_126
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 5
+        width: 57
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49190e437c799c440800000000000000
+      internalID: 4956659746739360148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_Chassis_damaged_127
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 6
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def15f192b27db070800000000000000
+      internalID: 8123775414124748781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

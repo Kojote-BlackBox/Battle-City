@@ -171,6 +171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StarUpgrade
       objectReference: {fileID: 0}
+    - target: {fileID: 8928715533213276286, guid: 5461c04f7f9ad4b48a1a3be8f037c599, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2240,6 +2244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpawnSystem
       objectReference: {fileID: 0}
+    - target: {fileID: 7439523765820170375, guid: 607914a5dc4259148a2fecaa02dbddd4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3150,6 +3158,10 @@ PrefabInstance:
     - target: {fileID: 2824258540097299303, guid: d46615e1f76d0ad4b9eab012b798e362, type: 3}
       propertyPath: m_Name
       value: ArmorUpgrade
+      objectReference: {fileID: 0}
+    - target: {fileID: 2824258540097299303, guid: d46615e1f76d0ad4b9eab012b798e362, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

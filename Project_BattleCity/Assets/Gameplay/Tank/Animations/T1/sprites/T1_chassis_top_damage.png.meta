@@ -1,0 +1,3314 @@
+fileFormatVersion: 2
+guid: f41f4445f1ab1514691a92ae61113517
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6375040207534021198
+    second: T1_chassis_top_damage_0
+  - first:
+      213: -3284725290423127323
+    second: T1_chassis_top_damage_1
+  - first:
+      213: 6364795579077909045
+    second: T1_chassis_top_damage_2
+  - first:
+      213: 4240112900358209931
+    second: T1_chassis_top_damage_3
+  - first:
+      213: 7643573707377431022
+    second: T1_chassis_top_damage_4
+  - first:
+      213: -2620730021588423823
+    second: T1_chassis_top_damage_5
+  - first:
+      213: -4715536812706991587
+    second: T1_chassis_top_damage_6
+  - first:
+      213: -7971715284519671121
+    second: T1_chassis_top_damage_7
+  - first:
+      213: -2138922380151774171
+    second: T1_chassis_top_damage_8
+  - first:
+      213: 2986854761207311813
+    second: T1_chassis_top_damage_9
+  - first:
+      213: 4981108776599245648
+    second: T1_chassis_top_damage_10
+  - first:
+      213: -8823223058151390556
+    second: T1_chassis_top_damage_11
+  - first:
+      213: -8802345173216394241
+    second: T1_chassis_top_damage_12
+  - first:
+      213: 1987362402507860634
+    second: T1_chassis_top_damage_13
+  - first:
+      213: 8645361686012472706
+    second: T1_chassis_top_damage_14
+  - first:
+      213: -3420340482025375846
+    second: T1_chassis_top_damage_15
+  - first:
+      213: -4569673190614058438
+    second: T1_chassis_top_damage_16
+  - first:
+      213: -8680383617531179536
+    second: T1_chassis_top_damage_17
+  - first:
+      213: 1036122242284265577
+    second: T1_chassis_top_damage_18
+  - first:
+      213: 7059983493522129045
+    second: T1_chassis_top_damage_19
+  - first:
+      213: 8073162868418084899
+    second: T1_chassis_top_damage_20
+  - first:
+      213: -3091943476926676941
+    second: T1_chassis_top_damage_21
+  - first:
+      213: -4630944375016994129
+    second: T1_chassis_top_damage_22
+  - first:
+      213: -6059234357627062572
+    second: T1_chassis_top_damage_23
+  - first:
+      213: -2005863668552281606
+    second: T1_chassis_top_damage_24
+  - first:
+      213: 7691895428189406521
+    second: T1_chassis_top_damage_25
+  - first:
+      213: 1313329004839797810
+    second: T1_chassis_top_damage_26
+  - first:
+      213: -409952401157211436
+    second: T1_chassis_top_damage_27
+  - first:
+      213: -774137933519912040
+    second: T1_chassis_top_damage_28
+  - first:
+      213: 7888139610272094447
+    second: T1_chassis_top_damage_29
+  - first:
+      213: 1095545307137052219
+    second: T1_chassis_top_damage_30
+  - first:
+      213: -5092876153019959851
+    second: T1_chassis_top_damage_31
+  - first:
+      213: 4816898141150720203
+    second: T1_chassis_top_damage_32
+  - first:
+      213: -623665524985056518
+    second: T1_chassis_top_damage_33
+  - first:
+      213: 5418340506197196805
+    second: T1_chassis_top_damage_34
+  - first:
+      213: -2627163027290020396
+    second: T1_chassis_top_damage_35
+  - first:
+      213: 3253970099515319748
+    second: T1_chassis_top_damage_36
+  - first:
+      213: -7729276337605751230
+    second: T1_chassis_top_damage_37
+  - first:
+      213: -8246682233455752999
+    second: T1_chassis_top_damage_38
+  - first:
+      213: -1225063023902915033
+    second: T1_chassis_top_damage_39
+  - first:
+      213: -3117446202385705473
+    second: T1_chassis_top_damage_40
+  - first:
+      213: 9084453894243209758
+    second: T1_chassis_top_damage_41
+  - first:
+      213: 5084999031428063326
+    second: T1_chassis_top_damage_42
+  - first:
+      213: 6561332936652948531
+    second: T1_chassis_top_damage_43
+  - first:
+      213: 2520788253323872120
+    second: T1_chassis_top_damage_44
+  - first:
+      213: -6537299074618780850
+    second: T1_chassis_top_damage_45
+  - first:
+      213: 2301349674683626000
+    second: T1_chassis_top_damage_46
+  - first:
+      213: 6768449885754393810
+    second: T1_chassis_top_damage_47
+  - first:
+      213: 943748018799606420
+    second: T1_chassis_top_damage_48
+  - first:
+      213: 5772111190936381810
+    second: T1_chassis_top_damage_49
+  - first:
+      213: 6280871795747820397
+    second: T1_chassis_top_damage_50
+  - first:
+      213: 8813971900959569412
+    second: T1_chassis_top_damage_51
+  - first:
+      213: 5574635994924299603
+    second: T1_chassis_top_damage_52
+  - first:
+      213: 944603893531372242
+    second: T1_chassis_top_damage_53
+  - first:
+      213: 8193235063993997568
+    second: T1_chassis_top_damage_54
+  - first:
+      213: 4712188905281098611
+    second: T1_chassis_top_damage_55
+  - first:
+      213: -7042677562450004282
+    second: T1_chassis_top_damage_56
+  - first:
+      213: 4981153745700380392
+    second: T1_chassis_top_damage_57
+  - first:
+      213: -1670069491247778448
+    second: T1_chassis_top_damage_58
+  - first:
+      213: 7635235999476971198
+    second: T1_chassis_top_damage_59
+  - first:
+      213: -5385744693757086869
+    second: T1_chassis_top_damage_60
+  - first:
+      213: 2202038964891202615
+    second: T1_chassis_top_damage_61
+  - first:
+      213: -8851941913552862605
+    second: T1_chassis_top_damage_62
+  - first:
+      213: 1279973838744684394
+    second: T1_chassis_top_damage_63
+  - first:
+      213: -9036076473014216456
+    second: T1_chassis_top_damage_64
+  - first:
+      213: -4530231051744437709
+    second: T1_chassis_top_damage_65
+  - first:
+      213: -5224538727891546778
+    second: T1_chassis_top_damage_66
+  - first:
+      213: 3439165608143439042
+    second: T1_chassis_top_damage_67
+  - first:
+      213: -7323097948398888763
+    second: T1_chassis_top_damage_68
+  - first:
+      213: 2205728900840245651
+    second: T1_chassis_top_damage_69
+  - first:
+      213: -6880833083260857603
+    second: T1_chassis_top_damage_70
+  - first:
+      213: -1582858774262237710
+    second: T1_chassis_top_damage_71
+  - first:
+      213: -5046448543896436103
+    second: T1_chassis_top_damage_72
+  - first:
+      213: 7478698395950297106
+    second: T1_chassis_top_damage_73
+  - first:
+      213: 7089890925156036154
+    second: T1_chassis_top_damage_74
+  - first:
+      213: 4359378916407741526
+    second: T1_chassis_top_damage_75
+  - first:
+      213: -336971004391833572
+    second: T1_chassis_top_damage_76
+  - first:
+      213: -8370820816843077130
+    second: T1_chassis_top_damage_77
+  - first:
+      213: 3657796064130584475
+    second: T1_chassis_top_damage_78
+  - first:
+      213: -2122591636321581585
+    second: T1_chassis_top_damage_79
+  - first:
+      213: -4962961169443509870
+    second: T1_chassis_top_damage_80
+  - first:
+      213: 7146166059027862753
+    second: T1_chassis_top_damage_81
+  - first:
+      213: 7577044435462974095
+    second: T1_chassis_top_damage_82
+  - first:
+      213: 1797626198117374680
+    second: T1_chassis_top_damage_83
+  - first:
+      213: -3578597947418152223
+    second: T1_chassis_top_damage_84
+  - first:
+      213: -931552818645906074
+    second: T1_chassis_top_damage_85
+  - first:
+      213: 2368182386903910664
+    second: T1_chassis_top_damage_86
+  - first:
+      213: -7837257937670969122
+    second: T1_chassis_top_damage_87
+  - first:
+      213: -5856457324292648094
+    second: T1_chassis_top_damage_88
+  - first:
+      213: -7484161128002317926
+    second: T1_chassis_top_damage_89
+  - first:
+      213: -6494124643019658683
+    second: T1_chassis_top_damage_90
+  - first:
+      213: 8023620567247100952
+    second: T1_chassis_top_damage_91
+  - first:
+      213: 3516684879511887065
+    second: T1_chassis_top_damage_92
+  - first:
+      213: 2301865500795584220
+    second: T1_chassis_top_damage_93
+  - first:
+      213: 7749579936596837018
+    second: T1_chassis_top_damage_94
+  - first:
+      213: 537237171121987184
+    second: T1_chassis_top_damage_95
+  - first:
+      213: 7087643960336827501
+    second: T1_chassis_top_damage_96
+  - first:
+      213: 7660204066383578038
+    second: T1_chassis_top_damage_97
+  - first:
+      213: 7616459481365647795
+    second: T1_chassis_top_damage_98
+  - first:
+      213: 363557786436058192
+    second: T1_chassis_top_damage_99
+  - first:
+      213: -5923879393658944821
+    second: T1_chassis_top_damage_100
+  - first:
+      213: 534057382435819567
+    second: T1_chassis_top_damage_101
+  - first:
+      213: -2909371678841812942
+    second: T1_chassis_top_damage_102
+  - first:
+      213: 3133318719739638852
+    second: T1_chassis_top_damage_103
+  - first:
+      213: 3190357343829266187
+    second: T1_chassis_top_damage_104
+  - first:
+      213: 7781869926177841523
+    second: T1_chassis_top_damage_105
+  - first:
+      213: -8869991775660527450
+    second: T1_chassis_top_damage_106
+  - first:
+      213: 8544506591927730338
+    second: T1_chassis_top_damage_107
+  - first:
+      213: -1273759798541103115
+    second: T1_chassis_top_damage_108
+  - first:
+      213: 5645888075899293469
+    second: T1_chassis_top_damage_109
+  - first:
+      213: -1481019360121761563
+    second: T1_chassis_top_damage_110
+  - first:
+      213: -6759491975720054195
+    second: T1_chassis_top_damage_111
+  - first:
+      213: 850559433892085688
+    second: T1_chassis_top_damage_112
+  - first:
+      213: 2125071824884654753
+    second: T1_chassis_top_damage_113
+  - first:
+      213: 4318783431801394602
+    second: T1_chassis_top_damage_114
+  - first:
+      213: -6595504231099878163
+    second: T1_chassis_top_damage_115
+  - first:
+      213: -1994666965579898157
+    second: T1_chassis_top_damage_116
+  - first:
+      213: -5713481671248121542
+    second: T1_chassis_top_damage_117
+  - first:
+      213: 584073477624628868
+    second: T1_chassis_top_damage_118
+  - first:
+      213: -5754436799803717616
+    second: T1_chassis_top_damage_119
+  - first:
+      213: 6302393604720221108
+    second: T1_chassis_top_damage_120
+  - first:
+      213: 1292119495615016871
+    second: T1_chassis_top_damage_121
+  - first:
+      213: 7952186165612179935
+    second: T1_chassis_top_damage_122
+  - first:
+      213: -6334792813839576859
+    second: T1_chassis_top_damage_123
+  - first:
+      213: -7966232659268038021
+    second: T1_chassis_top_damage_124
+  - first:
+      213: 1188371680452449229
+    second: T1_chassis_top_damage_125
+  - first:
+      213: -5260918608067527378
+    second: T1_chassis_top_damage_126
+  - first:
+      213: -990594920377687659
+    second: T1_chassis_top_damage_127
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 208
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b52a1925be4787a0800000000000000
+      internalID: -6375040207534021198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 206
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2769760cf4a62d0800000000000000
+      internalID: -3284725290423127323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 204
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a5ae66bdb445850800000000000000
+      internalID: 6364795579077909045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_3
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 204
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b810761c738e7da30800000000000000
+      internalID: 4240112900358209931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 204
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee15fba1acd631a60800000000000000
+      internalID: 7643573707377431022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_5
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 204
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b250b3eeb41abd0800000000000000
+      internalID: -2620730021588423823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_6
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 205
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d127259b04c0f8eb0800000000000000
+      internalID: -4715536812706991587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_7
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 206
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa27a74f27ce5190800000000000000
+      internalID: -7971715284519671121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_8
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 207
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524abe08d650152e0800000000000000
+      internalID: -2138922380151774171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_9
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 206
+        width: 51
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd227d8490737920800000000000000
+      internalID: 2986854761207311813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_10
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 205
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05357c09a04702540800000000000000
+      internalID: 4981108776599245648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_11
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 204
+        width: 57
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2c9d4406d9d8580800000000000000
+      internalID: -8823223058151390556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_12
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 203
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff30018a3b9c7d580800000000000000
+      internalID: -8802345173216394241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_13
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 203
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9aa2795397849b10800000000000000
+      internalID: 1987362402507860634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_14
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 204
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28dab89f5ae7af770800000000000000
+      internalID: 8645361686012472706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_15
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 205
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a973dfd04728880d0800000000000000
+      internalID: -3420340482025375846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_16
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 206
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ab2ddb1724590c0800000000000000
+      internalID: -4569673190614058438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_17
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 205
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd0fea2715198780800000000000000
+      internalID: -8680383617531179536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_18
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 204
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9602c3390bb016e00800000000000000
+      internalID: 1036122242284265577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_19
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 203
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590028bf4991af160800000000000000
+      internalID: 7059983493522129045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_20
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 203
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3200fe9fad2a90070800000000000000
+      internalID: 8073162868418084899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_21
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 204
+        width: 57
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33003302ac53715d0800000000000000
+      internalID: -3091943476926676941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_22
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 205
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faac48070a49bbfb0800000000000000
+      internalID: -4630944375016994129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_23
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 206
+        width: 51
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6fbc6747649eba0800000000000000
+      internalID: -6059234357627062572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_24
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 207
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af15418fe9db924e0800000000000000
+      internalID: -2005863668552281606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_25
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 206
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9354ea6732a1fba60800000000000000
+      internalID: 7691895428189406521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_26
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 205
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23481b685c1e93210800000000000000
+      internalID: 1313329004839797810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_27
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 204
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dab432967e8f4af0800000000000000
+      internalID: -409952401157211436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_28
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 204
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8930469a6a5b145f0800000000000000
+      internalID: -774137933519912040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_29
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 204
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8d4f0be2d487d60800000000000000
+      internalID: 7888139610272094447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_30
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 204
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e004307a8243f00800000000000000
+      internalID: 1095545307137052219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_31
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 206
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5ff2e3f187259b0800000000000000
+      internalID: -5092876153019959851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_32
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 144
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc0378e965f09d240800000000000000
+      internalID: 4816898141150720203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_33
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 142
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2bb94628b4857f0800000000000000
+      internalID: -623665524985056518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_34
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 140
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5008ef79bffc13b40800000000000000
+      internalID: 5418340506197196805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_35
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 140
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5a65f55217a8bd0800000000000000
+      internalID: -2627163027290020396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_36
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 140
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c56a53b09c682d20800000000000000
+      internalID: 3253970099515319748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_37
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 140
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e4d265f181cb490800000000000000
+      internalID: -7729276337605751230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_38
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 141
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d848539336ed8d80800000000000000
+      internalID: -8246682233455752999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_39
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 142
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7260dc0aba3bffee0800000000000000
+      internalID: -1225063023902915033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_40
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 143
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5d864223b9cb4d0800000000000000
+      internalID: -3117446202385705473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_41
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 142
+        width: 51
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12d7c07fa6721e70800000000000000
+      internalID: 9084453894243209758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_42
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 140
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50a9777dab819640800000000000000
+      internalID: 5084999031428063326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_43
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 139
+        width: 57
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334054eda898e0b50800000000000000
+      internalID: 6561332936652948531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_44
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 139
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877c8598f83abf220800000000000000
+      internalID: 2520788253323872120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_45
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 139
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e439bd2b029d645a0800000000000000
+      internalID: -6537299074618780850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_46
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 139
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0127a77065900ff10800000000000000
+      internalID: 2301349674683626000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_47
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 141
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d48c607f4d5eed50800000000000000
+      internalID: 6768449885754393810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_48
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 142
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a770aa2ddd81d00800000000000000
+      internalID: 943748018799606420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_49
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 141
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279e1d3db88aa1050800000000000000
+      internalID: 5772111190936381810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_50
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 140
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d639159ee932a2750800000000000000
+      internalID: 6280871795747820397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_51
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 139
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40638f8deb4815a70800000000000000
+      internalID: 8813971900959569412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_52
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 139
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355b195d6e51d5d40800000000000000
+      internalID: 5574635994924299603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_53
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 140
+        width: 57
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da63678c38eb1d00800000000000000
+      internalID: 944603893531372242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_54
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 141
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00913ae81e734b170800000000000000
+      internalID: 8193235063993997568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_55
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 142
+        width: 51
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37311d5d7de056140800000000000000
+      internalID: 4712188905281098611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_56
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 143
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6bd861212634e90800000000000000
+      internalID: -7042677562450004282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_57
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 142
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eed310c0fc902540800000000000000
+      internalID: 4981153745700380392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_58
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 141
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07575f765a8b2d8e0800000000000000
+      internalID: -1670069491247778448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_59
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 140
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6791530bec5f960800000000000000
+      internalID: 7635235999476971198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_60
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 140
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63f9a56cbdf145b0800000000000000
+      internalID: -5385744693757086869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_61
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 140
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 734b8eb85c63f8e10800000000000000
+      internalID: 2202038964891202615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_62
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 140
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3724a4eaab5972580800000000000000
+      internalID: -8851941913552862605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_63
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 142
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a678b2cbc6163c110800000000000000
+      internalID: 1279973838744684394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_64
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 80
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f819bea258699280800000000000000
+      internalID: -9036076473014216456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_65
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 78
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a14525cd26121c0800000000000000
+      internalID: -4530231051744437709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_66
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 76
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66dc0c035b5be77b0800000000000000
+      internalID: -5224538727891546778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_67
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 76
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4412d26ee5abf20800000000000000
+      internalID: 3439165608143439042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_68
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 76
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8da4227312f5a90800000000000000
+      internalID: -7323097948398888763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_69
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 76
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3994565bfb25c9e10800000000000000
+      internalID: 2205728900840245651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_70
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 77
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df21b7954ce5280a0800000000000000
+      internalID: -6880833083260857603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_71
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 78
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f53d76c45e880ae0800000000000000
+      internalID: -1582858774262237710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_72
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 79
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97204cb59c967f9b0800000000000000
+      internalID: -5046448543896436103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_73
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 78
+        width: 51
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210b6e8319ca9c760800000000000000
+      internalID: 7478698395950297106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_74
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 76
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ee03a8b3a546260800000000000000
+      internalID: 7089890925156036154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_75
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 76
+        width: 57
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c8fc90700af7c30800000000000000
+      internalID: 4359378916407741526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_76
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 75
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c104e9728a6d25bf0800000000000000
+      internalID: -336971004391833572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_77
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 75
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f98f9d41ded4db80800000000000000
+      internalID: -8370820816843077130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_78
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 75
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f4357f32a13c230800000000000000
+      internalID: 3657796064130584475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_79
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 77
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe546d9172a0b82e0800000000000000
+      internalID: -2122591636321581585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_80
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 78
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299234d7c15002bb0800000000000000
+      internalID: -4962961169443509870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_81
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 77
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e41f4e2b284c2360800000000000000
+      internalID: 7146166059027862753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_82
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 76
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8aee17e4c1172960800000000000000
+      internalID: 7577044435462974095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_83
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 75
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dad8b1c08372f810800000000000000
+      internalID: 1797626198117374680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_84
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 75
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e2f2368024465ec0800000000000000
+      internalID: -3578597947418152223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_85
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 76
+        width: 57
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66dc813a5a57213f0800000000000000
+      internalID: -931552818645906074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_86
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 77
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8098ebe65597dd020800000000000000
+      internalID: 2368182386903910664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_87
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 78
+        width: 51
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8e204ed677c3390800000000000000
+      internalID: -7837257937670969122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_88
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 79
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2635d47a71fa9bea0800000000000000
+      internalID: -5856457324292648094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_89
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 78
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9192ab5b1be22890800000000000000
+      internalID: -7484161128002317926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_90
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 77
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ae3b56b0c30e5a0800000000000000
+      internalID: -6494124643019658683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_91
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 76
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c184b1560a95f60800000000000000
+      internalID: 8023620567247100952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_92
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 76
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc1b460446cdc030800000000000000
+      internalID: 3516684879511887065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_93
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 76
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdeb5a72a7ed1ff10800000000000000
+      internalID: 2301865500795584220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_94
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 76
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92495fa4e90c8b60800000000000000
+      internalID: 7749579936596837018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_95
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 78
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e9cd85c56a47700800000000000000
+      internalID: 537237171121987184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_96
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 16
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64c15641ae5c5260800000000000000
+      internalID: 7087643960336827501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_97
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 14
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3cbcb43038e4a60800000000000000
+      internalID: 7660204066383578038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_98
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 12
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b194f86b8913b960800000000000000
+      internalID: 7616459481365647795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_99
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 12
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c39db61ed9b0500800000000000000
+      internalID: 363557786436058192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_100
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 12
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2c3b8d3172acda0800000000000000
+      internalID: -5923879393658944821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_101
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 12
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2013c91c5a596700800000000000000
+      internalID: 534057382435819567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_102
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 13
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2384d036fd5df97d0800000000000000
+      internalID: -2909371678841812942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_103
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 14
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444b92a46c8cb7b20800000000000000
+      internalID: 3133318719739638852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_104
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 15
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f8089d91d664c20800000000000000
+      internalID: 3190357343829266187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_105
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 14
+        width: 51
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 371202eb771cefb60800000000000000
+      internalID: 7781869926177841523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_106
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 12
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a03e1ba97577e480800000000000000
+      internalID: -8869991775660527450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_107
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 11
+        width: 57
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a006d0897f249670800000000000000
+      internalID: 8544506591927730338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_108
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 11
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ffc8ce3632b25ee0800000000000000
+      internalID: -1273759798541103115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_109
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 11
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f4795ba493a5e40800000000000000
+      internalID: 5645888075899293469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_110
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 12
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0577e1dbc527be0800000000000000
+      internalID: -1481019360121761563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_111
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 13
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d425a158cd57132a0800000000000000
+      internalID: -6759491975720054195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_112
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 14
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bfbe757c4bcdcb00800000000000000
+      internalID: 850559433892085688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_113
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 13
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2e07cc095cd7d10800000000000000
+      internalID: 2125071824884654753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_114
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 12
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa55d5a36a66feb30800000000000000
+      internalID: 4318783431801394602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_115
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 11
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de4b4b6a8df0874a0800000000000000
+      internalID: -6595504231099878163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_116
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 11
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2676786f48154e0800000000000000
+      internalID: -1994666965579898157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_117
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 12
+        width: 57
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31fc8af0b2a5b0b0800000000000000
+      internalID: -5713481671248121542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_118
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 13
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4860b8cbbbb0b1800800000000000000
+      internalID: 584073477624628868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_119
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 14
+        width: 51
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018834908322420b0800000000000000
+      internalID: -5754436799803717616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_120
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 15
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbda0c8799967750800000000000000
+      internalID: 6302393604720221108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_121
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 14
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af6d77d5d78ee110800000000000000
+      internalID: 1292119495615016871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_122
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 13
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd1f6156f27db5e60800000000000000
+      internalID: 7952186165612179935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_123
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 12
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0156dbf7b4618a0800000000000000
+      internalID: -6334792813839576859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_124
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 12
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7296327a91427190800000000000000
+      internalID: -7966232659268038021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_125
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 12
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc390824fb1fd7010800000000000000
+      internalID: 1188371680452449229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_126
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 12
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d74e546667df6b0800000000000000
+      internalID: -5260918608067527378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_damage_127
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 14
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591e4961b23b042f0800000000000000
+      internalID: -990594920377687659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      T1_chassis_top_damage_0: -6375040207534021198
+      T1_chassis_top_damage_1: -3284725290423127323
+      T1_chassis_top_damage_10: 4981108776599245648
+      T1_chassis_top_damage_100: -5923879393658944821
+      T1_chassis_top_damage_101: 534057382435819567
+      T1_chassis_top_damage_102: -2909371678841812942
+      T1_chassis_top_damage_103: 3133318719739638852
+      T1_chassis_top_damage_104: 3190357343829266187
+      T1_chassis_top_damage_105: 7781869926177841523
+      T1_chassis_top_damage_106: -8869991775660527450
+      T1_chassis_top_damage_107: 8544506591927730338
+      T1_chassis_top_damage_108: -1273759798541103115
+      T1_chassis_top_damage_109: 5645888075899293469
+      T1_chassis_top_damage_11: -8823223058151390556
+      T1_chassis_top_damage_110: -1481019360121761563
+      T1_chassis_top_damage_111: -6759491975720054195
+      T1_chassis_top_damage_112: 850559433892085688
+      T1_chassis_top_damage_113: 2125071824884654753
+      T1_chassis_top_damage_114: 4318783431801394602
+      T1_chassis_top_damage_115: -6595504231099878163
+      T1_chassis_top_damage_116: -1994666965579898157
+      T1_chassis_top_damage_117: -5713481671248121542
+      T1_chassis_top_damage_118: 584073477624628868
+      T1_chassis_top_damage_119: -5754436799803717616
+      T1_chassis_top_damage_12: -8802345173216394241
+      T1_chassis_top_damage_120: 6302393604720221108
+      T1_chassis_top_damage_121: 1292119495615016871
+      T1_chassis_top_damage_122: 7952186165612179935
+      T1_chassis_top_damage_123: -6334792813839576859
+      T1_chassis_top_damage_124: -7966232659268038021
+      T1_chassis_top_damage_125: 1188371680452449229
+      T1_chassis_top_damage_126: -5260918608067527378
+      T1_chassis_top_damage_127: -990594920377687659
+      T1_chassis_top_damage_13: 1987362402507860634
+      T1_chassis_top_damage_14: 8645361686012472706
+      T1_chassis_top_damage_15: -3420340482025375846
+      T1_chassis_top_damage_16: -4569673190614058438
+      T1_chassis_top_damage_17: -8680383617531179536
+      T1_chassis_top_damage_18: 1036122242284265577
+      T1_chassis_top_damage_19: 7059983493522129045
+      T1_chassis_top_damage_2: 6364795579077909045
+      T1_chassis_top_damage_20: 8073162868418084899
+      T1_chassis_top_damage_21: -3091943476926676941
+      T1_chassis_top_damage_22: -4630944375016994129
+      T1_chassis_top_damage_23: -6059234357627062572
+      T1_chassis_top_damage_24: -2005863668552281606
+      T1_chassis_top_damage_25: 7691895428189406521
+      T1_chassis_top_damage_26: 1313329004839797810
+      T1_chassis_top_damage_27: -409952401157211436
+      T1_chassis_top_damage_28: -774137933519912040
+      T1_chassis_top_damage_29: 7888139610272094447
+      T1_chassis_top_damage_3: 4240112900358209931
+      T1_chassis_top_damage_30: 1095545307137052219
+      T1_chassis_top_damage_31: -5092876153019959851
+      T1_chassis_top_damage_32: 4816898141150720203
+      T1_chassis_top_damage_33: -623665524985056518
+      T1_chassis_top_damage_34: 5418340506197196805
+      T1_chassis_top_damage_35: -2627163027290020396
+      T1_chassis_top_damage_36: 3253970099515319748
+      T1_chassis_top_damage_37: -7729276337605751230
+      T1_chassis_top_damage_38: -8246682233455752999
+      T1_chassis_top_damage_39: -1225063023902915033
+      T1_chassis_top_damage_4: 7643573707377431022
+      T1_chassis_top_damage_40: -3117446202385705473
+      T1_chassis_top_damage_41: 9084453894243209758
+      T1_chassis_top_damage_42: 5084999031428063326
+      T1_chassis_top_damage_43: 6561332936652948531
+      T1_chassis_top_damage_44: 2520788253323872120
+      T1_chassis_top_damage_45: -6537299074618780850
+      T1_chassis_top_damage_46: 2301349674683626000
+      T1_chassis_top_damage_47: 6768449885754393810
+      T1_chassis_top_damage_48: 943748018799606420
+      T1_chassis_top_damage_49: 5772111190936381810
+      T1_chassis_top_damage_5: -2620730021588423823
+      T1_chassis_top_damage_50: 6280871795747820397
+      T1_chassis_top_damage_51: 8813971900959569412
+      T1_chassis_top_damage_52: 5574635994924299603
+      T1_chassis_top_damage_53: 944603893531372242
+      T1_chassis_top_damage_54: 8193235063993997568
+      T1_chassis_top_damage_55: 4712188905281098611
+      T1_chassis_top_damage_56: -7042677562450004282
+      T1_chassis_top_damage_57: 4981153745700380392
+      T1_chassis_top_damage_58: -1670069491247778448
+      T1_chassis_top_damage_59: 7635235999476971198
+      T1_chassis_top_damage_6: -4715536812706991587
+      T1_chassis_top_damage_60: -5385744693757086869
+      T1_chassis_top_damage_61: 2202038964891202615
+      T1_chassis_top_damage_62: -8851941913552862605
+      T1_chassis_top_damage_63: 1279973838744684394
+      T1_chassis_top_damage_64: -9036076473014216456
+      T1_chassis_top_damage_65: -4530231051744437709
+      T1_chassis_top_damage_66: -5224538727891546778
+      T1_chassis_top_damage_67: 3439165608143439042
+      T1_chassis_top_damage_68: -7323097948398888763
+      T1_chassis_top_damage_69: 2205728900840245651
+      T1_chassis_top_damage_7: -7971715284519671121
+      T1_chassis_top_damage_70: -6880833083260857603
+      T1_chassis_top_damage_71: -1582858774262237710
+      T1_chassis_top_damage_72: -5046448543896436103
+      T1_chassis_top_damage_73: 7478698395950297106
+      T1_chassis_top_damage_74: 7089890925156036154
+      T1_chassis_top_damage_75: 4359378916407741526
+      T1_chassis_top_damage_76: -336971004391833572
+      T1_chassis_top_damage_77: -8370820816843077130
+      T1_chassis_top_damage_78: 3657796064130584475
+      T1_chassis_top_damage_79: -2122591636321581585
+      T1_chassis_top_damage_8: -2138922380151774171
+      T1_chassis_top_damage_80: -4962961169443509870
+      T1_chassis_top_damage_81: 7146166059027862753
+      T1_chassis_top_damage_82: 7577044435462974095
+      T1_chassis_top_damage_83: 1797626198117374680
+      T1_chassis_top_damage_84: -3578597947418152223
+      T1_chassis_top_damage_85: -931552818645906074
+      T1_chassis_top_damage_86: 2368182386903910664
+      T1_chassis_top_damage_87: -7837257937670969122
+      T1_chassis_top_damage_88: -5856457324292648094
+      T1_chassis_top_damage_89: -7484161128002317926
+      T1_chassis_top_damage_9: 2986854761207311813
+      T1_chassis_top_damage_90: -6494124643019658683
+      T1_chassis_top_damage_91: 8023620567247100952
+      T1_chassis_top_damage_92: 3516684879511887065
+      T1_chassis_top_damage_93: 2301865500795584220
+      T1_chassis_top_damage_94: 7749579936596837018
+      T1_chassis_top_damage_95: 537237171121987184
+      T1_chassis_top_damage_96: 7087643960336827501
+      T1_chassis_top_damage_97: 7660204066383578038
+      T1_chassis_top_damage_98: 7616459481365647795
+      T1_chassis_top_damage_99: 363557786436058192
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

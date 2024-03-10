@@ -1,0 +1,3314 @@
+fileFormatVersion: 2
+guid: 00022c197c3c1a84ca40ae69d82e85fa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2210314867290853658
+    second: T1_chassis_top_2_0
+  - first:
+      213: 2609925352729099556
+    second: T1_chassis_top_2_1
+  - first:
+      213: 3462634137688311158
+    second: T1_chassis_top_2_2
+  - first:
+      213: -3221296077052579451
+    second: T1_chassis_top_2_3
+  - first:
+      213: -521263991023078766
+    second: T1_chassis_top_2_4
+  - first:
+      213: -2017462931428329239
+    second: T1_chassis_top_2_5
+  - first:
+      213: 7855517281183567921
+    second: T1_chassis_top_2_6
+  - first:
+      213: 4772294760381493233
+    second: T1_chassis_top_2_7
+  - first:
+      213: -606696837376762956
+    second: T1_chassis_top_2_8
+  - first:
+      213: 1106068531661344964
+    second: T1_chassis_top_2_9
+  - first:
+      213: 7087611357069351883
+    second: T1_chassis_top_2_10
+  - first:
+      213: 6051764355200961201
+    second: T1_chassis_top_2_11
+  - first:
+      213: 6028759362854590264
+    second: T1_chassis_top_2_12
+  - first:
+      213: -3774221956939556324
+    second: T1_chassis_top_2_13
+  - first:
+      213: -5990428165469003857
+    second: T1_chassis_top_2_14
+  - first:
+      213: -885631967988726002
+    second: T1_chassis_top_2_15
+  - first:
+      213: -902624244071976131
+    second: T1_chassis_top_2_16
+  - first:
+      213: 1768372196202834231
+    second: T1_chassis_top_2_17
+  - first:
+      213: -2073276913020071347
+    second: T1_chassis_top_2_18
+  - first:
+      213: -2163306588898092628
+    second: T1_chassis_top_2_19
+  - first:
+      213: -8718670716605126547
+    second: T1_chassis_top_2_20
+  - first:
+      213: -6590233692190462727
+    second: T1_chassis_top_2_21
+  - first:
+      213: -4395949256820469019
+    second: T1_chassis_top_2_22
+  - first:
+      213: 606844290529173422
+    second: T1_chassis_top_2_23
+  - first:
+      213: -8931507332126873997
+    second: T1_chassis_top_2_24
+  - first:
+      213: 5962323714799188564
+    second: T1_chassis_top_2_25
+  - first:
+      213: 4943311099592072750
+    second: T1_chassis_top_2_26
+  - first:
+      213: -627523652500890195
+    second: T1_chassis_top_2_27
+  - first:
+      213: -1329431419896016807
+    second: T1_chassis_top_2_28
+  - first:
+      213: -8365196963884946070
+    second: T1_chassis_top_2_29
+  - first:
+      213: -1849570492155995423
+    second: T1_chassis_top_2_30
+  - first:
+      213: 3814464372787801382
+    second: T1_chassis_top_2_31
+  - first:
+      213: 1633729365434984361
+    second: T1_chassis_top_2_32
+  - first:
+      213: -5469576316027148209
+    second: T1_chassis_top_2_33
+  - first:
+      213: -4804990345885656088
+    second: T1_chassis_top_2_34
+  - first:
+      213: -6576174725929331230
+    second: T1_chassis_top_2_35
+  - first:
+      213: -716537984049874002
+    second: T1_chassis_top_2_36
+  - first:
+      213: 7282191399032015816
+    second: T1_chassis_top_2_37
+  - first:
+      213: 8530512089212180619
+    second: T1_chassis_top_2_38
+  - first:
+      213: 1088646430946881852
+    second: T1_chassis_top_2_39
+  - first:
+      213: -2526411718873561997
+    second: T1_chassis_top_2_40
+  - first:
+      213: -1453602419972076448
+    second: T1_chassis_top_2_41
+  - first:
+      213: 1046921968322435849
+    second: T1_chassis_top_2_42
+  - first:
+      213: -546499493881597713
+    second: T1_chassis_top_2_43
+  - first:
+      213: -7993010667342467290
+    second: T1_chassis_top_2_44
+  - first:
+      213: 5360312137177674953
+    second: T1_chassis_top_2_45
+  - first:
+      213: 171887429985911707
+    second: T1_chassis_top_2_46
+  - first:
+      213: -4588107163264903191
+    second: T1_chassis_top_2_47
+  - first:
+      213: 8808490767714003682
+    second: T1_chassis_top_2_48
+  - first:
+      213: 8693439889596291525
+    second: T1_chassis_top_2_49
+  - first:
+      213: -3923162339610089957
+    second: T1_chassis_top_2_50
+  - first:
+      213: -6475171532174800528
+    second: T1_chassis_top_2_51
+  - first:
+      213: -638563167679579664
+    second: T1_chassis_top_2_52
+  - first:
+      213: -7118945587977536019
+    second: T1_chassis_top_2_53
+  - first:
+      213: -7042798802141830847
+    second: T1_chassis_top_2_54
+  - first:
+      213: -4600641775728117781
+    second: T1_chassis_top_2_55
+  - first:
+      213: 6018861161245166585
+    second: T1_chassis_top_2_56
+  - first:
+      213: 1596225259982788035
+    second: T1_chassis_top_2_57
+  - first:
+      213: 197845431378280910
+    second: T1_chassis_top_2_58
+  - first:
+      213: 9075909454325184508
+    second: T1_chassis_top_2_59
+  - first:
+      213: -1180140703878092557
+    second: T1_chassis_top_2_60
+  - first:
+      213: -4222883330491428869
+    second: T1_chassis_top_2_61
+  - first:
+      213: -703844581737504822
+    second: T1_chassis_top_2_62
+  - first:
+      213: -5742911847777923895
+    second: T1_chassis_top_2_63
+  - first:
+      213: -2780832342581313799
+    second: T1_chassis_top_2_64
+  - first:
+      213: -4681430669840662027
+    second: T1_chassis_top_2_65
+  - first:
+      213: 5189635722503509754
+    second: T1_chassis_top_2_66
+  - first:
+      213: 8275765992890759132
+    second: T1_chassis_top_2_67
+  - first:
+      213: 2562848256654404226
+    second: T1_chassis_top_2_68
+  - first:
+      213: 6970364559886676345
+    second: T1_chassis_top_2_69
+  - first:
+      213: -1897524598339255881
+    second: T1_chassis_top_2_70
+  - first:
+      213: -1759460052915674440
+    second: T1_chassis_top_2_71
+  - first:
+      213: -2127310846592345080
+    second: T1_chassis_top_2_72
+  - first:
+      213: 4287203542069897798
+    second: T1_chassis_top_2_73
+  - first:
+      213: 2071847887506121114
+    second: T1_chassis_top_2_74
+  - first:
+      213: 591630735570111058
+    second: T1_chassis_top_2_75
+  - first:
+      213: -9133849709623016424
+    second: T1_chassis_top_2_76
+  - first:
+      213: -5500951746135271610
+    second: T1_chassis_top_2_77
+  - first:
+      213: 2701698893893522299
+    second: T1_chassis_top_2_78
+  - first:
+      213: -4589112253606837965
+    second: T1_chassis_top_2_79
+  - first:
+      213: 2344691018792983277
+    second: T1_chassis_top_2_80
+  - first:
+      213: 3743261471143797009
+    second: T1_chassis_top_2_81
+  - first:
+      213: -3786435989388314141
+    second: T1_chassis_top_2_82
+  - first:
+      213: -6992565396873940761
+    second: T1_chassis_top_2_83
+  - first:
+      213: -2380259954051005596
+    second: T1_chassis_top_2_84
+  - first:
+      213: -5863254087222629233
+    second: T1_chassis_top_2_85
+  - first:
+      213: -8785605483965815681
+    second: T1_chassis_top_2_86
+  - first:
+      213: -7239903535687772520
+    second: T1_chassis_top_2_87
+  - first:
+      213: -6688846589848229233
+    second: T1_chassis_top_2_88
+  - first:
+      213: -3856841663271676738
+    second: T1_chassis_top_2_89
+  - first:
+      213: 121854058987461654
+    second: T1_chassis_top_2_90
+  - first:
+      213: 8777101564514342233
+    second: T1_chassis_top_2_91
+  - first:
+      213: -486030863541211415
+    second: T1_chassis_top_2_92
+  - first:
+      213: -2271636836480341563
+    second: T1_chassis_top_2_93
+  - first:
+      213: -7335304574204188039
+    second: T1_chassis_top_2_94
+  - first:
+      213: -2091375410764896755
+    second: T1_chassis_top_2_95
+  - first:
+      213: -5477645979188293077
+    second: T1_chassis_top_2_96
+  - first:
+      213: 6487570938508486317
+    second: T1_chassis_top_2_97
+  - first:
+      213: -6760162064154134427
+    second: T1_chassis_top_2_98
+  - first:
+      213: 3333067201137871564
+    second: T1_chassis_top_2_99
+  - first:
+      213: 3727624362497799249
+    second: T1_chassis_top_2_100
+  - first:
+      213: -4550847936650606830
+    second: T1_chassis_top_2_101
+  - first:
+      213: -4218644201821059391
+    second: T1_chassis_top_2_102
+  - first:
+      213: 9075793343511349202
+    second: T1_chassis_top_2_103
+  - first:
+      213: -2393202189901011375
+    second: T1_chassis_top_2_104
+  - first:
+      213: -665843241023115423
+    second: T1_chassis_top_2_105
+  - first:
+      213: -6929141670096903180
+    second: T1_chassis_top_2_106
+  - first:
+      213: 4479172892815617241
+    second: T1_chassis_top_2_107
+  - first:
+      213: 1510300823452274930
+    second: T1_chassis_top_2_108
+  - first:
+      213: 5401219287962024767
+    second: T1_chassis_top_2_109
+  - first:
+      213: -3931849197466672274
+    second: T1_chassis_top_2_110
+  - first:
+      213: 4111703197993705276
+    second: T1_chassis_top_2_111
+  - first:
+      213: 6142418406103902139
+    second: T1_chassis_top_2_112
+  - first:
+      213: -4105716230611366629
+    second: T1_chassis_top_2_113
+  - first:
+      213: -7588477110744996801
+    second: T1_chassis_top_2_114
+  - first:
+      213: 7227362219726502685
+    second: T1_chassis_top_2_115
+  - first:
+      213: 1314699878060197254
+    second: T1_chassis_top_2_116
+  - first:
+      213: 3713742214818545148
+    second: T1_chassis_top_2_117
+  - first:
+      213: 5055049041929638420
+    second: T1_chassis_top_2_118
+  - first:
+      213: 8926694739899523099
+    second: T1_chassis_top_2_119
+  - first:
+      213: 5453538115723098477
+    second: T1_chassis_top_2_120
+  - first:
+      213: 6448791972214285223
+    second: T1_chassis_top_2_121
+  - first:
+      213: -7563423984289347757
+    second: T1_chassis_top_2_122
+  - first:
+      213: -2264879025305121930
+    second: T1_chassis_top_2_123
+  - first:
+      213: -2882482732736273447
+    second: T1_chassis_top_2_124
+  - first:
+      213: -1907942954593617101
+    second: T1_chassis_top_2_125
+  - first:
+      213: -3865856837990004206
+    second: T1_chassis_top_2_126
+  - first:
+      213: 3137227363308702699
+    second: T1_chassis_top_2_127
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T1_chassis_top_2_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 208
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee2d55c6526351e0800000000000000
+      internalID: -2210314867290853658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 206
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d34b3c741583420800000000000000
+      internalID: 2609925352729099556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 205
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6758d04076fbd0030800000000000000
+      internalID: 3462634137688311158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 204
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581fbeaf848ab43d0800000000000000
+      internalID: -3221296077052579451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 204
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292fdd4792914c8f0800000000000000
+      internalID: -521263991023078766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_5
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 205
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e832b027288004e0800000000000000
+      internalID: -2017462931428329239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_6
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 205
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13093efc857640d60800000000000000
+      internalID: 7855517281183567921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_7
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 206
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff2ff3ccc89a3240800000000000000
+      internalID: 4772294760381493233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_8
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 207
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb1ec9d0749497f0800000000000000
+      internalID: -606696837376762956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_9
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 206
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c099e6287b895f00800000000000000
+      internalID: 1106068531661344964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_10
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 205
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb942c3af04c5260800000000000000
+      internalID: 7087611357069351883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_11
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 204
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bacf101e9f2cf350800000000000000
+      internalID: 6051764355200961201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_12
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 203
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8371243e2b47aa350800000000000000
+      internalID: 6028759362854590264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_13
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 203
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a532970254f9bc0800000000000000
+      internalID: -3774221956939556324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_14
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 204
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf99b87259bddca0800000000000000
+      internalID: -5990428165469003857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_15
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 205
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e074d4ada6a95b3f0800000000000000
+      internalID: -885631967988726002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_16
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 206
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d333f66480c3973f0800000000000000
+      internalID: -902624244071976131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_17
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 205
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739e859a4258a8810800000000000000
+      internalID: 1768372196202834231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_18
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 204
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d429b6ed1ad3a33e0800000000000000
+      internalID: -2073276913020071347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_19
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 203
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9977c7e146af1e0800000000000000
+      internalID: -2163306588898092628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_20
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 203
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68a62f3d2f010780800000000000000
+      internalID: -8718670716605126547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_21
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 204
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc2d2e9f59ca84a0800000000000000
+      internalID: -6590233692190462727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_22
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 205
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2d29011737ef2c0800000000000000
+      internalID: -4395949256820469019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_23
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 206
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf17f2caa1fb6800800000000000000
+      internalID: 606844290529173422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_24
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 207
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376e7cf0769ec0480800000000000000
+      internalID: -8931507332126873997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_25
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 206
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a3e7034dd6eb250800000000000000
+      internalID: 5962323714799188564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_26
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 205
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e5e69114b2a9440800000000000000
+      internalID: 4943311099592072750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_27
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 205
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad578410969a47f0800000000000000
+      internalID: -627523652500890195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_28
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 204
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950dadfca29ec8de0800000000000000
+      internalID: -1329431419896016807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_29
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 204
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d267b9ea9d8eb80800000000000000
+      internalID: -8365196963884946070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_30
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 205
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea5ff3df610556e0800000000000000
+      internalID: -1849570492155995423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_31
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 206
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d666c1323bfe430800000000000000
+      internalID: 3814464372787801382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_32
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 144
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a760e5b33c2ca610800000000000000
+      internalID: 1633729365434984361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_33
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 142
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48ef43d1592814b0800000000000000
+      internalID: -5469576316027148209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_34
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 141
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ebdd440dbe315db0800000000000000
+      internalID: -4804990345885656088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_35
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 140
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e59418cdebbcb4a0800000000000000
+      internalID: -6576174725929331230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_36
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 140
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eabf1a8ff785e06f0800000000000000
+      internalID: -716537984049874002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_37
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 141
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb45b5ae7a8f0560800000000000000
+      internalID: 7282191399032015816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_38
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 141
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88daad6c87726670800000000000000
+      internalID: 8530512089212180619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_39
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 142
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31f59a3926ab1f00800000000000000
+      internalID: 1088646430946881852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_40
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 143
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374482c5de160fcd0800000000000000
+      internalID: -2526411718873561997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_41
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 142
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c8ae0fc44c3dbe0800000000000000
+      internalID: -1453602419972076448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_42
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 141
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b596dbbf9678e00800000000000000
+      internalID: 1046921968322435849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_43
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 140
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0b1451b917a68f0800000000000000
+      internalID: -546499493881597713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_44
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 139
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fe427952f131190800000000000000
+      internalID: -7993010667342467290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_45
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 139
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4b0b51d77a36a40800000000000000
+      internalID: 5360312137177674953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_46
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 140
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b934aa5f4baa26200800000000000000
+      internalID: 171887429985911707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_47
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 141
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e79b2608d4c350c0800000000000000
+      internalID: -4588107163264903191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_48
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 142
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eaa6e01fab0e3a70800000000000000
+      internalID: 8808490767714003682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_49
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 141
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9199f058d45a870800000000000000
+      internalID: 8693439889596291525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_50
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 140
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16a95f43a02e89c0800000000000000
+      internalID: -3923162339610089957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_51
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 139
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079cff46cc19326a0800000000000000
+      internalID: -6475171532174800528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_52
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 139
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f97fc7ae2e5327f0800000000000000
+      internalID: -638563167679579664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_53
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 140
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedb34d94bc643d90800000000000000
+      internalID: -7118945587977536019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_54
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 141
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1412ac5cdc3f24e90800000000000000
+      internalID: -7042798802141830847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_55
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 142
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be737e22eac3720c0800000000000000
+      internalID: -4600641775728117781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_56
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 143
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fbc96c365a478350800000000000000
+      internalID: 6018861161245166585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_57
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 142
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c597c2ba6ee62610800000000000000
+      internalID: 1596225259982788035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_58
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 141
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec18cb12f53eeb200800000000000000
+      internalID: 197845431378280910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_59
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 140
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf779aeff8b14fd70800000000000000
+      internalID: 9075909454325184508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_60
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 140
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8ed50584c4f9fe0800000000000000
+      internalID: -1180140703878092557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_61
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 140
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bffc3261cfd4565c0800000000000000
+      internalID: -4222883330491428869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_62
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 141
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acfd37005117b36f0800000000000000
+      internalID: -703844581737504822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_63
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 142
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc80d80a141d40b0800000000000000
+      internalID: -5742911847777923895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_64
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 80
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fef588c7bf7869d0800000000000000
+      internalID: -2780832342581313799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_65
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 78
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1478beb97380fb0800000000000000
+      internalID: -4681430669840662027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_66
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 77
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6df79913a450840800000000000000
+      internalID: 5189635722503509754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_67
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 76
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7f28ad25d69d270800000000000000
+      internalID: 8275765992890759132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_68
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 76
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a6d1f29e0119320800000000000000
+      internalID: 2562848256654404226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_69
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 77
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971740bf2a5bbb060800000000000000
+      internalID: 6970364559886676345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_70
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 77
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b14c6b6e63aaa5e0800000000000000
+      internalID: -1897524598339255881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_71
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 78
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2a87567642597e0800000000000000
+      internalID: -1759460052915674440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_72
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 79
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c17065e064a72e0800000000000000
+      internalID: -2127310846592345080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_73
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 78
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a6fdc28e43f7b30800000000000000
+      internalID: 4287203542069897798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_74
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 77
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9122733daea0cc10800000000000000
+      internalID: 2071847887506121114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_75
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 76
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a0cd7f405e53800800000000000000
+      internalID: 591630735570111058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_76
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 75
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8148d12151c0e3180800000000000000
+      internalID: -9133849709623016424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_77
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 75
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647da0d3881b8a3b0800000000000000
+      internalID: -5500951746135271610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_78
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 76
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73d69c64dc5e7520800000000000000
+      internalID: 2701698893893522299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_79
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 77
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3314f5138b23050c0800000000000000
+      internalID: -4589112253606837965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_80
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 78
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea54331f040a8020800000000000000
+      internalID: 2344691018792983277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_81
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 77
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111aee0b97cb2f330800000000000000
+      internalID: 3743261471143797009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_82
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 76
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e931cf6780e37bc0800000000000000
+      internalID: -3786435989388314141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_83
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 75
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0f3aad1da65fe90800000000000000
+      internalID: -6992565396873940761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_84
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 75
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463c3b5de2e97fed0800000000000000
+      internalID: -2380259954051005596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_85
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 76
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8cec37f87981aea0800000000000000
+      internalID: -5863254087222629233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_86
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 77
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f746e774c52431680800000000000000
+      internalID: -8785605483965815681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_87
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 78
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8965c3bc712b68b90800000000000000
+      internalID: -7239903535687772520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_88
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 79
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a630f27717c23a0800000000000000
+      internalID: -6688846589848229233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_89
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 78
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4d3c111feb97ac0800000000000000
+      internalID: -3856841663271676738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_90
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 77
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c136cfe99e0b100800000000000000
+      internalID: 121854058987461654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_91
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 76
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955176eae578ec970800000000000000
+      internalID: 8777101564514342233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_92
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 76
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eeefb431854149f0800000000000000
+      internalID: -486030863541211415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_93
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 76
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9a5e635568970e0800000000000000
+      internalID: -2271636836480341563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_94
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 77
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ae2479a53c33a90800000000000000
+      internalID: -7335304574204188039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_95
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 78
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d062f5df421f9f2e0800000000000000
+      internalID: -2091375410764896755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_96
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 16
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b229225f00e7bf3b0800000000000000
+      internalID: -5477645979188293077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_97
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 14
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da622fc556b780a50800000000000000
+      internalID: 6487570938508486317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_98
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 13
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56875066b641f22a0800000000000000
+      internalID: -6760162064154134427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_99
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 12
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca0458c5fe614e20800000000000000
+      internalID: 3333067201137871564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_100
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 12
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154f5ce9b9e2bb330800000000000000
+      internalID: 3727624362497799249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_101
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 13
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2170f1db9e328d0c0800000000000000
+      internalID: -4550847936650606830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_102
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 13
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6c1b4237d5475c0800000000000000
+      internalID: -4218644201821059391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_103
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 14
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d749d6d5f1b3fd70800000000000000
+      internalID: 9075793343511349202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_104
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 15
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156634bb943a9ced0800000000000000
+      internalID: -2393202189901011375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_105
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 14
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fe8be991372c6f0800000000000000
+      internalID: -665843241023115423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_106
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 12
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3648bfc5eb6df90800000000000000
+      internalID: -6929141670096903180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_107
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 12
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc65dba308392e30800000000000000
+      internalID: 4479172892815617241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_108
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 11
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f05ad5d89aa5f410800000000000000
+      internalID: 1510300823452274930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_109
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 11
+        width: 54
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3bf6f4535cf4fa40800000000000000
+      internalID: 5401219287962024767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_110
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 12
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63289a9cf34f69c0800000000000000
+      internalID: -3931849197466672274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_111
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 13
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f904a1644bf0930800000000000000
+      internalID: 4111703197993705276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_112
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 14
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7e4a51ff04e3550800000000000000
+      internalID: 6142418406103902139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_113
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 13
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d8add57d09507c0800000000000000
+      internalID: -4105716230611366629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_114
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 12
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f34acd3f54050b690800000000000000
+      internalID: -7588477110744996801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_115
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 11
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b70e985afbc4460800000000000000
+      internalID: 7227362219726502685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_116
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 11
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6850702d290ce3210800000000000000
+      internalID: 1314699878060197254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_117
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 12
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfdb1ad3edcd98330800000000000000
+      internalID: 3713742214818545148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_118
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 13
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41215622254272640800000000000000
+      internalID: 5055049041929638420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_119
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 14
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b102f0ef19df1eb70800000000000000
+      internalID: 8926694739899523099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_120
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 15
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d697abca50cdeab40800000000000000
+      internalID: 5453538115723098477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_121
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 14
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a3293ea126be7950800000000000000
+      internalID: 6448791972214285223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_122
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 13
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35783c285f1590790800000000000000
+      internalID: -7563423984289347757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_123
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 13
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b847db6888190e0800000000000000
+      internalID: -2264879025305121930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_124
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 12
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3ae040a3d5ff7d0800000000000000
+      internalID: -2882482732736273447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_125
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 12
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bfcb3ddff9585e0800000000000000
+      internalID: -1907942954593617101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_126
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 13
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a471320b7b95ac0800000000000000
+      internalID: -3865856837990004206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_chassis_top_2_127
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 14
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb86a94aaba98b20800000000000000
+      internalID: 3137227363308702699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      T1_chassis_top_2_0: -2210314867290853658
+      T1_chassis_top_2_1: 2609925352729099556
+      T1_chassis_top_2_10: 7087611357069351883
+      T1_chassis_top_2_100: 3727624362497799249
+      T1_chassis_top_2_101: -4550847936650606830
+      T1_chassis_top_2_102: -4218644201821059391
+      T1_chassis_top_2_103: 9075793343511349202
+      T1_chassis_top_2_104: -2393202189901011375
+      T1_chassis_top_2_105: -665843241023115423
+      T1_chassis_top_2_106: -6929141670096903180
+      T1_chassis_top_2_107: 4479172892815617241
+      T1_chassis_top_2_108: 1510300823452274930
+      T1_chassis_top_2_109: 5401219287962024767
+      T1_chassis_top_2_11: 6051764355200961201
+      T1_chassis_top_2_110: -3931849197466672274
+      T1_chassis_top_2_111: 4111703197993705276
+      T1_chassis_top_2_112: 6142418406103902139
+      T1_chassis_top_2_113: -4105716230611366629
+      T1_chassis_top_2_114: -7588477110744996801
+      T1_chassis_top_2_115: 7227362219726502685
+      T1_chassis_top_2_116: 1314699878060197254
+      T1_chassis_top_2_117: 3713742214818545148
+      T1_chassis_top_2_118: 5055049041929638420
+      T1_chassis_top_2_119: 8926694739899523099
+      T1_chassis_top_2_12: 6028759362854590264
+      T1_chassis_top_2_120: 5453538115723098477
+      T1_chassis_top_2_121: 6448791972214285223
+      T1_chassis_top_2_122: -7563423984289347757
+      T1_chassis_top_2_123: -2264879025305121930
+      T1_chassis_top_2_124: -2882482732736273447
+      T1_chassis_top_2_125: -1907942954593617101
+      T1_chassis_top_2_126: -3865856837990004206
+      T1_chassis_top_2_127: 3137227363308702699
+      T1_chassis_top_2_13: -3774221956939556324
+      T1_chassis_top_2_14: -5990428165469003857
+      T1_chassis_top_2_15: -885631967988726002
+      T1_chassis_top_2_16: -902624244071976131
+      T1_chassis_top_2_17: 1768372196202834231
+      T1_chassis_top_2_18: -2073276913020071347
+      T1_chassis_top_2_19: -2163306588898092628
+      T1_chassis_top_2_2: 3462634137688311158
+      T1_chassis_top_2_20: -8718670716605126547
+      T1_chassis_top_2_21: -6590233692190462727
+      T1_chassis_top_2_22: -4395949256820469019
+      T1_chassis_top_2_23: 606844290529173422
+      T1_chassis_top_2_24: -8931507332126873997
+      T1_chassis_top_2_25: 5962323714799188564
+      T1_chassis_top_2_26: 4943311099592072750
+      T1_chassis_top_2_27: -627523652500890195
+      T1_chassis_top_2_28: -1329431419896016807
+      T1_chassis_top_2_29: -8365196963884946070
+      T1_chassis_top_2_3: -3221296077052579451
+      T1_chassis_top_2_30: -1849570492155995423
+      T1_chassis_top_2_31: 3814464372787801382
+      T1_chassis_top_2_32: 1633729365434984361
+      T1_chassis_top_2_33: -5469576316027148209
+      T1_chassis_top_2_34: -4804990345885656088
+      T1_chassis_top_2_35: -6576174725929331230
+      T1_chassis_top_2_36: -716537984049874002
+      T1_chassis_top_2_37: 7282191399032015816
+      T1_chassis_top_2_38: 8530512089212180619
+      T1_chassis_top_2_39: 1088646430946881852
+      T1_chassis_top_2_4: -521263991023078766
+      T1_chassis_top_2_40: -2526411718873561997
+      T1_chassis_top_2_41: -1453602419972076448
+      T1_chassis_top_2_42: 1046921968322435849
+      T1_chassis_top_2_43: -546499493881597713
+      T1_chassis_top_2_44: -7993010667342467290
+      T1_chassis_top_2_45: 5360312137177674953
+      T1_chassis_top_2_46: 171887429985911707
+      T1_chassis_top_2_47: -4588107163264903191
+      T1_chassis_top_2_48: 8808490767714003682
+      T1_chassis_top_2_49: 8693439889596291525
+      T1_chassis_top_2_5: -2017462931428329239
+      T1_chassis_top_2_50: -3923162339610089957
+      T1_chassis_top_2_51: -6475171532174800528
+      T1_chassis_top_2_52: -638563167679579664
+      T1_chassis_top_2_53: -7118945587977536019
+      T1_chassis_top_2_54: -7042798802141830847
+      T1_chassis_top_2_55: -4600641775728117781
+      T1_chassis_top_2_56: 6018861161245166585
+      T1_chassis_top_2_57: 1596225259982788035
+      T1_chassis_top_2_58: 197845431378280910
+      T1_chassis_top_2_59: 9075909454325184508
+      T1_chassis_top_2_6: 7855517281183567921
+      T1_chassis_top_2_60: -1180140703878092557
+      T1_chassis_top_2_61: -4222883330491428869
+      T1_chassis_top_2_62: -703844581737504822
+      T1_chassis_top_2_63: -5742911847777923895
+      T1_chassis_top_2_64: -2780832342581313799
+      T1_chassis_top_2_65: -4681430669840662027
+      T1_chassis_top_2_66: 5189635722503509754
+      T1_chassis_top_2_67: 8275765992890759132
+      T1_chassis_top_2_68: 2562848256654404226
+      T1_chassis_top_2_69: 6970364559886676345
+      T1_chassis_top_2_7: 4772294760381493233
+      T1_chassis_top_2_70: -1897524598339255881
+      T1_chassis_top_2_71: -1759460052915674440
+      T1_chassis_top_2_72: -2127310846592345080
+      T1_chassis_top_2_73: 4287203542069897798
+      T1_chassis_top_2_74: 2071847887506121114
+      T1_chassis_top_2_75: 591630735570111058
+      T1_chassis_top_2_76: -9133849709623016424
+      T1_chassis_top_2_77: -5500951746135271610
+      T1_chassis_top_2_78: 2701698893893522299
+      T1_chassis_top_2_79: -4589112253606837965
+      T1_chassis_top_2_8: -606696837376762956
+      T1_chassis_top_2_80: 2344691018792983277
+      T1_chassis_top_2_81: 3743261471143797009
+      T1_chassis_top_2_82: -3786435989388314141
+      T1_chassis_top_2_83: -6992565396873940761
+      T1_chassis_top_2_84: -2380259954051005596
+      T1_chassis_top_2_85: -5863254087222629233
+      T1_chassis_top_2_86: -8785605483965815681
+      T1_chassis_top_2_87: -7239903535687772520
+      T1_chassis_top_2_88: -6688846589848229233
+      T1_chassis_top_2_89: -3856841663271676738
+      T1_chassis_top_2_9: 1106068531661344964
+      T1_chassis_top_2_90: 121854058987461654
+      T1_chassis_top_2_91: 8777101564514342233
+      T1_chassis_top_2_92: -486030863541211415
+      T1_chassis_top_2_93: -2271636836480341563
+      T1_chassis_top_2_94: -7335304574204188039
+      T1_chassis_top_2_95: -2091375410764896755
+      T1_chassis_top_2_96: -5477645979188293077
+      T1_chassis_top_2_97: 6487570938508486317
+      T1_chassis_top_2_98: -6760162064154134427
+      T1_chassis_top_2_99: 3333067201137871564
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

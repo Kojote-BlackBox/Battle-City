@@ -1,0 +1,882 @@
+fileFormatVersion: 2
+guid: b81b253a38c97be419f64a277cef9036
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8858568679357477015
+    second: T2_tower_top_gun_stock_2_0
+  - first:
+      213: 2030144484784875539
+    second: T2_tower_top_gun_stock_2_1
+  - first:
+      213: -8393036053260552941
+    second: T2_tower_top_gun_stock_2_2
+  - first:
+      213: 265242406616088596
+    second: T2_tower_top_gun_stock_2_3
+  - first:
+      213: 8156432386461561014
+    second: T2_tower_top_gun_stock_2_4
+  - first:
+      213: 8755610034400453413
+    second: T2_tower_top_gun_stock_2_5
+  - first:
+      213: 357044972402673798
+    second: T2_tower_top_gun_stock_2_6
+  - first:
+      213: 9162250446177117916
+    second: T2_tower_top_gun_stock_2_7
+  - first:
+      213: -5099121396384557193
+    second: T2_tower_top_gun_stock_2_8
+  - first:
+      213: 5065259468986645363
+    second: T2_tower_top_gun_stock_2_9
+  - first:
+      213: -4535131496283713507
+    second: T2_tower_top_gun_stock_2_10
+  - first:
+      213: 3692280965404845020
+    second: T2_tower_top_gun_stock_2_11
+  - first:
+      213: -1249941118566713703
+    second: T2_tower_top_gun_stock_2_12
+  - first:
+      213: 3502765929368891112
+    second: T2_tower_top_gun_stock_2_13
+  - first:
+      213: -564832712551061791
+    second: T2_tower_top_gun_stock_2_14
+  - first:
+      213: -3364616985566376101
+    second: T2_tower_top_gun_stock_2_15
+  - first:
+      213: -4332072559987121490
+    second: T2_tower_top_gun_stock_2_16
+  - first:
+      213: 8143084162867111159
+    second: T2_tower_top_gun_stock_2_17
+  - first:
+      213: -5789256413546634444
+    second: T2_tower_top_gun_stock_2_18
+  - first:
+      213: 6366352345541830358
+    second: T2_tower_top_gun_stock_2_19
+  - first:
+      213: 5912916179565979916
+    second: T2_tower_top_gun_stock_2_20
+  - first:
+      213: -4125864274140492584
+    second: T2_tower_top_gun_stock_2_21
+  - first:
+      213: 6597658186884531804
+    second: T2_tower_top_gun_stock_2_22
+  - first:
+      213: -6886198790319164793
+    second: T2_tower_top_gun_stock_2_23
+  - first:
+      213: 7592646634271896759
+    second: T2_tower_top_gun_stock_2_24
+  - first:
+      213: -6791214258644211653
+    second: T2_tower_top_gun_stock_2_25
+  - first:
+      213: -7997487881272650085
+    second: T2_tower_top_gun_stock_2_26
+  - first:
+      213: -1875648902770811718
+    second: T2_tower_top_gun_stock_2_27
+  - first:
+      213: 7772076144015864941
+    second: T2_tower_top_gun_stock_2_28
+  - first:
+      213: 3130788605018069999
+    second: T2_tower_top_gun_stock_2_29
+  - first:
+      213: -7300990650461375263
+    second: T2_tower_top_gun_stock_2_30
+  - first:
+      213: 1706087662359262471
+    second: T2_tower_top_gun_stock_2_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 25
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790f0877745ffea70800000000000000
+      internalID: 8858568679357477015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_1
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 25
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 318225a17a58c2c10800000000000000
+      internalID: 2030144484784875539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 25
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315bb528d22f58b80800000000000000
+      internalID: -8393036053260552941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 26
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410c8b140945ea300800000000000000
+      internalID: 265242406616088596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_4
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 26
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b078857a08713170800000000000000
+      internalID: 8156432386461561014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_5
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 27
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523e844efec228970800000000000000
+      internalID: 8755610034400453413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_6
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 29
+        width: 37
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68886ecb28a74f400800000000000000
+      internalID: 357044972402673798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_7
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 30
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd62d83bc3ad62f70800000000000000
+      internalID: 9162250446177117916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_8
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 31
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77797e53b184c39b0800000000000000
+      internalID: -5099121396384557193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_9
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 32
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37bf12076aa6b4640800000000000000
+      internalID: 5065259468986645363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_10
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 33
+        width: 37
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10d25aaee9ff01c0800000000000000
+      internalID: -4535131496283713507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_11
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 34
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd364e9b9fd9d3330800000000000000
+      internalID: 3692280965404845020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_12
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 34
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9963da5dc2157aee0800000000000000
+      internalID: -1249941118566713703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_13
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 32
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eeaf57ed035c9030800000000000000
+      internalID: 3502765929368891112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_14
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 31
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6afdaf3af4928f0800000000000000
+      internalID: -564832712551061791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_15
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 31
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f021a9daa7e41d0800000000000000
+      internalID: -3364616985566376101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_16
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 30
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea220c085f261e3c0800000000000000
+      internalID: -4332072559987121490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_17
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 30
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4adc7f6eb020170800000000000000
+      internalID: 8143084162867111159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_18
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 31
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433a6e4f6fd68afa0800000000000000
+      internalID: -5789256413546634444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_19
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 32
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6eef65ab3d95850800000000000000
+      internalID: 6366352345541830358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_20
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 33
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09a0b5ffe5ee0250800000000000000
+      internalID: 5912916179565979916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_21
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 34
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc816c6d4cfdb6c0800000000000000
+      internalID: -4125864274140492584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_22
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 33
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5643b24a279f8b50800000000000000
+      internalID: 6597658186884531804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_23
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 32
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7823d425fae4f60a0800000000000000
+      internalID: -6886198790319164793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_24
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 31
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b477d4e2ef7e5960800000000000000
+      internalID: 7592646634271896759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_25
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 30
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38a1f7fc92c0c1a0800000000000000
+      internalID: -6791214258644211653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_26
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 28
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96904df427330190800000000000000
+      internalID: -7997487881272650085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_27
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 27
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc9ef2b24b58f5e0800000000000000
+      internalID: -1875648902770811718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_28
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 26
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d647a532316fbdb60800000000000000
+      internalID: 7772076144015864941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_29
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 26
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb51fc06abc27b20800000000000000
+      internalID: 3130788605018069999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_30
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 25
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e43dca8fabadaa90800000000000000
+      internalID: -7300990650461375263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T2_tower_top_gun_stock_2_31
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 25
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705b99e80bd3da710800000000000000
+      internalID: 1706087662359262471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
