@@ -14,8 +14,6 @@ namespace Core.Spawn
 
         public bool isFriendly;
 
-        public ComponentTags spawnTags;
-
         public bool enableUpgradeDrop;
         #endregion
 
@@ -45,11 +43,6 @@ namespace Core.Spawn
 
                 _animator.runtimeAnimatorController = animationController;
             }
-        }
-
-        private void Start()
-        {
-            spawnTags = prefabSpawnObject.GetComponentInChildren<ComponentTags>(true);
         }
     }
 }

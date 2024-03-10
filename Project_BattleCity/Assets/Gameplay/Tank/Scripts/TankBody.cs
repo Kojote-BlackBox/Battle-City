@@ -33,6 +33,7 @@ namespace Gameplay.Tank
         private bool _isMoving = false;
         private float _isMovingCheckInterval = 0.25f;
         private float _elapsedTime;
+        private bool _isDeactivated = false;
         #endregion
 
         #region environment
@@ -68,6 +69,16 @@ namespace Gameplay.Tank
             UpdateEffects();
 
             if (_componentEffectTrail != null) _componentEffectTrail.directionTrail = _currentDirection;
+        }
+
+        public void DeactiveForDuration(float duration) {
+            _isDeactivated = true;
+
+            Invoke(nameof(Activate), duration);
+        }
+
+        public void Activate() {
+            _isDeactivated = false;
         }
 
         public void SetDataTankBody(DataTankBody dataTankBody)
@@ -155,6 +166,8 @@ namespace Gameplay.Tank
 
         override public void Rotate(float directionInput, float rotationModifier)
         {
+            if (_isDeactivated) return;
+
             base.Rotate(directionInput, rotationModifier); // TODO: propagate tank body rotation
 
             UpdateAnimationParameters();
@@ -162,11 +175,15 @@ namespace Gameplay.Tank
 
         public void Move(float directionInput)
         {
+            if (_isDeactivated) return;
+
             _inputDirection.y = directionInput;
         }
 
         private void FixedUpdate()
         {
+            if (_isDeactivated) return;
+
             if (_dataTankBody == null) return;
 
             if (_inputDirection.y == 0f) return;

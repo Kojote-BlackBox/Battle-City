@@ -1,25 +1,46 @@
 ﻿using Gameplay.Health;
-using Core.Reference;
 using UnityEngine;
+using Core.Track;
+using Core.Tag;
+using Core;
+using System.Collections.Generic;
 
 namespace Gameplay.Pickup
 {
     public class PickupGrenade : Pickup
     {
-        public ReferenceGameObjects enemies;
-
-        protected override void Apply(GameObject go)
+        protected override void Apply(GameObject gameObjectToApply)
         {
-            Debug.Log("Enemies active: " + enemies.activeGameObjects.Count);
+            if (gameObjectToApply == null) return;
 
-            for (var index = enemies.activeGameObjects.Count - 1; index >= 0; --index)
-            {
-                var hc = enemies.activeGameObjects[index].GetComponent<ComponentHealth>();
+            var tags = gameObjectToApply.GetComponent<ComponentTags>();
+            if (tags == null) {
+                Debug.LogError("tag not set on apply pickup");
 
-                hc.ModifyHealth(-hc.currentHealth, true);
+                return;
             }
 
-            Debug.Log("Enemies active: " + enemies.activeGameObjects.Count);
-        }
+            if (tags.ContainsTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagFriendly))) {
+                Debug.Log("Enemies active: " + TrackManager.Instance.enemies.activeGameObjects.Count);
+
+                for (var index = TrackManager.Instance.enemies.activeGameObjects.Count - 1; index >= 0; --index) {
+                    var componentHealth = TrackManager.Instance.enemies.activeGameObjects[index].GetComponent<ComponentHealth>();
+
+                    componentHealth.ModifyHealth(-componentHealth.currentHealth, true);
+                }
+
+                Debug.Log("Enemies active: " + TrackManager.Instance.enemies.activeGameObjects.Count);
+            } else {
+                Debug.Log("Allies active: " + TrackManager.Instance.allies.activeGameObjects.Count);
+
+                for (var index = TrackManager.Instance.allies.activeGameObjects.Count - 1; index >= 0; --index) {
+                    var componentHealth = TrackManager.Instance.allies.activeGameObjects[index].GetComponent<ComponentHealth>();
+
+                    componentHealth.ModifyHealth(-componentHealth.currentHealth, true);
+                }
+
+                Debug.Log("Allies active: " + TrackManager.Instance.allies.activeGameObjects.Count);
+            }
+        }    
     }
 }

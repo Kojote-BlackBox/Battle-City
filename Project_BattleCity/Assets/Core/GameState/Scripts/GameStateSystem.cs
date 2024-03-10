@@ -4,6 +4,7 @@ using Core.Event;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Gameplay.Bunker;
+using Core.Track;
 
 namespace Core.GameState
 {
@@ -21,23 +22,21 @@ namespace Core.GameState
         [Header("Pausing")]
         public float timeScaleFactor;
 
-        [Header("Tracking")]
-        public ReferenceGameObjects enemies;
-        public ReferenceGameObject player;
-        public ReferenceGameObject upgrade;
-        public ReferenceRelatedGameObjects bunker;
-        public ReferenceGameObjects remains;
-        public ReferenceInt score;
-        public ReferenceInt lives;
-
         [Header("Events")]
         public GameEvent eventSpawnPlayer;
         public GameEvent eventUpdateHealth;
         public GameEvent eventGameStateInitialized;
 
+        [Header("Player")]
+        public int initialPlayerLives = 3;
+
+        private void Awake() {
+            TrackManager.Instance.Reset();
+        }
+
         private void Start()
         {
-            //Reset();
+            TrackManager.Instance.playerLives.value = initialPlayerLives;
 
             eventGameStateInitialized.Raise();
         }
@@ -46,36 +45,70 @@ namespace Core.GameState
         {
             Debug.Log("check game state");
 
-            if (player.gameObject == null && lives.value > 0)
+            if (TrackManager.Instance.player.gameObject == null && TrackManager.Instance.playerLives.value > 0)
             {
-                lives.value--;
+                Debug.Log("Reducing player live!");
+
+                TrackManager.Instance.playerLives.value--;
                 eventSpawnPlayer.Raise();
                 eventUpdateHealth.Raise();
             }
 
-            if (lives.value <= 0 || bunker.gameObject == null || !bunker.gameObject.activeSelf)
-            {
-                Time.timeScale = timeScaleFactor;
+            if (TrackManager.Instance.playerLives.value <= 0) { // If player has no live left
+                Debug.Log("Player has no life left!");
 
-                if (defeatPanel != null)
-                    defeatPanel.SetActive(true);
-
-                StartCoroutine(WaitAndLoadScene(menuSceneName, transitionDelay * timeScaleFactor));
+                DeclareDefeat();
             }
 
-            if (enemies.destroyedGameObjects < enemies.totalGameObjects) return;
+            var allEnemyBunkersCaptured = true;
 
-            foreach (var relatedBunker in bunker.relatedGameObjects)
-            {
+            foreach (var relatedBunker in TrackManager.Instance.enemyBunkers.activeGameObjects) { // If all enemy bunkers are captured
+                if (relatedBunker == null)
+                    continue;
+                
                 var bunkerObject = relatedBunker.GetComponent<Bunker>();
 
-                if (!bunkerObject.isBunkerFriendly) return;
+                if (!bunkerObject.isBunkerFriendly) {
+                    allEnemyBunkersCaptured = false;
+
+                    break;
+                }
             }
 
-            Time.timeScale = timeScaleFactor;
-            victoryPanel.SetActive(true);
+            if (allEnemyBunkersCaptured) {
+                Debug.Log("All enemy bunkers captured!");
 
-            StartCoroutine(WaitAndLoadScene(nextLevelSceneName, transitionDelay * timeScaleFactor));
+                DeclareVictory();
+            }
+
+           if (TrackManager.Instance.allyBunkers.gameObject != null) { // If player bunker is captured
+                Debug.Log("Player bunker captured!");
+
+                var playerBunker = TrackManager.Instance.allyBunkers.gameObject.GetComponent<Bunker>();
+                if (!playerBunker.isBunkerFriendly) {
+                    DeclareDefeat();
+                }
+           }
+        }
+
+        private void DeclareDefeat() {
+            Debug.Log("Defeat!");
+
+            Time.timeScale = timeScaleFactor;
+
+            if (defeatPanel != null) defeatPanel.SetActive(true);
+
+            if (menuSceneName != "")  StartCoroutine(WaitAndLoadScene(menuSceneName, transitionDelay * timeScaleFactor));
+        }
+
+        private void DeclareVictory() {
+            Debug.Log("Victory!");
+
+            Time.timeScale = timeScaleFactor;
+
+            if (victoryPanel != null) victoryPanel.SetActive(true);
+
+            if (nextLevelSceneName != "") StartCoroutine(WaitAndLoadScene(nextLevelSceneName, transitionDelay * timeScaleFactor));
         }
 
         private static IEnumerator WaitAndLoadScene(string sceneName, float waitForSeconds)
@@ -88,33 +121,56 @@ namespace Core.GameState
         private void Reset()
         {
             Time.timeScale = 1.0f;
-            lives.value = 3;
-            score.value = 0;
+            TrackManager.Instance.playerLives.value = 3;
+            //score.value = 0;
 
-            if (player.gameObject != null)
+            if (TrackManager.Instance.player.gameObject != null)
             {
-                Destroy(player.gameObject);
+                Destroy(TrackManager.Instance.player.gameObject);
             }
 
-            if (bunker.gameObject != null)
-            {
-                Destroy(bunker.gameObject);
+            foreach(var ally in TrackManager.Instance.allies.activeGameObjects) {
+                Destroy(ally);
             }
 
-            bunker.relatedGameObjects.Clear();
+            TrackManager.Instance.allies.totalGameObjects = 0;
+            TrackManager.Instance.allies.destroyedGameObjects = 0;
+            TrackManager.Instance.allies.activeGameObjects.Clear();
 
-            enemies.totalGameObjects = 0;
-            enemies.destroyedGameObjects = 0;
-            enemies.activeGameObjects.Clear();
-            remains.totalGameObjects = 0;
-            remains.destroyedGameObjects = 0;
-            remains.activeGameObjects.Clear();
-
-            if (upgrade.gameObject != null)
-            {
-                Destroy(upgrade.gameObject);
+            foreach (var enemy in TrackManager.Instance.enemies.activeGameObjects) {
+                Destroy(enemy);
             }
 
+            TrackManager.Instance.enemies.totalGameObjects = 0;
+            TrackManager.Instance.enemies.destroyedGameObjects = 0;
+            TrackManager.Instance.enemies.activeGameObjects.Clear();
+
+            if (TrackManager.Instance.allyBunkers.gameObject != null)
+            {
+                Destroy(TrackManager.Instance.allyBunkers.gameObject);
+            }
+
+            foreach(var alliedBunker in TrackManager.Instance.allyBunkers.relatedGameObjects) {
+                Destroy(alliedBunker);
+            }
+
+            TrackManager.Instance.allyBunkers.relatedGameObjects.Clear();
+
+            foreach(var spawns in TrackManager.Instance.spawns.activeGameObjects) {
+                Destroy(spawns);
+            }
+
+            TrackManager.Instance.spawns.totalGameObjects = 0;
+            TrackManager.Instance.spawns.destroyedGameObjects = 0;
+            TrackManager.Instance.spawns.activeGameObjects.Clear();
+
+            foreach (var remains in TrackManager.Instance.remains.activeGameObjects) {
+                Destroy(remains);
+            }
+
+            TrackManager.Instance.remains.totalGameObjects = 0;
+            TrackManager.Instance.remains.destroyedGameObjects = 0;
+            TrackManager.Instance.remains.activeGameObjects.Clear();
         }
 
         private void OnDestroy()

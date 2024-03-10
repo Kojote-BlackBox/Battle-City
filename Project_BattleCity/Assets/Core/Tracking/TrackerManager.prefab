@@ -45,10 +45,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 11400000, guid: 61512100df0214d71a8e8216c6db40bc, type: 2}
-  playerHealth: {fileID: 11400000, guid: 0d7f229d059aa41eda83f12f7b468f82, type: 2}
+  playerLives: {fileID: 11400000, guid: 0d7f229d059aa41eda83f12f7b468f82, type: 2}
   allies: {fileID: 11400000, guid: 4b48aeffa72c0234e91ae808f78e6b24, type: 2}
   allyBunkers: {fileID: 11400000, guid: 023ee65ee072040b385e149a36d7ca13, type: 2}
   enemyBunkers: {fileID: 11400000, guid: c851f9caa75b3c54b86bc38b6c3db05d, type: 2}
   enemies: {fileID: 11400000, guid: cfdc7a85052ac4c069e3b24d27c447e7, type: 2}
   spawns: {fileID: 11400000, guid: 4a3deb66524aade45971299628014b83, type: 2}
   remains: {fileID: 11400000, guid: 20e724b5a9a5647a692449b4daedfaf7, type: 2}
+  pickups: {fileID: 11400000, guid: 3a20058a5005ae94b9412be0bad38363, type: 2}

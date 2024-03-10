@@ -8,4 +8,4 @@ namespace Core.Reference
         public string label;
         public Sprite image;
     }
-}
+}   

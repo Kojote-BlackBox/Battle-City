@@ -3,6 +3,7 @@ using Gameplay.Projectile;
 using Core.Event;
 using Core.Tag;
 using Core;
+using System;
 
 namespace Gameplay.Tank
 {
@@ -27,6 +28,7 @@ namespace Gameplay.Tank
         private bool _isReloaded = true;
         private bool _isReloading = false;
         private float _timeReload;
+        private bool _isDeactivated = false;
         #endregion
 
         #region muzzle
@@ -47,6 +49,16 @@ namespace Gameplay.Tank
             _dataTankTurret = dataTankTurret;
 
             initializeData();
+        }
+
+        public void DeactivateForDuration(float duration) {
+            _isDeactivated = true;
+
+            Invoke(nameof(Activate), duration);
+        }
+
+        public void Activate() {
+            _isDeactivated = false;
         }
 
         private void initializeData()
@@ -78,6 +90,8 @@ namespace Gameplay.Tank
 
         override public void Rotate(float directionInput, float rotationModifier)
         {
+            if (_isDeactivated)  return;
+
             base.Rotate(directionInput, rotationModifier);
 
             UpdateAnimationParameters();
@@ -85,6 +99,8 @@ namespace Gameplay.Tank
 
         public void RotateLeft()
         {
+            if (_isDeactivated) return;
+
             base.Rotate(DIRECTION_ROTATE_LEFT, 0.0f);
 
             UpdateAnimationParameters();
@@ -92,6 +108,8 @@ namespace Gameplay.Tank
 
         public void RotateRight()
         {
+            if (_isDeactivated) return;
+
             base.Rotate(DIRECTION_ROTATE_RIGHT, 0.0f);
 
             UpdateAnimationParameters();
@@ -111,6 +129,8 @@ namespace Gameplay.Tank
 
         public void Shoot()
         {
+            if (_isDeactivated) return;
+
             if (_dataTankTurret == null) return;
 
             if (_isReloaded)
@@ -178,6 +198,8 @@ namespace Gameplay.Tank
 
         private void SpawnProjectile(GameObject prefabProjectile)
         {
+            if (_isDeactivated) return;
+
             if (_dataTankTurret == null) return;
 
             Vector3 projectileSpawnPoint = GetComponent<Renderer>().bounds.center;

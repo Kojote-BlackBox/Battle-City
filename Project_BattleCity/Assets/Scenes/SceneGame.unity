@@ -1235,6 +1235,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 97375078782249056, guid: 5a2d4f9edc1b6b25db4c7769c4e42be3, type: 3}
+      propertyPath: menuSceneName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 97375078782249056, guid: 5a2d4f9edc1b6b25db4c7769c4e42be3, type: 3}
+      propertyPath: nextLevelSceneName
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7897115668739292105, guid: 5a2d4f9edc1b6b25db4c7769c4e42be3, type: 3}
       propertyPath: m_Name
       value: GameStateSystem

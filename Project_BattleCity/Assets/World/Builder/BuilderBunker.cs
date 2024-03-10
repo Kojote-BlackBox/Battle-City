@@ -4,6 +4,7 @@ using Core;
 using Core.Reference;
 using Core.Spawn;
 using Core.Tag;
+using Core.Track;
 
 
 namespace World.Builder
@@ -17,10 +18,6 @@ namespace World.Builder
 
         #region scene
         public GameObject sceneParentObject { get; set; }
-        #endregion
-
-        #region tracking
-        public ReferenceRelatedGameObjects trackerBunker { get; set; }
         #endregion
 
         public void Generate(Map map)
@@ -78,11 +75,18 @@ namespace World.Builder
             if (dataBunker.isFriendly)
             {
                 componentTags.AddTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagFriendly));
-                trackerBunker.gameObject = bunker; // TODO: only one player bunker is supported right now
+                // TODO: only one player bunker is supported right now
+
+                if (TrackManager.Instance.allyBunkers.gameObject != null) {
+                    TrackManager.Instance.allyBunkers.relatedGameObjects.Add(bunker);
+                } else {
+                    TrackManager.Instance.allyBunkers.gameObject = bunker;
+                }
             }
             else
             {
-                trackerBunker.relatedGameObjects.Add(bunker);
+                TrackManager.Instance.enemyBunkers.activeGameObjects.Add(bunker);
+                TrackManager.Instance.enemyBunkers.totalGameObjects += 1;
                 componentTags.AddTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagEnemy));
             }
 

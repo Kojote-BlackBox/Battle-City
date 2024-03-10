@@ -2,6 +2,9 @@
 using Core.Reference;
 using Gameplay.Tank;
 using UnityEngine;
+using Core.Tag;
+using Core.Track;
+using Core;
 
 namespace Gameplay.Pickup
 {
@@ -11,21 +14,39 @@ namespace Gameplay.Pickup
         public float timerDuration;
         public Color timerColor;
 
-        [Header("Enemies")]
-        public ReferenceGameObjects enemies;
-
-        protected override void Apply(GameObject go)
+        protected override void Apply(GameObject gameObjectToApply)
         {
-            foreach (var enemy in enemies.activeGameObjects)
-            {
-               /* var mc = enemy.GetComponent<TankMovementComponent>();
-                var sc = enemy.GetComponent<TankShootComponent>();
-                var hc = enemy.GetComponent<ComponentHealth>();
+            if (gameObjectToApply == null) return;
 
-                mc.Deactivate(timerDuration);
-                sc.Deactivate(timerDuration);
+            var tags = gameObjectToApply.GetComponent<ComponentTags>();
+            if (tags == null) {
+                Debug.LogError("tag not set on apply pickup");
 
-                hc.ChangeColorForDuration(timerDuration, timerColor);*/
+                return;
+            }
+
+            if (tags.ContainsTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagFriendly))) {
+                foreach (var enemy in TrackManager.Instance.allies.activeGameObjects) {
+                    var mc = enemy.GetComponent<TankBody>();
+                    var sc = enemy.GetComponent<TankTurret>();
+                    var hc = enemy.GetComponent<ComponentHealth>();
+                    
+                    mc.DeactiveForDuration(timerDuration);
+                    sc.DeactivateForDuration(timerDuration);
+
+                    hc.ChangeColorForDuration(timerDuration, timerColor);
+                }
+            } else {
+                foreach (var enemy in TrackManager.Instance.enemies.activeGameObjects) {
+                    var mc = enemy.GetComponent<TankBody>();
+                    var sc = enemy.GetComponent<TankTurret>();
+                    var hc = enemy.GetComponent<ComponentHealth>();
+
+                    mc.DeactiveForDuration(timerDuration);
+                    sc.DeactivateForDuration(timerDuration);
+
+                    hc.ChangeColorForDuration(timerDuration, timerColor);
+                }
             }
         }
     }

@@ -48,7 +48,6 @@ namespace World
 
         #region bunkers
         [Header("Bunker Settings")]
-        public ReferenceRelatedGameObjects trackerBunker;
         public DataBunker dataBunkerFriendly;
         public DataBunker[] dataBunkersEnemy;
         public GameObject parentObjectBunkers;
@@ -99,14 +98,13 @@ namespace World
 
         void initializeBuilder()
         {
-            builderMap = new BuilderMap(this);
+            builderMap = new BuilderMap(this); 
 
             builderBunker = new BuilderBunker
             {
                 sceneParentObject = parentObjectBunkers,
                 dataBunkerFriendly = dataBunkerFriendly,
                 dataBunkersEnemy = dataBunkersEnemy,
-                trackerBunker = trackerBunker,
             };
         }
 

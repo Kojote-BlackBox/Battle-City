@@ -6,6 +6,7 @@ using Core.Event;
 using UnityEngine;
 using System.Linq;
 using Core.Input;
+using Core.Track;
 
 namespace Core.Spawn
 {
@@ -13,13 +14,6 @@ namespace Core.Spawn
     {
         #region tracking
         private float _elapsedTime;
-
-        [Header("Tracking")]
-        public ReferenceGameObjects enemies;
-        public ReferenceGameObject player;
-        public ReferenceRelatedGameObjects bunker;
-        public ReferenceSpawnInfo spawnInfo;
-        public ReferenceGameObject upgrade;
         #endregion
 
         #region spawns
@@ -74,22 +68,19 @@ namespace Core.Spawn
 
             if (gameObjectsSpawn.Length <= 0) return;
 
-            var totalEnemies = 0;
-
-            foreach (var gameObjectSpawn in gameObjectsSpawn)
-            {
+            foreach (var gameObjectSpawn in gameObjectsSpawn) {
                 var spawnPoint = gameObjectSpawn.GetComponent<SpawnPoint>();
 
-                if (!spawnPoint.isFriendly)
-                    totalEnemies++;
+                if (spawnPoint == null || spawnPoint.prefabSpawnObject == null) {
+                    Debug.LogError("can not spawn null object");
+                    continue;
+                }
 
-                if (spawnPoint != null)
-                    spawnPoints.Add(spawnPoint);
+                spawnPoints.Add(spawnPoint);
+
+                TrackManager.Instance.spawns.totalGameObjects++;
             }
-
-            enemies.destroyedGameObjects = 0;
-            enemies.totalGameObjects = totalEnemies;
-
+  
             spawnPoints.Sort(delegate (SpawnPoint x, SpawnPoint y)
             {
                 if (x.spawnDelay > y.spawnDelay)
@@ -110,8 +101,8 @@ namespace Core.Spawn
                 Debug.Log("no spawn points remaining");
 
                 _spawnNext = null;
-                spawnInfo.image = null;
-                spawnInfo.label = "No reinforcements!";
+                //spawnInfo.image = null;
+                //spawnInfo.label = "No reinforcements!";
                 eventUpdateSpawnInfo.Raise();
 
                 return;
@@ -138,7 +129,7 @@ namespace Core.Spawn
 
             Debug.Log("spawning");
 
-            var instanceGameObjectSpawn = Instantiate(_spawnNext.prefabSpawnObject, _spawnNext.gameObject.transform.position, Quaternion.identity); 
+            var instanceGameObjectSpawn = Instantiate(_spawnNext.prefabSpawnObject, _spawnNext.gameObject.transform.position, Quaternion.identity);
 
             var instancedComponentTags = instanceGameObjectSpawn.GetComponentInChildren<ComponentTags>();
             if (instancedComponentTags != null)
@@ -149,37 +140,39 @@ namespace Core.Spawn
                     {
                         Debug.Log("spawning friendly tank");
 
-                        player.gameObject = instanceGameObjectSpawn;
-
                         instancedComponentTags.AddTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagFriendly));
-                        instancedComponentTags.AddTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagPlayer));
 
-                        instanceGameObjectSpawn.AddComponent<PlayerController>();
+                        if (TrackManager.Instance.player.gameObject == null) {
+                            var camera = UnityEngine.Camera.main;
+                            var componentCamera = camera.GetComponent<Camera>();
 
-                        var camera = UnityEngine.Camera.main;
-                        var componentCamera = camera.GetComponent<Camera>();
-                        componentCamera.gameObjectToFollow = instanceGameObjectSpawn;
-                    }
+                            instancedComponentTags.AddTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagPlayer));
+                            instanceGameObjectSpawn.AddComponent<PlayerController>();
+
+                            componentCamera.gameObjectToFollow = instanceGameObjectSpawn;
+
+                            TrackManager.Instance.player.gameObject = instanceGameObjectSpawn;
+                        } else {
+                            instanceGameObjectSpawn.AddComponent<AIController>(); // TODO: differentiate between enemy and friend in ai controller
+                            TrackManager.Instance.allies.totalGameObjects++;
+                            TrackManager.Instance.allies.activeGameObjects.Add(instanceGameObjectSpawn);
+                        }
+                    } 
                     else
                     {
                         Debug.Log("spawning enemy tank");
 
-                        enemies.activeGameObjects.Add(instanceGameObjectSpawn);
+                        TrackManager.Instance.enemies.totalGameObjects++;
+                        TrackManager.Instance.enemies.activeGameObjects.Add(instanceGameObjectSpawn);
                         instanceGameObjectSpawn.AddComponent<AIController>();
 
                         instancedComponentTags.AddTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagEnemy));
-
-                        /*var componentUpgradeDrop = instanceGameObjectSpawn.GetComponent<ComponentUpgradeDrop>();
-                        if (_spawnNext.enableUpgradeDrop)
-                        {
-                            var componentHealth = instanceGameObjectSpawn.GetComponent<ComponentHealth>();
-                            componentHealth.onDeathEvent = eventSpawnUpgrade;
-
-                            componentUpgradeDrop.enabled = true;
-                        }
-                        else
-                            componentUpgradeDrop.enabled = false;*/
                     }
+                } else if (instancedComponentTags.ContainsTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagPickup))) {
+                    Debug.Log("spawning pickup");
+
+                    TrackManager.Instance.pickups.activeGameObjects.Add(instanceGameObjectSpawn);
+                    TrackManager.Instance.pickups.totalGameObjects++;
                 }
             }
 
@@ -194,7 +187,7 @@ namespace Core.Spawn
 
             var instancedGameObjectPlayer = Instantiate(_spawnPlayer.prefabSpawnObject, _spawnPlayer.gameObject.transform);
 
-            player.gameObject = instancedGameObjectPlayer;
+            TrackManager.Instance.player.gameObject = instancedGameObjectPlayer;
 
             var instancedComponentTags = instancedGameObjectPlayer.GetComponentInChildren<ComponentTags>();
 
