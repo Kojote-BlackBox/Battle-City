@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0032996cccdf949bdb183253ef63a594, type: 3}
-  m_Name: PlayerTracker
+  m_Name: TrackerPlayer
   m_EditorClassIdentifier: 
   gameObject: {fileID: 0}

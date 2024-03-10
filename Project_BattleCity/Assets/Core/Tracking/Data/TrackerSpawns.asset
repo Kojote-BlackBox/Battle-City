@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 81d8150f2c2274c8b9844e9f840de253, type: 3}
-  m_Name: RemainsTracker
+  m_Name: TrackerSpawns
   m_EditorClassIdentifier: 
   totalGameObjects: 0
   destroyedGameObjects: 0
