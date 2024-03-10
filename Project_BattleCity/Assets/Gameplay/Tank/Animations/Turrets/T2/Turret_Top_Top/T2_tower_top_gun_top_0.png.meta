@@ -189,6 +189,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -874,7 +887,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T2_tower_top_gun_top_0_0: 1922942850194453087
+      T2_tower_top_gun_top_0_1: 2285772613827238234
+      T2_tower_top_gun_top_0_10: -3422161816973488847
+      T2_tower_top_gun_top_0_11: 5295141750254943687
+      T2_tower_top_gun_top_0_12: -685727379877156790
+      T2_tower_top_gun_top_0_13: -1319240142022081195
+      T2_tower_top_gun_top_0_14: -5098169982565167755
+      T2_tower_top_gun_top_0_15: 8999152808294547358
+      T2_tower_top_gun_top_0_16: 3934717608207978
+      T2_tower_top_gun_top_0_17: -7510087695753704819
+      T2_tower_top_gun_top_0_18: 7143489475417423052
+      T2_tower_top_gun_top_0_19: 6051548715760805659
+      T2_tower_top_gun_top_0_2: 247744891450909287
+      T2_tower_top_gun_top_0_20: -9074293613060279718
+      T2_tower_top_gun_top_0_21: -8555809335750605454
+      T2_tower_top_gun_top_0_22: 1741774706107492087
+      T2_tower_top_gun_top_0_23: -948825942334148895
+      T2_tower_top_gun_top_0_24: -4406156095335798397
+      T2_tower_top_gun_top_0_25: 7893780674902014016
+      T2_tower_top_gun_top_0_26: -3004521400687443563
+      T2_tower_top_gun_top_0_27: 4614890307582000690
+      T2_tower_top_gun_top_0_28: 514138020755461016
+      T2_tower_top_gun_top_0_29: 6109512718612801946
+      T2_tower_top_gun_top_0_3: -1854348208601250058
+      T2_tower_top_gun_top_0_30: -2645482769317660268
+      T2_tower_top_gun_top_0_31: -825362994032662885
+      T2_tower_top_gun_top_0_4: -7341630499126049004
+      T2_tower_top_gun_top_0_5: -5358541839343960621
+      T2_tower_top_gun_top_0_6: -7045646443540521907
+      T2_tower_top_gun_top_0_7: -6793075070599346691
+      T2_tower_top_gun_top_0_8: -6442507306763145342
+      T2_tower_top_gun_top_0_9: -614971066357202847
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -189,6 +189,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -874,7 +887,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T2_tower_top_gun_medium_damaged_0: 3016698250534243781
+      T2_tower_top_gun_medium_damaged_1: 6519549885167915349
+      T2_tower_top_gun_medium_damaged_10: 8613344354061742592
+      T2_tower_top_gun_medium_damaged_11: 458525087802443809
+      T2_tower_top_gun_medium_damaged_12: -1749114590721673896
+      T2_tower_top_gun_medium_damaged_13: 949103403444500372
+      T2_tower_top_gun_medium_damaged_14: 3657062042332970664
+      T2_tower_top_gun_medium_damaged_15: -3700491976453542339
+      T2_tower_top_gun_medium_damaged_16: 8293948281070871505
+      T2_tower_top_gun_medium_damaged_17: -1708920080861530043
+      T2_tower_top_gun_medium_damaged_18: 2559821951135381239
+      T2_tower_top_gun_medium_damaged_19: -582089160709623489
+      T2_tower_top_gun_medium_damaged_2: -5462552883910818380
+      T2_tower_top_gun_medium_damaged_20: 2608675785944056451
+      T2_tower_top_gun_medium_damaged_21: -8532688625841473541
+      T2_tower_top_gun_medium_damaged_22: -7543737340547370061
+      T2_tower_top_gun_medium_damaged_23: 9059129285727757948
+      T2_tower_top_gun_medium_damaged_24: -6722719641620121225
+      T2_tower_top_gun_medium_damaged_25: 8712462096255344674
+      T2_tower_top_gun_medium_damaged_26: 4059372077422515334
+      T2_tower_top_gun_medium_damaged_27: 5259759641114098807
+      T2_tower_top_gun_medium_damaged_28: -14771495971311052
+      T2_tower_top_gun_medium_damaged_29: 2744307713125251452
+      T2_tower_top_gun_medium_damaged_3: 7352728585922677493
+      T2_tower_top_gun_medium_damaged_30: -1761858824324519404
+      T2_tower_top_gun_medium_damaged_31: -4618396012046395042
+      T2_tower_top_gun_medium_damaged_4: -5241412618013848851
+      T2_tower_top_gun_medium_damaged_5: 176209164418674412
+      T2_tower_top_gun_medium_damaged_6: 123039102920866674
+      T2_tower_top_gun_medium_damaged_7: 5504901215946681875
+      T2_tower_top_gun_medium_damaged_8: -4221254483984566495
+      T2_tower_top_gun_medium_damaged_9: -3821265868794886389
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

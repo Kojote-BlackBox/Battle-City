@@ -2,17 +2,12 @@
 using Core;
 using Core.Tag;
 using Gameplay.Tank;
-using UnityEditor.PackageManager;
-using UnityEditorInternal;
 using UnityEngine;
+using Utilities;
 
 namespace AI.Fsm.States
 {
-    //TODO: A* Path finding sometimes include walls -> shoot them
-    //TODO: Different behaviour based on tank (chase and shoot, search for base, search for player, shoot and run)
-    //TODO: Tanks with Upgrades -> probability that the ai makes it hard for the player to catch it (flee if player is near)
-    //TODO: Probability that the ai defends against bullets
-    public class SearchForState : AbstractState
+    public class DefendState : AbstractState
     {
         private System.Random _random;
 
@@ -28,9 +23,6 @@ namespace AI.Fsm.States
 
         private double _lineOfSightCheckInterval;
 
-        private List<Vector3> _directionsTankBody;
-        private List<float> _directionsTankTurret;
-
         private Vector3 _currentDirectionBody;
         private float _currentDirectionTurret;
 
@@ -38,7 +30,7 @@ namespace AI.Fsm.States
         {
             base.Enter(stateMachine, owner);
 
-            Debug.Log("Entering SearchFor State");
+            Debug.Log("Entering Defend State");
 
             _tankBody = owner.GetComponentInChildren<TankBody>();
             _tankTurret = owner.GetComponentInChildren<TankTurret>();
@@ -52,25 +44,6 @@ namespace AI.Fsm.States
             _timeElapsedTankBodyChange = _directionChangeIntervalBody;
             _timeElapsedTankTurretChange = _directionChangeIntervalTurret;
             _timeElapsedLineOfSightCheck = 0.0f;
-
-            _directionsTankBody = new List<Vector3>
-            {
-                new Vector3(0.0f, 0.0f),
-                new Vector3(0.0f, -1.0f),
-                new Vector3(0.0f, 1.0f),
-                new Vector3(-1.0f, 0.0f),
-                new Vector3(-1.0f, 1.0f),
-                new Vector3(-1.0f, -1.0f),
-                new Vector3(1.0f, 0.0f),
-                new Vector3(1.0f, 1.0f),
-                new Vector3(1.0f, -1.0f),
-            };
-
-            _directionsTankTurret = new List<float> {
-                0.0f,
-                -1.0f,
-                1.0f
-            };
         }
 
         public override void Update(double deltaTime)
@@ -81,13 +54,13 @@ namespace AI.Fsm.States
             if (_timeElapsedTankBodyChange >= _directionChangeIntervalBody)
             {
                 _timeElapsedTankBodyChange = 0.0f;
-                _currentDirectionBody = GenerateRandomDirectionBody();
+                _currentDirectionBody = Utils.CalculcateRandomDirection2D();
             }
 
             if (_timeElapsedTankTurretChange >= _directionChangeIntervalTurret)
             {
                 _timeElapsedTankTurretChange = 0.0f;
-                _currentDirectionTurret = GenerateRandomDirectionTurret();
+                _currentDirectionTurret = Utils.CalculcateRandomDirection1D();
             }
 
             if (_timeElapsedLineOfSightCheck >= _lineOfSightCheckInterval)
@@ -125,7 +98,7 @@ namespace AI.Fsm.States
             {
                 if (componentTagsTarget.ContainsTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagTank)))
                 {
-                    Debug.Log("AI: found a tank");  
+                    Debug.Log("AI: found a tank");
                 }
                 else if (componentTagsTarget.ContainsTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagProjectile)))
                 {
@@ -136,24 +109,13 @@ namespace AI.Fsm.States
                     Debug.Log("AI: found a turret");
                 }
 
-                if (!componentTagsTarget.ContainsTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagEnemy))) {
+                if (!componentTagsTarget.ContainsTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagEnemy)))
+                {
                     StateMachine.ChangeState(new ShootState(hit.collider.gameObject));
                 }
             }
 
             return false;
-        }
-
-        private Vector3 GenerateRandomDirectionBody()
-        {
-            var randomDirectionIndex = _random.Next(0, _directionsTankBody.Count);
-            return _directionsTankBody[randomDirectionIndex];
-        }
-
-        private float GenerateRandomDirectionTurret()
-        {
-            var randomDirectionIndex = _random.Next(0, _directionsTankTurret.Count);
-            return _directionsTankTurret[randomDirectionIndex];
         }
     }
 }

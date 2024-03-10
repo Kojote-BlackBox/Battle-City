@@ -189,6 +189,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -874,7 +887,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T2_tower_stock_gun_medium_2_0: 1602313530243524395
+      T2_tower_stock_gun_medium_2_1: 2811286106805421003
+      T2_tower_stock_gun_medium_2_10: 4425968981668563111
+      T2_tower_stock_gun_medium_2_11: -456824150114284826
+      T2_tower_stock_gun_medium_2_12: 8845410447377884950
+      T2_tower_stock_gun_medium_2_13: -8044122360751037155
+      T2_tower_stock_gun_medium_2_14: 5642425041702379117
+      T2_tower_stock_gun_medium_2_15: -444857218598297775
+      T2_tower_stock_gun_medium_2_16: 6690777683923021909
+      T2_tower_stock_gun_medium_2_17: 7393630944645733650
+      T2_tower_stock_gun_medium_2_18: -5781621370869697315
+      T2_tower_stock_gun_medium_2_19: 3565578351898424718
+      T2_tower_stock_gun_medium_2_2: -7308768157326357025
+      T2_tower_stock_gun_medium_2_20: 8997416398902445913
+      T2_tower_stock_gun_medium_2_21: 675203084996425174
+      T2_tower_stock_gun_medium_2_22: 2152488069130317275
+      T2_tower_stock_gun_medium_2_23: -7746556342053725099
+      T2_tower_stock_gun_medium_2_24: -1025392917511890774
+      T2_tower_stock_gun_medium_2_25: 4165650507582378970
+      T2_tower_stock_gun_medium_2_26: -2937502952430120775
+      T2_tower_stock_gun_medium_2_27: -5234511461692964749
+      T2_tower_stock_gun_medium_2_28: -7585366882869735584
+      T2_tower_stock_gun_medium_2_29: 7672113291291377906
+      T2_tower_stock_gun_medium_2_3: -312935597283974934
+      T2_tower_stock_gun_medium_2_30: -4776701321016812204
+      T2_tower_stock_gun_medium_2_31: 232305425955246225
+      T2_tower_stock_gun_medium_2_4: -281116491947453868
+      T2_tower_stock_gun_medium_2_5: 3245479883647701509
+      T2_tower_stock_gun_medium_2_6: -6116000042393740326
+      T2_tower_stock_gun_medium_2_7: 6223478563441156901
+      T2_tower_stock_gun_medium_2_8: -1702207758359585670
+      T2_tower_stock_gun_medium_2_9: -4094052431126466416
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

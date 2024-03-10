@@ -1,5 +1,6 @@
 ﻿using Gameplay.Tank;
 using UnityEngine;
+using Utilities;
 
 namespace AI.Fsm.States
 {
@@ -31,45 +32,37 @@ namespace AI.Fsm.States
 
             if (_gameObjectTarget == null)
             {
-                StateMachine.ChangeState(new SearchForState());
+                StateMachine.ChangeState(new DefendState()); // TODO:
             }
-        }
-
-        public override void Exit()
-        {
         }
 
         public void ChangeDirectionToTarget()
         {
             if (_gameObjectTarget == null) return;
 
-            var vectorToTarget = _gameObjectTarget.transform.position - Owner.transform.position;
+            var directionToTarget = Utils.CalculateDirectionToTarget(Owner.transform.position, _gameObjectTarget.transform.position);
 
-            Debug.DrawRay(Owner.gameObject.transform.position, vectorToTarget, Color.green);
+            Debug.DrawRay(Owner.gameObject.transform.position, directionToTarget, Color.green);
 
-            if (vectorToTarget.magnitude > _componentTankTurret.GetRange())
+            if (directionToTarget.magnitude > _componentTankTurret.GetRange())
             {
-                Debug.Log("AI: lost target");
-
-                StateMachine.ChangeState(new SearchForState()); // TODO: follow target or search new one (probability)
+                StateMachine.ChangeState(new ChaseState()); // TODO:
             }
 
-            var crossProduct = Vector3.Cross(vectorToTarget.normalized, _componentTankTurret.GetCurrentDirection());
+            var directionRotation = Utils.CalculateRotationToTarget(directionToTarget, _componentTankTurret.GetCurrentDirection());
 
-            if (crossProduct == Vector3.zero)
+            if (directionRotation > 0)
             {
-                return; // target is straight ahead
+                _componentTankTurret.RotateRight();
             }
-            else if (crossProduct.z > 0)
+            else if (directionRotation < 0)
             {
-                Debug.Log("AI: rotating right");
-                _componentTankTurret.RotateRight(); // target is on the right
+                _componentTankTurret.RotateLeft();
             }
-            else
-            {
-                Debug.Log("AI: rotating left");
-                _componentTankTurret.RotateLeft(); // target is on the left
-            }
+        }
+
+        public override void Exit()
+        {
         }
     }
 }

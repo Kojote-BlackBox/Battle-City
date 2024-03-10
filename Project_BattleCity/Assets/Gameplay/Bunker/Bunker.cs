@@ -17,6 +17,7 @@ namespace Gameplay.Bunker
         #region capping
         private float cappingProgressCurrent = 0.0f;
         private List<GameObject> countCappingObjects = new List<GameObject>();
+        private List<GameObject> countDefendingObjects = new List<GameObject>();
         #endregion
 
         #region light
@@ -112,7 +113,7 @@ namespace Gameplay.Bunker
 
         void UpdateCaptureTime()
         {
-            if (countCappingObjects.Count > 0) cappingProgressCurrent += Time.deltaTime;
+            if (countCappingObjects.Count > 0 && countDefendingObjects.Count == 0) cappingProgressCurrent += Time.deltaTime;
 
             math.clamp(cappingProgressCurrent, 0, dataBunker.capTimeMax);
         }
@@ -143,6 +144,11 @@ namespace Gameplay.Bunker
             {
                 countCappingObjects.Add(collision.gameObject);
                 Debug.Log("enemy bunker is being capped by: " + collision.gameObject.name);
+            }
+            else
+            {
+                countDefendingObjects.Add(collision.gameObject);
+                Debug.Log("enemy bunker is being defended by: " + collision.gameObject.name);
             }
         }
 

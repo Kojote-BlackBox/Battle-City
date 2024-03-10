@@ -477,6 +477,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -3178,7 +3191,135 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T2_Chassis_damaged_0: 5698553885301052145
+      T2_Chassis_damaged_1: -3621207711940803535
+      T2_Chassis_damaged_10: 5528893139861345675
+      T2_Chassis_damaged_100: 6638929379938495876
+      T2_Chassis_damaged_101: 5057870013559108536
+      T2_Chassis_damaged_102: 2789526967292868101
+      T2_Chassis_damaged_103: 1120841436652740947
+      T2_Chassis_damaged_104: 6395479705545675296
+      T2_Chassis_damaged_105: 6564061371803038282
+      T2_Chassis_damaged_106: 8216980944684389935
+      T2_Chassis_damaged_107: -3099334901262153861
+      T2_Chassis_damaged_108: -6720150566878495860
+      T2_Chassis_damaged_109: 708053471274719963
+      T2_Chassis_damaged_11: 3898645535370401679
+      T2_Chassis_damaged_110: 6190990049050027318
+      T2_Chassis_damaged_111: 6253570005510075757
+      T2_Chassis_damaged_112: 4497110030971339273
+      T2_Chassis_damaged_113: 3972596303175435031
+      T2_Chassis_damaged_114: -9185389660841370900
+      T2_Chassis_damaged_115: -6465150284604612080
+      T2_Chassis_damaged_116: -9073441924542016795
+      T2_Chassis_damaged_117: 26088304346975588
+      T2_Chassis_damaged_118: 6337728636725420381
+      T2_Chassis_damaged_119: -8116766826417942251
+      T2_Chassis_damaged_12: 8070345390646016637
+      T2_Chassis_damaged_120: -4661511414959473961
+      T2_Chassis_damaged_121: -5391472351224092259
+      T2_Chassis_damaged_122: -4249304751891639534
+      T2_Chassis_damaged_123: 8826885597872322013
+      T2_Chassis_damaged_124: -1677946121187037099
+      T2_Chassis_damaged_125: 5101981681852296632
+      T2_Chassis_damaged_126: 4956659746739360148
+      T2_Chassis_damaged_127: 8123775414124748781
+      T2_Chassis_damaged_13: -5666511101209281933
+      T2_Chassis_damaged_14: -9198302473347626673
+      T2_Chassis_damaged_15: -3548659385326803771
+      T2_Chassis_damaged_16: -8828401737404214277
+      T2_Chassis_damaged_17: 2355244379284271322
+      T2_Chassis_damaged_18: -6972780832604738083
+      T2_Chassis_damaged_19: -1280166711284879329
+      T2_Chassis_damaged_2: -4062706880692683459
+      T2_Chassis_damaged_20: 7444081052168214211
+      T2_Chassis_damaged_21: -4903568549664091217
+      T2_Chassis_damaged_22: -742915837874922578
+      T2_Chassis_damaged_23: 6093593285784830528
+      T2_Chassis_damaged_24: 4395726485844066196
+      T2_Chassis_damaged_25: -6874893852638692658
+      T2_Chassis_damaged_26: 4132673502544441339
+      T2_Chassis_damaged_27: -7613517363273099635
+      T2_Chassis_damaged_28: 6324026996058827525
+      T2_Chassis_damaged_29: 8777356141538668412
+      T2_Chassis_damaged_3: 3785132702896917820
+      T2_Chassis_damaged_30: 2161972355215369291
+      T2_Chassis_damaged_31: 3892165132828948954
+      T2_Chassis_damaged_32: -451970797792660115
+      T2_Chassis_damaged_33: -4031486977868672769
+      T2_Chassis_damaged_34: 9080665895331862374
+      T2_Chassis_damaged_35: 4636480197727757005
+      T2_Chassis_damaged_36: 7572944162264114531
+      T2_Chassis_damaged_37: 3296784768623939758
+      T2_Chassis_damaged_38: 5231584474271282106
+      T2_Chassis_damaged_39: -2415087847301064037
+      T2_Chassis_damaged_4: 3696080449671021978
+      T2_Chassis_damaged_40: 8138522069044228810
+      T2_Chassis_damaged_41: -1412665039807909107
+      T2_Chassis_damaged_42: -4156166751708960499
+      T2_Chassis_damaged_43: 5358889837698942118
+      T2_Chassis_damaged_44: 5937829411831822447
+      T2_Chassis_damaged_45: -6922234724844888815
+      T2_Chassis_damaged_46: 1521567363340973005
+      T2_Chassis_damaged_47: -2483336236469208533
+      T2_Chassis_damaged_48: 2461302725271358261
+      T2_Chassis_damaged_49: 6592364479725861558
+      T2_Chassis_damaged_5: -9055946240228957562
+      T2_Chassis_damaged_50: 6658274173866883531
+      T2_Chassis_damaged_51: -4625435324789150055
+      T2_Chassis_damaged_52: 8613797821900024627
+      T2_Chassis_damaged_53: -1069257812154000708
+      T2_Chassis_damaged_54: -3653681606062948628
+      T2_Chassis_damaged_55: -5967857451947054409
+      T2_Chassis_damaged_56: -2694029803446107524
+      T2_Chassis_damaged_57: -2556018585856913205
+      T2_Chassis_damaged_58: -3937338685938695638
+      T2_Chassis_damaged_59: 4327569067570851044
+      T2_Chassis_damaged_6: -9195043052480547266
+      T2_Chassis_damaged_60: -3588938553368383517
+      T2_Chassis_damaged_61: -3193220048185866358
+      T2_Chassis_damaged_62: 7377422052241043960
+      T2_Chassis_damaged_63: -4725272829443838078
+      T2_Chassis_damaged_64: 173081948506136368
+      T2_Chassis_damaged_65: -5948557083756285691
+      T2_Chassis_damaged_66: -4560724559708958807
+      T2_Chassis_damaged_67: -7368140310388034085
+      T2_Chassis_damaged_68: 4198627719897916063
+      T2_Chassis_damaged_69: -3584360259819435548
+      T2_Chassis_damaged_7: 4129477213774219605
+      T2_Chassis_damaged_70: -4203555128067024024
+      T2_Chassis_damaged_71: -4296430870287374794
+      T2_Chassis_damaged_72: 4024240738530874713
+      T2_Chassis_damaged_73: 8843419829697750312
+      T2_Chassis_damaged_74: -7233968457347087195
+      T2_Chassis_damaged_75: 5187182565343224295
+      T2_Chassis_damaged_76: 7356911535814636879
+      T2_Chassis_damaged_77: -3653758503270192996
+      T2_Chassis_damaged_78: -6753959879582178251
+      T2_Chassis_damaged_79: 7560702990663383510
+      T2_Chassis_damaged_8: -1268070698637054165
+      T2_Chassis_damaged_80: -4839038330063693390
+      T2_Chassis_damaged_81: -1840689937261399750
+      T2_Chassis_damaged_82: 3805660086680083504
+      T2_Chassis_damaged_83: 2600306572966582738
+      T2_Chassis_damaged_84: -6487429482667445366
+      T2_Chassis_damaged_85: 6602976733963759171
+      T2_Chassis_damaged_86: -7371314409187374943
+      T2_Chassis_damaged_87: 3397863330139263517
+      T2_Chassis_damaged_88: 652110964909428917
+      T2_Chassis_damaged_89: 686253840100975081
+      T2_Chassis_damaged_9: 6874525669055808964
+      T2_Chassis_damaged_90: 1018617851369427154
+      T2_Chassis_damaged_91: -3055333646250095707
+      T2_Chassis_damaged_92: 6508766222710313289
+      T2_Chassis_damaged_93: 591555926605712278
+      T2_Chassis_damaged_94: -2132592544178203750
+      T2_Chassis_damaged_95: 7171073632584205921
+      T2_Chassis_damaged_96: 1041407596462962244
+      T2_Chassis_damaged_97: -6605654974812934661
+      T2_Chassis_damaged_98: -4984266713994320651
+      T2_Chassis_damaged_99: 7291730437507208388
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
