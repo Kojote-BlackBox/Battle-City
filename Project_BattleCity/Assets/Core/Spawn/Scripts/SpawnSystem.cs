@@ -7,6 +7,7 @@ using UnityEngine;
 using System.Linq;
 using Core.Input;
 using Core.Track;
+using Gameplay.Health;
 
 namespace Core.Spawn
 {
@@ -143,15 +144,7 @@ namespace Core.Spawn
                         instancedComponentTags.AddTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagFriendly));
 
                         if (TrackManager.Instance.player.gameObject == null) {
-                            var camera = UnityEngine.Camera.main;
-                            var componentCamera = camera.GetComponent<Camera>();
-
-                            instancedComponentTags.AddTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagPlayer));
-                            instanceGameObjectSpawn.AddComponent<PlayerController>();
-
-                            componentCamera.gameObjectToFollow = instanceGameObjectSpawn;
-
-                            TrackManager.Instance.player.gameObject = instanceGameObjectSpawn;
+                            spawnPlayer(instanceGameObjectSpawn);
                         } else {
                             instanceGameObjectSpawn.AddComponent<AIController>(); // TODO: differentiate between enemy and friend in ai controller
                             TrackManager.Instance.allies.totalGameObjects++;
@@ -187,17 +180,26 @@ namespace Core.Spawn
 
             var instancedGameObjectPlayer = Instantiate(_spawnPlayer.prefabSpawnObject, _spawnPlayer.gameObject.transform);
 
-            TrackManager.Instance.player.gameObject = instancedGameObjectPlayer;
+            spawnPlayer(instancedGameObjectPlayer);
 
-            var instancedComponentTags = instancedGameObjectPlayer.GetComponentInChildren<ComponentTags>();
+        }
+
+        private void spawnPlayer (GameObject instancedGameObject) {
+
+            TrackManager.Instance.player.gameObject = instancedGameObject;
+
+            var instancedComponentTags = instancedGameObject.GetComponentInChildren<ComponentTags>();
 
             instancedComponentTags.AddTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagFriendly));
 
-            instancedGameObjectPlayer.AddComponent<PlayerController>();
+            instancedGameObject.AddComponent<PlayerController>();
 
             var camera = UnityEngine.Camera.main;
             var componentCamera = camera.GetComponent<Camera>();
-            componentCamera.gameObjectToFollow = instancedGameObjectPlayer;
+            componentCamera.gameObjectToFollow = instancedGameObject;
+
+            var componentHealth = instancedGameObject.GetComponentInChildren<ComponentHealth>();
+            componentHealth.onHealthChanged = GameEventManager.Instance.updateHealth;
         }
 
         public void SpawnUpgrade()

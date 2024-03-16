@@ -1,0 +1,914 @@
+fileFormatVersion: 2
+guid: cabab5299c8795d46870ea476a491de1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7036192204829142280
+    second: T1_tower_stock_gun_medium_damaged_0
+  - first:
+      213: 2756522367854969106
+    second: T1_tower_stock_gun_medium_damaged_1
+  - first:
+      213: -3744482853474169061
+    second: T1_tower_stock_gun_medium_damaged_2
+  - first:
+      213: 4194003647527843339
+    second: T1_tower_stock_gun_medium_damaged_3
+  - first:
+      213: -6446894492248256403
+    second: T1_tower_stock_gun_medium_damaged_4
+  - first:
+      213: -3460237889946566868
+    second: T1_tower_stock_gun_medium_damaged_5
+  - first:
+      213: 3443249074945976676
+    second: T1_tower_stock_gun_medium_damaged_6
+  - first:
+      213: -6816746562995906454
+    second: T1_tower_stock_gun_medium_damaged_7
+  - first:
+      213: -2528068371406994420
+    second: T1_tower_stock_gun_medium_damaged_8
+  - first:
+      213: 4305117448423757773
+    second: T1_tower_stock_gun_medium_damaged_9
+  - first:
+      213: 3081012943794022673
+    second: T1_tower_stock_gun_medium_damaged_10
+  - first:
+      213: -975715972826976681
+    second: T1_tower_stock_gun_medium_damaged_11
+  - first:
+      213: 7643359722900961943
+    second: T1_tower_stock_gun_medium_damaged_12
+  - first:
+      213: -8230526188140999891
+    second: T1_tower_stock_gun_medium_damaged_13
+  - first:
+      213: -6414447779965478975
+    second: T1_tower_stock_gun_medium_damaged_14
+  - first:
+      213: 5857514002527639210
+    second: T1_tower_stock_gun_medium_damaged_15
+  - first:
+      213: 6419410579484548316
+    second: T1_tower_stock_gun_medium_damaged_16
+  - first:
+      213: 6607143863776492006
+    second: T1_tower_stock_gun_medium_damaged_17
+  - first:
+      213: -9079781368146954278
+    second: T1_tower_stock_gun_medium_damaged_18
+  - first:
+      213: -8238613686805676169
+    second: T1_tower_stock_gun_medium_damaged_19
+  - first:
+      213: 2921075562197045458
+    second: T1_tower_stock_gun_medium_damaged_20
+  - first:
+      213: 3240013093584860946
+    second: T1_tower_stock_gun_medium_damaged_21
+  - first:
+      213: 928060456573808532
+    second: T1_tower_stock_gun_medium_damaged_22
+  - first:
+      213: -4147535985581301521
+    second: T1_tower_stock_gun_medium_damaged_23
+  - first:
+      213: 1021271077337234125
+    second: T1_tower_stock_gun_medium_damaged_24
+  - first:
+      213: -3781391676015980194
+    second: T1_tower_stock_gun_medium_damaged_25
+  - first:
+      213: -656734899440668925
+    second: T1_tower_stock_gun_medium_damaged_26
+  - first:
+      213: 7832843741591343040
+    second: T1_tower_stock_gun_medium_damaged_27
+  - first:
+      213: -5550104535588107979
+    second: T1_tower_stock_gun_medium_damaged_28
+  - first:
+      213: 3695377016652814735
+    second: T1_tower_stock_gun_medium_damaged_29
+  - first:
+      213: -5282591448434085803
+    second: T1_tower_stock_gun_medium_damaged_30
+  - first:
+      213: 4354156970646008712
+    second: T1_tower_stock_gun_medium_damaged_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80da63ce78395a160800000000000000
+      internalID: 7036192204829142280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2110a672d72214620800000000000000
+      internalID: 2756522367854969106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f81231face80cc0800000000000000
+      internalID: -3744482853474169061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06f69db818143a30800000000000000
+      internalID: 4194003647527843339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60de1dcd970886a0800000000000000
+      internalID: -6446894492248256403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f3363e8f3caffc0800000000000000
+      internalID: -3460237889946566868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469e8516ac0e8cf20800000000000000
+      internalID: 3443249074945976676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6893cc1e1d0661a0800000000000000
+      internalID: -6816746562995906454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04c262e53f7aecd0800000000000000
+      internalID: -2528068371406994420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc752a58289debb30800000000000000
+      internalID: 4305117448423757773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119293fc2f4f1ca20800000000000000
+      internalID: 3081012943794022673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e29f50e7f8572f0800000000000000
+      internalID: -975715972826976681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a3a06fb2ba21a60800000000000000
+      internalID: 7643359722900961943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b4e410a0c47cd80800000000000000
+      internalID: -8230526188140999891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c75dd4babd4bf6a0800000000000000
+      internalID: -6414447779965478975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6598b63f11a4150800000000000000
+      internalID: 5857514002527639210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc9f8919e3561950800000000000000
+      internalID: 6419410579484548316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_17
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9bc44865a41bb50800000000000000
+      internalID: 6607143863776492006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_18
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7f361d3f22ef180800000000000000
+      internalID: -9079781368146954278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_19
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77fb64c70809aad80800000000000000
+      internalID: -8238613686805676169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_20
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d054de4fbeb98820800000000000000
+      internalID: 2921075562197045458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_21
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2177db60eb6d6fc20800000000000000
+      internalID: 3240013093584860946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_22
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f2b24711221ec00800000000000000
+      internalID: 928060456573808532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_23
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0e646eefdf076c0800000000000000
+      internalID: -4147535985581301521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_24
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcaf01842a84c2e00800000000000000
+      internalID: 1021271077337234125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_25
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51d27a2e4cc58bc0800000000000000
+      internalID: -3781391676015980194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_26
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fac37a61fc2e6f0800000000000000
+      internalID: -656734899440668925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_27
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf81bef1e9d3bc60800000000000000
+      internalID: 7832843741591343040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_28
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5398cf1a4511af2b0800000000000000
+      internalID: -5550104535588107979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_29
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89dbb451dd984330800000000000000
+      internalID: 3695377016652814735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_30
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550f196e01770b6b0800000000000000
+      internalID: -5282591448434085803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: T1_tower_stock_gun_medium_damaged_31
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88375ab02b21d6c30800000000000000
+      internalID: 4354156970646008712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0b9aede84dcfd9249835b852336a9f7e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      T1_tower_stock_gun_medium_damaged_0: 7036192204829142280
+      T1_tower_stock_gun_medium_damaged_1: 2756522367854969106
+      T1_tower_stock_gun_medium_damaged_10: 3081012943794022673
+      T1_tower_stock_gun_medium_damaged_11: -975715972826976681
+      T1_tower_stock_gun_medium_damaged_12: 7643359722900961943
+      T1_tower_stock_gun_medium_damaged_13: -8230526188140999891
+      T1_tower_stock_gun_medium_damaged_14: -6414447779965478975
+      T1_tower_stock_gun_medium_damaged_15: 5857514002527639210
+      T1_tower_stock_gun_medium_damaged_16: 6419410579484548316
+      T1_tower_stock_gun_medium_damaged_17: 6607143863776492006
+      T1_tower_stock_gun_medium_damaged_18: -9079781368146954278
+      T1_tower_stock_gun_medium_damaged_19: -8238613686805676169
+      T1_tower_stock_gun_medium_damaged_2: -3744482853474169061
+      T1_tower_stock_gun_medium_damaged_20: 2921075562197045458
+      T1_tower_stock_gun_medium_damaged_21: 3240013093584860946
+      T1_tower_stock_gun_medium_damaged_22: 928060456573808532
+      T1_tower_stock_gun_medium_damaged_23: -4147535985581301521
+      T1_tower_stock_gun_medium_damaged_24: 1021271077337234125
+      T1_tower_stock_gun_medium_damaged_25: -3781391676015980194
+      T1_tower_stock_gun_medium_damaged_26: -656734899440668925
+      T1_tower_stock_gun_medium_damaged_27: 7832843741591343040
+      T1_tower_stock_gun_medium_damaged_28: -5550104535588107979
+      T1_tower_stock_gun_medium_damaged_29: 3695377016652814735
+      T1_tower_stock_gun_medium_damaged_3: 4194003647527843339
+      T1_tower_stock_gun_medium_damaged_30: -5282591448434085803
+      T1_tower_stock_gun_medium_damaged_31: 4354156970646008712
+      T1_tower_stock_gun_medium_damaged_4: -6446894492248256403
+      T1_tower_stock_gun_medium_damaged_5: -3460237889946566868
+      T1_tower_stock_gun_medium_damaged_6: 3443249074945976676
+      T1_tower_stock_gun_medium_damaged_7: -6816746562995906454
+      T1_tower_stock_gun_medium_damaged_8: -2528068371406994420
+      T1_tower_stock_gun_medium_damaged_9: 4305117448423757773
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

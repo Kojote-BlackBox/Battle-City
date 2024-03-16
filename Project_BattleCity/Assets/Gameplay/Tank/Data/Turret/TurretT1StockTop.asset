@@ -17,5 +17,5 @@ MonoBehaviour:
   effectMuzzleFlash: {fileID: 4699064050422815827, guid: d7b6b2a69fa89adf584c9c3a96b23884, type: 3}
   reloadTime: 1
   eventAudioShot: {fileID: 11400000, guid: 407f5f5f915f04e4eab20ca6acf8ae95, type: 2}
-  rotationSpeed: 0.8
-  animationController: {fileID: 9100000, guid: 622198a08977a2a4d8e8707cb6f81d53, type: 2}
+  rotationSpeed: 0.4
+  animationController: {fileID: 9100000, guid: e29aa8dcfab360247af4db220ca422f6, type: 2}

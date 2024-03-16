@@ -1,6 +1,7 @@
 using Core.Pattern;
 using UnityEngine;
 using Core.Reference;
+using UnityEngine.Events;
 
 namespace Core.Track
 {
@@ -30,7 +31,6 @@ namespace Core.Track
         public ReferenceGameObjects remains;
         public ReferenceGameObjects pickups;
         #endregion
-
 
         public void Reset() {
             player.gameObject = null;

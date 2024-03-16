@@ -49,19 +49,13 @@ MonoBehaviour:
   victoryPanel: {fileID: 0}
   defeatPanel: {fileID: 0}
   transitionDelay: 3
-  menuSceneName: Menu
-  nextLevelSceneName: Level1
+  menuSceneName: 
+  nextLevelSceneName: 
   timeScaleFactor: 0.1
-  enemies: {fileID: 11400000, guid: cfdc7a85052ac4c069e3b24d27c447e7, type: 2}
-  player: {fileID: 11400000, guid: 61512100df0214d71a8e8216c6db40bc, type: 2}
-  upgrade: {fileID: 11400000, guid: 66e1f901d6117483a98d36a5656b34eb, type: 2}
-  bunker: {fileID: 11400000, guid: 023ee65ee072040b385e149a36d7ca13, type: 2}
-  remains: {fileID: 11400000, guid: 20e724b5a9a5647a692449b4daedfaf7, type: 2}
-  score: {fileID: 11400000, guid: b60959200ac45472c992b00a3e82c1e4, type: 2}
-  lives: {fileID: 11400000, guid: 0d7f229d059aa41eda83f12f7b468f82, type: 2}
   eventSpawnPlayer: {fileID: 11400000, guid: 937febf387740f2438186f54d40cf719, type: 2}
-  eventUpdateHealth: {fileID: 11400000, guid: 3815dfc37771f384dbe709b7a8e5029a, type: 2}
   eventGameStateInitialized: {fileID: 11400000, guid: 6337ca2fec7fd404daac08519702888b, type: 2}
+  initialPlayerLives: 3
+  eventUpdateLive: {fileID: 11400000, guid: 97321316f844c1a4e982ab53879acd24, type: 2}
 --- !u!114 &463327585
 MonoBehaviour:
   m_ObjectHideFlags: 0

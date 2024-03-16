@@ -7,6 +7,7 @@ using Core;
 using Gameplay.Tank;
 using System.Drawing;
 using Core.Track;
+using UnityEngine.Events;
 
 namespace Gameplay.Health
 {
@@ -19,7 +20,6 @@ namespace Gameplay.Health
         /*private static readonly int Health = Animator.StringToHash("Health");*/
 
         //[HideInInspector] public ComponentDataHealth healthDataComponent;
-        [HideInInspector] public int currentHealth;
 
         /*private bool _hasShield;
         private float _shieldDurationRemaining;*/
@@ -31,6 +31,8 @@ namespace Gameplay.Health
         #region data
         [Header("Data")]
         public DataHealth dataHealth;
+        public int currentHealth;
+        public GameEvent onHealthChanged;
         #endregion
 
         #region death
@@ -80,6 +82,9 @@ namespace Gameplay.Health
 
             Debug.Log("modified health by " + amount + " - current health: " + currentHealth);
 
+            // Event auslösen, wenn die Gesundheit geändert wird
+            onHealthChanged?.Raise();
+
             if (currentHealth > dataHealth.health)
                 currentHealth = dataHealth.health;
 
@@ -106,6 +111,7 @@ namespace Gameplay.Health
                 StartCoroutine(WaitAndSpawnRemains(remainsToSpawn, gameObject, TrackManager.Instance.remains, delay));
             else
                 Destroy(gameObject, delay);
+
         }
 
         public void Reset() {
@@ -116,6 +122,7 @@ namespace Gameplay.Health
             }
 
             currentHealth = dataHealth.health;
+            onHealthChanged?.Raise();
         }
 
         /*public void ApplyShield(float duration)
