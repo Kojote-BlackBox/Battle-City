@@ -14,6 +14,12 @@ EditorUserSettings:
     RecentlyUsedSceneGuid-2:
       value: 5154570504045b585f0d097216260a44124f4f2e792e7067287a1f35b6b4313e
       flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 0506035e0754510f590f5c7a47210a444e161e28292c20617b2f4c64b2e66d39
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 5107520301510c0d54580d2444220b4447154072287d25612b2c1c62e7e53060
+      flags: 0
     UnityEditor.ShaderGraph.Blackboard:
       value: 18135939215a0a5004000b0e15254b524c030a3f2964643d120d1230e9e93a3fd6e826abbd3c3e302a07a37e0901373ae01e0008f707250d171df81a53a541425f964b9648904d489c494b9e9e4c83b69994d9d5f0e4f5d1c4d0aee6f5fcc1fef3e2a0efe8f2af98e4f9a8e7f994909d9292e5979e929b8bf8dfeee0b7c9d79183cdc7ce9bdd8a8b89c3f0c1e089e5fec1f7fdd8c6f6caf8c9cdc9e235ebfa39327a75
       flags: 0
@@ -41,3 +47,4 @@ EditorUserSettings:
   m_VCOtherOverlayIcons: 1
   m_VCAllowAsyncUpdate: 1
   m_ArtifactGarbageCollection: 1
+  m_CompressAssetsOnImport: 1

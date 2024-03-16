@@ -25,6 +25,8 @@ public class HealthBar : MonoBehaviour {
     }
 
     void InitializeHealthBar() {
+        if (!isInitialized) return;
+
         if (targetHealthComponent.dataHealth == null) {
             Debug.LogError("Konnte health bar nicht initialisieren.");
 
@@ -46,6 +48,8 @@ public class HealthBar : MonoBehaviour {
     }
 
     public void UpdateHealthDisplay() {
+        if (!isInitialized) return;
+
         slider.maxValue = targetHealthComponent.dataHealth.health;
         slider.value = targetHealthComponent.currentHealth;
     }
