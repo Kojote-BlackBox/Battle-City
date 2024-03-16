@@ -25,8 +25,6 @@ public class HealthBar : MonoBehaviour {
     }
 
     void InitializeHealthBar() {
-        if (!isInitialized) return;
-
         if (targetHealthComponent.dataHealth == null) {
             Debug.LogError("Konnte health bar nicht initialisieren.");
 

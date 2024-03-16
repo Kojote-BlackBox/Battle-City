@@ -64,8 +64,6 @@ namespace AI.FSM.States
 
             var distanceToTarget = Vector2.Distance(_owner.transform.position, _target.transform.position);
 
-            Debug.Log("Distance to target: " + distanceToTarget + " - Keep distance vector: " + _keepDistance);
-
             if (distanceToTarget >= _keepDistance.x && distanceToTarget <= _keepDistance.y)
             {
                 _stateMachine.ChangeState(new ShootState(_target, _state));

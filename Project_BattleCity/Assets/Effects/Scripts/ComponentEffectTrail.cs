@@ -46,7 +46,7 @@ namespace Effect.Trail
 
             _spawnTimer += Time.deltaTime;
 
-            if (!(_spawnTimer >= _spawnInterval) || _trailObjectsInUse.Count == 0) return;
+            if (!(_spawnTimer >= _spawnInterval)) return;
 
             var trailInstanceUnused = _trailObjectsNotInUse.Dequeue();
 
