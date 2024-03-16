@@ -22,15 +22,33 @@ namespace World.Builder
 
         public void Generate(Map map)
         {
-            SpawnBunker(dataBunkerFriendly, new Vector2(map.columns / 2, map.rows / 2));
+            var positionPlayerBunkerX = map.columns / 2;
+            var positionPlayerBunkerY = map.rows / 2;
 
-            // TODO: tell the map that this spot is occupied
+            SpawnBunker(dataBunkerFriendly, new Vector2(positionPlayerBunkerX, positionPlayerBunkerY));
+
+            map.MarkPlacement(new Vector2Int(positionPlayerBunkerX, positionPlayerBunkerY), dataBunkerFriendly.sizeUnit);
 
             foreach (var bunkerEnemy in dataBunkersEnemy)
             {
-                var spawnPoint = map.GetRandomPointForObject(bunkerEnemy.sizeUnit);
+                var mapRectangle = new Vector2Int(
+                    Random.Range(0, GameConstants.MapRectangleCount),
+                    Random.Range(0, GameConstants.MapRectangleCount)
+                );
 
-                // TODO: ccheck if possible to spawn at that point
+                while (mapRectangle.x == 1 && mapRectangle.y == 1)
+                {
+                    mapRectangle = new Vector2Int(
+                        Random.Range(0, GameConstants.MapRectangleCount),
+                        Random.Range(0, GameConstants.MapRectangleCount)
+                    );
+                }
+
+                var spawnPoint = map.GetRandomPointForObject(
+                    bunkerEnemy.sizeUnit,
+                    new Vector2Int(GameConstants.MapRectangleCount, GameConstants.MapRectangleCount),
+                    mapRectangle
+                );
 
                 SpawnBunker(bunkerEnemy, spawnPoint);
             }
@@ -38,6 +56,8 @@ namespace World.Builder
 
         public void SpawnBunker(DataBunker dataBunker, Vector2 position)
         {
+            Debug.Log("Spawning bunker at " + position);
+
             var strOwnership = dataBunker.isFriendly ? "Friendly" : "Enemy";
 
             GameObject bunker = new GameObject();
@@ -77,9 +97,12 @@ namespace World.Builder
                 componentTags.AddTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagFriendly));
                 // TODO: only one player bunker is supported right now
 
-                if (TrackManager.Instance.allyBunkers.gameObject != null) {
+                if (TrackManager.Instance.allyBunkers.gameObject != null)
+                {
                     TrackManager.Instance.allyBunkers.relatedGameObjects.Add(bunker);
-                } else {
+                }
+                else
+                {
                     TrackManager.Instance.allyBunkers.gameObject = bunker;
                 }
             }

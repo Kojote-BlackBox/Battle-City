@@ -54,10 +54,7 @@ namespace Utilities
         {
             var crossProduct = Vector3.Cross(directionToTarget.normalized, facingDirection);
 
-            var abs = Math.Abs(crossProduct.z);
-            Debug.Log("Abs: " + abs);
-
-            if (abs <= 0.225f) return 0;
+            if (Math.Abs(crossProduct.z) <= 0.225f) return 0;
 
             return crossProduct.z; // 0 - straight # < 0 - left # > 0 - right
         }

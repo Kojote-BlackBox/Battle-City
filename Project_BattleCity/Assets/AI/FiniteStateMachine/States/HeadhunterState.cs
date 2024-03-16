@@ -77,7 +77,9 @@ namespace AI.FSM.States
                 _tankBody.Move(1f);
             }
 
-            if (distanceToTarget <= _keepDistance.y * 3)
+            _tankTurret.Rotate(directionRotationToTarget, 0f);
+
+            /*if (distanceToTarget <= _keepDistance.y * 3)
             {
                 _tankTurret.Rotate(directionRotationToTarget, 0f);
             }
@@ -90,7 +92,7 @@ namespace AI.FSM.States
                 }
 
                 _tankTurret.Rotate(_currentDirectionTurret, 0f);
-            }
+            }*/
         }
 
         public override void Exit()

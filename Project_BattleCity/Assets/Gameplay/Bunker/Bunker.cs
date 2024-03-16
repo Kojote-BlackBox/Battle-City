@@ -113,9 +113,12 @@ namespace Gameplay.Bunker
 
         void UpdateCaptureTime()
         {
-            if (countCappingObjects.Count > 0 && countDefendingObjects.Count == 0) cappingProgressCurrent += Time.deltaTime;
+            if (countCappingObjects.Count > 0 && countDefendingObjects.Count == 0)
+            {
+                cappingProgressCurrent += Time.deltaTime;
 
-            math.clamp(cappingProgressCurrent, 0, dataBunker.capTimeMax);
+                math.clamp(cappingProgressCurrent, 0, dataBunker.capTimeMax);
+            }
         }
 
         bool IsCaptured()
@@ -128,6 +131,7 @@ namespace Gameplay.Bunker
             isBunkerFriendly = !isBunkerFriendly;
 
             countCappingObjects.Clear();
+            countDefendingObjects.Clear();
             dataBunker.eventCheckGameState.Raise();
 
             Debug.Log("bunker captured: " + (isBunkerFriendly ? "friendly" : "enemy"));
@@ -144,12 +148,13 @@ namespace Gameplay.Bunker
             {
                 countCappingObjects.Add(collision.gameObject);
                 Debug.Log("bunker is being capped by: " + collision.gameObject.name);
+
+                return;
             }
-            else
-            {
-                countDefendingObjects.Add(collision.gameObject);
-                Debug.Log("bunker is being defended by: " + collision.gameObject.name);
-            }
+
+            countDefendingObjects.Add(collision.gameObject);
+            Debug.Log("bunker is being defended by: " + collision.gameObject.name);
+
         }
 
         void OnTriggerExit2D(Collider2D collision)
@@ -163,12 +168,12 @@ namespace Gameplay.Bunker
             {
                 countCappingObjects.Remove(collision.gameObject);
                 Debug.Log("bunker is not being capped by anymore: " + collision.gameObject.name);
+
+                return;
             }
-            else
-            {
-                countDefendingObjects.Add(collision.gameObject);
-                Debug.Log("bunker is not being defended by anymore: " + collision.gameObject.name);
-            }
+
+            countDefendingObjects.Remove(collision.gameObject);
+            Debug.Log("bunker is not being defended by anymore: " + collision.gameObject.name);
         }
     }
 }

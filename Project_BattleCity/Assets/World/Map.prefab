@@ -46,13 +46,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a0818712a0524c4d8374aa8d8f83a53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rows: 25
-  columns: 25
+  rows: 30
+  columns: 30
   layer: 0
   tilePrefab: {fileID: 705499126923244013, guid: 0cef42077ebfd38409ae1e35cf233be6, type: 3}
   waterTilePrefab: {fileID: 7332387702616729168, guid: 08dacd8384c289c4d89e900f215b7d79, type: 3}
   waterCoverage: 0.05
-  trackerBunker: {fileID: 11400000, guid: 023ee65ee072040b385e149a36d7ca13, type: 2}
   dataBunkerFriendly: {fileID: 11400000, guid: a0507a76de492492cbb2fc7452bb69e1, type: 2}
   dataBunkersEnemy:
   - {fileID: 11400000, guid: 2b4ff9f5706c1c43abdf2d711773c8ef, type: 2}
@@ -67,6 +66,14 @@ MonoBehaviour:
     spawnDelay: 3
   - prefabObjectToSpawn: {fileID: 3890085053017976549, guid: c32a9eafbbdc7f34d981b299c75ddb66, type: 3}
     spawnDelay: 10
+  - prefabObjectToSpawn: {fileID: 4733548167533544396, guid: 9028a6ce764d0134ebb6b13b927bf638, type: 3}
+    spawnDelay: 3
+  - prefabObjectToSpawn: {fileID: 3890085053017976549, guid: c32a9eafbbdc7f34d981b299c75ddb66, type: 3}
+    spawnDelay: 30
+  - prefabObjectToSpawn: {fileID: 8316362690407008771, guid: 8f9001ac70f93034ea4059fa089aa351, type: 3}
+    spawnDelay: 10
+  - prefabObjectToSpawn: {fileID: 4602331215161895834, guid: 8a62f3743d26d614f8b1ed9522b597ba, type: 3}
+    spawnDelay: 2
 --- !u!81 &1580764979
 AudioListener:
   m_ObjectHideFlags: 0

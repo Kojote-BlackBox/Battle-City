@@ -1,3 +1,4 @@
+using System.Net.NetworkInformation;
 using UnityEngine;
 
 namespace Core
@@ -20,6 +21,10 @@ namespace Core
         #region colors
         public static Color colorFriendly = Color.green;
         public static Color colorEnemy = Color.red;
+        #endregion
+
+        #region spatial
+        public static int MapRectangleCount = 3;
         #endregion
     }
 }
