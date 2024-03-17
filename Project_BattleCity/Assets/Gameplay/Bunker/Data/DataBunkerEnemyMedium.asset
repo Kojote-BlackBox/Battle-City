@@ -20,7 +20,7 @@ MonoBehaviour:
   capTimeMax: 3
   eventCheckGameState: {fileID: 11400000, guid: bc1eb7ce72e0f4a58803280b26dd09e2, type: 2}
   prefabsToSpawn:
-  - {fileID: 8638098521210480316, guid: 977316b04afcb404da8c220fcd2ef843, type: 3}
-  spawnTime: 5
+  - {fileID: 8638098521210480316, guid: 17acf702e1bfe4d7291e5d1c03eb05e3, type: 3}
+  spawnTime: 10
   tagTank: {fileID: 11400000, guid: 13c4b9bb0a78b44288ca8178d9f07316, type: 2}
   tagEnemy: {fileID: 11400000, guid: 6a196ebff11654443bdca22eb881aef7, type: 2}
