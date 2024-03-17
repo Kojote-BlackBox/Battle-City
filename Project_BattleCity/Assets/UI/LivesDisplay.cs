@@ -6,6 +6,6 @@ public class LivesDisplay : MonoBehaviour {
     public TextMeshProUGUI livesText;
 
     public void UpdateLivesDisplay() {
-        livesText.text = TrackManager.Instance.playerLives.value + " x " ;
+        livesText.text = TrackManager.Instance.playerLives.value + "  x " ;
     }
 }

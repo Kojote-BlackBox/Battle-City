@@ -8,5 +8,6 @@ public class ControlSettings {
     public string turretLeft = "Q";
     public string turretRight = "E";
     public string toggleMusic = "P";
+    public string menuPause = "Escape";
 }
 

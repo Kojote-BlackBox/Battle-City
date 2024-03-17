@@ -40,6 +40,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "MenuPause",
+                    "type": "Button",
+                    "id": "f56b8447-5a1c-436b-82c4-cde328b0f882",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MuteShortCut",
+                    "type": "Button",
+                    "id": "8bd05bac-8eae-4141-b18e-621fefadf402",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -403,6 +421,28 @@
                     "processors": "",
                     "groups": "Keyboard - WASD;Keyboard - ARROWS;Mouse",
                     "action": "MouseTurretRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5a178042-7e64-46ca-9ce8-678c38dabdbe",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard - WASD;Keyboard - ARROWS;Mouse;Gamepad",
+                    "action": "MenuPause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b3297bd3-3a0c-4c4f-9ae5-d13c540d120d",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard - WASD;Keyboard - ARROWS;Mouse",
+                    "action": "MuteShortCut",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

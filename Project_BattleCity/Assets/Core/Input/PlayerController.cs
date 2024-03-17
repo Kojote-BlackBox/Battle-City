@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 using Gameplay.Tank;
 using Core.Aim;
 using Utilities;
+using Core.Event;
 
 namespace Core.Input
 {
@@ -21,6 +22,18 @@ namespace Core.Input
 
         #region input
         private InputMapping _playerActions;
+        private GameObject settingsIngameMenuPanel;
+
+        public GameEvent EventKeyEscapeOnPush;
+        public GameEvent EventKeyWOnPush;
+        public GameEvent EventKeySOnPush;
+        public GameEvent EventKeyAOnPush;
+        public GameEvent EventKeyDOnPush;
+        public GameEvent EventKeySpaceOnPush;
+        public GameEvent EventKeyQOnPush;
+        public GameEvent EventKeyEOnPush;
+        public GameEvent EventKeyPOnPush;
+
         #endregion
 
         #region aim
@@ -29,6 +42,58 @@ namespace Core.Input
 
         private void Awake()
         {
+            EventKeyEscapeOnPush = GameEventManager.Instance.EventKeyEscapeOnPush;
+            if (EventKeyEscapeOnPush == null) {
+                Debug.LogError("EventKeyEscapeOnPush event not found");
+            }
+
+            EventKeyWOnPush = GameEventManager.Instance.EventKeyWOnPush;
+            if (EventKeyWOnPush == null) {
+                Debug.LogError("EventKeyWOnPush event not found");
+            }
+
+            EventKeySOnPush = GameEventManager.Instance.EventKeySOnPush;
+            if (EventKeySOnPush == null) {
+                Debug.LogError("EventKeySOnPush event not found");
+            }
+
+            EventKeyAOnPush = GameEventManager.Instance.EventKeyAOnPush;
+            if (EventKeyAOnPush == null) {
+                Debug.LogError("EventKeyAOnPush event not found");
+            }
+
+            EventKeyDOnPush = GameEventManager.Instance.EventKeyDOnPush;
+            if (EventKeyDOnPush == null) {
+                Debug.LogError("EventKeyDOnPush event not found");
+
+            }
+            EventKeySpaceOnPush = GameEventManager.Instance.EventKeySpaceOnPush;
+            if (EventKeySpaceOnPush == null) {
+                Debug.LogError("EventKeySpaceOnPush event not found");
+            }
+
+            EventKeyQOnPush = GameEventManager.Instance.EventKeyQOnPush;
+            if (EventKeyQOnPush == null) {
+                Debug.LogError("EventKeyQOnPush event not found");
+
+            }
+            EventKeyEOnPush = GameEventManager.Instance.EventKeyEOnPush;
+            if (EventKeyEOnPush == null) {
+                Debug.LogError("EventKeyEOnPush event not found");
+            }
+
+            EventKeyPOnPush = GameEventManager.Instance.EventKeyPOnPush;
+            if (EventKeyPOnPush == null) {
+                Debug.LogError("EventKeyPOnPush event not found");
+            }
+
+            settingsIngameMenuPanel = GameObject.Find("UI/SettingsIngameMenuPanel");
+            if (settingsIngameMenuPanel == null) {
+                Debug.LogError("SettingsIngameMenuPanel wurde nicht gefunden.");
+            } else {
+                settingsIngameMenuPanel.SetActive(false);
+            }
+
             _playerActions = new InputMapping();
 
             _tankBody = gameObject.GetComponentInChildren<TankBody>();
@@ -40,9 +105,11 @@ namespace Core.Input
             _playerActions.Gameplay.Shoot.started += ctx => OnShoot(ctx);
             _playerActions.Gameplay.TurretRotation.performed += ctx => OnTurretRotation(ctx);
             _playerActions.Gameplay.ChassieMovement.performed += ctx => OnChassieMovement(ctx);
+            _playerActions.Gameplay.MuteShortCut.performed += ctx => OnMute(ctx);
 
             _playerActions.Gameplay.TurretRotation.canceled += ctx => _directionTurret = 0f;
             _playerActions.Gameplay.ChassieMovement.canceled += ctx => _directionTank = Vector2.zero;
+            _playerActions.Gameplay.MenuPause.started += ctx => TogglePauseMenu();
         }
 
         private void Update()
@@ -65,12 +132,32 @@ namespace Core.Input
             }
         }
 
+        private float currentTime;
+
+        public void TogglePauseMenu() {
+            if (Time.timeScale != 0) {
+                currentTime = Time.timeScale;
+                Time.timeScale = 0;
+                if (settingsIngameMenuPanel != null) {
+                    settingsIngameMenuPanel.SetActive(true);
+                }
+            } else {
+                Time.timeScale = currentTime;
+                if (settingsIngameMenuPanel != null) {
+                    settingsIngameMenuPanel.SetActive(false);
+                }
+            }
+        }
+
         private void OnEnable()
         {
             if (_playerActions != null)
             {
                 _playerActions.Gameplay.Enable();
             }
+
+           // Registrieren der HandlePauseToggle-Methode als Listener
+            //EventKeyEscapeOnPush.RegisterListener(HandlePauseToggleEvent);
         }
 
         private void OnDisable()
@@ -79,20 +166,37 @@ namespace Core.Input
             {
                 _playerActions.Gameplay.Disable();
             }
+
+            // Deregistrieren der HandlePauseToggle-Methode als Listener
+            //EventKeyEscapeOnPush.UnregisterListener(HandlePauseToggleEvent);
+        }
+
+        public void OnMute(InputAction.CallbackContext context) {
+            EventKeyPOnPush.Raise();
         }
 
         public void OnChassieMovement(InputAction.CallbackContext context)
         {
+            // TODO
+            //EventKeyWOnPush.Raise();
+            //EventKeySOnPush.Raise();
+            //EventKeyAOnPush.Raise();
+            //EventKeyDOnPush.Raise();
+
             _directionTank = context.ReadValue<Vector2>().normalized;
         }
 
         public void OnTurretRotation(InputAction.CallbackContext context)
         {
+            // TODO
+            //EventKeyQOnPush.Raise();
+            //EventKeyEOnPush.Raise();
             _directionTurret = context.ReadValue<float>();
         }
 
         public void OnShoot(InputAction.CallbackContext context)
         {
+            EventKeySpaceOnPush.Raise();
             _tankTurret.Shoot();
         }
 

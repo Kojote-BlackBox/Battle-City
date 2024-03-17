@@ -62,6 +62,24 @@ public partial class @InputMapping: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""MenuPause"",
+                    ""type"": ""Button"",
+                    ""id"": ""f56b8447-5a1c-436b-82c4-cde328b0f882"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""MuteShortCut"",
+                    ""type"": ""Button"",
+                    ""id"": ""8bd05bac-8eae-4141-b18e-621fefadf402"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -427,6 +445,28 @@ public partial class @InputMapping: IInputActionCollection2, IDisposable
                     ""action"": ""MouseTurretRotation"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""5a178042-7e64-46ca-9ce8-678c38dabdbe"",
+                    ""path"": ""<Keyboard>/escape"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard - WASD;Keyboard - ARROWS;Mouse;Gamepad"",
+                    ""action"": ""MenuPause"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b3297bd3-3a0c-4c4f-9ae5-d13c540d120d"",
+                    ""path"": ""<Keyboard>/p"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard - WASD;Keyboard - ARROWS;Mouse"",
+                    ""action"": ""MuteShortCut"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -478,6 +518,8 @@ public partial class @InputMapping: IInputActionCollection2, IDisposable
         m_Gameplay_TurretRotation = m_Gameplay.FindAction("TurretRotation", throwIfNotFound: true);
         m_Gameplay_ChassieMovement = m_Gameplay.FindAction("ChassieMovement", throwIfNotFound: true);
         m_Gameplay_MouseTurretRotation = m_Gameplay.FindAction("MouseTurretRotation", throwIfNotFound: true);
+        m_Gameplay_MenuPause = m_Gameplay.FindAction("MenuPause", throwIfNotFound: true);
+        m_Gameplay_MuteShortCut = m_Gameplay.FindAction("MuteShortCut", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -543,6 +585,8 @@ public partial class @InputMapping: IInputActionCollection2, IDisposable
     private readonly InputAction m_Gameplay_TurretRotation;
     private readonly InputAction m_Gameplay_ChassieMovement;
     private readonly InputAction m_Gameplay_MouseTurretRotation;
+    private readonly InputAction m_Gameplay_MenuPause;
+    private readonly InputAction m_Gameplay_MuteShortCut;
     public struct GameplayActions
     {
         private @InputMapping m_Wrapper;
@@ -551,6 +595,8 @@ public partial class @InputMapping: IInputActionCollection2, IDisposable
         public InputAction @TurretRotation => m_Wrapper.m_Gameplay_TurretRotation;
         public InputAction @ChassieMovement => m_Wrapper.m_Gameplay_ChassieMovement;
         public InputAction @MouseTurretRotation => m_Wrapper.m_Gameplay_MouseTurretRotation;
+        public InputAction @MenuPause => m_Wrapper.m_Gameplay_MenuPause;
+        public InputAction @MuteShortCut => m_Wrapper.m_Gameplay_MuteShortCut;
         public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -572,6 +618,12 @@ public partial class @InputMapping: IInputActionCollection2, IDisposable
             @MouseTurretRotation.started += instance.OnMouseTurretRotation;
             @MouseTurretRotation.performed += instance.OnMouseTurretRotation;
             @MouseTurretRotation.canceled += instance.OnMouseTurretRotation;
+            @MenuPause.started += instance.OnMenuPause;
+            @MenuPause.performed += instance.OnMenuPause;
+            @MenuPause.canceled += instance.OnMenuPause;
+            @MuteShortCut.started += instance.OnMuteShortCut;
+            @MuteShortCut.performed += instance.OnMuteShortCut;
+            @MuteShortCut.canceled += instance.OnMuteShortCut;
         }
 
         private void UnregisterCallbacks(IGameplayActions instance)
@@ -588,6 +640,12 @@ public partial class @InputMapping: IInputActionCollection2, IDisposable
             @MouseTurretRotation.started -= instance.OnMouseTurretRotation;
             @MouseTurretRotation.performed -= instance.OnMouseTurretRotation;
             @MouseTurretRotation.canceled -= instance.OnMouseTurretRotation;
+            @MenuPause.started -= instance.OnMenuPause;
+            @MenuPause.performed -= instance.OnMenuPause;
+            @MenuPause.canceled -= instance.OnMenuPause;
+            @MuteShortCut.started -= instance.OnMuteShortCut;
+            @MuteShortCut.performed -= instance.OnMuteShortCut;
+            @MuteShortCut.canceled -= instance.OnMuteShortCut;
         }
 
         public void RemoveCallbacks(IGameplayActions instance)
@@ -647,5 +705,7 @@ public partial class @InputMapping: IInputActionCollection2, IDisposable
         void OnTurretRotation(InputAction.CallbackContext context);
         void OnChassieMovement(InputAction.CallbackContext context);
         void OnMouseTurretRotation(InputAction.CallbackContext context);
+        void OnMenuPause(InputAction.CallbackContext context);
+        void OnMuteShortCut(InputAction.CallbackContext context);
     }
 }

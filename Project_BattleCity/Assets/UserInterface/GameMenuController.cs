@@ -2,22 +2,28 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
 using System;
+using Core.Event;
 
-public class MainMenuController : MonoBehaviour
+public class GameMenuController : MonoBehaviour
 {
-    [SerializeField] private string gameSceneName = "SceneGame";
-    [SerializeField] private string starterSceneName = "SceneMenu";
-
     [SerializeField] private GameObject startMenuPanel;
     [SerializeField] private GameObject settingsMenuPanel;
 
     [SerializeField] private GameObject audioOptionView;
     [SerializeField] private GameObject videoOptionView;
     [SerializeField] private GameObject inputOptionView;
-    [SerializeField] private GameObject gameSettingsOptionView;
 
     AudioMenuController audioMenuController;
     VideoMenuController videoMenuController;
+    private GameEvent escapeEvent;
+
+    private void Awake() {
+        escapeEvent = GameEventManager.Instance.EventKeyEscapeOnPush;
+
+        if (escapeEvent == null) {
+            Debug.LogError("Escape event not found");
+        }
+    }
 
     private void Start()
     {
@@ -25,18 +31,12 @@ public class MainMenuController : MonoBehaviour
         videoMenuController = videoOptionView.GetComponent<VideoMenuController>();
     }
 
-    public void StartGame() {
-        // Direktes Laden der Game Szene beim Klicken auf "Spiel starten"
-        SceneManager.UnloadSceneAsync(starterSceneName);
-        SceneManager.LoadSceneAsync(gameSceneName);
-    }
-
     public void CloseSettings()
     {
+
         audioOptionView.SetActive(false);
         videoOptionView.SetActive(false);
         inputOptionView.SetActive(false);
-        gameSettingsOptionView.SetActive(false);
     }
 
     public void OpenSettings()
@@ -53,7 +53,6 @@ public class MainMenuController : MonoBehaviour
         audioOptionView.SetActive(!audioOptionView.activeSelf);
         videoOptionView.SetActive(false);
         inputOptionView.SetActive(false);
-        gameSettingsOptionView.SetActive(false);
     }
 
     public void OpenVideoSettings()
@@ -64,7 +63,6 @@ public class MainMenuController : MonoBehaviour
         audioOptionView.SetActive(false);
         videoOptionView.SetActive(!videoOptionView.activeSelf);
         inputOptionView.SetActive(false);
-        gameSettingsOptionView.SetActive(false);
     }
 
     public void OpenInputSettings()
@@ -73,7 +71,6 @@ public class MainMenuController : MonoBehaviour
         audioOptionView.SetActive(false);
         videoOptionView.SetActive(false);
         inputOptionView.SetActive(!inputOptionView.activeSelf);
-        gameSettingsOptionView.SetActive(false);
     }
 
     public void OpenGameSettings()
@@ -82,7 +79,6 @@ public class MainMenuController : MonoBehaviour
         audioOptionView.SetActive(false);
         videoOptionView.SetActive(false);
         inputOptionView.SetActive(false);
-        gameSettingsOptionView.SetActive(!gameSettingsOptionView.activeSelf);
     }
 
     public void BackButtonSettings()
@@ -92,6 +88,9 @@ public class MainMenuController : MonoBehaviour
 
         startMenuPanel.SetActive(!startMenuPanel.activeSelf);
         settingsMenuPanel.SetActive(!settingsMenuPanel.activeSelf);
+
+        // Hier simulieren wir das Drücken der Escape-Taste
+        escapeEvent?.Raise();
     }
 
 
@@ -122,11 +121,6 @@ public class MainMenuController : MonoBehaviour
             Debug.Log("Save Input");
             // Video-Option ist ausgew�hlt
 
-        }
-        else if (gameSettingsOptionView.activeSelf)
-        {
-            Debug.Log("Save GameSettings");
-            // Video-Option ist ausgew�hlt
         }
     }
 
