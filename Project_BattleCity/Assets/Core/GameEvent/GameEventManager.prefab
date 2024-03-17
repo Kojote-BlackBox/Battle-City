@@ -47,3 +47,12 @@ MonoBehaviour:
   updateHealth: {fileID: 11400000, guid: 3815dfc37771f384dbe709b7a8e5029a, type: 2}
   updateLive: {fileID: 11400000, guid: 97321316f844c1a4e982ab53879acd24, type: 2}
   spawnPlayer: {fileID: 11400000, guid: 937febf387740f2438186f54d40cf719, type: 2}
+  EventKeyEscapeOnPush: {fileID: 11400000, guid: 9dd70e974df85eb4a8d63face96643bf, type: 2}
+  EventKeyWOnPush: {fileID: 11400000, guid: a7f536e4ce70a8e43b361185afe95acf, type: 2}
+  EventKeySOnPush: {fileID: 11400000, guid: f1dccf79f107c254cbcb6838741a86b6, type: 2}
+  EventKeyAOnPush: {fileID: 11400000, guid: a1de4639d0a0985488a06eaf299f05c1, type: 2}
+  EventKeyDOnPush: {fileID: 11400000, guid: 803d92e25216d3f4091d5f05f4761d7b, type: 2}
+  EventKeySpaceOnPush: {fileID: 11400000, guid: d83942a7d504eb24c98d7ff9dbfca312, type: 2}
+  EventKeyQOnPush: {fileID: 11400000, guid: 73db746e7107e744e8f07626984d3f4d, type: 2}
+  EventKeyEOnPush: {fileID: 11400000, guid: fbdc61e1d70d2cb4d93354d262425d50, type: 2}
+  EventKeyPOnPush: {fileID: 11400000, guid: 14624c3492269d14fa4622027af23cd7, type: 2}

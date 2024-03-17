@@ -1,4 +1,3 @@
-using UnityEditor.Animations;
 using UnityEngine;
 using Gameplay.Health;
 
@@ -11,7 +10,7 @@ namespace Gameplay.Tank
         public DataHealth dataHealth;
 
         [Header("Animation")]
-        public AnimatorController animationController;
+        public RuntimeAnimatorController animationController;
 
         [Header("Trail Effect")]
         public bool enableTrail = true;

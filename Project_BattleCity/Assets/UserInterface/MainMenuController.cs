@@ -1,7 +1,5 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections;
-using System;
 
 public class MainMenuController : MonoBehaviour
 {
@@ -26,9 +24,7 @@ public class MainMenuController : MonoBehaviour
     }
 
     public void StartGame() {
-        // Direktes Laden der Game Szene beim Klicken auf "Spiel starten"
-        SceneManager.UnloadSceneAsync(starterSceneName);
-        SceneManager.LoadSceneAsync(gameSceneName);
+        SceneManager.LoadScene(gameSceneName, LoadSceneMode.Single);
     }
 
     public void CloseSettings()

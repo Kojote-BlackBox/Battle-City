@@ -51,7 +51,7 @@ namespace Core.Spawn
 
         private void Update()
         {
-            if (!isInitialized) return;
+            if (!isInitialized || !isEverythingInitialized()) return;
 
             var spawnsToRemove = new List<SpawnPoint>();
 
@@ -132,6 +132,10 @@ namespace Core.Spawn
 
                 instancedComponentTags.AddTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagEnemy));
             }
+        }
+
+        private bool isEverythingInitialized() {
+            return TrackManager.Instance.enemies != null && TrackManager.Instance.allies != null && TrackManager.Instance.player != null;
         }
 
         private void spawnPickup(GameObject instanceGameObjectSpawn)

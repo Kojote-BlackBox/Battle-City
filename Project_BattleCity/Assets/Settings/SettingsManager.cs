@@ -116,12 +116,35 @@ public class SettingsManager : MonoBehaviour {
     }
 
     private void CreateDefaultSettings() {
+        var audioSettings = new AudioSettings();
+        audioSettings.MusicVolume = 0.5f;
+        audioSettings.SFXVolume = 0.5f;
+        audioSettings.VoiceVolume = 0.5f;
+
+        var graphicSettings = new GraphicsSettings();
+        graphicSettings.Fullscreen = true;
+        graphicSettings.TextureQuality = "High";
+        graphicSettings.Resolution = "1920x1080";
+
+        var controlSettings = new ControlSettings();
+        controlSettings.turnLeft = "A";
+        controlSettings.turnRight = "D";
+        controlSettings.forward = "W";
+        controlSettings.backward = "S";
+        controlSettings.shoot = "Space";
+        controlSettings.turretLeft = "Q";
+        controlSettings.turretRight = "E";
+        controlSettings.toggleMusic = "P";
+        controlSettings.menuPause = "Escape";
+
         currentSettings = new GameSettings {
-            audioSettings = new AudioSettings { /* Standardwerte hier einsetzen */ },
-            graphicsSettings = new GraphicsSettings { /* ... */ },
+            audioSettings = audioSettings,
+            graphicsSettings = graphicSettings,
             gameplaySettings = new GameplaySettings { /* ... */ },
-            controlSettings = new ControlSettings() // Hier Standardwerte für ControlSettings hinzufügen
+            controlSettings = controlSettings // Hier Standardwerte für ControlSettings hinzufügen
         };
+
+        SaveSettings(currentSettings);
     }
 
     public void SaveSettings(GameSettings settings) {

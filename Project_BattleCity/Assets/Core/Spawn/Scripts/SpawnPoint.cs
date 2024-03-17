@@ -1,6 +1,4 @@
-﻿using Core.Tag;
-using UnityEngine;
-using UnityEditor.Animations;
+﻿using UnityEngine;
 
 namespace Core.Spawn
 {
@@ -32,7 +30,7 @@ namespace Core.Spawn
         [Header("Appearance")]
         public bool enableSpawnAnimation;
 
-        public AnimatorController animationController;
+        public RuntimeAnimatorController animationController;
 
         private Animator _animator;
         #endregion

@@ -1,4 +1,3 @@
-using UnityEditor.Animations;
 using UnityEngine;
 using Gameplay.Projectile;
 using Core.Event;
@@ -23,7 +22,7 @@ namespace Gameplay.Tank
         public float rotationSpeed;
 
         [Header("Animation")]
-        public AnimatorController animationController;
+        public RuntimeAnimatorController animationController;
     }
 }
 
