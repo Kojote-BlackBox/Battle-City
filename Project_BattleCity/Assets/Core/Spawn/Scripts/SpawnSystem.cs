@@ -7,6 +7,7 @@ using System.Linq;
 using Core.Input;
 using Core.Track;
 using Gameplay.Health;
+using NUnit.Framework.Internal.Commands;
 
 namespace Core.Spawn
 {
@@ -66,7 +67,7 @@ namespace Core.Spawn
                     {
                         if (instancedComponentTags.ContainsTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagTank)))
                         {
-                            spawnTank(instanceGameObjectSpawn, instancedComponentTags, spawn.isFriendly);
+                            spawnTank(instanceGameObjectSpawn, instancedComponentTags, spawn.isFriendly, true);
                         }
                         else if (instancedComponentTags.ContainsTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagPickup)))
                         {
@@ -98,10 +99,10 @@ namespace Core.Spawn
 
             var instancedGameObjectPlayer = Instantiate(_spawnPlayer.GetNextSpawnPrefab(), _spawnPlayer.gameObject.transform);
 
-            makePlayerTank(instancedGameObjectPlayer);
+            makePlayerTank(instancedGameObjectPlayer, true);
         }
 
-        private void spawnTank(GameObject instanceGameObjectSpawn, ComponentTags instancedComponentTags, bool isFriendly)
+        private void spawnTank(GameObject instanceGameObjectSpawn, ComponentTags instancedComponentTags, bool isFriendly, bool applyShield)
         {
             if (isFriendly)
             {
@@ -111,11 +112,14 @@ namespace Core.Spawn
 
                 if (TrackManager.Instance.player.gameObject == null)
                 {
-                    makePlayerTank(instanceGameObjectSpawn);
+                    makePlayerTank(instanceGameObjectSpawn, true);
                 }
-                else
+                else   
                 {
                     instanceGameObjectSpawn.AddComponent<AIController>(); // TODO: differentiate between enemy and friend in ai controller
+
+                    var componentHealth = instanceGameObjectSpawn.GetComponentInChildren<ComponentHealth>();
+                    if (applyShield) componentHealth.ApplyShield(GameConstants.GodShieldDuration);
 
                     TrackManager.Instance.allies.totalGameObjects++;
                     TrackManager.Instance.allies.activeGameObjects.Add(instanceGameObjectSpawn);
@@ -146,7 +150,7 @@ namespace Core.Spawn
             TrackManager.Instance.pickups.totalGameObjects++;
         }
 
-        private void makePlayerTank(GameObject instancedGameObject)
+        private void makePlayerTank(GameObject instancedGameObject, bool applyShield)
         {
             TrackManager.Instance.player.gameObject = instancedGameObject;
 
@@ -162,6 +166,7 @@ namespace Core.Spawn
 
             var componentHealth = instancedGameObject.GetComponentInChildren<ComponentHealth>();
             componentHealth.onHealthChanged = GameEventManager.Instance.updateHealth;
+            if(applyShield) componentHealth.ApplyShield(GameConstants.GodShieldDuration);
         }
     }
 }

@@ -5,28 +5,19 @@ using UnityEngine;
 using Core.Tag;
 using Core;
 using Gameplay.Tank;
-using System.Drawing;
 using Core.Track;
-using UnityEngine.Events;
 
 namespace Gameplay.Health
 {
     [RequireComponent(typeof(ComponentTags))]
     public class ComponentHealth : MonoBehaviour
     {
-        // private Animator _animator;
         private SpriteRenderer _spriteRenderer;
         private SpriteRenderer[] _childrenSpriteRenderers;
-        /*private static readonly int Health = Animator.StringToHash("Health");*/
 
-        //[HideInInspector] public ComponentDataHealth healthDataComponent;
-
-        /*private bool _hasShield;
-        private float _shieldDurationRemaining;*/
+        [SerializeField]
+        private bool _hasShield;
         private float _colorDurationRemaining;
-
-        /*[Header("Appearance")]
-        public SpriteByHealth spriteByHealthComponent;*/
 
         #region data
         [Header("Data")]
@@ -61,17 +52,6 @@ namespace Gameplay.Health
             currentHealth = dataHealth.health;
         }
 
-        private void Update()
-        {
-            /*_shieldDurationRemaining -= Time.deltaTime;
-            _colorDurationRemaining -= Time.deltaTime;
-
-            if (!(_shieldDurationRemaining <= 0.0f)) return;
-
-            _hasShield = false;
-            _shieldDurationRemaining = 0.0f;*/
-        }
-
         public void ModifyHealth(int amount)
         {
             if (dataHealth == null)
@@ -81,17 +61,18 @@ namespace Gameplay.Health
                 return;
             }
 
-            currentHealth += amount;
+            if (!_hasShield) {
+                currentHealth += amount;
 
-            // Event auslösen, wenn die Gesundheit geändert wird
-            onHealthChanged?.Raise();
+                // Event auslösen, wenn die Gesundheit geändert wird
+                onHealthChanged?.Raise();
+            }
 
-            if (currentHealth > dataHealth.health)
-                currentHealth = dataHealth.health;
+            if (currentHealth > dataHealth.health) currentHealth = dataHealth.health;
 
             dataHealth.eventAudioHit?.Play(transform.position);
 
-            if (currentHealth > 0) return; //|| _hasShield) return;
+            if (currentHealth > 0) return;
 
             if (TrackManager.Instance.player.gameObject != null && TrackManager.Instance.player.gameObject == gameObject)
                 TrackManager.Instance.player.gameObject = null;
@@ -128,11 +109,15 @@ namespace Gameplay.Health
             onHealthChanged?.Raise();
         }
 
-        /*public void ApplyShield(float duration)
+        public void ApplyShield(float duration)
         {
             _hasShield = true;
-            _shieldDurationRemaining = duration;
-        }*/
+
+            Invoke(nameof(RemoveShield), duration);
+            ChangeColorForDuration(duration, Color.cyan);
+        }
+
+        private void RemoveShield() { _hasShield = false; }
 
         public void ChangeColorForDuration(float duration, UnityEngine.Color color)
         {
@@ -140,7 +125,7 @@ namespace Gameplay.Health
 
             foreach (var spriteRenderer in _childrenSpriteRenderers)
             {
-                spriteRenderer.color = color;
+                spriteRenderer.material.color = color;
             }
 
             Invoke(nameof(ResetColorChange), duration);
@@ -152,7 +137,7 @@ namespace Gameplay.Health
 
             foreach (var spriteRenderer in _childrenSpriteRenderers)
             {
-                spriteRenderer.color = UnityEngine.Color.white;
+                spriteRenderer.material.color = UnityEngine.Color.white;
             }
         }
 

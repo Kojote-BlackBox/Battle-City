@@ -17,13 +17,30 @@ namespace World
         public int spawnDelay;
     }
 
+    public enum BASELAYER {
+        EARTH,
+        DESERT,
+    }
+
+    public enum BASELAYEROVERLAY {
+        ASPHALT,
+        GRASS,
+    }
+
     public class Map : MonoBehaviour
     {
+        private Dictionary<BASELAYER, TileData> baseToTile = new Dictionary<BASELAYER, TileData>();
+        private Dictionary<BASELAYEROVERLAY, TileData> baseOverlayToTile = new Dictionary<BASELAYEROVERLAY, TileData>();
+
         #region map
         public GameObject[,,] map;
         public int rows;
         public int columns;
         [HideInInspector] public int layer;
+
+
+        [SerializeField] private BASELAYER baseLayer;
+        [SerializeField] private BASELAYEROVERLAY baseLayerOverlay;
 
         private Dictionary<Vector2Int, bool> _gridOccupancy;
 
@@ -64,6 +81,12 @@ namespace World
 
         private void Awake()
         {
+            baseToTile.Add(BASELAYER.EARTH, Utility.EARTH_TILE);
+            baseToTile.Add(BASELAYER.DESERT, Utility.DESERT_TILE);
+
+            baseOverlayToTile.Add(BASELAYEROVERLAY.GRASS, Utility.GRASS_TILE);
+            baseOverlayToTile.Add(BASELAYEROVERLAY.ASPHALT, Utility.ASPHALT_TILE);
+
             _mapBounds = new RectInt(
                 xMin: 0,
                 yMin: 0,
@@ -153,17 +176,9 @@ namespace World
             foreach (var spawnPoint in spawnPoints)
             {
                 var mapRectangle = new Vector2Int(
-                    1,//UnityEngine.Random.Range(0, GameConstants.MapRectangleCount),
-                    1//UnityEngine.Random.Range(0, GameConstants.MapRectangleCount)
+                    UnityEngine.Random.Range(0, GameConstants.MapRectangleCount),
+                    UnityEngine.Random.Range(0, GameConstants.MapRectangleCount)
                 );
-
-                /*while (mapRectangle.x == 1 && mapRectangle.y == 1)
-                {
-                    mapRectangle = new Vector2Int(
-                        UnityEngine.Random.Range(0, GameConstants.MapRectangleCount),
-                        UnityEngine.Random.Range(0, GameConstants.MapRectangleCount)
-                    );
-                }*/
 
                 var positionSpawnpoint = GetRandomPointForObject(
                     new Vector2Int(1, 1),
@@ -191,10 +206,10 @@ namespace World
             }
 
             // Default Layer
-            builderMap.InitializeBaseLayer(Utility.EARTH_TILE);
+            builderMap.InitializeBaseLayer(baseToTile[baseLayer]);
 
             // Generate( tileData Eines Spezifischen tiles, float coverage, float coherence )
-            builderMap.Generate(Utility.GRASS_TILE, 0.2f, 0.2f);
+            builderMap.Generate(baseOverlayToTile[baseLayerOverlay], 0.2f, 0.2f);
         }
 
         public GameObject GetTileOnPosition(Vector2 position)

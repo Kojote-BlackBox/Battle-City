@@ -17,8 +17,8 @@ MonoBehaviour:
   animationControllerDamaged: {fileID: 9100000, guid: 5db5ce56a7b5831438db8283b488de7d, type: 2}
   enableTrail: 1
   prefabTrail: {fileID: 8752219780869154113, guid: 203c454063e258242890dfc1246ac31e, type: 3}
-  trailSegments: 6
-  trailTime: 1
+  trailSegments: 12
+  trailTime: 2
   scaleTrail: 0.5
   forwardSpeed: 2
   backwardSpeedPercentage: 0.75

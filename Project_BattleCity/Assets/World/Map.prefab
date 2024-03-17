@@ -49,6 +49,8 @@ MonoBehaviour:
   rows: 30
   columns: 30
   layer: 0
+  baseLayer: 1
+  baseLayerOverlay: 0
   tilePrefab: {fileID: 705499126923244013, guid: 0cef42077ebfd38409ae1e35cf233be6, type: 3}
   waterTilePrefab: {fileID: 7332387702616729168, guid: 08dacd8384c289c4d89e900f215b7d79, type: 3}
   waterCoverage: 0.05

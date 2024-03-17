@@ -19748,6 +19748,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 373737216440462129, guid: c05e028478f81d54ea4bd5db68b2eb94, type: 3}
+      propertyPath: baseLayerOverlay
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 373737216440462129, guid: c05e028478f81d54ea4bd5db68b2eb94, type: 3}
       propertyPath: parentObjectBunkers
       value: 
       objectReference: {fileID: 151052045}

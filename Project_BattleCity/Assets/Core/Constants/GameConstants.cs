@@ -26,5 +26,9 @@ namespace Core
         #region spatial
         public static int MapRectangleCount = 3;
         #endregion
+
+        #region effects
+        public static float GodShieldDuration = 2f;
+        #endregion
     }
 }
