@@ -11,6 +11,7 @@ namespace Gameplay.Tank
 
         [Header("Animation")]
         public RuntimeAnimatorController animationController;
+        public RuntimeAnimatorController animationControllerDamaged;
 
         [Header("Trail Effect")]
         public bool enableTrail = true;

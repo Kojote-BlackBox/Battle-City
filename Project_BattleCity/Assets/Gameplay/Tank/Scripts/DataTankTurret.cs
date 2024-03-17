@@ -23,6 +23,7 @@ namespace Gameplay.Tank
 
         [Header("Animation")]
         public RuntimeAnimatorController animationController;
+        public RuntimeAnimatorController animationControllerDamaged;
     }
 }
 

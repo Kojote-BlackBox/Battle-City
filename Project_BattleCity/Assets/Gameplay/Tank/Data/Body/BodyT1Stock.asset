@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dataHealth: {fileID: 11400000, guid: a1053ba73d8470a4693fa6f2d2482d03, type: 2}
   animationController: {fileID: 9100000, guid: bf2263932859fa24682ea41616bfddd9, type: 2}
+  animationControllerDamaged: {fileID: 9100000, guid: 5db5ce56a7b5831438db8283b488de7d, type: 2}
   enableTrail: 1
   prefabTrail: {fileID: 8752219780869154113, guid: 203c454063e258242890dfc1246ac31e, type: 3}
   trailSegments: 6

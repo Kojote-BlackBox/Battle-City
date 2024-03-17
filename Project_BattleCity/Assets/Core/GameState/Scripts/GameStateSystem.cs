@@ -107,7 +107,7 @@ namespace Core.GameState {
 
             if (victoryPanel != null) victoryPanel.SetActive(true);
 
-            if (menuSceneName != "") StartCoroutine(WaitAndLoadScene(menuSceneName, transitionDelay * timeScaleFactor));
+            if (menuSceneName != "") StartCoroutine(WaitAndLoadScene(nextLevelSceneName, transitionDelay * timeScaleFactor));
         }
 
         private static IEnumerator WaitAndLoadScene(string sceneName, float waitForSeconds) {

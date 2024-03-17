@@ -19,3 +19,4 @@ MonoBehaviour:
   eventAudioShot: {fileID: 11400000, guid: 407f5f5f915f04e4eab20ca6acf8ae95, type: 2}
   rotationSpeed: 0.1
   animationController: {fileID: 9100000, guid: b1386ff94727284439e016dd1d8f0855, type: 2}
+  animationControllerDamaged: {fileID: 9100000, guid: 2c1dda88406055d4a8f5cbbb1d79a1e6, type: 2}

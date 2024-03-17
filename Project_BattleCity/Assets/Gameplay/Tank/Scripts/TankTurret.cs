@@ -4,6 +4,7 @@ using Core.Event;
 using Core.Tag;
 using Core;
 using System;
+using Gameplay.Health;
 
 namespace Gameplay.Tank
 {
@@ -38,6 +39,7 @@ namespace Gameplay.Tank
         #region components
         private AudioSource _audioSource;
         private ComponentTags _componentTags;
+        private ComponentHealth _componentHealth;
         #endregion
 
         #region events
@@ -81,6 +83,7 @@ namespace Gameplay.Tank
 
             if (_animator == null) _animator = GetComponent<Animator>();
             if (_audioSource == null) _audioSource = GetComponent<AudioSource>();
+            if (_componentHealth == null) _componentHealth = GetComponentInParent<ComponentHealth>();
 
             rotationTime = _dataTankTurret.rotationSpeed; // from ComponentRotation
             _timeReload = _dataTankTurret.reloadTime;
@@ -88,6 +91,14 @@ namespace Gameplay.Tank
             _eventAudioShoot = _dataTankTurret.eventAudioShot;
 
             UpdateAnimationParameters();
+        }
+
+        private void LateUpdate() {
+            if (_componentHealth.currentHealth == 1) {
+                _animator.runtimeAnimatorController = _dataTankTurret.animationControllerDamaged;
+            } else {
+                _animator.runtimeAnimatorController = _dataTankTurret.animationController;
+            }
         }
 
         override public void Rotate(float directionInput, float rotationModifier)

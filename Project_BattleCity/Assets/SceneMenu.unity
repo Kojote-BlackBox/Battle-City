@@ -48830,7 +48830,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5e0b04b2c85c234d8569b19d9603b8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameSceneName: SceneGame
+  gameSceneName: SceneLevel1
   starterSceneName: SceneMenu
   startMenuPanel: {fileID: 1860638880694470643}
   settingsMenuPanel: {fileID: 1467876701}

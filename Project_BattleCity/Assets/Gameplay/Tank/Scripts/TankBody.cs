@@ -45,6 +45,7 @@ namespace Gameplay.Tank
         private AudioSource _audioSource;
         private ComponentTags _componentTags;
         private ComponentEffectTrail _componentEffectTrail;
+        private ComponentHealth _componentHealth;
         #endregion
 
         #region tracking
@@ -111,7 +112,6 @@ namespace Gameplay.Tank
             if (_animator == null) _animator = GetComponent<Animator>();
             if (_rigidbody == null) _rigidbody = GetComponent<Rigidbody2D>();
             if (_audioSource == null) _audioSource = GetComponent<AudioSource>();
-
             if (_componentTags.ContainsTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagHealth)))
             {
                 var componentHealth = GetComponent<ComponentHealth>();
@@ -119,6 +119,7 @@ namespace Gameplay.Tank
                 {
                     componentHealth.dataHealth = _dataTankBody.dataHealth;
                     componentHealth.Reset();
+                    _componentHealth = componentHealth;
                 }
             }
 
@@ -167,7 +168,14 @@ namespace Gameplay.Tank
 
             _animator.SetFloat(KEY_DIRECTIONX, _currentDirection.x);
             _animator.SetFloat(KEY_DIRECTIONY, _currentDirection.y);
+        }
 
+        public void LateUpdate() {
+            if (_componentHealth.currentHealth == 1) {
+                _animator.runtimeAnimatorController = _dataTankBody.animationControllerDamaged;
+            } else {
+                _animator.runtimeAnimatorController = _dataTankBody.animationController;
+            }
         }
 
         override public void Rotate(float directionInput, float rotationModifier)
