@@ -52,10 +52,8 @@ MonoBehaviour:
   menuSceneName: 
   nextLevelSceneName: 
   timeScaleFactor: 0.1
-  eventSpawnPlayer: {fileID: 11400000, guid: 937febf387740f2438186f54d40cf719, type: 2}
   eventGameStateInitialized: {fileID: 11400000, guid: 6337ca2fec7fd404daac08519702888b, type: 2}
   initialPlayerLives: 3
-  eventUpdateLive: {fileID: 11400000, guid: 97321316f844c1a4e982ab53879acd24, type: 2}
 --- !u!114 &463327585
 MonoBehaviour:
   m_ObjectHideFlags: 0

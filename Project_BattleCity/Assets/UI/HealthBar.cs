@@ -46,6 +46,8 @@ public class HealthBar : MonoBehaviour {
     }
 
     public void UpdateHealthDisplay() {
+        if (!isInitialized) return;
+
         slider.maxValue = targetHealthComponent.dataHealth.health;
         slider.value = targetHealthComponent.currentHealth;
     }

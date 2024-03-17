@@ -47,21 +47,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6098a3f4682ac6649a8a6870a402985f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemies: {fileID: 11400000, guid: cfdc7a85052ac4c069e3b24d27c447e7, type: 2}
-  player: {fileID: 11400000, guid: 61512100df0214d71a8e8216c6db40bc, type: 2}
-  bunker: {fileID: 11400000, guid: 023ee65ee072040b385e149a36d7ca13, type: 2}
-  spawnInfo: {fileID: 11400000, guid: f282c7f6dd5064fc6b1635ff84e6cb7f, type: 2}
-  upgrade: {fileID: 11400000, guid: 66e1f901d6117483a98d36a5656b34eb, type: 2}
   spawnPoints: []
-  tagTank: {fileID: 11400000, guid: 13c4b9bb0a78b44288ca8178d9f07316, type: 2}
-  tagPickup: {fileID: 11400000, guid: b54c476c1b0994053bab5660ea84dd50, type: 2}
-  tagBunker: {fileID: 11400000, guid: 1f1c35882154246c38d584e7a6b68624, type: 2}
-  tagFriendly: {fileID: 11400000, guid: 6a196ebff11654443bdca22eb881aef7, type: 2}
-  tagEnemy: {fileID: 11400000, guid: 34ac9d0cb71c24197a5c3a4f970643bd, type: 2}
   eventUpdateSpawnInfo: {fileID: 11400000, guid: acc532b9e7b4c36b3bbb8607c45d9f2a, type: 2}
   eventSpawnUpgrade: {fileID: 11400000, guid: 4aafa684c5cd2fd45be4a7ed5aa5323b, type: 2}
   playerCamera: {fileID: 5389174114567484974, guid: 726a10569829d420c8915ce556a27130, type: 3}
-  playerActions: {fileID: -944628639613478452, guid: b6aaa0506ca31d04c9d35a0ee87606ec, type: 3}
 --- !u!114 &124361330
 MonoBehaviour:
   m_ObjectHideFlags: 0

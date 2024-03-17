@@ -200,6 +200,7 @@ namespace Gameplay.Tank
 
             if (_isMoving)
             {
+                Debug.Log("bewegung!");
                 _audioSource.pitch = _dataTankBody.pitchMovement;
                 _audioSource.volume = _dataTankBody.volumeMovement;
 

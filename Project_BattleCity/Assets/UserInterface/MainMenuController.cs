@@ -15,7 +15,6 @@ public class MainMenuController : MonoBehaviour
     [SerializeField] private GameObject videoOptionView;
     [SerializeField] private GameObject inputOptionView;
     [SerializeField] private GameObject gameSettingsOptionView;
-    private bool isGameSceneLoaded = false;
 
     AudioMenuController audioMenuController;
     VideoMenuController videoMenuController;
@@ -24,45 +23,11 @@ public class MainMenuController : MonoBehaviour
     {
         audioMenuController = audioOptionView.GetComponent<AudioMenuController>();
         videoMenuController = videoOptionView.GetComponent<VideoMenuController>();
-
-        // Starten Sie den asynchronen Ladevorgang im Hintergrund
-        Application.backgroundLoadingPriority = ThreadPriority.Low;
-        //StartCoroutine(LoadGameSceneAsync());
     }
 
-    private IEnumerator LoadGameSceneAsync()
-    {
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(gameSceneName, LoadSceneMode.Additive);
-
-        // Verhindert das sofortige Aktivieren der geladenen Szene
-        asyncLoad.allowSceneActivation = false;
-
-        // Warten, bis die Szene vollst�ndig geladen ist
-        while (!asyncLoad.isDone)
-        {
-            // �berpr�fen Sie, ob die Szene fast geladen ist (0.9 entspricht 90%)
-            if (asyncLoad.progress >= 0.9f && !isGameSceneLoaded)
-            {
-                // Aktivieren Sie die geladene Szene
-                asyncLoad.allowSceneActivation = true;
-                isGameSceneLoaded = true; // Setzen Sie die Flagge auf true, um sicherzustellen, dass dies nur einmal geschieht
-            }
-
-            yield return null;
-        }
-    }
-
-    public void StartGame()
-    {
-        if (isGameSceneLoaded)
-        {
-            // Hier k�nnen Sie den Code f�r den Spielstart platzieren
-            Debug.Log("Spiel wird gestartet...");
-
-            // Entfernen Sie die StarterScene
-            SceneManager.UnloadSceneAsync(starterSceneName);
-            SceneManager.LoadSceneAsync(gameSceneName);
-        }
+    public void StartGame() {
+        // Direktes Laden der Game Szene beim Klicken auf "Spiel starten"
+        SceneManager.LoadScene(gameSceneName);
     }
 
     public void CloseSettings()
