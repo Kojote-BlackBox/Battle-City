@@ -86,7 +86,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &815978713414550757
@@ -242,7 +242,7 @@ GameObject:
   - component: {fileID: 3221380113404738929}
   - component: {fileID: 8043924818797515361}
   m_Layer: 6
-  m_Name: PrefabTank
+  m_Name: PrefabTankStockMedium
   m_TagString: Damageable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -315,7 +315,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &3074684842533263069
@@ -330,7 +330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8add6b894542c407ea5e628f0080dcfc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dataTankInitial: {fileID: 11400000, guid: cf8bdd261188ab04d813ccb71d060a61, type: 2}
+  _dataTankInitial: {fileID: 11400000, guid: f357c44c19e835f48a910941832bf25e, type: 2}
 --- !u!114 &3824290048592633518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -550,14 +550,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c27ddb5d03b74bc1ac9cd5ce64fd0d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 0
   dataHealth: {fileID: 11400000, guid: 66095df92cb565e49baa564fc35be8ed, type: 2}
+  currentHealth: 0
+  onHealthChanged: {fileID: 0}
   onDeathEvent: {fileID: 11400000, guid: 2c3442e9fa12ac926a363335083b65c3, type: 2}
   remainsToSpawn: {fileID: 3301719696400485475, guid: 521bbcc1c16bc48aca52ab175c54845e, type: 3}
-  enemies: {fileID: 11400000, guid: cfdc7a85052ac4c069e3b24d27c447e7, type: 2}
-  remains: {fileID: 11400000, guid: 20e724b5a9a5647a692449b4daedfaf7, type: 2}
-  player: {fileID: 11400000, guid: 61512100df0214d71a8e8216c6db40bc, type: 2}
-  bunker: {fileID: 11400000, guid: 023ee65ee072040b385e149a36d7ca13, type: 2}
 --- !u!114 &8043924818797515361
 MonoBehaviour:
   m_ObjectHideFlags: 0

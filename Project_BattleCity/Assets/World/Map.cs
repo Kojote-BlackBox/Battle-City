@@ -13,7 +13,7 @@ namespace World
     [Serializable]
     public class SpawnInfo
     {
-        public GameObject prefabObjectToSpawn;
+        public GameObject[] prefabsToSpawn;
         public int spawnDelay;
     }
 
@@ -153,17 +153,17 @@ namespace World
             foreach (var spawnPoint in spawnPoints)
             {
                 var mapRectangle = new Vector2Int(
-                    UnityEngine.Random.Range(0, GameConstants.MapRectangleCount),
-                    UnityEngine.Random.Range(0, GameConstants.MapRectangleCount)
+                    1,//UnityEngine.Random.Range(0, GameConstants.MapRectangleCount),
+                    1//UnityEngine.Random.Range(0, GameConstants.MapRectangleCount)
                 );
 
-                while (mapRectangle.x == 1 && mapRectangle.y == 1)
+                /*while (mapRectangle.x == 1 && mapRectangle.y == 1)
                 {
                     mapRectangle = new Vector2Int(
                         UnityEngine.Random.Range(0, GameConstants.MapRectangleCount),
                         UnityEngine.Random.Range(0, GameConstants.MapRectangleCount)
                     );
-                }
+                }*/
 
                 var positionSpawnpoint = GetRandomPointForObject(
                     new Vector2Int(1, 1),
@@ -174,8 +174,11 @@ namespace World
                 var instantiatedSpawnpoint = Instantiate(prefabSpawnpoint, positionSpawnpoint, Quaternion.identity);
 
                 var componentSpawnpoint = instantiatedSpawnpoint.GetComponent<SpawnPoint>();
-                componentSpawnpoint.prefabSpawnObject = spawnPoint.prefabObjectToSpawn;
+                componentSpawnpoint.prefabsToSpawn = spawnPoint.prefabsToSpawn;
                 componentSpawnpoint.spawnDelay = spawnPoint.spawnDelay;
+                componentSpawnpoint.onlyRespawnIfPrevIsDestroyed = true;
+                componentSpawnpoint.enableRespawn = true;
+                componentSpawnpoint.timeToRespawn = spawnPoint.spawnDelay;
             }
         }
 

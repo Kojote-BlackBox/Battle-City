@@ -3,15 +3,19 @@ using Gameplay.Health;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HealthBar : MonoBehaviour {
+public class HealthBar : MonoBehaviour
+{
     public Slider slider;
 
     private bool isInitialized = false;
     private ComponentHealth targetHealthComponent;
 
-    void Update() {
-        if (targetHealthComponent == null) {
-            if (TrackManager.Instance.player != null && TrackManager.Instance.player.gameObject != null) {
+    void Update()
+    {
+        if (targetHealthComponent == null)
+        {
+            if (TrackManager.Instance.player != null && TrackManager.Instance.player.gameObject != null)
+            {
                 GameObject player = TrackManager.Instance.player.gameObject;
                 targetHealthComponent = player.GetComponent<ComponentHealth>();
 
@@ -19,33 +23,36 @@ public class HealthBar : MonoBehaviour {
             }
         }
 
-        if (!isInitialized) {
+        if (!isInitialized)
+        {
             InitializeHealthBar();
         }
     }
 
-    void InitializeHealthBar() {
-        if (targetHealthComponent.dataHealth == null) {
-            Debug.LogError("Konnte health bar nicht initialisieren.");
-
+    void InitializeHealthBar()
+    {
+        if (targetHealthComponent == null || targetHealthComponent.dataHealth == null)
+        {
             return;
         }
 
         //targetHealthComponent.onHealthChanged.AddListener(UpdateHealthDisplay);
 
         slider.maxValue = targetHealthComponent.dataHealth.health;
-        slider.value = targetHealthComponent.currentHealth;  
+        slider.value = targetHealthComponent.currentHealth;
 
         isInitialized = true;
     }
 
-    private void OnDisable() {
-      /*  if (targetHealthComponent != null) {
-            targetHealthComponent.onHealthChanged.RemoveListener(UpdateHealthDisplay);
-        }*/
+    private void OnDisable()
+    {
+        /*  if (targetHealthComponent != null) {
+              targetHealthComponent.onHealthChanged.RemoveListener(UpdateHealthDisplay);
+          }*/
     }
 
-    public void UpdateHealthDisplay() {
+    public void UpdateHealthDisplay()
+    {
         if (!isInitialized) return;
 
         slider.maxValue = targetHealthComponent.dataHealth.health;

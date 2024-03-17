@@ -99,20 +99,17 @@ namespace Gameplay.Projectile
 
         void OnTriggerEnter2D(Collider2D objectCollision)
         {
-            Debug.Log("hit something " + objectCollision);
-
             var componentTags = objectCollision.gameObject.GetComponentInChildren<ComponentTags>();
 
             if (!componentTags.ContainsTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagHealth))) return;
-
-            Debug.Log("shell destruction");
 
             TriggerDestruction();
 
             var componentHealthDamageable = objectCollision.gameObject.GetComponentInChildren<ComponentHealth>();
             if (componentHealthDamageable != null)
             {
-                componentHealthDamageable.ModifyHealth(-_dataShell.damage, ownershipPlayer);
+                Debug.Log("SHELL DAMAGE: " + _dataShell.damage);
+                componentHealthDamageable.ModifyHealth(-_dataShell.damage);
             }
         }
 

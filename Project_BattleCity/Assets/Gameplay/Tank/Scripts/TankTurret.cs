@@ -51,13 +51,15 @@ namespace Gameplay.Tank
             initializeData();
         }
 
-        public void DeactivateForDuration(float duration) {
+        public void DeactivateForDuration(float duration)
+        {
             _isDeactivated = true;
 
             Invoke(nameof(Activate), duration);
         }
 
-        public void Activate() {
+        public void Activate()
+        {
             _isDeactivated = false;
         }
 
@@ -90,7 +92,7 @@ namespace Gameplay.Tank
 
         override public void Rotate(float directionInput, float rotationModifier)
         {
-            if (_isDeactivated)  return;
+            if (_isDeactivated) return;
 
             base.Rotate(directionInput, rotationModifier);
 
@@ -135,8 +137,6 @@ namespace Gameplay.Tank
 
             if (_isReloaded)
             {
-                Debug.Log("shoot");
-
                 _eventAudioShoot?.Play(transform.parent.position);
 
                 if (_dataTankTurret.effectMuzzleFlash != null)
@@ -165,8 +165,6 @@ namespace Gameplay.Tank
 
             if (!_isReloaded && !_isReloading)
             {
-                Debug.Log("reloading");
-
                 Invoke("Reload", _timeReload);
 
                 _isReloading = true;
@@ -192,8 +190,6 @@ namespace Gameplay.Tank
         {
             _isReloaded = true;
             _isReloading = false;
-
-            Debug.Log("reloaded");
         }
 
         private void SpawnProjectile(GameObject prefabProjectile)
@@ -212,9 +208,7 @@ namespace Gameplay.Tank
             componentShell.directionForward = _currentDirection;
             componentShell.InitializeShell(_dataTankTurret.dataShell);
 
-            // Ignore the Creator (Player/Enemy)
             Physics2D.IgnoreCollision(gameObjectProjectile.GetComponent<Collider2D>(), transform.parent.gameObject.GetComponent<Collider2D>());
-            //shell.shotHeight = tankHeight;
         }
     }
 }

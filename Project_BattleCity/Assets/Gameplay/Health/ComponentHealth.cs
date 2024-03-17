@@ -14,7 +14,7 @@ namespace Gameplay.Health
     [RequireComponent(typeof(ComponentTags))]
     public class ComponentHealth : MonoBehaviour
     {
-       // private Animator _animator;
+        // private Animator _animator;
         private SpriteRenderer _spriteRenderer;
         private SpriteRenderer[] _childrenSpriteRenderers;
         /*private static readonly int Health = Animator.StringToHash("Health");*/
@@ -42,9 +42,11 @@ namespace Gameplay.Health
         public GameObject remainsToSpawn;
         #endregion
 
-        private void Awake() {
+        private void Awake()
+        {
             var componentTags = GetComponentInChildren<ComponentTags>();
-            if (componentTags != null ) {
+            if (componentTags != null)
+            {
                 componentTags.AddTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagHealth));
             }
 
@@ -70,17 +72,16 @@ namespace Gameplay.Health
             _shieldDurationRemaining = 0.0f;*/
         }
 
-        public void ModifyHealth(int amount, bool byPlayer)
+        public void ModifyHealth(int amount)
         {
-            if (dataHealth == null) {
+            if (dataHealth == null)
+            {
                 Debug.LogError("Gameobject " + gameObject + " has not health data set!");
 
                 return;
             }
 
             currentHealth += amount;
-
-            Debug.Log("modified health by " + amount + " - current health: " + currentHealth);
 
             // Event auslösen, wenn die Gesundheit geändert wird
             onHealthChanged?.Raise();
@@ -114,8 +115,10 @@ namespace Gameplay.Health
 
         }
 
-        public void Reset() {
-            if (dataHealth == null) {
+        public void Reset()
+        {
+            if (dataHealth == null)
+            {
                 Debug.LogError("Gameobject " + gameObject + " has not health data set!");
 
                 return;
@@ -143,10 +146,12 @@ namespace Gameplay.Health
             Invoke(nameof(ResetColorChange), duration);
         }
 
-        private void ResetColorChange() {
+        private void ResetColorChange()
+        {
             if (_spriteRenderer != null) _spriteRenderer.color = UnityEngine.Color.white;
 
-            foreach (var spriteRenderer in _childrenSpriteRenderers) {
+            foreach (var spriteRenderer in _childrenSpriteRenderers)
+            {
                 spriteRenderer.color = UnityEngine.Color.white;
             }
         }

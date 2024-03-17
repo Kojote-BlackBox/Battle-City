@@ -53,7 +53,7 @@ namespace Gameplay.Tank
 
         void Update()
         {
-            if (_dataTankBody == null) return;
+            if (_dataTankBody == null || _isDeactivated) return;
 
             _elapsedTime += Time.deltaTime;
 
@@ -71,13 +71,17 @@ namespace Gameplay.Tank
             if (_componentEffectTrail != null) _componentEffectTrail.directionTrail = _currentDirection;
         }
 
-        public void DeactiveForDuration(float duration) {
+        public void DeactiveForDuration(float duration)
+        {
+            Debug.Log("deactivated tank body");
+
             _isDeactivated = true;
 
             Invoke(nameof(Activate), duration);
         }
 
-        public void Activate() {
+        public void Activate()
+        {
             _isDeactivated = false;
         }
 
@@ -108,9 +112,11 @@ namespace Gameplay.Tank
             if (_rigidbody == null) _rigidbody = GetComponent<Rigidbody2D>();
             if (_audioSource == null) _audioSource = GetComponent<AudioSource>();
 
-            if (_componentTags.ContainsTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagHealth))) {
+            if (_componentTags.ContainsTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagHealth)))
+            {
                 var componentHealth = GetComponent<ComponentHealth>();
-                if (componentHealth != null) {
+                if (componentHealth != null)
+                {
                     componentHealth.dataHealth = _dataTankBody.dataHealth;
                     componentHealth.Reset();
                 }
@@ -200,7 +206,6 @@ namespace Gameplay.Tank
 
             if (_isMoving)
             {
-                Debug.Log("bewegung!");
                 _audioSource.pitch = _dataTankBody.pitchMovement;
                 _audioSource.volume = _dataTankBody.volumeMovement;
 

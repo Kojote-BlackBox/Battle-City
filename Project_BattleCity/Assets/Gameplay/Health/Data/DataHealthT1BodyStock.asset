@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d61a37b0a17e4287b27ce26b77e027c, type: 3}
   m_Name: DataHealthT1BodyStock
   m_EditorClassIdentifier: 
-  health: 10
+  health: 2
   eventAudioDestroyed: {fileID: 11400000, guid: 81e27979ad59c40029d8d80e8f55f717, type: 2}
   eventAudioHit: {fileID: 11400000, guid: e4af91290df6842e786b18aef8f00a59, type: 2}

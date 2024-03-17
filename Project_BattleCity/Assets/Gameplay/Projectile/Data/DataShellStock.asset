@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06152d24ce678fb46b4df38f82527a37, type: 3}
+  m_Name: DataShellStock
+  m_EditorClassIdentifier: 
+  prefabShell: {fileID: 1107083980140431148, guid: 429d379796a6e444fafeac281db29770, type: 3}
+  effectHit: {fileID: 3805068120651604178, guid: fbc08fc2555c50ab692e9746914fa9af, type: 3}
+  effectHitDestructionDelay: 0.25
+  penetration: 0
+  damage: 1
+  damageRadius: 0
+  distanceMax: 2
+  velocity: 6
+  lifetimeInSecondsMax: 2
+  enableShadow: 1
+  prefabShadow: {fileID: 810610703104481147, guid: ba156bc426bb349e4a0246b71873cc15, type: 3}
+  gameObjectNameParent: Projectiles

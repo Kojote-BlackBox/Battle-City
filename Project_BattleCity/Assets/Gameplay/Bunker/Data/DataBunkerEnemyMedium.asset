@@ -19,8 +19,8 @@ MonoBehaviour:
   localPositionBunkerLight: {x: -0.07, y: -0.79}
   capTimeMax: 3
   eventCheckGameState: {fileID: 11400000, guid: bc1eb7ce72e0f4a58803280b26dd09e2, type: 2}
-  prefabSpawnObject: {fileID: 8638098521210480316, guid: 977316b04afcb404da8c220fcd2ef843, type: 3}
-  prefabDropUpgrade: {fileID: 0}
+  prefabsToSpawn:
+  - {fileID: 8638098521210480316, guid: 977316b04afcb404da8c220fcd2ef843, type: 3}
   spawnTime: 5
   tagTank: {fileID: 11400000, guid: 13c4b9bb0a78b44288ca8178d9f07316, type: 2}
   tagEnemy: {fileID: 11400000, guid: 6a196ebff11654443bdca22eb881aef7, type: 2}

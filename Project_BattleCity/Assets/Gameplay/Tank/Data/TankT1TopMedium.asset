@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dataTankBody: {fileID: 11400000, guid: 84dda960dfb9b3444a2de661dc0b2d41, type: 2}
   dataTankTurret: {fileID: 11400000, guid: e07a968f70163944892d11f894188792, type: 2}
-  dataShell: {fileID: 11400000, guid: 5efa8894ec2310641a9491011e773259, type: 2}
+  dataShell: {fileID: 11400000, guid: 10c4f7830bdbf48be8b6c6e678691204, type: 2}

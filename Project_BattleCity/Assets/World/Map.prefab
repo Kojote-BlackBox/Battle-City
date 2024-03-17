@@ -60,19 +60,26 @@ MonoBehaviour:
   parentObjectBunkers: {fileID: 0}
   prefabSpawnpoint: {fileID: 5062684324714800660, guid: fddaeaf766d3b9e4cb831fc073d1e303, type: 3}
   spawnPoints:
-  - prefabObjectToSpawn: {fileID: 2824258540097299303, guid: d46615e1f76d0ad4b9eab012b798e362, type: 3}
-    spawnDelay: 3
-  - prefabObjectToSpawn: {fileID: 8928715533213276286, guid: 5461c04f7f9ad4b48a1a3be8f037c599, type: 3}
-    spawnDelay: 3
-  - prefabObjectToSpawn: {fileID: 3890085053017976549, guid: c32a9eafbbdc7f34d981b299c75ddb66, type: 3}
+  - prefabsToSpawn:
+    - {fileID: 4602331215161895834, guid: 8a62f3743d26d614f8b1ed9522b597ba, type: 3}
+    spawnDelay: 1
+  - prefabsToSpawn:
+    - {fileID: 4733548167533544396, guid: 9028a6ce764d0134ebb6b13b927bf638, type: 3}
+    spawnDelay: 15
+  - prefabsToSpawn:
+    - {fileID: 2824258540097299303, guid: d46615e1f76d0ad4b9eab012b798e362, type: 3}
     spawnDelay: 10
-  - prefabObjectToSpawn: {fileID: 4733548167533544396, guid: 9028a6ce764d0134ebb6b13b927bf638, type: 3}
-    spawnDelay: 3
-  - prefabObjectToSpawn: {fileID: 3890085053017976549, guid: c32a9eafbbdc7f34d981b299c75ddb66, type: 3}
+  - prefabsToSpawn:
+    - {fileID: 3890085053017976549, guid: c32a9eafbbdc7f34d981b299c75ddb66, type: 3}
     spawnDelay: 30
-  - prefabObjectToSpawn: {fileID: 8316362690407008771, guid: 8f9001ac70f93034ea4059fa089aa351, type: 3}
+  - prefabsToSpawn:
+    - {fileID: 8316362690407008771, guid: 8f9001ac70f93034ea4059fa089aa351, type: 3}
     spawnDelay: 10
-  - prefabObjectToSpawn: {fileID: 4602331215161895834, guid: 8a62f3743d26d614f8b1ed9522b597ba, type: 3}
+  - prefabsToSpawn:
+    - {fileID: 8928715533213276286, guid: 5461c04f7f9ad4b48a1a3be8f037c599, type: 3}
+    spawnDelay: 20
+  - prefabsToSpawn:
+    - {fileID: 4602331215161895834, guid: 8a62f3743d26d614f8b1ed9522b597ba, type: 3}
     spawnDelay: 2
 --- !u!81 &1580764979
 AudioListener:

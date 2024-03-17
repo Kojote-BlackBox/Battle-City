@@ -25,7 +25,7 @@ namespace World.Builder
             var positionPlayerBunkerX = map.columns / 2;
             var positionPlayerBunkerY = map.rows / 2;
 
-            SpawnBunker(dataBunkerFriendly, new Vector2(positionPlayerBunkerX, positionPlayerBunkerY));
+            SpawnBunker(dataBunkerFriendly, new Vector2(positionPlayerBunkerX, positionPlayerBunkerY), true);
 
             map.MarkPlacement(new Vector2Int(positionPlayerBunkerX, positionPlayerBunkerY), dataBunkerFriendly.sizeUnit);
 
@@ -50,11 +50,11 @@ namespace World.Builder
                     mapRectangle
                 );
 
-                SpawnBunker(bunkerEnemy, spawnPoint);
+                SpawnBunker(bunkerEnemy, spawnPoint, false);
             }
         }
 
-        public void SpawnBunker(DataBunker dataBunker, Vector2 position)
+        public void SpawnBunker(DataBunker dataBunker, Vector2 position, bool isPlayer)
         {
             Debug.Log("Spawning bunker at " + position);
 
@@ -74,13 +74,15 @@ namespace World.Builder
             ComponentTags componentTags = bunker.AddComponent<ComponentTags>();
             componentTags.AddTag(TagManager.Instance.GetTagByIdentifier(GameConstants.TagBunker));
 
-            if (dataBunker.prefabSpawnObject != null)
+            if (dataBunker.prefabsToSpawn != null)
             {
                 SpawnPoint spawnPoint = bunker.AddComponent<SpawnPoint>();
                 spawnPoint.isFriendly = dataBunker.isFriendly;
-                spawnPoint.enableUpgradeDrop = dataBunker.prefabDropUpgrade != null;
+                spawnPoint.isPlayerSpawn = isPlayer;
                 spawnPoint.spawnDelay = (int)dataBunker.spawnTime;
-                spawnPoint.prefabSpawnObject = dataBunker.prefabSpawnObject;
+                spawnPoint.prefabsToSpawn = dataBunker.prefabsToSpawn;
+                if (!isPlayer) spawnPoint.enableRespawn = true;
+                spawnPoint.onlyRespawnIfPrevIsDestroyed = true;
                 spawnPoint.tag = GameConstants.TagSpawn;
             }
 

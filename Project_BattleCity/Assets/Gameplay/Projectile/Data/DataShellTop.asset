@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06152d24ce678fb46b4df38f82527a37, type: 3}
-  m_Name: DataShellStandard
+  m_Name: DataShellTop
   m_EditorClassIdentifier: 
   prefabShell: {fileID: 1107083980140431148, guid: 429d379796a6e444fafeac281db29770, type: 3}
   effectHit: {fileID: 3805068120651604178, guid: fbc08fc2555c50ab692e9746914fa9af, type: 3}
   effectHitDestructionDelay: 0.25
   penetration: 0
-  damage: 1
+  damage: 2
   damageRadius: 0
-  distanceMax: 2
+  distanceMax: 4
   velocity: 6
   lifetimeInSecondsMax: 2
   enableShadow: 1

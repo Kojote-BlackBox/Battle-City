@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94cde8ce0ff698c4fa415fd79853005c, type: 3}
   m_Name: TurretT1StockTop
   m_EditorClassIdentifier: 
-  dataShell: {fileID: 11400000, guid: 5efa8894ec2310641a9491011e773259, type: 2}
+  dataShell: {fileID: 11400000, guid: cfd7a6ff174dd448abf3f88037151a9e, type: 2}
   offsetFactorMuzzle: 0.5
   effectMuzzleFlash: {fileID: 4699064050422815827, guid: d7b6b2a69fa89adf584c9c3a96b23884, type: 3}
-  reloadTime: 1
+  reloadTime: 1.25
   eventAudioShot: {fileID: 11400000, guid: 407f5f5f915f04e4eab20ca6acf8ae95, type: 2}
-  rotationSpeed: 0.4
-  animationController: {fileID: 9100000, guid: e29aa8dcfab360247af4db220ca422f6, type: 2}
+  rotationSpeed: 0.15
+  animationController: {fileID: 9100000, guid: cad5793580b007c45be45e2761d90830, type: 2}

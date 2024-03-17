@@ -30,8 +30,7 @@ namespace Gameplay.Bunker
 
         #region spawn
         [Header("Spawn")]
-        public GameObject prefabSpawnObject;
-        public GameObject prefabDropUpgrade;
+        public GameObject[] prefabsToSpawn;
         public float spawnTime;
         #endregion
 
